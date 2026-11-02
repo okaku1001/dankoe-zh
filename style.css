@@ -61,3 +61,12 @@ mark.hl{border-radius:3px;padding:0 1px;cursor:pointer;color:inherit}mark.y{back
 .gq{margin:0;padding:10px 18px;border-left:3px solid var(--acc);font-family:var(--serif);line-height:1.9;background:color-mix(in srgb,var(--acc) 6%,transparent)}.gq footer{font-size:13px;color:var(--mu);font-family:system-ui}.gm{font-size:14px;line-height:1.9}
 .nart{border-top:1px solid var(--line);padding:16px 0}.nart h2{font-family:var(--serif);font-size:20px}.nitem{margin:10px 0;padding:8px 12px;border-radius:8px;background:var(--card);border:1px solid var(--line);font-size:15px;line-height:1.7}.nitem .nn{color:var(--acc);font-size:14px;margin-top:4px}
 @media(max-width:600px){.tnav{gap:8px;font-size:12.5px}.top{padding:10px 12px}.brand{font-size:15px}.actions{padding:14px}a.gl:hover::after{width:220px}}
+.posts .pbar{display:flex;flex-wrap:wrap;gap:.6em;align-items:center;margin:1em 0;position:sticky;top:3.2em;background:var(--bg,#faf8f4);padding:.5em 0;z-index:5}
+.posts #pq{flex:1;min-width:12em;padding:.5em}.posts select{padding:.45em}
+.post{border:1px solid rgba(128,128,128,.25);border-radius:10px;padding:1em 1.1em;margin:1em 0}
+.post .ph{font-size:.85em;opacity:.75}.post .pt+.pt{border-top:1px dashed rgba(128,128,128,.3);margin-top:.6em;padding-top:.4em}
+.post .tag{font-size:.75em;background:rgba(180,83,42,.12);padding:.1em .45em;border-radius:4px}
+.post .pe summary{cursor:pointer;font-size:.8em;opacity:.7}.post .pe p{font-family:Georgia,serif;opacity:.85}
+.post .rel{display:block;font-size:.9em;margin:.4em 0}.cms ul,.cmo{list-style:none;padding-left:.8em;border-left:3px solid rgba(180,83,42,.35)}
+.cm{margin:.6em 0;font-size:.93em}.cm .ch{font-size:.85em}.mh small{font-size:.6em;opacity:.6}
+@media(max-width:640px){.post{padding:.8em}.posts .pbar{top:2.8em}}
