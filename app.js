@@ -20,7 +20,7 @@ if(PG==='article'){const main=$('.reader'),slug=main.dataset.slug,C=$('#content'
  // toc
  const hs=$$('#content h2,#content h3'),ta=$$('.toc a');addEventListener('scroll',()=>{let cur;hs.forEach(h=>{if(h.getBoundingClientRect().top<120)cur=h.id});ta.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+cur))},{passive:true});
  // font size
- const fs=d=>{let v=Math.min(26,Math.max(14,(+localStorage.getItem('dk:fs')||18)+d));localStorage.setItem('dk:fs',v);document.documentElement.style.setProperty('--fs',v+'px')};$('#fsm').onclick=()=>fs(-1);$('#fsp').onclick=()=>fs(1);
+ const fs=d=>{let v=Math.min(26,Math.max(14,(+localStorage.getItem('dk:fs')||18.5)+d));localStorage.setItem('dk:fs',v);document.documentElement.style.setProperty('--fs',v+'px')};$('#fsm').onclick=()=>fs(-1);$('#fsp').onclick=()=>fs(1);
  // en
  const tg=(id,cls,key)=>{const b=$(id);if(!b)return;const set=on=>{document.body.classList.toggle(cls,on);b.classList.toggle('on',on);localStorage.setItem(key,on?'1':'')};set(!!localStorage.getItem(key));b.onclick=()=>set(!document.body.classList.contains(cls))};
  tg('#enpar','par','dk:par');tg('#enall','enall','dk:enall');
