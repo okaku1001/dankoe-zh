@@ -4,7 +4,7 @@ const J=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){retur
 const dl=(name,txt,type)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type}));a.download=name;document.body.appendChild(a);a.click();a.remove()};
 const flash=(el,t)=>{if(el){el.textContent=t;setTimeout(()=>el.textContent='',2000)}};
 $('#theme').onclick=()=>{const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;localStorage.setItem('dk:theme',t)};
-if('serviceWorker'in navigator&&location.protocol!=='file:')navigator.serviceWorker.register(R+'sw.js',{scope:R||'./'}).catch(()=>{});
+if('serviceWorker'in navigator&&location.protocol!=='file:')navigator.serviceWorker.register(R+'sw.js',{scope:R||'./',updateViaCache:'none'}).catch(()=>{});
 const pr=$('#progress');addEventListener('scroll',()=>{const h=document.documentElement;pr.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight||1)*100)+'%'},{passive:true});
 function status(s){const r=J('dk:read:'+s,null);if(!r)return null;return r.done?'done':'ing'}
 function paintStatus(){$$('.st[data-slug]').forEach(e=>{const s=status(e.dataset.slug);e.className='st '+(s||'');e.textContent=s==='done'?'✓ 已读':s==='ing'?'◔ 在读':''})}

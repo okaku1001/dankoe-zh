@@ -144,6 +144,31 @@
     seek.addEventListener('pointermove', e => { if (dragging) seekTo(e) });
     seek.addEventListener('pointerup', () => { dragging = false; savePos() });
 
+    /* 锁屏/系统媒体控制（Media Session API）：锁屏显示标题封面，耳机按键可控 */
+    if ('mediaSession' in navigator) {
+      const updateMS = () => {
+        try {
+          navigator.mediaSession.metadata = new MediaMetadata({
+            title: document.title.replace(' · Dan Koe 知识网站', ''),
+            artist: 'AI 朗读 · 谷川',
+            album: 'Dan Koe 知识网站',
+            artwork: [{ src: R + 'img/' + slug + '_cover.jpg', sizes: 'any' }],
+          });
+          navigator.mediaSession.playbackState = au.paused ? 'paused' : 'playing';
+        } catch (e) { }
+      };
+      updateMS();
+      au.addEventListener('play', updateMS);
+      au.addEventListener('pause', updateMS);
+      const acts = { play: () => au.play().catch(() => { }), pause: () => au.pause() };
+      try {
+        navigator.mediaSession.setActionHandler('play', acts.play);
+        navigator.mediaSession.setActionHandler('pause', acts.pause);
+        navigator.mediaSession.setActionHandler('seekbackward', () => { au.currentTime = Math.max(0, au.currentTime - 15) });
+        navigator.mediaSession.setActionHandler('seekforward', () => { au.currentTime += 15 });
+      } catch (e) { }
+    }
+
     addEventListener('pagehide', savePos);
 
     /* 初始加载：恢复上次段与位置 */
