@@ -12,9 +12,9 @@ function dumpAll(){const o={};for(let i=0;i<localStorage.length;i++){const k=loc
 function importFile(inp,after){inp.onchange=()=>{const f=inp.files[0];if(!f)return;f.text().then(t=>{const o=JSON.parse(t);for(const k in o)if(k.startsWith('dk:'))localStorage.setItem(k,typeof o[k]==='string'?o[k]:JSON.stringify(o[k]));after&&after()})}}
 const HN={y:'黄',g:'绿',b:'蓝',p:'粉'};
 // ---------- home ----------
-if(PG==='home'){paintStatus();const q=$('#q');q&&(q.oninput=()=>{const v=q.value.trim().toLowerCase();$$('.card').forEach(c=>c.style.display=!v||c.dataset.q.includes(v)?'':'none')});
- const n=$$('.card').filter(c=>status(c.dataset.slug)==='done').length;$('#homeprog').textContent=`已读 ${n} / ${$$('.card').length}`;
- const last=J('dk:last',null);if(last){const b=$('#resume');b.hidden=false;b.href='a/'+last+'.html';b.textContent='继续阅读第 '+(+last)+' 篇 →'}}
+if(PG==='home'){paintStatus();const q=$('#q');q&&(q.oninput=()=>{const v=q.value.trim().toLowerCase();$$('.card').forEach(c=>{const dq=c.dataset.q||'';c.style.display=!v||dq.includes(v)?'':'none'})});
+ const cards=$$('.card[data-slug]');const n=cards.filter(c=>status(c.dataset.slug)==='done').length;$('#homeprog')&&($('#homeprog').textContent=`已读 ${n} / ${cards.length}`);
+ const last=J('dk:last',null);if(last){const b=$('#resume');if(b){b.hidden=false;b.href='a/'+last+'.html';b.textContent='继续上次阅读 →'}}}
 // ---------- article ----------
 if(PG==='article'){const main=$('.reader'),slug=main.dataset.slug,C=$('#content');localStorage.setItem('dk:last',JSON.stringify(slug));
  // toc
@@ -70,7 +70,7 @@ if(PG==='article'){const main=$('.reader'),slug=main.dataset.slug,C=$('#content'
  window.__dk={render,HL}}
 // ---------- notes ----------
 if(PG==='notes'){const M=window.DKMETA||{},box=$('#notes');
- function build(){let h='',md='# 我的 Dan Koe 笔记\n\n',cnt=0;
+ function build(){let h='',md='# 我的笔记\n\n',cnt=0;
   for(const s of Object.keys(M).sort()){const m=M[s],hl=J('dk:hl:'+s,[]),a=J('dk:act:'+s,{checks:{},ans:{}}),r=J('dk:read:'+s,null);
    const ids=Object.keys(m.acts).filter(id=>a.checks[id]||a.ans[id]);if(!hl.length&&!ids.length)continue;cnt++;
    h+=`<section class="nart"><h2><a href="a/${s}.html">${s} · ${m.t}</a> ${r&&r.done?'<small class="st done">✓ 已读</small>':''}</h2>`;md+=`## ${s} · ${m.t}\n\n`;
