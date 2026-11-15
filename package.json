@@ -1,0 +1,29 @@
+{
+  "name": "dankoe-zh",
+  "version": "1.0.0",
+  "description": "Local-only reading notebook checks",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check app.js && node --check notes-core.js && node --check notes-ui.js && node --check sw.js",
+    "integrity": "node tests/content-integrity.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okaku1001/dankoe-zh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/okaku1001/dankoe-zh/issues"
+  },
+  "homepage": "https://github.com/okaku1001/dankoe-zh#readme",
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "parse5": "^7.3.0"
+  },
+  "private": true
+}
