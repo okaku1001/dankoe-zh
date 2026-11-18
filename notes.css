@@ -14,6 +14,15 @@
 .nb-dialog .nb-danger{color:var(--acc)}
 .nb-dialog button:focus-visible,.nb-dialog input:focus-visible,.nb-dialog textarea:focus-visible,.nb-dialog select:focus-visible,.nb-mark:focus-visible,#hltool button:focus-visible,.nb-reader-button:focus-visible,#notes :focus-visible{outline:3px solid var(--acc);outline-offset:3px}
 .nb-warning{border-left:3px solid var(--acc);background:var(--acc-soft);padding:10px 12px;font-size:13px;line-height:1.7}
+.nb-empty{text-align:center;padding:26px 16px 30px;color:var(--mu)}
+.nb-empty svg{display:block;margin:0 auto 12px;width:132px;height:104px;overflow:visible}
+.nb-empty .flt{animation:nbFloat 4.5s ease-in-out infinite;transform-origin:66px 54px}
+.nb-empty .tip{opacity:0;transition:opacity .35s}
+.nb-empty:hover .tip{opacity:1}
+.nb-empty .t{font-family:var(--serif);font-size:18px;color:var(--fg);margin:0 0 6px}
+.nb-empty .d{font-size:13px;line-height:1.7;margin:0}
+.nb-empty .h{font-size:12px;opacity:.7;margin-top:10px}
+@keyframes nbFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
 .nb-card{margin:16px 0;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card);overflow-wrap:anywhere}
 .nb-card h3{margin:0 0 8px;font:600 17px/1.5 var(--serif)}
 .nb-card h4{margin:12px 0 3px;font-size:13px;color:var(--mu)}

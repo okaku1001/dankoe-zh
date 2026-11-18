@@ -8,6 +8,28 @@
   const content=page==='article' ? $('.reader') : page==='posts' ? $('#tl') : null;
   const title=($('h1')?.textContent||document.title).slice(0,500);
   const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e;};
+  /* 空状态：黑白版画插画（赭红点缀），与本站封面视觉一致。kind: pen/lines */
+  function emptyStateEl(kind,title,desc,hint){
+    const box=el('div','nb-empty');
+    const C='var(--fg,#2a2622)',A='var(--acc,#a84b2a)',M='var(--mu,#6f6860)';
+    let mid;
+    if(kind==='lines'){
+      mid='<path d="M44 46h40M44 54h34M44 62h38" stroke="'+C+'" stroke-width="1.1" opacity=".5"/><path d="M44 70h22" stroke="'+A+'" stroke-width="1.4" opacity=".75"/>'+
+        '<g class="tip"><path d="M80 40l1.4 3.4 3.4 1.4-3.4 1.4-1.4 3.4-1.4-3.4-3.4-1.4 3.4-1.4z" fill="'+A+'"/></g>';
+    }else{
+      mid='<path d="M52 68l3-16 20-20 6 6-20 20z" fill="none" stroke="'+C+'" stroke-width="1.4"/><path d="M55 52l6 6" stroke="'+A+'" stroke-width="1.3"/>'+
+        '<path d="M46 78h44" stroke="'+A+'" stroke-width="1.4" stroke-linecap="round" opacity=".75"/>'+
+        '<g class="tip"><circle cx="80" cy="40" r="3" fill="'+A+'"/></g>';
+    }
+    const art='<svg viewBox="0 0 132 104" aria-hidden="true"><g class="flt">'+
+      '<path d="M34 22h64a3 3 0 013 3v54a3 3 0 01-3 3H34a3 3 0 01-3-3V25a3 3 0 013-3z" fill="none" stroke="'+M+'" stroke-width="1.2" opacity=".7"/>'+
+      '<path d="M40 32h30M40 37h18" stroke="'+C+'" stroke-width="1.3" stroke-linecap="round" opacity=".4"/>'+
+      mid+'</g></svg>';
+    const h=el('div','');h.innerHTML=art;box.append(h.firstChild);
+    box.append(el('p','t',title),el('p','d',desc));
+    if(hint)box.append(el('p','h',hint));
+    return box;
+  }
   function button(label,fn,cls='') {const b=el('button',cls,label);b.type='button';b.onclick=fn;return b;}
   const notice=el('div','nb-status');notice.setAttribute('role','status');notice.setAttribute('aria-live','polite');notice.hidden=true;document.body.append(notice);
   let dialog=null,noticeTimer;
@@ -142,7 +164,7 @@
     openDialog(article?'本篇阅读笔记':'全部阅读笔记');warning(body);
     const bar=el('div','nb-buttons');backupButtons(bar);body.append(bar);
     const list=store.notes.filter(r=>!article||r.article===article).sort((a,b)=>b.updatedAt-a.updatedAt);
-    if(!list.length)body.append(el('p','','还没有划线。回到正文，选择中文或英文，再点「高亮」或「记笔记」。支持跨段选取。'));
+    if(!list.length)body.append(emptyStateEl('pen','还没有划线','回到正文，选一段文字，点「高亮」或「记笔记」就能收进来。','（轻点纸页，会有回应）'));
     list.forEach(r=>body.append(recordCard(r)));body.append(button('AI：组合指定笔记',()=>showAI(list[0]||null)));
     focusFirst();
   }
@@ -219,7 +241,7 @@
     const filter=el('select');filter.setAttribute('aria-label','按文章筛选笔记');filter.append(el('option','','全部文章'));
     const articles=new Map(store.notes.map(r=>[r.article,r.title]));
     for(const [v,t] of articles){const o=el('option','',t);o.value=v;filter.append(o);}filter.options[0].value='';
-    const list=el('div');function draw(){list.replaceChildren();const rs=store.notes.filter(r=>!filter.value||r.article===filter.value).sort((a,b)=>b.updatedAt-a.updatedAt);rs.forEach(r=>list.append(recordCard(r)));if(!rs.length)list.append(el('p','','还没有笔记。打开文章或短帖，选中文字即可高亮、记笔记。'));}
+    const list=el('div');function draw(){list.replaceChildren();const rs=store.notes.filter(r=>!filter.value||r.article===filter.value).sort((a,b)=>b.updatedAt-a.updatedAt);rs.forEach(r=>list.append(recordCard(r)));if(!rs.length)list.append(emptyStateEl('lines','还没有笔记','打开文章或短帖，选中文字即可高亮、记笔记。'));}
     box.append(filter,button('组合笔记，用 AI 思考',()=>showAI(null)),list);draw();filter.onchange=draw;
     // Retain original action-card answers, rendered as text, never HTML.
     const M=window.DKMETA||{};
