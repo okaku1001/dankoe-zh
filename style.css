@@ -68,16 +68,11 @@ a:hover{opacity:.88}
   text-decoration:none;padding:11px 22px;border-radius:999px;font-size:14.5px;
 }
 .btn.ghost{background:transparent;border:1px solid var(--acc);color:var(--acc)}
-.prog{margin-left:12px;color:var(--mu);font-size:14px}
+.prog{margin-left:12px;color:var(--mu);font-size:14px;display:inline-block;white-space:nowrap}
 
 .wrap{max-width:1080px;margin:auto;padding:52px 28px}
 .sec{font-family:var(--serif);font-size:26px;font-weight:700}
 .sec small{font-size:13px;color:var(--mu);font-weight:400}
-.ideas{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
-.idea{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 20px}
-.idea .n{color:var(--acc);font-family:var(--serif);font-size:20px}
-.idea h4{margin:8px 0;font-size:16px}
-.idea p{margin:0;color:var(--mu);line-height:1.75;font-size:14px}
 .sh{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
 #q{padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--fg);min-width:260px;font-size:15px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin-top:20px}
@@ -388,6 +383,8 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .pn{grid-template-columns:1fr}
   .hero{padding:56px 18px 44px}
   .wrap{padding:40px 18px}
+  .sh{gap:10px}
+  #q{min-width:0;width:100%;max-width:none}
   .actions{padding:16px}
   a.gl:hover::after{width:min(240px,80vw);left:50%;transform:translateX(-50%)}
   .posts .pbar{top:2.8em}
@@ -451,6 +448,7 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
 .notice h3{margin:0 0 .4em;font-family:var(--serif)}
 .notice p{margin:0;line-height:1.65}
 .sec-sub{margin:1.4em 0 .6em;font-size:1.05em}
+.sec-sub small{color:var(--mu);font-weight:400;font-size:13px}
 .waitlist{margin:0 0 1em;padding-left:1.2em;line-height:1.8}
 .waitlist a{color:var(--acc)}
 .card.pending{opacity:.92;outline:1px dashed color-mix(in srgb,var(--acc) 45%,transparent)}
