@@ -161,6 +161,8 @@
       if (n && cnValid.has(n) && !order.includes(n)) order.push(n);
     }
     const slotOf = new Map(order.map((n, i) => [n, Math.min(i, COLORS - 1)]));
+    // 没有说话人 = 独立长文（Dan Koe 随笔）：走书页式单栏，不走对话分栏
+    if (order.length === 0) document.body.classList.add('essay-mode');
     // 正好两人时左右分栏；三人及以上统一靠左，靠颜色/姓名牌/分隔线区分
     const splitLr = order.length === 2;
     const sideOf = id => splitLr ? (slotOf.get(id) === 0 ? 'l' : 'r') : 'l';
@@ -240,4 +242,14 @@
       wrap(el, 'en', named ? rawEn(firstText(el)) : null, state);
     }
   }
+
+  /* 目录形态：窄屏一律用底部抽屉；独立长文在桌面也用顶部细条，
+     把正文从「左目录 + 中正文」里解放出来，左右页边距对称。 */
+  const syncTocSheet = () => {
+    const narrow = window.matchMedia('(max-width:1100px)').matches;
+    document.body.classList.toggle('toc-sheet',
+      narrow || document.body.classList.contains('essay-mode'));
+  };
+  syncTocSheet();
+  addEventListener('resize', syncTocSheet, { passive: true });
 })();

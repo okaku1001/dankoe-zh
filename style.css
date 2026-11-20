@@ -473,9 +473,9 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   color:var(--acc);font:inherit;font-size:12.5px;cursor:pointer;
 }
 .toc-resume[hidden]{display:none}
-@media(max-width:1100px){
-  body[data-page="article"]{--toc-bar-h:44px}
-  body[data-page="article"] .audio-bar{top:calc(var(--top-h, 58px) + var(--toc-bar-h))}
+body.toc-sheet{
+  --toc-bar-h:44px;
+  .audio-bar{top:calc(var(--top-h, 58px) + var(--toc-bar-h))}
   .toc-bar{
     display:flex;align-items:center;gap:10px;
     position:sticky;top:var(--top-h, 52px);z-index:38;
@@ -497,8 +497,6 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
     display:none;position:fixed;inset:0;z-index:80;
     background:rgba(42,38,34,.4);
   }
-  body.toc-open .toc-backdrop{display:block}
-  body.toc-open{overflow:hidden}
   .toc-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
   .toc-head .tt{margin:0;text-transform:none;letter-spacing:0;font-size:15px;color:var(--fg)}
   .toc-close{
@@ -516,18 +514,18 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
     justify-self:auto;align-self:auto;overflow:auto;
     transform:translateY(110%);visibility:hidden;pointer-events:none;
   }
-  body.toc-open .toc{transform:none;visibility:visible;pointer-events:auto}
   .toc a{padding:10px 0 10px 12px;font-size:15px}
   .toc a.l3{padding-left:22px;font-size:14px}
 }
+body.toc-sheet.toc-open .toc-backdrop{display:block}
+body.toc-sheet.toc-open{overflow:hidden}
+body.toc-sheet.toc-open .toc{transform:none;visibility:visible;pointer-events:auto}
 @media(max-width:640px){
   .toc-bar{padding:0 18px}
 }
 @media (prefers-reduced-motion: no-preference){
-  @media(max-width:1100px){
-    .toc{transition:transform .28s ease,visibility 0s linear .28s}
-    body.toc-open .toc{transition:transform .28s ease,visibility 0s}
-  }
+  body.toc-sheet .toc{transition:transform .28s ease,visibility 0s linear .28s}
+  body.toc-sheet.toc-open .toc{transition:transform .28s ease,visibility 0s}
 }
 
 /* X 短帖内联 AI 朗读 */
@@ -658,4 +656,54 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
 #enfull .spk.spk-echo .spk-body{border-left-color:color-mix(in srgb,var(--spk) 34%,transparent)}
 #enfull .spk.spk-echo.spk-right .spk-body{
   border-left:0;border-right-color:color-mix(in srgb,var(--spk) 34%,transparent);
+}
+
+/* ===== 独立长文书页版式（essay-mode，无说话人的 Dan Koe 随笔） =====
+   目标：正文单栏真正居中，左右页边距对称；用导语、章节短线、引用块建立
+   视觉锚点。只改样式，正文一个字不动，段落层级与 data-b / en-p 对齐不变。 */
+body.essay-mode{
+  --essay-measure:640px;  /* ~34–35 汉字 @18.5px，落在中文长文 30–40 字舒适区 */
+}
+body.essay-mode .layout{display:block;padding:0 28px 48px}
+body.essay-mode .reader{
+  max-width:var(--essay-measure);margin:0 auto;padding:38px 0 76px;
+}
+body.essay-mode .title-block{padding-bottom:26px;margin-bottom:12px}
+body.essay-mode .reader h1{font-size:clamp(30px,4.4vw,42px);line-height:1.3}
+body.essay-mode #content{line-height:1.86}
+body.essay-mode #content p[data-b]{margin-bottom:1.32em}
+
+/* 导语：只放大第一段，给一个明确的入口 */
+body.essay-mode #content p[data-b]:first-of-type{
+  font-size:1.09em;line-height:1.78;margin:0 0 1.9em;
+}
+body.essay-mode #content p[data-b]:first-of-type + .en-p{margin-top:-.5em}
+
+/* 章节：上方短赭线 + 更多留白，让长文有可扫读的段落锚点 */
+body.essay-mode #content h2{
+  position:relative;margin:3.1em 0 1.05em;padding-top:1.05em;
+}
+body.essay-mode #content h2::before{
+  content:"";position:absolute;left:0;top:0;
+  width:2.2em;height:2px;background:var(--acc);opacity:.72;
+}
+body.essay-mode #content h3{
+  margin:2.25em 0 .8em;padding-left:.7em;
+  border-left:2px solid color-mix(in srgb,var(--acc) 45%,transparent);
+}
+
+/* 引用：升级为 pull-quote 式停顿，不用新增文字 */
+body.essay-mode #content blockquote:not(.meta){
+  margin:2.1em 0;padding:.95em 1.35em;
+  border-left:3px solid var(--acc);
+  font-family:var(--serif);font-size:1.12em;line-height:1.75;
+}
+
+@media(max-width:640px){
+  body.essay-mode .layout{padding:0 18px 32px}
+  body.essay-mode .reader{padding:26px 0 52px}
+  body.essay-mode .title-block{padding-bottom:18px}
+  body.essay-mode #content{line-height:1.82}
+  body.essay-mode #content h2{margin-top:2.5em;padding-top:.9em}
+  body.essay-mode #content blockquote:not(.meta){padding:.8em 1em;font-size:1.07em}
 }
