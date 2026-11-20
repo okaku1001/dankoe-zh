@@ -393,54 +393,87 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .comment{padding:12px 14px}
 }
 
-/* ===== AI 朗读播放器（audio.js 注入） ===== */
+/* ===== AI 朗读播放器 v2（audio.js 注入） ===== */
 .audio-bar{
-  display:flex;align-items:center;gap:12px;
-  margin:14px 0 4px;padding:10px 14px;
-  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
   position:sticky;top:58px;z-index:30;
-  box-shadow:0 4px 18px rgba(42,38,34,.05);
+  display:flex;align-items:center;gap:13px;
+  margin:16px 0 6px;padding:10px 14px 10px 12px;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--acc) 5%,var(--card)),var(--card) 64%);
+  border:1px solid var(--line);border-radius:14px;
+  box-shadow:0 6px 22px rgba(42,38,34,.055),inset 0 1px 0 rgba(255,255,255,.5);
 }
 .ab-play{
-  flex:none;width:38px;height:38px;border-radius:50%;
-  border:none;cursor:pointer;font-size:14px;color:#fff;
-  background:var(--acc);
+  position:relative;flex:none;width:42px;height:42px;border-radius:50%;
+  border:none;cursor:pointer;padding:0;background:var(--acc);color:#fff;
   display:flex;align-items:center;justify-content:center;
-  transition:transform .12s,filter .12s;
+  transition:transform .14s,filter .14s,box-shadow .2s;
+  box-shadow:0 2px 9px color-mix(in srgb,var(--acc) 30%,transparent);
 }
-.ab-play:hover{filter:brightness(1.08)}
+.ab-play .ab-ring{position:absolute;inset:-6px;width:54px;height:54px;transform:rotate(-90deg);pointer-events:none}
+.ab-play .ab-ring circle{fill:none;stroke-width:2;stroke-linecap:round}
+.ab-play .ab-ring .trk{stroke:color-mix(in srgb,var(--acc) 16%,transparent)}
+.ab-play .ab-ring .bar{stroke:var(--acc);stroke-dasharray:0 200;transition:stroke-dasharray .2s linear}
+.ab-play .ab-ic{width:15px;height:15px;fill:currentColor;display:block}
+.ab-play .ab-ic-pause{display:none}
+.audio-bar.playing .ab-play .ab-ic-play{display:none}
+.audio-bar.playing .ab-play .ab-ic-pause{display:block}
+.ab-play:hover{filter:brightness(1.07);transform:translateY(-1px)}
+.audio-bar.playing .ab-play{box-shadow:0 2px 9px color-mix(in srgb,var(--acc) 30%,transparent),0 0 0 4px color-mix(in srgb,var(--acc) 10%,transparent)}
 .ab-play:active{transform:scale(.94)}
 .ab-play:disabled{filter:grayscale(.6);cursor:not-allowed}
 .ab-main{flex:1;min-width:0}
-.ab-head{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
-.ab-tag{font-size:12px;letter-spacing:.04em;color:var(--acc);font-weight:600}
-.ab-dur{font-size:11.5px;color:var(--mu);font-variant-numeric:tabular-nums}
+.ab-head{display:flex;align-items:center;gap:8px;margin-bottom:2px}
+.ab-eq{display:inline-flex;align-items:flex-end;gap:2px;height:10px;flex:none}
+.ab-eq i{width:2px;border-radius:1px;background:var(--acc);height:45%;transform-origin:bottom}
+.ab-eq i:nth-child(2){height:100%}
+.ab-eq i:nth-child(3){height:68%}
+.audio-bar.playing .ab-eq i{animation:abeq .9s ease-in-out infinite}
+.audio-bar.playing .ab-eq i:nth-child(2){animation-delay:.18s}
+.audio-bar.playing .ab-eq i:nth-child(3){animation-delay:.36s}
+@keyframes abeq{0%,100%{transform:scaleY(.5)}50%{transform:scaleY(1)}}
+.ab-tag{font-family:var(--serif);font-size:12px;letter-spacing:.12em;color:var(--acc);font-weight:600}
+.ab-who{font-size:11.5px;color:var(--mu);letter-spacing:.02em;white-space:nowrap}
+.ab-who::before{content:"·";margin-right:7px;opacity:.5}
+.ab-part{
+  margin-left:auto;flex:none;font-size:10.5px;letter-spacing:.05em;color:var(--mu);
+  font-variant-numeric:tabular-nums;padding:1px 7px;border-radius:999px;
+  border:1px solid var(--line);background:color-mix(in srgb,var(--bg) 60%,transparent);
+}
 .ab-seek{
-  position:relative;height:16px;cursor:pointer;
-  touch-action:none;
+  position:relative;height:20px;cursor:pointer;touch-action:none;
+  display:flex;align-items:center;gap:2px;
 }
-.ab-seek::before{
-  content:"";position:absolute;left:0;right:0;top:7px;height:3px;
-  border-radius:2px;background:var(--line);
+.ab-seek i{
+  flex:1 1 0;min-width:1px;border-radius:1px;
+  background:color-mix(in srgb,var(--mu) 26%,transparent);
+  transition:background .2s,opacity .2s;
 }
-.ab-fill{
-  position:absolute;left:0;top:7px;height:3px;width:0;
-  border-radius:2px;background:var(--acc);
-  transition:width .15s linear;
-}
-.ab-time{flex:none;font-size:12px;color:var(--mu);font-variant-numeric:tabular-nums;min-width:38px;text-align:right}
+.ab-seek i.on{background:var(--acc)}
+.ab-seek:hover i{background:color-mix(in srgb,var(--mu) 42%,transparent)}
+.ab-seek:hover i.on{background:var(--acc)}
+.ab-time{flex:none;font-size:11.5px;color:var(--mu);font-variant-numeric:tabular-nums;letter-spacing:.01em;white-space:nowrap}
+.ab-time b{font-weight:500;color:var(--fg)}
+.ab-time .ab-sep{margin:0 3px;opacity:.45}
 .ab-speed{
-  flex:none;border:1px solid var(--line);background:var(--card);color:var(--mu);
-  border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;
-  font-variant-numeric:tabular-nums;
+  flex:none;border:1px solid var(--line);background:color-mix(in srgb,var(--bg) 55%,transparent);
+  color:var(--mu);border-radius:999px;padding:3px 9px;font-size:11.5px;cursor:pointer;
+  font-variant-numeric:tabular-nums;letter-spacing:.02em;
+  transition:color .16s,border-color .16s;
 }
-.ab-speed:hover{color:var(--fg);border-color:var(--mu)}
+.ab-speed:hover{color:var(--acc);border-color:color-mix(in srgb,var(--acc) 55%,transparent)}
 .ab-err{flex:none;font-size:12px;color:#b3402f}
-/* 首页卡片 🔊 标识 */
-.audb{margin-left:6px;font-size:12px;opacity:.75}
+/* 首页卡片：三格声纹标识（替代 emoji） */
+.audb{display:inline-flex;align-items:flex-end;gap:2px;height:10px;margin-left:6px;vertical-align:middle;opacity:.72}
+.audb i{width:2px;border-radius:1px;background:var(--acc)}
+.audb i:nth-child(1){height:5px}
+.audb i:nth-child(2){height:10px}
+.audb i:nth-child(3){height:7px}
 @media (max-width:900px){
-  .audio-bar{top:calc(var(--top-h, 52px) + var(--toc-bar-h, 0px));gap:9px;padding:9px 11px}
+  .audio-bar{top:calc(var(--top-h, 52px) + var(--toc-bar-h, 0px));gap:10px;padding:9px 11px;border-radius:12px}
+  .ab-who{display:none}
   .ab-time{display:none}
+  .ab-play{width:36px;height:36px}
+  .ab-play .ab-ring{width:48px;height:48px}
 }
 
 /* naval section */
@@ -658,52 +691,69 @@ body.toc-sheet.toc-open .toc{transform:none;visibility:visible;pointer-events:au
   border-left:0;border-right-color:color-mix(in srgb,var(--spk) 34%,transparent);
 }
 
-/* ===== 独立长文书页版式（essay-mode，无说话人的 Dan Koe 随笔） =====
-   目标：正文单栏真正居中，左右页边距对称；用导语、章节短线、引用块建立
-   视觉锚点。只改样式，正文一个字不动，段落层级与 data-b / en-p 对齐不变。 */
+/* ===== 独立长文 · 中文书籍版式（essay-mode，无说话人的 Dan Koe 随笔） =====
+   核心：中文长读的"书页体例"——首行缩进两字、段间不空行只留微隙、两端齐整、
+   引文转楷体；章节标题居中并留大空。正文一个字不动，只调整视觉。 */
 body.essay-mode{
-  --essay-measure:640px;  /* ~34–35 汉字 @18.5px，落在中文长文 30–40 字舒适区 */
+  --essay-measure:648px;   /* ≈34 汉字/行 @18.5px */
+  --indent:2em;            /* 首行缩进两字，中文书籍标准 */
 }
 body.essay-mode .layout{display:block;padding:0 28px 48px}
-body.essay-mode .reader{
-  max-width:var(--essay-measure);margin:0 auto;padding:38px 0 76px;
-}
-body.essay-mode .title-block{padding-bottom:26px;margin-bottom:12px}
-body.essay-mode .reader h1{font-size:clamp(30px,4.4vw,42px);line-height:1.3}
-body.essay-mode #content{line-height:1.86}
-body.essay-mode #content p[data-b]{margin-bottom:1.32em}
+body.essay-mode .reader{max-width:var(--essay-measure);margin:0 auto;padding:38px 0 84px}
+body.essay-mode .title-block{padding-bottom:30px;margin-bottom:16px;border-bottom:1px solid var(--line)}
+body.essay-mode .reader h1{font-size:clamp(30px,4.4vw,42px);line-height:1.32;letter-spacing:.01em}
 
-/* 导语：只放大第一段，给一个明确的入口 */
+body.essay-mode #content{
+  line-height:1.98;
+  text-align:justify;text-justify:inter-ideograph;
+  line-break:strict;
+}
+/* 段内拆句改回行内，长段恢复成一个整块，不再切成小段 */
+body.essay-mode #content p.pbody .pseg,
+body.essay-mode #content p .pseg{display:inline;margin:0}
+
+body.essay-mode #content p[data-b]{
+  margin:0 0 .34em;
+  text-indent:var(--indent);
+  text-wrap:pretty;
+}
+/* 篇首导语：不缩进、稍大，作为整篇的"题记" */
 body.essay-mode #content p[data-b]:first-of-type{
-  font-size:1.09em;line-height:1.78;margin:0 0 1.9em;
+  text-indent:0;font-size:1.06em;line-height:1.86;
+  margin:0 0 1.6em;color:color-mix(in srgb,var(--fg) 92%,transparent);
 }
-body.essay-mode #content p[data-b]:first-of-type + .en-p{margin-top:-.5em}
+body.essay-mode #content p[data-b]:first-of-type + .en-p{margin-top:-.7em}
 
-/* 章节：上方短赭线 + 更多留白，让长文有可扫读的段落锚点 */
+/* 章节：居中 + 上方短赭线，给长文可扫读的停顿 */
 body.essay-mode #content h2{
-  position:relative;margin:3.1em 0 1.05em;padding-top:1.05em;
+  position:relative;text-align:center;
+  font-size:1.3em;letter-spacing:.04em;
+  margin:3.4em 0 1.5em;padding-top:1.5em;
 }
 body.essay-mode #content h2::before{
-  content:"";position:absolute;left:0;top:0;
-  width:2.2em;height:2px;background:var(--acc);opacity:.72;
+  content:"";position:absolute;left:50%;top:0;transform:translateX(-50%);
+  width:1.9em;height:1.5px;background:var(--acc);opacity:.65;
 }
 body.essay-mode #content h3{
-  margin:2.25em 0 .8em;padding-left:.7em;
-  border-left:2px solid color-mix(in srgb,var(--acc) 45%,transparent);
+  margin:2.4em 0 .85em;padding-left:.7em;font-size:1.1em;
+  border-left:2px solid color-mix(in srgb,var(--acc) 42%,transparent);
 }
 
-/* 引用：升级为 pull-quote 式停顿，不用新增文字 */
+/* 引文：转楷体、左右缩进，去掉色块与竖线 —— 中文书籍引文体例 */
 body.essay-mode #content blockquote:not(.meta){
-  margin:2.1em 0;padding:.95em 1.35em;
-  border-left:3px solid var(--acc);
-  font-family:var(--serif);font-size:1.12em;line-height:1.75;
+  margin:2em 1.3em;padding:0;border:0;background:transparent;border-radius:0;
+  font-family:"Kaiti SC","STKaiti","KaiTi","DK Serif","Noto Serif SC",serif;
+  font-size:1.03em;line-height:1.9;
+  color:color-mix(in srgb,var(--fg) 90%,transparent);
 }
+body.essay-mode #content blockquote:not(.meta) p{margin:.15em 0;text-indent:0}
 
 @media(max-width:640px){
-  body.essay-mode .layout{padding:0 18px 32px}
-  body.essay-mode .reader{padding:26px 0 52px}
-  body.essay-mode .title-block{padding-bottom:18px}
-  body.essay-mode #content{line-height:1.82}
-  body.essay-mode #content h2{margin-top:2.5em;padding-top:.9em}
-  body.essay-mode #content blockquote:not(.meta){padding:.8em 1em;font-size:1.07em}
+  body.essay-mode .layout{padding:0 20px 32px}
+  body.essay-mode .reader{padding:24px 0 56px}
+  body.essay-mode .title-block{padding-bottom:20px}
+  body.essay-mode #content{line-height:1.92}
+  body.essay-mode #content p[data-b]{margin-bottom:.3em}
+  body.essay-mode #content h2{margin-top:2.7em;padding-top:1.15em}
+  body.essay-mode #content blockquote:not(.meta){margin:1.6em .6em;font-size:1.01em}
 }
