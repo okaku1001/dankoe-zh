@@ -22,6 +22,7 @@
       if (!man) return;
       if (PG === 'article') initArticle(man);
       else if (PG === 'home') initHome(man);
+      else if (PG === 'posts') initPosts(man);
     });
 
   /* ---------- 首页：卡片标识 ---------- */
@@ -38,6 +39,44 @@
           cd.appendChild(b);
         }
       }
+    });
+  }
+
+  /* ---------- 短帖页：内联朗读按钮 ---------- */
+  function initPosts(man) {
+    $$('.post[data-slug]').forEach(post => {
+      const m = man[post.dataset.slug];
+      const part = m && m.parts && m.parts.find(p => p && p.audioUrl);
+      if (!part) return;
+      const ph = post.querySelector('.ph');
+      if (!ph || ph.querySelector('.post-aud')) return;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'post-aud';
+      btn.textContent = '▶ AI 朗读';
+      btn.title = '播放这条短帖的 AI 朗读';
+      btn.addEventListener('click', () => {
+        let box = post.querySelector('.post-audio');
+        if (!box) {
+          box = document.createElement('div');
+          box.className = 'post-audio';
+          const tag = document.createElement('span');
+          tag.textContent = '🔊 AI 朗读';
+          const au = document.createElement('audio');
+          au.controls = true;
+          au.preload = 'none';
+          au.src = part.audioUrl;
+          box.appendChild(tag);
+          box.appendChild(au);
+          const pt = post.querySelector('.pt');
+          pt ? pt.after(box) : post.appendChild(box);
+          btn.textContent = '✓ 已展开';
+          return;
+        }
+        box.hidden = !box.hidden;
+        btn.textContent = box.hidden ? '▶ AI 朗读' : '✓ 已展开';
+      });
+      ph.appendChild(btn);
     });
   }
 

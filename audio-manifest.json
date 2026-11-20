@@ -586,5 +586,77 @@
     "episodeId": "6affa5c23aa90122e959e6d2"
    }
   ]
+ },
+ "naval-2123082164426420367": {
+  "title": "从氛围编程，到经过验证的代码……",
+  "speaker": "zh-male-guchuan-9d6a4666",
+  "parts": [
+   {
+    "audioUrl": "https://assets.marswaveai.cn/podcast/6affd0883aa90122e961e051.mp3",
+    "audioStreamUrl": null,
+    "subtitlesUrl": "",
+    "episodeId": "6affd0893aa90122e961e063"
+   }
+  ]
+ },
+ "naval-2121143697161236839": {
+  "title": "黄仁勋就是英伟达的史蒂夫·乔布斯。他不可替代。",
+  "speaker": "zh-male-guchuan-9d6a4666",
+  "parts": [
+   {
+    "audioUrl": "https://assets.marswaveai.cn/podcast/6affd09dbb2ba0f0b44e7ce4.mp3",
+    "audioStreamUrl": null,
+    "subtitlesUrl": "",
+    "episodeId": "6affd09dbb2ba0f0b44e7ce6"
+   }
+  ]
+ },
+ "naval-2120752211588452715": {
+  "title": "你以为我们早就从史蒂夫·乔布斯和特拉维斯·卡兰尼克的经历里学到了：创始人不是随随",
+  "speaker": "zh-male-guchuan-9d6a4666",
+  "parts": [
+   {
+    "audioUrl": "https://assets.marswaveai.cn/podcast/6affd0b2bb2ba0f0b44e8045.mp3",
+    "audioStreamUrl": null,
+    "subtitlesUrl": "",
+    "episodeId": "6affd0b2bb2ba0f0b44e8047"
+   }
+  ]
+ },
+ "naval-2120798325066911758": {
+  "title": "数据中心是一个全球竞争的市场。总会有人、在某个地方，把它建起来。",
+  "speaker": "zh-male-guchuan-9d6a4666",
+  "parts": [
+   {
+    "audioUrl": "https://assets.marswaveai.cn/podcast/6affd0c7bb2ba0f0b44e8523.mp3",
+    "audioStreamUrl": null,
+    "subtitlesUrl": "",
+    "episodeId": "6affd0c7bb2ba0f0b44e8527"
+   }
+  ]
+ },
+ "dk-2121636177702727868": {
+  "title": "你不需要有经验才能开始；经验是靠开始才获得的。",
+  "speaker": "zh-male-guchuan-9d6a4666",
+  "parts": [
+   {
+    "audioUrl": "https://assets.marswaveai.cn/podcast/6affd0dc3aa90122e961f364.mp3",
+    "audioStreamUrl": null,
+    "subtitlesUrl": "",
+    "episodeId": "6affd0dc3aa90122e961f366"
+   }
+  ]
+ },
+ "dk-2120979340775117026": {
+  "title": "温柔地提醒你：感到不知所措，本来就是应该的。",
+  "speaker": "zh-male-guchuan-9d6a4666",
+  "parts": [
+   {
+    "audioUrl": "https://assets.marswaveai.cn/podcast/6affd0f13aa90122e961f607.mp3",
+    "audioStreamUrl": null,
+    "subtitlesUrl": "",
+    "episodeId": "6affd0f13aa90122e961f609"
+   }
+  ]
  }
 }

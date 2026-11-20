@@ -529,3 +529,20 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
     body.toc-open .toc{transition:transform .28s ease,visibility 0s}
   }
 }
+
+/* X 短帖内联 AI 朗读 */
+.post-aud{
+  margin-left:8px;padding:2px 9px;border:1px solid var(--line);border-radius:999px;
+  background:transparent;color:var(--mu);font-size:12px;line-height:1.6;cursor:pointer;
+}
+.post-aud:hover,.post-aud:focus-visible{color:var(--acc);border-color:var(--acc)}
+.post-audio{
+  display:flex;align-items:center;gap:10px;margin:.6em 0 .2em;padding:.55em .7em;
+  border:1px solid var(--line);border-radius:8px;background:var(--card);
+  font-size:12px;color:var(--mu);
+}
+.post-audio audio{flex:1;min-width:0;height:34px}
+@media(max-width:640px){
+  .post-audio{flex-wrap:wrap}
+  .post-audio audio{width:100%;flex-basis:100%}
+}
