@@ -69,7 +69,7 @@
 
   /* 长段按句读拆视觉小段：同一 <p>，拼接后逐字等于原文 */
   function splitSentences(text, lang) {
-    const threshold = lang === 'zh' ? 118 : 260;
+    const threshold = lang === 'zh' ? 240 : 440;
     if (text.length <= threshold) return [text];
     const re = lang === 'zh'
       ? /[。！？；!?]+[”』」）)]?|…+[”』」）)]?/g
@@ -81,10 +81,19 @@
     if (raw.length <= 1) return [text];
     const out = [];
     for (const s of raw) {
-      if (out.length && s.length < 12) out[out.length - 1] += s;
+      if (out.length && s.length < (lang === 'zh' ? 24 : 40)) out[out.length - 1] += s;
       else out.push(s);
     }
-    if (out.length > 1 && out[out.length - 1].length < 18) out[out.length - 2] += out.pop();
+    if (out.length > 1 && out[out.length - 1].length < (lang === 'zh' ? 38 : 60)) {
+      out[out.length - 2] += out.pop();
+    }
+    // 块数多于 3 就按句子合并成 3 块：块一多，每块末尾的短行会把正文切成楼梯
+    if (out.length > 3) {
+      const merged = [];
+      const per = Math.ceil(out.length / 3);
+      for (let i = 0; i < out.length; i += per) merged.push(out.slice(i, i + per).join(''));
+      return merged;
+    }
     return out;
   }
 

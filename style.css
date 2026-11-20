@@ -6,7 +6,7 @@
   --serif:'DK Serif',"Noto Serif SC","Source Han Serif SC","Songti SC","SimSun",serif;
   --sans:system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
   --measure:620px; /* ~32–34 汉字 @18.5px; px avoids body-em shrink */
-  --lh:1.95;
+  --lh:1.82;
   --radius:10px;
 }
 [data-theme=dark]{
@@ -166,14 +166,14 @@ a:hover{opacity:.88}
   font-family:var(--serif);
   font-size:var(--fs,18.5px);
   line-height:var(--lh);
-  letter-spacing:.01em;
-  text-align:justify;
-  text-justify:inter-ideograph;
+  letter-spacing:0;
+  text-align:left;
+  text-wrap:pretty;
   hanging-punctuation:allow-end;
   font-feature-settings:"kern" 1;
 }
 #content p{
-  margin:0 0 .95em;
+  margin:0 0 1.18em;
   text-indent:0; /* 段间距体例，非首行缩进 — 见调研笔记 */
 }
 #content p:last-child{margin-bottom:0}
@@ -195,7 +195,7 @@ a:hover{opacity:.88}
   font-size:.97em;
 }
 #content blockquote.meta{
-  font-family:var(--sans);font-size:.78em;line-height:1.75;
+  font-family:var(--sans);font-size:.8em;line-height:1.65;
   color:var(--tn);background:transparent;
   border-left:1.5px solid var(--line);
   padding:.35em 0 .35em 1em;margin:1.1em 0 1.4em;
@@ -237,12 +237,12 @@ a:hover{opacity:.88}
 
 .en-p{
   display:none;font-family:Georgia,serif;font-size:.78em;color:var(--mu);
-  line-height:1.7;margin:-.45em 0 1.15em;padding-left:12px;
+  line-height:1.7;margin:-.3em 0 1.18em;padding-left:13px;
   border-left:1.5px solid var(--line);text-align:left;
 }
 body.par .en-p{display:block}
 li .en-p{margin:.2em 0}
-#enfull{font-family:Georgia,serif;font-size:var(--fs,18.5px);line-height:1.85}
+#enfull{font-family:Georgia,serif;font-size:var(--fs,18.5px);line-height:1.8}
 #enfull .li{padding-left:1em}
 body.enall #content{display:none}
 body.enall #enfull{display:block!important}
@@ -378,7 +378,7 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .reader{padding:24px 0 48px}
   .title-block{padding-bottom:16px;margin-bottom:4px}
   .reader h1{font-size:clamp(24px,7vw,30px)}
-  #content{font-size:var(--fs,17px);line-height:1.9;text-align:left} /* 小屏避免强制两端对齐毛边 */
+  #content{font-size:var(--fs,17px);line-height:1.8;text-align:left}
   #content h2{margin-top:2.2em;font-size:1.28em}
   .pn{grid-template-columns:1fr}
   .hero{padding:56px 18px 44px}
@@ -571,72 +571,72 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
 
 /* 说话人姓名牌：稳定色小标签，名字换了立刻能看出换人 */
 .spk-chip{
-  display:block;font-family:var(--sans);font-size:.66em;font-weight:700;
-  letter-spacing:.1em;line-height:1.1;color:var(--spk);
-  margin:0 0 .32em;
+  display:inline-block;font-family:var(--sans);font-size:.76em;font-weight:700;
+  letter-spacing:.03em;line-height:1.3;color:var(--spk);
+  margin:0 0 .28em;
 }
 .spk-chip::before{
-  content:"";display:inline-block;width:.62em;height:.62em;border-radius:50%;
-  background:var(--spk);margin-right:.5em;vertical-align:.02em;
+  content:"";display:inline-block;width:.5em;height:.5em;border-radius:50%;
+  background:var(--spk);margin-right:.42em;vertical-align:.06em;
 }
 #content p.spk .spk-body{
   display:block;border-left:2px solid color-mix(in srgb,var(--spk) 78%,transparent);
-  padding:.15em 0 .15em 14px;margin-left:0;
+  padding:.06em 0 .06em 13px;margin-left:0;
 }
 /* 换人：换边 + 拉开间距 + 左侧色条，明确「另一个人在说」 */
-#content p.spk.spk-right{text-align:left;margin-left:12%;margin-right:0}
-#content p.spk.spk-right .spk-chip{text-align:right}
+#content p.spk.spk-right{text-align:left;margin-left:6.5%;margin-right:0}
+#content p.spk.spk-right .spk-chip{text-align:left}
 #content p.spk.spk-right .spk-body{
-  border-left:0;border-right:2px solid color-mix(in srgb,var(--spk) 78%,transparent);
-  padding:.15em 14px .15em 0;margin-left:0;
+  border-left:2px solid color-mix(in srgb,var(--spk) 78%,transparent);
+  padding:.06em 0 .06em 13px;margin-left:0;
 }
-#content p.spk.spk-new{margin-top:2.1em}
-#content p.spk.spk-new.spk-right{margin-left:12%}
-#content p.spk.spk-new .spk-chip{font-size:.72em}
-#content p.spk.spk-cont{margin-top:.34em}
+#content p.spk.spk-new{margin-top:1.85em}
+#content p.spk.spk-new.spk-right{margin-left:6.5%}
+#content p.spk.spk-new .spk-chip{font-size:.8em}
+#content p.spk.spk-cont{margin-top:.8em}
 /* 同一人的连续段落：姓名牌淡化为「（同上）」式的小标记，但文字仍是原文 */
-#content p.spk.spk-cont .spk-chip{opacity:.34;font-size:.6em}
+#content p.spk.spk-cont .spk-chip{opacity:.34;font-size:.7em}
 
 /* 英文对照段跟随同一个说话人的颜色与对齐 */
 #content .en-p.spk{
   --spk:var(--spk1);
   border-left:1.5px solid color-mix(in srgb,var(--spk) 60%,transparent);
-  padding-left:12px;margin-top:-.15em;
+  padding-left:13px;margin-top:-.2em;
 }
 #content .en-p.spk.spk-right{
-  border-left:0;border-right:1.5px solid color-mix(in srgb,var(--spk) 60%,transparent);
-  padding-left:0;padding-right:12px;margin-left:12%;
+  border-left:1.5px solid color-mix(in srgb,var(--spk) 60%,transparent);
+  padding-left:13px;margin-left:6.5%;
 }
-#content .en-p.spk .spk-chip{font-size:.64em;letter-spacing:.06em}
-#content .en-p.spk.spk-cont{margin-top:-.7em}
+#content .en-p.spk .spk-chip{font-size:.72em;letter-spacing:.03em}
+#content .en-p.spk.spk-cont{margin-top:-.5em}
 #content .en-p.spk.spk-new{margin-top:.2em}
 
 /* 英文全文视图 */
 #enfull .spk .spk-chip{
-  display:block;font-family:var(--sans);font-size:.62em;font-weight:700;
-  letter-spacing:.1em;color:var(--spk);margin:0 0 .3em;
+  display:inline-block;font-family:var(--sans);font-size:.74em;font-weight:700;
+  letter-spacing:.03em;color:var(--spk);margin:0 0 .28em;
 }
 #enfull .spk .spk-body{
   display:block;border-left:2px solid color-mix(in srgb,var(--spk) 72%,transparent);
-  padding:.15em 0 .15em 14px;
+  padding:.06em 0 .06em 13px;
 }
-#enfull .spk.spk-right{text-align:left;margin-left:12%}
-#enfull .spk.spk-right .spk-chip{text-align:right}
+#enfull .spk.spk-right{text-align:left;margin-left:6.5%}
+#enfull .spk.spk-right .spk-chip{text-align:left}
 #enfull .spk.spk-right .spk-body{
-  border-left:0;border-right:2px solid color-mix(in srgb,var(--spk) 72%,transparent);
-  padding:.15em 14px .15em 0;
+  border-left:2px solid color-mix(in srgb,var(--spk) 72%,transparent);
+  padding:.06em 0 .06em 13px;
 }
-#enfull .spk.spk-new{margin-top:1.9em}
-#enfull .spk.spk-cont{margin-top:.34em}
+#enfull .spk.spk-new{margin-top:1.8em}
+#enfull .spk.spk-cont{margin-top:.8em}
 #enfull .spk.spk-cont .spk-chip{opacity:.34}
 
 /* 长段呼吸感：仍是同一段、同一文字 */
-.pseg{display:block;margin:0 0 .52em}
+.pseg{display:block;margin:0 0 .5em}
 .pseg:last-child{margin-bottom:0}
-#content p.pbody .pseg{margin-bottom:.62em}
+#content p.pbody .pseg{margin-bottom:.5em}
 @media(max-width:640px){
   #content p.spk.spk-right,#content .en-p.spk.spk-right,
-  #enfull .spk.spk-right{margin-left:6%}
+  #enfull .spk.spk-right{margin-left:4%}
   #content p.spk .spk-body{padding-left:10px}
   #content p.spk.spk-right .spk-body{padding-right:10px}
   .spk-chip{letter-spacing:.06em}
@@ -658,11 +658,4 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
 #enfull .spk.spk-echo .spk-body{border-left-color:color-mix(in srgb,var(--spk) 34%,transparent)}
 #enfull .spk.spk-echo.spk-right .spk-body{
   border-left:0;border-right-color:color-mix(in srgb,var(--spk) 34%,transparent);
-}
-/* 真正的换人立牌：姓名牌加一枚小标记，强化「换人了」 */
-#content p.spk.spk-new .spk-chip::after,
-#enfull .spk.spk-new .spk-chip::after{
-  content:"";display:inline-block;width:1.6em;height:1px;
-  background:color-mix(in srgb,var(--spk) 45%,transparent);
-  vertical-align:middle;margin-left:.6em;
 }
