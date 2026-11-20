@@ -546,3 +546,42 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .post-audio{flex-wrap:wrap}
   .post-audio audio{width:100%;flex-basis:100%}
 }
+
+/* ===== 对话分离与长段呼吸感（reading-layout.js 注入，文字零改动） ===== */
+#content p.dlg{margin:1.55em 0 1.75em}
+#content p.dlg .dlg-spk{
+  display:block;font-family:var(--sans);font-size:.7em;font-weight:700;
+  letter-spacing:.16em;color:var(--mu);margin:0 0 .42em;
+}
+#content p.dlg.dlg-answer .dlg-spk{color:var(--acc)}
+#content p.dlg .dlg-body{
+  display:block;border-left:2px solid var(--line);
+  padding:.12em 0 .12em 15px;
+}
+#content p.dlg.dlg-answer .dlg-body{
+  border-left-color:color-mix(in srgb,var(--acc) 62%,transparent);
+  background:linear-gradient(90deg,var(--acc-soft),transparent 72%);
+  padding:.4em 12px .4em 15px;margin-left:-2px;border-radius:0 6px 6px 0;
+}
+.pseg{display:block;margin:0 0 .52em}
+.pseg:last-child{margin-bottom:0}
+#content p.pbody .pseg{margin-bottom:.62em}
+.en-p .dlg-spk{font-size:.66em;letter-spacing:.1em}
+.en-p .dlg-body{padding-left:10px}
+#enfull p.dlg,#enfull li.dlg{margin:1.2em 0}
+#enfull .dlg-spk{
+  display:block;font-family:var(--sans);font-size:.68em;font-weight:700;
+  letter-spacing:.12em;color:var(--mu);margin:0 0 .35em;
+}
+#enfull .dlg-answer .dlg-spk{color:var(--acc)}
+#enfull .dlg-body{display:block;border-left:2px solid var(--line);padding-left:14px}
+#enfull .dlg-answer .dlg-body{
+  border-left-color:color-mix(in srgb,var(--acc) 60%,transparent);
+  background:linear-gradient(90deg,var(--acc-soft),transparent 72%);
+  padding:.35em 12px;border-radius:0 6px 6px 0;
+}
+@media(max-width:640px){
+  #content p.dlg .dlg-body{padding-left:11px}
+  #content p.dlg.dlg-answer .dlg-body{padding:.35em 10px .35em 11px}
+  .dlg-spk{letter-spacing:.1em}
+}
