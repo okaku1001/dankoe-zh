@@ -113,3 +113,35 @@ if(PG==='article'){const main=$('.reader'),slug=main.dataset.slug,C=$('#content'
  // Highlight editing and notes are provided by notes-ui.js (legacy data migrated).
 }
 })();
+
+/* 配图点击放大：图内小字标注在窄屏下不可读，点开看原图 */
+(function(){
+  var lb = document.createElement('div');
+  lb.style.cssText = 'position:fixed;inset:0;z-index:9999;background:rgba(22,19,16,.965);'
+    + 'display:none;align-items:center;justify-content:center;padding:3vmin;cursor:zoom-out;'
+    + 'opacity:0;transition:opacity .18s ease;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)';
+  document.body.appendChild(lb);
+  function close(){
+    lb.style.opacity = '0';
+    setTimeout(function(){ lb.style.display = 'none'; lb.innerHTML = ''; }, 180);
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('click', function(e){
+    var fig = e.target.closest && e.target.closest('#content .fig');
+    if(!fig) return;
+    var src = fig.querySelector('img');
+    if(!src) return;
+    e.preventDefault();
+    var im = new Image();
+    im.src = src.currentSrc || src.src;
+    im.alt = src.alt || '';
+    im.style.cssText = 'max-width:100%;max-height:100%;border-radius:4px;'
+      + 'box-shadow:0 24px 70px rgba(0,0,0,.5);background:#fff';
+    lb.innerHTML = ''; lb.appendChild(im);
+    lb.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    requestAnimationFrame(function(){ lb.style.opacity = '1'; });
+  });
+  lb.addEventListener('click', close);
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+})();
