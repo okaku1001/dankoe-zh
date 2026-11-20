@@ -547,41 +547,122 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .post-audio audio{width:100%;flex-basis:100%}
 }
 
-/* ===== 对话分离与长段呼吸感（reading-layout.js 注入，文字零改动） ===== */
-#content p.dlg{margin:1.55em 0 1.75em}
-#content p.dlg .dlg-spk{
-  display:block;font-family:var(--sans);font-size:.7em;font-weight:700;
-  letter-spacing:.16em;color:var(--mu);margin:0 0 .42em;
+/* ===== 说话人识别排版（reading-layout.js 注入；文字零改动） =====
+ * 段首名字反复出现 = 说话人，每人一个稳定颜色；名字换了 = 换人，换色换边、拉开间距。
+ * 同一个人连续的段落收拢成组；正好两人时左右分栏，像真实对谈。
+ */
+:root{
+  --spk0:#a84b2a; --spk1:#2f6d8f; --spk2:#3d7a62;
+  --spk3:#8a5a9e; --spk4:#9a6a24; --spk5:#b0463a;
 }
-#content p.dlg.dlg-answer .dlg-spk{color:var(--acc)}
-#content p.dlg .dlg-body{
-  display:block;border-left:2px solid var(--line);
-  padding:.12em 0 .12em 15px;
+[data-theme=dark]{
+  --spk0:#d4895e; --spk1:#6fb6dc; --spk2:#63bd97;
+  --spk3:#b98ad0; --spk4:#d9a24f; --spk5:#e08172;
 }
-#content p.dlg.dlg-answer .dlg-body{
-  border-left-color:color-mix(in srgb,var(--acc) 62%,transparent);
-  background:linear-gradient(90deg,var(--acc-soft),transparent 72%);
-  padding:.4em 12px .4em 15px;margin-left:-2px;border-radius:0 6px 6px 0;
+#content p.spk-s0,#content .en-p.spk-s0{--spk:var(--spk0)}
+#content p.spk-s1,#content .en-p.spk-s1{--spk:var(--spk1)}
+#content p.spk-s2,#content .en-p.spk-s2{--spk:var(--spk2)}
+#content p.spk-s3,#content .en-p.spk-s3{--spk:var(--spk3)}
+#content p.spk-s4,#content .en-p.spk-s4{--spk:var(--spk4)}
+#content p.spk-s5,#content .en-p.spk-s5{--spk:var(--spk5)}
+#enfull .spk-s0{--spk:var(--spk0)} #enfull .spk-s1{--spk:var(--spk1)}
+#enfull .spk-s2{--spk:var(--spk2)} #enfull .spk-s3{--spk:var(--spk3)}
+#enfull .spk-s4{--spk:var(--spk4)} #enfull .spk-s5{--spk:var(--spk5)}
+
+/* 说话人姓名牌：稳定色小标签，名字换了立刻能看出换人 */
+.spk-chip{
+  display:block;font-family:var(--sans);font-size:.66em;font-weight:700;
+  letter-spacing:.1em;line-height:1.1;color:var(--spk);
+  margin:0 0 .32em;
 }
+.spk-chip::before{
+  content:"";display:inline-block;width:.62em;height:.62em;border-radius:50%;
+  background:var(--spk);margin-right:.5em;vertical-align:.02em;
+}
+#content p.spk .spk-body{
+  display:block;border-left:2px solid color-mix(in srgb,var(--spk) 78%,transparent);
+  padding:.15em 0 .15em 14px;margin-left:0;
+}
+/* 换人：换边 + 拉开间距 + 左侧色条，明确「另一个人在说」 */
+#content p.spk.spk-right{text-align:left;margin-left:12%;margin-right:0}
+#content p.spk.spk-right .spk-chip{text-align:right}
+#content p.spk.spk-right .spk-body{
+  border-left:0;border-right:2px solid color-mix(in srgb,var(--spk) 78%,transparent);
+  padding:.15em 14px .15em 0;margin-left:0;
+}
+#content p.spk.spk-new{margin-top:2.1em}
+#content p.spk.spk-new.spk-right{margin-left:12%}
+#content p.spk.spk-new .spk-chip{font-size:.72em}
+#content p.spk.spk-cont{margin-top:.34em}
+/* 同一人的连续段落：姓名牌淡化为「（同上）」式的小标记，但文字仍是原文 */
+#content p.spk.spk-cont .spk-chip{opacity:.34;font-size:.6em}
+
+/* 英文对照段跟随同一个说话人的颜色与对齐 */
+#content .en-p.spk{
+  --spk:var(--spk1);
+  border-left:1.5px solid color-mix(in srgb,var(--spk) 60%,transparent);
+  padding-left:12px;margin-top:-.15em;
+}
+#content .en-p.spk.spk-right{
+  border-left:0;border-right:1.5px solid color-mix(in srgb,var(--spk) 60%,transparent);
+  padding-left:0;padding-right:12px;margin-left:12%;
+}
+#content .en-p.spk .spk-chip{font-size:.64em;letter-spacing:.06em}
+#content .en-p.spk.spk-cont{margin-top:-.7em}
+#content .en-p.spk.spk-new{margin-top:.2em}
+
+/* 英文全文视图 */
+#enfull .spk .spk-chip{
+  display:block;font-family:var(--sans);font-size:.62em;font-weight:700;
+  letter-spacing:.1em;color:var(--spk);margin:0 0 .3em;
+}
+#enfull .spk .spk-body{
+  display:block;border-left:2px solid color-mix(in srgb,var(--spk) 72%,transparent);
+  padding:.15em 0 .15em 14px;
+}
+#enfull .spk.spk-right{text-align:left;margin-left:12%}
+#enfull .spk.spk-right .spk-chip{text-align:right}
+#enfull .spk.spk-right .spk-body{
+  border-left:0;border-right:2px solid color-mix(in srgb,var(--spk) 72%,transparent);
+  padding:.15em 14px .15em 0;
+}
+#enfull .spk.spk-new{margin-top:1.9em}
+#enfull .spk.spk-cont{margin-top:.34em}
+#enfull .spk.spk-cont .spk-chip{opacity:.34}
+
+/* 长段呼吸感：仍是同一段、同一文字 */
 .pseg{display:block;margin:0 0 .52em}
 .pseg:last-child{margin-bottom:0}
 #content p.pbody .pseg{margin-bottom:.62em}
-.en-p .dlg-spk{font-size:.66em;letter-spacing:.1em}
-.en-p .dlg-body{padding-left:10px}
-#enfull p.dlg,#enfull li.dlg{margin:1.2em 0}
-#enfull .dlg-spk{
-  display:block;font-family:var(--sans);font-size:.68em;font-weight:700;
-  letter-spacing:.12em;color:var(--mu);margin:0 0 .35em;
-}
-#enfull .dlg-answer .dlg-spk{color:var(--acc)}
-#enfull .dlg-body{display:block;border-left:2px solid var(--line);padding-left:14px}
-#enfull .dlg-answer .dlg-body{
-  border-left-color:color-mix(in srgb,var(--acc) 60%,transparent);
-  background:linear-gradient(90deg,var(--acc-soft),transparent 72%);
-  padding:.35em 12px;border-radius:0 6px 6px 0;
-}
 @media(max-width:640px){
-  #content p.dlg .dlg-body{padding-left:11px}
-  #content p.dlg.dlg-answer .dlg-body{padding:.35em 10px .35em 11px}
-  .dlg-spk{letter-spacing:.1em}
+  #content p.spk.spk-right,#content .en-p.spk.spk-right,
+  #enfull .spk.spk-right{margin-left:6%}
+  #content p.spk .spk-body{padding-left:10px}
+  #content p.spk.spk-right .spk-body{padding-right:10px}
+  .spk-chip{letter-spacing:.06em}
+}
+
+/* 同人续段：原文无姓名，用一条更淡的延续线表示「还是这个人在说」 */
+#content p.spk.spk-echo .spk-body{
+  border-left-color:color-mix(in srgb,var(--spk) 34%,transparent);
+}
+#content p.spk.spk-echo.spk-right .spk-body{
+  border-right-color:color-mix(in srgb,var(--spk) 34%,transparent);
+}
+#content .en-p.spk.spk-echo{
+  border-left-color:color-mix(in srgb,var(--spk) 28%,transparent);
+}
+#content .en-p.spk.spk-echo.spk-right{
+  border-left:0;border-right-color:color-mix(in srgb,var(--spk) 28%,transparent);
+}
+#enfull .spk.spk-echo .spk-body{border-left-color:color-mix(in srgb,var(--spk) 34%,transparent)}
+#enfull .spk.spk-echo.spk-right .spk-body{
+  border-left:0;border-right-color:color-mix(in srgb,var(--spk) 34%,transparent);
+}
+/* 真正的换人立牌：姓名牌加一枚小标记，强化「换人了」 */
+#content p.spk.spk-new .spk-chip::after,
+#enfull .spk.spk-new .spk-chip::after{
+  content:"";display:inline-block;width:1.6em;height:1px;
+  background:color-mix(in srgb,var(--spk) 45%,transparent);
+  vertical-align:middle;margin-left:.6em;
 }
