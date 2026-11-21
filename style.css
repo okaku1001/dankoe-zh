@@ -199,8 +199,14 @@ a:hover{opacity:.88}
   color:var(--tn);background:transparent;
   border-left:1.5px solid var(--line);
   padding:.35em 0 .35em 1em;margin:1.1em 0 1.4em;
+  text-align:left;            /* 题记不能两端对齐：<br> 断出的短行会被拉成「原　文　：」 */
+  letter-spacing:0;
+  hanging-punctuation:none;
 }
 #content blockquote.meta p{margin:.25em 0}
+/* 题记按「字段」排：一项一行，长项自然折行，任何一项都不会被拆到两行去 */
+#content blockquote.meta .mfl{display:block;max-width:100%}
+#content blockquote.meta a{word-break:break-all}
 .tn{font-size:.86em;color:var(--tn);font-family:var(--sans);line-height:1.75}
 
 .comment{
@@ -713,16 +719,16 @@ body.essay-mode #content p.pbody .pseg,
 body.essay-mode #content p .pseg{display:inline;margin:0}
 
 body.essay-mode #content p[data-b]{
-  margin:0 0 .34em;
+  margin:0 0 .6em;            /* 段距必须明显大于行距，否则看不出分段 */
   text-indent:var(--indent);
   text-wrap:pretty;
 }
 /* 篇首导语：不缩进、稍大，作为整篇的"题记" */
 body.essay-mode #content p[data-b]:first-of-type{
   text-indent:0;font-size:1.06em;line-height:1.86;
-  margin:0 0 1.6em;color:color-mix(in srgb,var(--fg) 92%,transparent);
+  margin:0 0 .72em;color:color-mix(in srgb,var(--fg) 92%,transparent);
 }
-body.essay-mode #content p[data-b]:first-of-type + .en-p{margin-top:-.7em}
+body.essay-mode #content p[data-b]:first-of-type + .en-p{margin-top:-.3em}
 
 /* 章节：居中 + 上方短赭线，给长文可扫读的停顿 */
 body.essay-mode #content h2{
@@ -753,7 +759,7 @@ body.essay-mode #content blockquote:not(.meta) p{margin:.15em 0;text-indent:0}
   body.essay-mode .reader{padding:24px 0 56px}
   body.essay-mode .title-block{padding-bottom:20px}
   body.essay-mode #content{line-height:1.92}
-  body.essay-mode #content p[data-b]{margin-bottom:.3em}
+  body.essay-mode #content p[data-b]{margin-bottom:.55em}
   body.essay-mode #content h2{margin-top:2.7em;padding-top:1.15em}
   body.essay-mode #content blockquote:not(.meta){margin:1.6em .6em;font-size:1.01em}
 }
