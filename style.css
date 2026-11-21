@@ -41,14 +41,14 @@ a:hover{opacity:.88}
   backdrop-filter:blur(12px) saturate(1.1);
   border-bottom:1px solid color-mix(in srgb,var(--line) 70%,transparent);
 }
-.brand{text-decoration:none;color:var(--fg);font-family:var(--serif);font-size:17px;letter-spacing:.02em}
+.brand{text-decoration:none;color:var(--fg);font-family:var(--serif);font-size:17px;letter-spacing:.02em;white-space:nowrap;flex:none}
 .brand b{color:var(--acc);font-weight:700}
 #theme{
   background:none;border:1px solid var(--line);color:var(--fg);
   border-radius:20px;padding:4px 12px;font-size:15px;cursor:pointer;
 }
-.tnav{display:flex;gap:16px;align-items:center;font-size:13.5px}
-.tnav a{color:var(--mu);text-decoration:none}
+.tnav{display:flex;gap:16px;align-items:center;font-size:13.5px;flex:none}
+.tnav a{color:var(--mu);text-decoration:none;white-space:nowrap}
 .tnav a:hover{color:var(--fg)}
 
 /* home */
@@ -397,6 +397,20 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .post{padding:.85em}
   .cover{border-radius:6px;margin:14px 0 6px}
   .comment{padding:12px 14px}
+}
+/* 窄屏顶栏：完整站名 + 四个导航 + 主题键放不下一行，收掉「纳瓦尔与」，导航同步压紧 */
+@media(max-width:430px){
+  .bn{display:none}
+  .tnav{gap:7px;font-size:11.5px}
+  #theme{padding:3px 9px;font-size:14px}
+}
+@media(max-width:360px){
+  .tnav{gap:6px;font-size:11px}
+  .brand{font-size:14px}
+}
+/* 极窄屏：导航里「Dan Koe」与左侧品牌重复（品牌本身可点回首页），让小屏留出呼吸 */
+@media(max-width:340px){
+  .tnav a[href*="dankoe"]{display:none}
 }
 
 /* ===== AI 朗读播放器 v2（audio.js 注入） ===== */
