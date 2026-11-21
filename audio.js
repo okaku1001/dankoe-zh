@@ -116,6 +116,10 @@
     const bar = document.createElement('div');
     bar.className = 'audio-bar';
     bar.innerHTML =
+      (multi ?
+        '<button class="ab-prev" type="button" aria-label="回到上一段开头" title="上一段（已在第一段开头则从 0:00 重放）">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.6 5h2.3v14H5.6zM19.4 5.3v13.4L9.6 12z"></path></svg>' +
+        '</button>' : '') +
       '<button class="ab-play" aria-label="播放朗读">' +
       '<svg class="ab-ring" viewBox="0 0 46 46" aria-hidden="true">' +
       '<circle class="trk" cx="23" cy="23" r="20.5"></circle>' +
@@ -127,7 +131,8 @@
       '<div class="ab-head"><span class="ab-eq"><i></i><i></i><i></i></span>' +
       '<span class="ab-tag">AI 朗读</span>' +
       '<span class="ab-who">' + who + '</span>' +
-      (multi ? '<span class="ab-part"></span>' : '') + '</div>' +
+      (multi ? '<button class="ab-part" type="button" aria-haspopup="true" aria-expanded="false" aria-label="切换朗读分段" title="切换分段">' +
+        '<span class="ab-pn"></span><i class="ab-cv"></i></button>' : '') + '</div>' +
       '<div class="ab-seek" role="slider" aria-label="播放进度">' + bars.join('') + '</div>' +
       '</div>' +
       '<span class="ab-time"><b>0:00</b><span class="ab-sep">/</span><span class="ab-tdur">0:00</span></span>' +
@@ -143,8 +148,108 @@
     const play = $('.ab-play', bar), seek = $('.ab-seek', bar),
       tCur = $('.ab-time b', bar), tDur = $('.ab-tdur', bar),
       spd = $('.ab-speed', bar), err = $('.ab-err', bar), partEl = $('.ab-part', bar),
+      prevBtn = $('.ab-prev', bar),
       ringBar = $('.ab-ring .bar', bar), waveBars = $$('i', seek);
     const RING = 2 * Math.PI * 20.5;
+
+    /* 分段面板：点段落胶囊展开，直选任意一段 */
+    const partBtns = [], partDur = [];
+    let partsPanel = null;
+    if (multi) {
+      partsPanel = document.createElement('div');
+      partsPanel.className = 'ab-parts';
+      partsPanel.hidden = true;
+      const hd = document.createElement('div');
+      hd.className = 'ab-pt';
+      hd.innerHTML = '<span>朗读分段</span><span class="ab-pc">共 ' + urls.length + ' 段</span>';
+      partsPanel.appendChild(hd);
+      urls.forEach((_, i) => {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'ab-pi';
+        b.innerHTML = '<span class="ab-pin">第 ' + (i + 1) + ' 段</span>' +
+          '<span class="ab-pid"></span>' +
+          '<svg class="ab-pic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 6.2 9.4 17.1 3.7 11.4l1.5-1.5 4.2 4.2 9.4-9.4z"></path></svg>';
+        b.addEventListener('click', e => { e.stopPropagation(); gotoPart(i) });
+        partsPanel.appendChild(b);
+        partBtns.push(b);
+      });
+      bar.appendChild(partsPanel);
+    }
+
+    function paintPartUI() {
+      if (!multi) return;
+      const pn = partEl.querySelector('.ab-pn');
+      if (pn) pn.textContent = (pi + 1) + ' / ' + urls.length;
+      partBtns.forEach((b, i) => b.classList.toggle('on', i === pi));
+    }
+
+    function openParts(on) {
+      if (!partsPanel) return;
+      partsPanel.hidden = !on;
+      partEl.setAttribute('aria-expanded', on ? 'true' : 'false');
+      if (!on) return;
+      paintPartUI();
+      const cur = partBtns[pi];
+      if (cur) partsPanel.scrollTop = Math.max(0, cur.offsetTop - 44);
+      probeDur();
+    }
+    const closeParts = () => openParts(false);
+    if (multi) {
+      partEl.addEventListener('click', e => { e.stopPropagation(); openParts(partsPanel.hidden) });
+      document.addEventListener('click', e => {
+        if (!partsPanel || partsPanel.hidden) return;
+        if (e.target.closest && (e.target.closest('.ab-parts') || e.target.closest('.ab-part'))) return;
+        openParts(false);
+      });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape') openParts(false) });
+    }
+
+    /* 探测各段时长（打开面板时并发进行，结果缓存在 partDur） */
+    let probing = false;
+    function probeDur() {
+      if (probing) return;
+      probing = true;
+      let next = 0, running = 0;
+      const pick = () => {
+        while (running < 4 && next < urls.length) {
+          if (partDur[next]) { next++; continue }
+          const k = next++, a = new Audio();
+          let done = false;
+          running++;
+          const fin = ok => {
+            if (done) return; done = true; running--;
+            const dur = a.duration;
+            try { a.removeAttribute('src'); a.load() } catch (e) { }
+            if (ok && isFinite(dur) && dur > 0) {
+              partDur[k] = dur;
+              const d = partBtns[k] && partBtns[k].querySelector('.ab-pid');
+              if (d) d.textContent = fmt(dur);
+            }
+            if (next < urls.length || running) pick();
+            else probing = false;
+          };
+          a.preload = 'metadata';
+          a.addEventListener('loadedmetadata', () => fin(true));
+          a.addEventListener('error', () => fin(false));
+          setTimeout(() => fin(false), 9000);
+          a.src = urls[k];
+        }
+        if (!running && next >= urls.length) probing = false;
+      };
+      pick();
+    }
+
+    /* 跳段：keep 未指定时沿用当前播放状态 */
+    function gotoPart(i, keep) {
+      i = Math.max(0, Math.min(urls.length - 1, i | 0));
+      const wasPlaying = !au.paused;
+      loadPart(i, 0);
+      paintPartUI();
+      if (keep === undefined ? wasPlaying : keep) au.play().catch(() => { });
+      closeParts();
+    }
+
 
     function paintProgress(p) {
       p = Math.max(0, Math.min(1, p || 0));
@@ -160,7 +265,7 @@
     function loadPart(i, restoreT) {
       pi = i;
       au.src = urls[i];
-      if (partEl) partEl.textContent = (i + 1) + ' / ' + urls.length;
+      paintPartUI();
       tCur.textContent = '0:00';
       paintProgress(0);
       au.addEventListener('loadedmetadata', function once() {
@@ -183,6 +288,16 @@
 
     /* 播放控制 */
     play.onclick = () => { if (au.paused) au.play().catch(() => { }); else au.pause(); };
+    if (prevBtn) prevBtn.onclick = () => {
+      if (pi === 0) {                       /* 已在第一段：回到开头重放 */
+        au.currentTime = 0;
+        if (au.paused) au.play().catch(() => { });
+      } else if (au.currentTime > 2.5) {    /* 本段已听一会儿：先回本段开头 */
+        au.currentTime = 0;
+      } else {                              /* 刚进入本段：退回上一段 */
+        gotoPart(pi - 1, true);
+      }
+    };
     au.addEventListener('play', () => { bar.classList.add('playing'); play.setAttribute('aria-label', '暂停') });
     au.addEventListener('pause', () => { bar.classList.remove('playing'); play.setAttribute('aria-label', '继续播放'); savePos() });
     au.addEventListener('ended', () => {
@@ -210,6 +325,7 @@
     });
 
     function savePos() {
+      if (au.ended) return;         /* 听完最后一段不留进度 */
       if (au.currentTime > 0) W(posKey, { p: pi, t: au.currentTime });
     }
 
@@ -231,7 +347,8 @@
       const updateMS = () => {
         try {
           navigator.mediaSession.metadata = new MediaMetadata({
-            title: document.title.replace(' · Dan Koe 知识网站', ''),
+            title: document.title.replace(' · Dan Koe 知识网站', '') +
+              (multi ? ' · 第 ' + (pi + 1) + '/' + urls.length + ' 段' : ''),
             artist: 'AI 朗读 · ' + who,
             album: 'Dan Koe 知识网站',
             artwork: [{ src: R + 'img/' + slug + '_cover.jpg', sizes: 'any' }],
@@ -248,6 +365,10 @@
         navigator.mediaSession.setActionHandler('pause', acts.pause);
         navigator.mediaSession.setActionHandler('seekbackward', () => { au.currentTime = Math.max(0, au.currentTime - 15) });
         navigator.mediaSession.setActionHandler('seekforward', () => { au.currentTime += 15 });
+        if (multi) {   /* 耳机/锁屏也能前后切段 */
+          navigator.mediaSession.setActionHandler('previoustrack', () => gotoPart(pi - 1, true));
+          navigator.mediaSession.setActionHandler('nexttrack', () => gotoPart(pi + 1, true));
+        }
       } catch (e) { }
     }
 
