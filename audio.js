@@ -127,6 +127,10 @@
       '<svg class="ab-ic ab-ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4.9v14.2L18.8 12z"></path></svg>' +
       '<svg class="ab-ic ab-ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.6h3.5v14.8H7zM13.5 4.6H17v14.8h-3.5z"></path></svg>' +
       '</button>' +
+      (multi ?
+        '<button class="ab-next" type="button" aria-label="跳到下一段" title="下一段（最后一段则回到第 1 段）">' +
+        '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.1 5h2.3v14h-2.3zM4.6 5.3v13.4L14.4 12z"></path></svg>' +
+        '</button>' : '') +
       '<div class="ab-main">' +
       '<div class="ab-head"><span class="ab-eq"><i></i><i></i><i></i></span>' +
       '<span class="ab-tag">AI 朗读</span>' +
@@ -148,7 +152,7 @@
     const play = $('.ab-play', bar), seek = $('.ab-seek', bar),
       tCur = $('.ab-time b', bar), tDur = $('.ab-tdur', bar),
       spd = $('.ab-speed', bar), err = $('.ab-err', bar), partEl = $('.ab-part', bar),
-      prevBtn = $('.ab-prev', bar),
+      prevBtn = $('.ab-prev', bar), nextBtn = $('.ab-next', bar),
       ringBar = $('.ab-ring .bar', bar), waveBars = $$('i', seek);
     const RING = 2 * Math.PI * 20.5;
 
@@ -289,14 +293,16 @@
     /* 播放控制 */
     play.onclick = () => { if (au.paused) au.play().catch(() => { }); else au.pause(); };
     if (prevBtn) prevBtn.onclick = () => {
-      if (pi === 0) {                       /* 已在第一段：回到开头重放 */
+      if (pi === 0) {                       /* 已在第一段：回到开头 */
         au.currentTime = 0;
-        if (au.paused) au.play().catch(() => { });
       } else if (au.currentTime > 2.5) {    /* 本段已听一会儿：先回本段开头 */
         au.currentTime = 0;
       } else {                              /* 刚进入本段：退回上一段 */
-        gotoPart(pi - 1, true);
+        gotoPart(pi - 1);
       }
+    };
+    if (nextBtn) nextBtn.onclick = () => {
+      gotoPart((pi + 1) % urls.length);     /* 最后一段则回到第 1 段 */
     };
     au.addEventListener('play', () => { bar.classList.add('playing'); play.setAttribute('aria-label', '暂停') });
     au.addEventListener('pause', () => { bar.classList.remove('playing'); play.setAttribute('aria-label', '继续播放'); savePos() });
@@ -366,8 +372,8 @@
         navigator.mediaSession.setActionHandler('seekbackward', () => { au.currentTime = Math.max(0, au.currentTime - 15) });
         navigator.mediaSession.setActionHandler('seekforward', () => { au.currentTime += 15 });
         if (multi) {   /* 耳机/锁屏也能前后切段 */
-          navigator.mediaSession.setActionHandler('previoustrack', () => gotoPart(pi - 1, true));
-          navigator.mediaSession.setActionHandler('nexttrack', () => gotoPart(pi + 1, true));
+          navigator.mediaSession.setActionHandler('previoustrack', () => gotoPart(pi - 1));
+          navigator.mediaSession.setActionHandler('nexttrack', () => gotoPart((pi + 1) % urls.length));
         }
       } catch (e) { }
     }

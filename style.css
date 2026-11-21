@@ -440,16 +440,18 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
 .ab-tag{font-family:var(--serif);font-size:12px;letter-spacing:.12em;color:var(--acc);font-weight:600}
 .ab-who{font-size:11.5px;color:var(--mu);letter-spacing:.02em;white-space:nowrap}
 .ab-who::before{content:"·";margin-right:7px;opacity:.5}
-.ab-prev{
+.ab-prev,.ab-next{
   flex:none;width:28px;height:28px;padding:0;border:none;border-radius:50%;
   background:color-mix(in srgb,var(--mu) 10%,transparent);
   color:color-mix(in srgb,var(--fg) 62%,transparent);
   cursor:pointer;display:flex;align-items:center;justify-content:center;
   transition:color .16s,background .16s,opacity .2s,transform .14s;
 }
-.ab-prev svg{width:13px;height:13px;fill:currentColor;display:block;margin-left:-1px}
-.ab-prev:hover{color:var(--acc);background:color-mix(in srgb,var(--acc) 13%,transparent)}
-.ab-prev:active{transform:scale(.9)}
+.ab-prev svg,.ab-next svg{width:13px;height:13px;fill:currentColor;display:block}
+.ab-prev svg{margin-left:-1px}
+.ab-next svg{margin-left:1px}
+.ab-prev:hover,.ab-next:hover{color:var(--acc);background:color-mix(in srgb,var(--acc) 13%,transparent)}
+.ab-prev:active,.ab-next:active{transform:scale(.9)}
 .ab-part{
   position:relative;margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:5px;
   font-family:var(--sans);font-size:10.5px;line-height:1.35;letter-spacing:.05em;
@@ -521,8 +523,17 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .ab-time{display:none}
   .ab-play{width:36px;height:36px}
   .ab-play .ab-ring{width:48px;height:48px}
-  .ab-prev{width:26px;height:26px}
+  .ab-prev,.ab-next{width:26px;height:26px}
   .ab-parts{right:6px;width:min(224px,74vw)}
+}
+@media (max-width:380px){
+  .audio-bar{gap:8px;padding:8px 9px}
+  .ab-prev,.ab-next{width:24px;height:24px}
+  .ab-play{width:34px;height:34px}
+  .ab-play .ab-ring{width:46px;height:46px}
+  .ab-tag{display:none}          /* 320 级小屏把宽度让给声纹与分段胶囊 */
+  .ab-seek{gap:1.5px}
+  .ab-speed{padding:3px 7px}
 }
 
 /* naval section */
