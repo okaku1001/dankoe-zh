@@ -404,10 +404,20 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   position:sticky;top:58px;z-index:30;
   display:flex;align-items:center;gap:13px;
   margin:16px 0 6px;padding:10px 14px 10px 12px;
+  min-height:60px;   /* 与加载占位同高，避免正文在播放条插入时下移 */
   background:linear-gradient(180deg,color-mix(in srgb,var(--acc) 5%,var(--card)),var(--card) 64%);
   border:1px solid var(--line);border-radius:14px;
   box-shadow:0 6px 22px rgba(42,38,34,.055),inset 0 1px 0 rgba(255,255,255,.5);
 }
+/* 播放条加载占位（audio.js 注入，manifest 到达后原地替换） */
+.ab-ph{pointer-events:none;border-style:dashed;border-color:color-mix(in srgb,var(--line) 75%,transparent);box-shadow:none}
+.ab-ph-dot,.ab-ph-main i{animation:abph 1.15s ease-in-out infinite}
+.ab-ph-dot{flex:none;width:42px;height:42px;border-radius:50%;background:color-mix(in srgb,var(--mu) 11%,transparent)}
+.ab-ph-main{flex:1;display:flex;flex-direction:column;gap:2px;justify-content:center;min-width:0}
+.ab-ph-main i{display:block;border-radius:6px;background:color-mix(in srgb,var(--mu) 9%,transparent)}
+.ab-ph-main i:first-child{height:22px;width:42%}
+.ab-ph-main i:last-child{height:20px}
+@keyframes abph{0%,100%{opacity:.45}50%{opacity:1}}
 .ab-play{
   position:relative;flex:none;width:42px;height:42px;border-radius:50%;
   border:none;cursor:pointer;padding:0;background:var(--acc);color:#fff;
@@ -524,6 +534,7 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .ab-play{width:36px;height:36px}
   .ab-play .ab-ring{width:48px;height:48px}
   .ab-prev,.ab-next{width:26px;height:26px}
+  .ab-ph-dot{width:36px;height:36px}
   .ab-parts{right:6px;width:min(224px,74vw)}
 }
 @media (max-width:380px){

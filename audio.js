@@ -15,11 +15,27 @@
   const fmt = s => { if (!isFinite(s) || s < 0) s = 0; s = Math.round(s); const m = Math.floor(s / 60), x = s % 60; return m + ':' + String(x).padStart(2, '0') };
   const SPEEDS = [1, 1.25, 1.5, 1.75, 2];
 
+  /* 文章页：先在标题下方占住播放条的高度。
+   * 播放条要等 manifest 到达才能渲染，若此时页面已经画完，正文会整体往下弹 ~80px。
+   * 占位与真实播放条同高，替换时不产生位移。 */
+  let holder = null;
+  if (PG === 'article') {
+    const tb = $('.reader .title-block');
+    if (tb) {
+      holder = document.createElement('div');
+      holder.className = 'audio-bar ab-ph';
+      holder.setAttribute('aria-hidden', 'true');
+      holder.innerHTML = '<span class="ab-ph-dot"></span>' +
+        '<span class="ab-ph-main"><i></i><i></i></span>';
+      tb.after(holder);
+    }
+  }
+
   fetch(R + 'audio-manifest.json', { cache: 'no-store' })
     .then(r => (r.ok ? r.json() : null))
     .catch(() => null)
     .then(man => {
-      if (!man) return;
+      if (!man) { if (holder) holder.remove(); return }
       if (PG === 'article') initArticle(man);
       else if (PG === 'home') initHome(man);
       else if (PG === 'posts') initPosts(man);
@@ -86,7 +102,7 @@
     const slug = main && main.dataset.slug;
     const m = man[slug];
     const urls = (m && m.parts || []).filter(p => p && p.audioUrl).map(p => p.audioUrl);
-    if (!urls.length) return;
+    if (!urls.length) { if (holder) holder.remove(); return }
     const multi = urls.length > 1;
 
     /* 声纹进度轨：按 slug 生成稳定起伏，既好看又能点/拖 */
@@ -143,7 +159,9 @@
       '<button class="ab-speed" title="播放速度">1×</button>' +
       '<span class="ab-err" hidden></span>';
     const titleBlock = main.querySelector('.title-block');
-    titleBlock ? titleBlock.after(bar) : main.prepend(bar);
+    if (holder) holder.replaceWith(bar);
+    else if (titleBlock) titleBlock.after(bar);
+    else main.prepend(bar);
 
     const au = new Audio();
     au.preload = 'none';

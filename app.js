@@ -15,7 +15,7 @@ const HN={y:'黄',g:'绿',b:'蓝',p:'粉'};
 // ---------- home ----------
 if(PG==='home'){paintStatus();const q=$('#q');q&&(q.oninput=()=>{const v=q.value.trim().toLowerCase();$$('.card').forEach(c=>{const dq=c.dataset.q||'';c.style.display=!v||dq.includes(v)?'':'none'})});
  const cards=$$('.card[data-slug]');const n=cards.filter(c=>status(c.dataset.slug)==='done').length;$('#homeprog')&&($('#homeprog').textContent=`已读 ${n} / ${cards.length}`);
- const last=J('dk:last',null);if(last){const b=$('#resume');if(b){b.hidden=false;b.href='a/'+last+'.html';b.textContent='继续上次阅读 →'}}}
+ const last=J('dk:last',null);if(last){const b=$('#resume');if(b){b.hidden=false;b.href='a/'+last+'.html#resume';b.textContent='继续上次阅读 →'}}}
 // ---------- article ----------
 if(PG==='article'){const main=$('.reader'),slug=main.dataset.slug,C=$('#content');put('dk:last',JSON.stringify(slug));
  const toc=$('.toc'),rk='dk:read:'+slug;
@@ -99,8 +99,20 @@ if(PG==='article'){const main=$('.reader'),slug=main.dataset.slug,C=$('#content'
   btn.onclick=()=>{setOpen(false);scrollTo({top:r.pos,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})};
  };
  paintResume();
- if(!location.hash&&rs.pos>300){const bar=document.createElement('div');bar.className='resume-bar';bar.innerHTML='<button type="button">↩ 回到上次读到的位置</button>';bar.style.cssText='position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:70';bar.firstChild.style.cssText='background:var(--acc);color:#fff;border:0;border-radius:999px;padding:10px 18px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.2)';document.body.appendChild(bar);bar.firstChild.onclick=()=>{scrollTo(0,rs.pos);bar.remove()};setTimeout(()=>bar.remove(),9000)}
- let tm;addEventListener('scroll',()=>{clearTimeout(tm);tm=setTimeout(()=>{const r=J(rk,{done:false});r.pos=scrollY;r.t=Date.now();const h=document.documentElement;const act=$('#actions');if(act&&scrollY+innerHeight>=act.offsetTop)r.done=true;W(rk,r);paint();paintResume()},400)},{passive:true});
+/* 首页「继续上次阅读」带 #resume 进来：直接回到上次位置，不弹遮挡正文的浮条 */
+const wantResume=location.hash==='#resume';
+if(wantResume){
+ if(rs.pos>300){
+  /* html 上有 scroll-behavior:smooth，赋值 scrollTop 也会变成平滑滚动，先临时关掉 */
+  const go=()=>{const h=document.documentElement;h.style.scrollBehavior='auto';h.scrollTop=rs.pos;document.body.scrollTop=rs.pos;h.style.scrollBehavior=''};
+  requestAnimationFrame(go);
+  addEventListener('load',()=>{if(Math.abs(scrollY-rs.pos)>120)go()},{once:true});
+ }
+ try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}
+}
+let tm;addEventListener('scroll',()=>{clearTimeout(tm);tm=setTimeout(()=>{const r=J(rk,{done:false});r.pos=scrollY;r.t=Date.now();const h=document.documentElement;const act=$('#actions');if(act&&scrollY+innerHeight>=act.offsetTop)r.done=true;W(rk,r);paint();paintResume()},400)},{passive:true});
+/* 切后台/关闭标签时别等防抖，立即落一次，避免续读位置偏旧 */
+addEventListener('pagehide',()=>{const r=J(rk,{done:false});r.pos=scrollY;r.t=Date.now();W(rk,r)});
  // actions
  const ak='dk:act:'+slug,ACT=()=>J(ak,{checks:{},ans:{}}),sv=$('.actions .saved');
  $$('.act').forEach(li=>{const id=li.dataset.id,cb=$('input',li),tx=$('textarea',li),a=ACT();cb.checked=!!a.checks[id];li.classList.toggle('done',cb.checked);if(tx){tx.value=a.ans[id]||'';if(tx.value&&tx.closest('details'))tx.closest('details').open=true}
