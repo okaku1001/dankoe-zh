@@ -31,7 +31,7 @@
     }
   }
 
-  fetch(R + 'audio-manifest.json', { cache: 'no-store' })
+  fetch(R + 'audio-manifest.json')
     .then(r => (r.ok ? r.json() : null))
     .catch(() => null)
     .then(man => {

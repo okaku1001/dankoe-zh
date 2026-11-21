@@ -1,10 +1,63 @@
-const V='dk-book-20261121-v10';const F=["notes-core.js", "notes-ui.js", "notes.css", "audio-manifest.json", "audio.js", "a/01.html", "a/02.html", "a/03.html", "a/04.html", "a/05.html", "a/06.html", "a/07.html", "a/08.html", "a/09.html", "a/10.html", "a/11.html", "a/12.html", "a/13.html", "a/14.html", "a/15.html", "a/16.html", "a/17.html", "a/18.html", "a/19.html", "a/20.html", "a/21.html", "a/22.html", "a/23.html", "a/n01.html", "a/n02.html", "a/n03.html", "a/n12.html", "a/n11.html", "a/n10.html", "a/n09.html", "a/n08.html", "a/n07.html", "a/n06.html", "a/n05.html", "a/n04.html", "app.js", "reading-layout.js", "fonts/NotoSerifSC-Bold.woff2", "fonts/NotoSerifSC-Regular.woff2", "fonts/fonts.css", "glossary.html", "img/01_1.jpg", "img/01_2.jpg", "img/01_3.jpg", "img/01_5.jpg", "img/01_cover.jpg", "img/02_1.jpg", "img/02_2.jpg", "img/02_3.jpg", "img/02_4.jpg", "img/02_cover.jpg", "img/03_1.jpg", "img/03_2.jpg", "img/03_3.jpg", "img/03_4.jpg", "img/03_cover.jpg", "img/04_cover.jpg", "img/05_1.jpg", "img/05_2.jpg", "img/05_3.jpg", "img/05_cover.jpg", "img/06_1.jpg", "img/06_2.jpg", "img/06_cover.jpg", "img/07_1.jpg", "img/07_2.jpg", "img/07_3.jpg", "img/07_cover.jpg", "img/08_1.jpg", "img/08_2.jpg", "img/08_3.jpg", "img/08_4.jpg", "img/08_5.jpg", "img/08_6.jpg", "img/08_7.jpg", "img/08_cover.jpg", "img/09_cover.jpg", "img/10_cover.jpg", "img/11_cover.jpg", "img/12_1.jpg", "img/12_2.jpg", "img/12_3.jpg", "img/12_4.jpg", "img/12_5.jpg", "img/12_cover.jpg", "img/13_1.jpg", "img/13_2.jpg", "img/13_3.jpg", "img/13_4.jpg", "img/13_cover.jpg", "img/14_1.jpg", "img/14_2.jpg", "img/14_3.jpg", "img/14_cover.jpg", "img/15_1.jpg", "img/15_2.jpg", "img/15_3.jpg", "img/15_4.jpg", "img/15_cover.jpg", "img/16_1.jpg", "img/16_cover.jpg", "img/17_cover.jpg", "img/18_1.jpg", "img/18_2.jpg", "img/18_cover.jpg", "img/19_cover.jpg", "img/20_1.jpg", "img/20_2.jpg", "img/20_cover.jpg", "img/21_1.jpg", "img/21_2.jpg", "img/21_3.jpg", "img/21_cover.jpg", "img/22_cover.jpg", "img/23_1.jpg", "img/23_2.jpg", "img/23_3.jpg", "img/23_cover.jpg", "img/n01_cover.jpg", "img/n02_cover.jpg", "img/n03_cover.jpg", "img/n12_cover.jpg", "img/n11_cover.jpg", "img/n10_cover.jpg", "img/n09_cover.jpg", "img/n08_cover.jpg", "img/n07_cover.jpg", "img/n06_cover.jpg", "img/n05_cover.jpg", "img/n04_cover.jpg", "index.html", "manifest.json", "meta.js", "naval-posts.html", "naval-posts-2025.html", "notes.html", "posts.html", "style.css"];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(F)).then(()=>self.skipWaiting()))});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('dk-')&&x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;
-const u=new URL(e.request.url);
-if(u.origin!==location.origin)return; /* 跨域资源（音频 CDN 等）直接放行，避免干扰 Range 请求 */
-const cacheFirst=/\.(woff2?|ttf|otf|jpe?g|png|gif|webp|svg|ico)$/i.test(u.pathname); /* 图片字体：缓存优先 */
-if(cacheFirst){e.respondWith(caches.match(e.request,{ignoreSearch:true}).then(r=>r||fetch(e.request).then(res=>{if(res.ok){const cl=res.clone();caches.open(V).then(c=>c.put(e.request,cl))}return res})));return}
-/* HTML/JS/CSS/JSON：网络优先，保证访客总能拿到最新版；离线时回退缓存 */
-e.respondWith(fetch(e.request).then(res=>{if(res.ok){const cl=res.clone();caches.open(V).then(c=>c.put(e.request,cl))}return res}).catch(()=>caches.match(e.request,{ignoreSearch:true}).then(r=>r||Response.error())))});
+const V='dk-book-20261121-v11';
+/* 预缓存只放「骨架」：脚本、样式、字体清单、音频清单、首页，合计约 170KB。
+ * 旧版这里列了 143 项（含 89 张图，约 20MB）并且用 cache.addAll 原子安装：
+ * 任何一项超时或失败，整个 install 就作废，浏览器随后不断重试、持续抢占连接，
+ * 手机上表现就是页面迟迟打不开。文章页与图片改成「看过才缓存」。 */
+const CORE=[
+  'notes-core.js','notes-ui.js','notes.css','fonts/fonts.css',
+  'style.css','app.js','reading-layout.js','audio-manifest.json','audio.js','index.html'
+];
+
+self.addEventListener('install',e=>{
+  e.waitUntil((async()=>{
+    const c=await caches.open(V);
+    await Promise.all(CORE.map(u=>c.add(u).catch(()=>{})));  /* 单项失败不影响整体安装 */
+    await self.skipWaiting();
+  })());
+});
+
+self.addEventListener('activate',e=>{
+  e.waitUntil(caches.keys()
+    .then(k=>Promise.all(k.filter(x=>x.startsWith('dk-')&&x!==V).map(x=>caches.delete(x))))
+    .then(()=>self.clients.claim()));
+});
+
+/* 弱网兜底：网络请求 8 秒不返回就先用缓存顶上，避免页面一直转圈 */
+const TIMEOUT=8000;
+const race=(p,ms)=>new Promise((res,rej)=>{
+  const t=setTimeout(()=>rej(new Error('timeout')),ms);
+  p.then(v=>{clearTimeout(t);res(v)},e=>{clearTimeout(t);rej(e)});
+});
+
+self.addEventListener('fetch',e=>{
+  if(e.request.method!=='GET')return;
+  const u=new URL(e.request.url);
+  if(u.origin!==location.origin)return; /* 跨域资源（音频 CDN 等）直接放行，避免干扰 Range 请求 */
+
+  const cacheFirst=/\.(woff2?|ttf|otf|jpe?g|png|gif|webp|svg|ico)$/i.test(u.pathname); /* 图片字体：缓存优先 */
+  if(cacheFirst){
+    e.respondWith(caches.match(e.request,{ignoreSearch:true}).then(r=>r||fetch(e.request).then(res=>{
+      if(res.ok){const cl=res.clone();caches.open(V).then(c=>c.put(e.request,cl).catch(()=>{}))}
+      return res
+    })));
+    return
+  }
+
+  /* HTML/JS/CSS/JSON：网络优先，保证访客总能拿到最新版；超时或失败回退缓存 */
+  e.respondWith(
+    race(fetch(e.request),TIMEOUT)
+      .then(res=>{
+        if(res.ok){const cl=res.clone();caches.open(V).then(c=>c.put(e.request,cl).catch(()=>{}))}
+        return res
+      })
+      .catch(async()=>{
+        let r=await caches.match(e.request,{ignoreSearch:true});
+        if(r)return r;
+        if(u.pathname.endsWith('/')){            /* 根路径离线时对应 index.html */
+          r=await caches.match(new Request(u.href.replace(/\/$/,'/index.html')),{ignoreSearch:true});
+          if(r)return r;
+        }
+        return Response.error()
+      })
+  );
+});
