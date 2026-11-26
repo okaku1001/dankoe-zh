@@ -1,0 +1,4494 @@
+{
+  "meta": {
+    "id": "21",
+    "kind": "dankoe",
+    "title": "完整课程：如何把你的兴趣变成一门赚钱的生活方式生意",
+    "en": "Full Course: How To Turn Your Interests Into a Profitable Lifestyle Business",
+    "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+    "citation": "原题：Full Course: How To Turn Your Interests Into a Profitable Lifestyle Business<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-10-06（北京时间；原始时间戳为 2026-10-05 16:48 UTC） · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2107151068446789829\">https://x.com/thedankoe/status/2107151068446789829</a><br>译注：文中称本文标题为\"how to get rich from your interests\"，与实际标题不一致，原文如此。提示词中\"act ask great angles\"应为\"act as great angles\"，\"nurition\"应为\"nutrition\"，按语义译出。文中有大量 Eden 产品的操作步骤，照译保留（界面名称附英文原词）。",
+    "classic": "../classic/21.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "20",
+      "title": "如何变得自律到令人发指",
+      "href": "20.html"
+    },
+    "next": {
+      "id": "22",
+      "title": "网红已死，体验时代已经到来",
+      "href": "22.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "完整课程：如何把你的兴趣变成一门赚钱的生活方式生意",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 21 篇",
+        "title": "完整课程：\n如何把你的兴趣变成一门赚钱的生活方式生意",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 21 篇 · 2026-10-06 · 约 35 分钟",
+          "title": "完整课程：\n如何把你的兴趣变成一门赚钱的生活方式生意",
+          "en": "Full Course: How To Turn Your Interests Into a Profitable Lifestyle Business",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-10-06  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：Full Course: How To Turn Your Interests Into a Profitable Lifestyle Business<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-10-06（北京时间；原始时间戳为 2026-10-05 16:48 UTC） · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2107151068446789829\">https://x.com/thedankoe/status/2107151068446789829</a><br>译注：文中称本文标题为\"how to get rich from your interests\"，与实际标题不一致，原文如此。提示词中\"act ask great angles\"应为\"act as great angles\"，\"nurition\"应为\"nutrition\"，按语义译出。文中有大量 Eden 产品的操作步骤，照译保留（界面名称附英文原词）。"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6182,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你有多种兴趣，你大概压根不知道这辈子该干什么。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你觉得学校是在浪费时间。也许你上了大学，可让你选一样东西学 4 年，对你的好奇心来说简直就是死刑（我大概换过 5 次专业……读了 5 年，欠了几万美元学生贷款，还是没毕业）。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你也不知道该干什么工作，因为你想做的事太多了。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你在社交媒体上听过“去创业”的建议，但全是同一套说辞。",
+              "pids": [
+                "p4"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "“选一个目标受众。”",
+              "pids": [
+                "p5"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5264,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "“深耕细分，只聊一件事。”",
+              "pids": [
+                "p6"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "诸如此类。",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要是真听了这种建议，最后只会掉进另一份朝九晚五，为你讨厌的人做你讨厌的项目，只不过一天干 12 小时而不是 8 小时，而且照样付不起账单。",
+              "pids": [
+                "p8"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "顺便说一句，我这是现身说法，讲的就是我自己的故事。",
+              "pids": [
+                "p9"
+              ]
+            }
+          ],
+          "pids": [
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p6",
+            "p7",
+            "p8",
+            "p9"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7550,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我第一个勉强算成功的“生意”，是做网页设计自由职业。可我厌倦了做别人的项目，我想做自己的。于是我开始玩社交媒体（因为要是我能建起一批受众，我就能建起我想要的任何一种生意，并从那儿起步）。",
+              "pids": [
+                "p10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "也就是那时，我才看清创作者们到底在干什么。他们并不是翻来覆去只聊一个话题，因为那压根不是人们关注你的原因。",
+              "pids": [
+                "p11"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你刷社交媒体时，是在反复读同一个话题吗？还是在你的许多兴趣之间，看到各不相同的帖子和想法？",
+              "pids": [
+                "p12"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我意识到，一个对自我提升感兴趣的人，很可能也会对心理学、哲学和举重感兴趣——因为，嗯，我自己就对这些都感兴趣。",
+              "pids": [
+                "p13"
+              ]
+            }
+          ],
+          "pids": [
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p10",
+            "p11",
+            "p12",
+            "p13"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6290,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你只要想到你是在跟人说话，而一个人只要被以恰当的方式呈现，就可能对任何东西产生兴趣（这正是内容创作的艺术），就会明白非要你“深耕细分”有多蠢。",
+              "pids": [
+                "p14"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "从那一刻起，我开始开窍了。",
+              "pids": [
+                "p15"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "只要我学会把自己的兴趣变成能吸引一大群人的社交帖子，我的受众就会增长，几乎看不到上限。",
+              "pids": [
+                "p16"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，我可以把兴趣变成一个足够诱人、足够有价值、让人愿意掏钱的产品，收入也会跟着涨。",
+              "pids": [
+                "p17"
+              ]
+            }
+          ],
+          "pids": [
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p14",
+            "p15",
+            "p16",
+            "p17"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当然，事情还要再复杂一点，但这正是这封信的用处。",
+              "pids": [
+                "p18"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "给你看看怎么把兴趣、技能和知识变成一门生意。",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这篇会相当长，但我希望它比市面上 99% 的商业内容都更直白、更有用。",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "请享用。",
+              "pids": [
+                "p21"
+              ]
+            }
+          ],
+          "pids": [
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p18",
+            "p19",
+            "p20",
+            "p21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "第 1 步——内容地图",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "第 1 步——内容地图",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第 1 步——内容地图",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Step 1 - The content map"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5084,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这封信的标题《如何靠你的兴趣致富》，并不是你以为的那个意思。",
+              "pids": [
+                "p23"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说的不是赚几亿美元。",
+              "pids": [
+                "p24"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说的是“感觉富有”。",
+              "pids": [
+                "p25"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在我还没有 2 个团队、一家软件公司和一家电商公司的时候，我反而感觉富有得多，能花的钱也多得多。",
+              "pids": [
+                "p26"
+              ]
+            }
+          ],
+          "pids": [
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p23",
+            "p24",
+            "p25",
+            "p26"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5354,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当只有我自己，或者我加上剪辑师时，我赚的每一美元几乎都是纯利润。一个人卖自己的知识年入 100 万美元，会比带着一个小团队、用传统商业模式年入 1000 万美元，让你感觉富有得多。",
+              "pids": [
+                "p27"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们就叫它“软富有”（soft rich）吧。",
+              "pids": [
+                "p28"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我们要聚焦的商业模式，非常简单。",
+              "pids": [
+                "p29"
+              ]
+            }
+          ],
+          "pids": [
+            "p27",
+            "p28",
+            "p29",
+            "p27",
+            "p28",
+            "p29"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "社交媒体作为流量来源，因为注意力眼下就在那里，而且它是免费的。",
+                "en": "Social media as a traffic source, because that’s where the attention is right now, and it’s free.",
+                "pids": [
+                  "p30"
+                ]
+              },
+              {
+                "zh": "一个基于你自身知识的微型产品或服务，这样你就能快速开始变现。",
+                "en": "A micro-product or service based on your own knowledge so you can start monetizing fast.",
+                "pids": [
+                  "p31"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p30",
+            "p31",
+            "p30",
+            "p31"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这就是整个生意。",
+              "pids": [
+                "p32"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "要在社交媒体上做好，你得知道你发什么，以及别人为什么该在乎。",
+              "pids": [
+                "p33"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我发现最管用的做法，是画一张内容地图。",
+              "pids": [
+                "p34"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "开始之前：",
+              "pids": [
+                "p35"
+              ]
+            }
+          ],
+          "pids": [
+            "p32",
+            "p33",
+            "p34",
+            "p35",
+            "p32",
+            "p33",
+            "p34",
+            "p35"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8072,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "拿一支笔和一张纸，别用笔记应用，也别用 Google 文档。手写有某种魔力，会逼着你的大脑慢下来、真正去想，而不只是把最先冒出来的东西敲出来。不管在哪工作，都把这张纸放在身边，你会常常回来看它。",
+              "pids": [
+                "p36"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人之所以放弃，是因为他们对 6 个月后自己的品牌长什么样都没个清晰的画面，更别说 2 年后了。于是他们随便挑几个话题，发几次，没起色，就认定自己没东西可说。",
+              "pids": [
+                "p37"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "别再把你的帖子看成一支支扔向靶子、盼着有一支正中靶心的飞镖。",
+              "pids": [
+                "p38"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "开始把帖子看成拼图的碎片，每一片都在为更大的图景添一块。也可以说，是一张地图。随着它变大，人们就有更多理由一口气刷完你的作品，你也不再指望靠某一条爆款。",
+              "pids": [
+                "p39"
+              ]
+            }
+          ],
+          "pids": [
+            "p36",
+            "p37",
+            "p38",
+            "p39",
+            "p36",
+            "p37",
+            "p38",
+            "p39"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的细分，就是你怎么帮人改变他们的生活",
+              "pids": [
+                "p40"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "人们关注你有 3 个原因（这里说的是以转变为先的个人品牌，不是表情包账号或 TikTok 舞者）：",
+              "pids": [
+                "p41"
+              ]
+            }
+          ],
+          "pids": [
+            "p40",
+            "p41",
+            "p40",
+            "p41"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你的帖子娱乐了、教育了或启发了他们",
+                "en": "Your post entertained, educated, or inspired them",
+                "pids": [
+                  "p42"
+                ]
+              },
+              {
+                "zh": "你谈论他们感兴趣的东西",
+                "en": "You talk about things that they are interested in",
+                "pids": [
+                  "p43"
+                ]
+              },
+              {
+                "zh": "他们相信你能帮助他们改变生活",
+                "en": "They believe you can help them change their life",
+                "pids": [
+                  "p44"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p42",
+            "p43",
+            "p44",
+            "p42",
+            "p43",
+            "p44"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5570,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "前 2 个，是坚持和写出高质量内容的自然副产品。",
+              "pids": [
+                "p45"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但第三个影响最大。",
+              "pids": [
+                "p46"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果沿用前面地图的类比，这张地图的北极星就是你的使命。",
+              "pids": [
+                "p47"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它是你想带受众抵达的理想目的地，是你领着他们穿越的那个有趣故事，是他们不想过的当下生活的解法。",
+              "pids": [
+                "p48"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "在那张纸上，我要你在两端各画一个点：",
+              "pids": [
+                "p49"
+              ]
+            }
+          ],
+          "pids": [
+            "p45",
+            "p46",
+            "p47",
+            "p48",
+            "p49",
+            "p45",
+            "p46",
+            "p47",
+            "p48",
+            "p49"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5732,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "A 点：用一句话说，你的读者想逃离的生活是什么？他们困在什么处境里？这就是你的反愿景，是你的品牌所反对的东西——“敌人”。",
+              "pids": [
+                "p50"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "B 点：用一句话说，你在帮他们走向什么样的生活？他们“懂了”之后是什么样？这就是你的愿景，是目的地。",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就是你的品牌使命：帮尽可能多的人从 A 点走到 B 点。",
+              "pids": [
+                "p52"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "为什么这很重要？",
+              "pids": [
+                "p53"
+              ]
+            }
+          ],
+          "pids": [
+            "p50",
+            "p51",
+            "p52",
+            "p53",
+            "p50",
+            "p51",
+            "p52",
+            "p53"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7100,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "因为内容地图上的一切，都得落在这两点之间。A 点是读者所在之处，B 点是你帮他们前往之处，你写的每一个想法，都是那条路上的一步。",
+              "pids": [
+                "p54"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这也是你怎么解决“我兴趣太多”这个问题的。你也许关心哲学、健身、商业和心理学，听着很散，可一旦你意识到这四样都能帮一个人从注意力分散的生活，走向有意识自我掌控的生活（或者你具体的使命是什么），它们就不散了。",
+              "pids": [
+                "p55"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "既然你已经在纸顶写下了使命、A 点和 B 点，是时候把地图填满了。",
+              "pids": [
+                "p56"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "先写 2–3 个宽泛话题，把它们想成你地图上的主要疆域。",
+              "pids": [
+                "p57"
+              ]
+            }
+          ],
+          "pids": [
+            "p54",
+            "p55",
+            "p56",
+            "p57",
+            "p54",
+            "p55",
+            "p56",
+            "p57"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/21_1.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7640,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "它们要宽，比你以为的还要宽。",
+              "pids": [
+                "p58"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "为什么？",
+              "pids": [
+                "p59"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "社交媒体上的人不是在搜专属知识，他们不会去 Google 搜“如何优化我早晨的皮质醇反应”。他们在刷，在消费任何抓住他们注意力的东西。这就是社交媒体的用途——不是价值，是注意力。你的产品，才是你领他们去享受的价值。假如你的话题太窄，你对 95% 本可以从你的想法里受益的人来说，就是隐形的。",
+              "pids": [
+                "p60"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这正是我的写作理念跟别人不同的地方：我先撒一张大网吸引人，再用各种报价产品瞄准受众里的特定人群。“深耕细分”这条路绝对走得通，但我喜欢想谈什么就谈什么的自由，所以我需要造一种能做到这一点的方法。",
+              "pids": [
+                "p61"
+              ]
+            }
+          ],
+          "pids": [
+            "p58",
+            "p59",
+            "p60",
+            "p61",
+            "p58",
+            "p59",
+            "p60",
+            "p61"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6002,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】@eliadeleoai（0 赞）| https://x.com/eliadeleoai/status/2107882567190118839\n话题细分和对读者的承诺不是一回事。训练、写作和心理学可以放在一起，只要同一个读者能看出每一样为什么重要。我会用个人简介和置顶帖把这种联系讲明白，而不是指望人们自己拼凑出来。\n（译注：这条评论对作者\"宽泛话题 + 使命统摄\"的做法给出了一个具体的落地补充。）"
+            }
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5192,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "几个拓宽的例子：",
+              "pids": [
+                "p62"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你对给服务类生意做潜在客户开发感兴趣，你的宽泛话题就是“线上生意”。",
+              "pids": [
+                "p63"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你对搭建 AI 自动化工作流感兴趣，你的宽泛话题就是“人工智能”。",
+              "pids": [
+                "p64"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你对肉食饮食感兴趣，你的宽泛话题就是“健康”或“营养”。",
+              "pids": [
+                "p65"
+              ]
+            }
+          ],
+          "pids": [
+            "p62",
+            "p63",
+            "p64",
+            "p65",
+            "p62",
+            "p63",
+            "p64",
+            "p65"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你先用某种宽泛的、能帮人实现人生目标的东西把他们吸引过来，等他们主动开口要了，再用具体的内容击中他们。到那时，你就创建一个报价产品、免费指南等等。",
+              "pids": [
+                "p66"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "几点说明：",
+              "pids": [
+                "p67"
+              ]
+            }
+          ],
+          "pids": [
+            "p66",
+            "p67",
+            "p66",
+            "p67"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6974,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "如果你现在只有 1–2 个宽泛话题，没关系。从那里开始。你可以在整个旅程中不断迭代。我转型的次数多到数不清。",
+                "en": "If you only have 1-2 broad topics right now, that’s fine. Start there. You’re allowed to iterate throughout your journey. I’ve pivoted more times than I can count.",
+                "pids": [
+                  "p68"
+                ]
+              },
+              {
+                "zh": "如果你完全不知道写什么，想想你已经在消费的内容，或者塑造了你的那些书。你因为真心觉得有趣而读、看或听的是什么？那就是你的起点。",
+                "en": "If you have no idea what to put down, think about what content you already consume or books that have shaped who you are. What do you read, watch, or listen to because you genuinely find it interesting? That’s your starting point.",
+                "pids": [
+                  "p69"
+                ]
+              },
+              {
+                "zh": "最好的话题，位于你深切在乎的东西和有潜力帮助他人的东西的交汇处。我保证，无论你对什么感兴趣，都已经有创作者在靠它变现了。你的任务不是发明一个新品类，而是把你的视角和观点带进一个已有的品类。",
+                "en": "The best topics sit at the intersection of what you deeply care about and what has the potential to help other people. I guarantee there are already creators monetizing whatever you’re interested in. Your job isn’t to invent a new category. It’s to bring your perspective and opinion to an existing one.",
+                "pids": [
+                  "p70"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p68",
+            "p69",
+            "p70",
+            "p68",
+            "p69",
+            "p70"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "疆域有了，接下来需要城市。",
+              "pids": [
+                "p71"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "针对每个宽泛话题，列出 3–5 个从它分出来的更具体的子话题，像思维导图那样。",
+              "pids": [
+                "p72"
+              ]
+            }
+          ],
+          "pids": [
+            "p71",
+            "p72",
+            "p71",
+            "p72"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/21_2.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6740,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的独特角度，就是从这里开始显形的。两个人都能写“商业”，但一个专注自由职业、销售和客户工作，另一个专注数字产品、内容策略和受众建设——同样是宽泛的疆域，却是完全不同的品牌。",
+              "pids": [
+                "p73"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "拿“健身”这种宽泛话题来说，子话题可以是营养、训练、习惯、生活方式、恢复。",
+              "pids": [
+                "p74"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "拿“个人成长”这种宽泛话题来说，子话题可以是心态、专注、写日记、情绪调节、目标设定。",
+              "pids": [
+                "p75"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "拿“商业”这种宽泛话题来说，子话题可以是写作、数字产品、受众建设、技能习得、AI 工具。",
+              "pids": [
+                "p76"
+              ]
+            }
+          ],
+          "pids": [
+            "p73",
+            "p74",
+            "p75",
+            "p76",
+            "p73",
+            "p74",
+            "p75",
+            "p76"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5858,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "卡住了就让 AI 列出你宽泛话题下的子话题清单，再挑你最感兴趣的。但先自己试着想，那些自然浮上心头的，往往就是对的。",
+              "pids": [
+                "p77"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "把它们写到纸上，从每个宽泛话题分出去。",
+              "pids": [
+                "p78"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "真正的价值，从这里开始显现。",
+              "pids": [
+                "p79"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "疆域和城市都有了，现在得给人们一点真能参与的东西：具体、实在的想法，他们可以从中学习、表示反对，或者转给朋友。",
+              "pids": [
+                "p80"
+              ]
+            }
+          ],
+          "pids": [
+            "p77",
+            "p78",
+            "p79",
+            "p80",
+            "p77",
+            "p78",
+            "p79",
+            "p80"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "针对每个子话题，写出 3–5 个具体的内容点子。想想这几个方向：",
+              "pids": [
+                "p81"
+              ]
+            }
+          ],
+          "pids": [
+            "p81",
+            "p81"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7622,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "人们经历的痛点。什么让他们沮丧？他们做错了什么？是什么让他们卡住？这些能成为很棒的帖子，因为它们立刻让人感到被看见。",
+                "en": "Pain points people experience. What frustrates them? What are they doing wrong? What keeps them stuck? These make great posts because they immediately make people feel seen.",
+                "pids": [
+                  "p82"
+                ]
+              },
+              {
+                "zh": "\"如何做\"类点子。分步流程、方法、框架。人们喜欢能立即尝试的可执行建议。",
+                "en": "“How to” ideas. Step-by-step processes, methods, frameworks. People love actionable advice they can try immediately.",
+                "pids": [
+                  "p83"
+                ]
+              },
+              {
+                "zh": "你学到的教训。你现在知道、而一年前不知道的是什么？你犯过什么错？你会对一个刚起步的人说什么？",
+                "en": "Lessons you’ve learned. What do you know now that you didn’t know a year ago? What mistakes did you make? What would you tell someone just starting out?",
+                "pids": [
+                  "p84"
+                ]
+              },
+              {
+                "zh": "它为什么重要。为什么有人应该关心这个子话题？忽视它的代价是什么？当他们做对时，会有什么改变？",
+                "en": "Why it matters. Why should someone care about this subtopic at all? What’s the cost of ignoring it? What changes when they get it right?",
+                "pids": [
+                  "p85"
+                ]
+              },
+              {
+                "zh": "残酷的真相。这个领域里没人愿意说的事情是什么？大多数人回避的那个令人不适的现实是什么？这些往往表现得非常好，因为它们穿透了噪音。",
+                "en": "Harsh truths. What’s the thing nobody in this space wants to say? What’s the uncomfortable reality that most people avoid? These tend to perform extremely well because they cut through the noise.",
+                "pids": [
+                  "p86"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p82",
+            "p83",
+            "p84",
+            "p85",
+            "p86",
+            "p82",
+            "p83",
+            "p84",
+            "p85",
+            "p86"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 6,
+            "items": [
+              {
+                "zh": "你对流行观点的看法。关于这个话题，其他所有人说的哪些东西你不同意，或者你会换一种方式来表述？哪条常见建议其实是错的或不完整的？",
+                "en": "Your opinion on popular ideas. What does everyone else say about this topic that you disagree with, or that you’d frame differently? What’s the common advice that’s actually wrong or incomplete?",
+                "pids": [
+                  "p87"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p87",
+            "p87"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "（顺便说一句，你可以把这封信粘进 AI，让它引导你走完这一步。）",
+              "pids": [
+                "p88"
+              ]
+            }
+          ],
+          "pids": [
+            "p88",
+            "p88"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/21_3.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6866,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "读到这儿你可能会想：“我凭什么写这个？我什么都没做成，我又不是专家。”",
+              "pids": [
+                "p89"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我帮你换个框架。",
+              "pids": [
+                "p90"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你不需要当权威，你需要的是真心感兴趣，并且比读者领先一两步。事实上，你甚至不必领先他们 1–2 步，只要对这个想法有一种不同的思考方式就够了——光这一点就有价值。",
+              "pids": [
+                "p91"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "网上一些最有吸引力的内容，来自那些写自己正在学什么的人，而不是写多年前就精通了什么的人。“这是我正在琢磨的东西”带着一种原生态和亲近感，是那些打磨光鲜的专家复制不了的。",
+              "pids": [
+                "p92"
+              ]
+            }
+          ],
+          "pids": [
+            "p89",
+            "p90",
+            "p91",
+            "p92",
+            "p89",
+            "p90",
+            "p91",
+            "p92"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "只要你对它好奇，而且它跟你的使命相关，它就该属于你的地图。",
+              "pids": [
+                "p93"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "把具体点子写出来，从每个子话题分出去，先别评判，只管写纸上。",
+              "pids": [
+                "p94"
+              ]
+            }
+          ],
+          "pids": [
+            "p93",
+            "p94",
+            "p93",
+            "p94"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "第 2 步——软件栈",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "第 2 步——软件栈",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第 2 步——软件栈",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Step 2 - The software stack"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这一节谈的一切，都关乎你怎么经营生意。",
+              "pids": [
+                "p96"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些是你每天或每周都会登录的工具。",
+              "pids": [
+                "p97"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "明智的做法是注册下来、加上书签，它们大多都能免费起步。",
+              "pids": [
+                "p98"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "搭一门线上生意，你需要 4 样东西：",
+              "pids": [
+                "p99"
+              ]
+            }
+          ],
+          "pids": [
+            "p96",
+            "p97",
+            "p98",
+            "p99",
+            "p96",
+            "p97",
+            "p98",
+            "p99"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "一个产生流量的地方（吸引潜在客户）",
+                "en": "Somewhere to generate traffic (to attract potential customers)",
+                "pids": [
+                  "p100"
+                ]
+              },
+              {
+                "zh": "一个收集邮箱的地方（让你能直接接触到感兴趣的潜在客户，并对他们再营销）",
+                "en": "Somewhere to collect emails (so you have direct access to interested potential customers and can remarket to them)",
+                "pids": [
+                  "p101"
+                ]
+              },
+              {
+                "zh": "一个接受付款、托管你的产品或服务的地方（提供给第 1 和第 2 项里的人以赚钱）",
+                "en": "Somewhere to accept payment and host your products or services (to offer to number 1 and 2 to make money)",
+                "pids": [
+                  "p102"
+                ]
+              },
+              {
+                "zh": "一个保存你的想法和写作的地方（用于营销、客户工作、产品规划和内容）",
+                "en": "Somewhere to save your ideas and writing (for marketing, client work, product planning, and content.)",
+                "pids": [
+                  "p103"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p100",
+            "p101",
+            "p102",
+            "p103",
+            "p100",
+            "p101",
+            "p102",
+            "p103"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我把市面上各种软件都试遍了。",
+              "pids": [
+                "p104"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "既然我们要尽量保持简单、低成本，如果我从零开始，我会这么做：",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "1）一个产生流量的地方",
+              "pids": [
+                "p106"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你们很多人不会喜欢这个答案。",
+              "pids": [
+                "p107"
+              ]
+            }
+          ],
+          "pids": [
+            "p104",
+            "p105",
+            "p106",
+            "p107",
+            "p104",
+            "p105",
+            "p106",
+            "p107"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "但起步产生流量最简单、最容易上手的办法，就是在社交媒体上写作。",
+              "pids": [
+                "p108"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "为什么？",
+              "pids": [
+                "p109"
+              ]
+            }
+          ],
+          "pids": [
+            "p108",
+            "p109",
+            "p108",
+            "p109"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "社交媒体是免费的。只要练习足够，任何人都能建立受众（是的，社交媒体是一项技能，不是运气）。",
+                "en": "Social media is free. Anyone can build an audience with enough practice (yes, social media is a skill, not luck).",
+                "pids": [
+                  "p110"
+                ]
+              },
+              {
+                "zh": "你可以每天向社交媒体受众发布内容、推广你的产品（付费广告、赞助播客或通讯都要花钱）。",
+                "en": "You can post content and promote your products to a social media audience every day (paid ads and sponsoring podcasts or newsletters cost money).",
+                "pids": [
+                  "p111"
+                ]
+              },
+              {
+                "zh": "你可以用内容无限测试想法，看看什么最能带来增长和销售，这些又能变成更多产品或广告。",
+                "en": "You can endlessly test ideas with content to see what best leads to growth and sales, which can turn into more products or ads.",
+                "pids": [
+                  "p112"
+                ]
+              },
+              {
+                "zh": "靠写作，你不需要学视频剪辑、音频剪辑或平面设计。任何人都能写出并发布一个有冲击力的想法。",
+                "en": "With writing, you don’t need to learn video editing, audio editing, or graphic design. Anyone can write and post an impactful idea.",
+                "pids": [
+                  "p113"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p110",
+            "p111",
+            "p112",
+            "p113",
+            "p110",
+            "p111",
+            "p112",
+            "p113"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "说到这儿，你有几个选择：",
+              "pids": [
+                "p114"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "X、Threads、Substack，或者 LinkedIn。",
+              "pids": [
+                "p115"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "挑你最有共鸣的那个，把全部精力砸上去。",
+              "pids": [
+                "p116"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "X 潜力大，有深刻的想法。",
+              "pids": [
+                "p117"
+              ]
+            }
+          ],
+          "pids": [
+            "p114",
+            "p115",
+            "p116",
+            "p117",
+            "p114",
+            "p115",
+            "p116",
+            "p117"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5822,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Threads 眼下看似乎对新手很友好，但市场成熟度较低（跟 Instagram 一样），所以那儿有相当多人在抬杠。",
+              "pids": [
+                "p118"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "LinkedIn 钱最多，但相当无聊、相当职业化。",
+              "pids": [
+                "p119"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "不过，Substack 是我个人的首选。那是深度思考者的地盘，而且你的“粉丝”就是通讯订阅者，所以你不需要额外的平台来收邮箱。",
+              "pids": [
+                "p120"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "2）一个收邮箱的地方。",
+              "pids": [
+                "p121"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你现在用社交媒体产生流量了。",
+              "pids": [
+                "p122"
+              ]
+            }
+          ],
+          "pids": [
+            "p118",
+            "p119",
+            "p120",
+            "p121",
+            "p122",
+            "p118",
+            "p119",
+            "p120",
+            "p121",
+            "p122"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6506,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "接下来，你需要一个展示能力的地方。",
+              "pids": [
+                "p123"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为再说一次，社交媒体是用来抓注意力的，受众非常宽。想要更多的人，会在你的邮件列表里被慢慢培育。几乎每个头部创作者都这么做。邮件远远没死，只有那些不在这个游戏里的人才相信它死了。",
+              "pids": [
+                "p124"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你需要一个地方，能直接向一份感兴趣的潜在客户名单推广你的产品或服务（你大部分的钱会在这儿赚到）。",
+              "pids": [
+                "p125"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这最好用更长篇的内容来做。",
+              "pids": [
+                "p126"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "换句话说，你需要一份通讯。",
+              "pids": [
+                "p127"
+              ]
+            }
+          ],
+          "pids": [
+            "p123",
+            "p124",
+            "p125",
+            "p126",
+            "p127",
+            "p123",
+            "p124",
+            "p125",
+            "p126",
+            "p127"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "为什么？",
+              "pids": [
+                "p128"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我喜欢把一个短内容平台和一个长内容平台搭着用；如果你选 Substack，那就是二合一。",
+              "pids": [
+                "p129"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你可以用播客或 YouTube 频道代替通讯，但那样有几个缺点。",
+              "pids": [
+                "p130"
+              ]
+            }
+          ],
+          "pids": [
+            "p128",
+            "p129",
+            "p130",
+            "p128",
+            "p129",
+            "p130"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你需要音频和视频设备。",
+                "en": "You need audio and video equipment.",
+                "pids": [
+                  "p131"
+                ]
+              },
+              {
+                "zh": "你需要音频、视频，以及大量的社交媒体技能。",
+                "en": "You need audio, video, and extensive social media skill.",
+                "pids": [
+                  "p132"
+                ]
+              },
+              {
+                "zh": "无论如何，你都得建立一个邮件列表，才能有一个在社交媒体之外和他们说话的地方。",
+                "en": "You’ll have to build an email list anyway to have a place where you can speak off of social media to them.",
+                "pids": [
+                  "p133"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p131",
+            "p132",
+            "p133",
+            "p131",
+            "p132",
+            "p133"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你在 Eden 商店里把一个产品当引流磁铁免费送出去——那是唯一一个能让你创建附带 AI 的课程或数字产品的地方——它会自动把人导入你的 Substack、Kit 或 Beehiiv 列表。",
+              "pids": [
+                "p134"
+              ]
+            }
+          ],
+          "pids": [
+            "p134",
+            "p134"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "不过，我们也有通讯和邮件序列功能。如果你想把通讯订阅者导进 Substack，可以这么选；但你也可以把免费下载者或购买者放进培育序列，这样就不必另外订一个服务。",
+              "pids": [
+                "p135"
+              ]
+            }
+          ],
+          "pids": [
+            "p135",
+            "p135"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你要是真想，也可以把你的付费／免费通讯托管在 Eden 上。",
+              "pids": [
+                "p136"
+              ]
+            }
+          ],
+          "pids": [
+            "p136",
+            "p136"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6128,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "3）一个付款和产品／服务托管的地方。",
+              "pids": [
+                "p137"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "既然你有了两个客户触点——社交媒体和通讯——你就需要一个可以链接、可以推广的地方，让他们为产品或服务付钱给你。",
+              "pids": [
+                "p138"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这门生意就是这么转的，你就是这么成交的。",
+              "pids": [
+                "p139"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你有一个产品或服务，把社交媒体／通讯的流量导过去，就这样。杠杆就这几个：你的内容有多好、你推广得多频繁、你的报价有多棒，全在你直接掌控之中。",
+              "pids": [
+                "p140"
+              ]
+            }
+          ],
+          "pids": [
+            "p137",
+            "p138",
+            "p139",
+            "p140",
+            "p137",
+            "p138",
+            "p139",
+            "p140"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5750,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "而且既然我们要尽量简单，你还需要一个地方，能放落地页、AI 产品、数字产品托管、课程，还有辅导通话的预约。",
+              "pids": [
+                "p141"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我在各种软件上可吃了不少苦头。",
+              "pids": [
+                "p142"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "可选的太多了。",
+              "pids": [
+                "p143"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Stan、Teachable、Kajabi、Clickfunnels、Gumroad 等等。大多数都很棒，但我的问题是，它们仍然没有把内容研究或项目管理集成进一个专为创作者打造的工作空间里。",
+              "pids": [
+                "p144"
+              ]
+            }
+          ],
+          "pids": [
+            "p141",
+            "p142",
+            "p143",
+            "p144",
+            "p141",
+            "p142",
+            "p143",
+            "p144"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "而且坦白说，它们又散又贵。所以我们花了几年把 Eden 做成市面上最好的。只要托管在 Eden 上，凭它的结构方式，你就会赚得更多。",
+              "pids": [
+                "p145"
+              ]
+            }
+          ],
+          "pids": [
+            "p145",
+            "p145"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这是基于你的知识搭起一门线上生意的最简单办法。",
+              "pids": [
+                "p146"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "4）一个存营销和内容想法／文字的地方。",
+              "pids": [
+                "p147"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "作为线上生意的主人，你 80% 的工作，归根到底就是想法和写作。",
+              "pids": [
+                "p148"
+              ]
+            }
+          ],
+          "pids": [
+            "p146",
+            "p147",
+            "p148",
+            "p146",
+            "p147",
+            "p148"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "营销的想法",
+                "en": "Ideas for marketing",
+                "pids": [
+                  "p149"
+                ]
+              },
+              {
+                "zh": "内容的想法",
+                "en": "Ideas for content",
+                "pids": [
+                  "p150"
+                ]
+              },
+              {
+                "zh": "通讯的想法",
+                "en": "Ideas for newsletters",
+                "pids": [
+                  "p151"
+                ]
+              },
+              {
+                "zh": "产品的想法",
+                "en": "Ideas for products",
+                "pids": [
+                  "p152"
+                ]
+              },
+              {
+                "zh": "你的服务的想法",
+                "en": "Ideas for your service",
+                "pids": [
+                  "p153"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p149",
+            "p150",
+            "p151",
+            "p152",
+            "p153",
+            "p149",
+            "p150",
+            "p151",
+            "p152",
+            "p153"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 6,
+            "items": [
+              {
+                "zh": "给它们全部列提纲、写出来",
+                "en": "Outlining and writing them all",
+                "pids": [
+                  "p154"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p154",
+            "p154"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5552,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "一个专门用来写内容、通讯和推广的 1–2 小时时间块，必不可少。",
+              "pids": [
+                "p155"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "再进一步，你还需要一个地方，来充实和写下你的数字产品或服务。",
+              "pids": [
+                "p156"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "有时你需要一个地方放模板、客户练习表，或者干脆放客户工作的东西。Notion 能用，Google 文档也行，Obsidian 当然可以，而且通过 Claude 的 MCP 搭配起来很棒。",
+              "pids": [
+                "p157"
+              ]
+            }
+          ],
+          "pids": [
+            "p155",
+            "p156",
+            "p157",
+            "p155",
+            "p156",
+            "p157"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "但再说一次，这正是我们做 Eden 的原因：它既是工作空间，也是商店，因为大多数别的软件压根不懂创作者需要什么。",
+              "pids": [
+                "p158"
+              ]
+            }
+          ],
+          "pids": [
+            "p158",
+            "p158"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当然，你可以手动研究表现最好的内容，或者在 Apple 备忘录里记些零散的、你再也找不回来的笔记，这些也能用；但最终你会想要更正式一点的东西，毕竟这是一门生意。",
+              "pids": [
+                "p159"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在的问题是：",
+              "pids": [
+                "p160"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我卖什么？",
+              "pids": [
+                "p161"
+              ]
+            }
+          ],
+          "pids": [
+            "p159",
+            "p160",
+            "p161",
+            "p159",
+            "p160",
+            "p161"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "第 3 步——微型产品和微型服务",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "第 3 步——微型产品和微型服务",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第 3 步——微型产品和微型服务",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Step 3 - Micro products and services"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6344,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "要是我从零开始，下面就是我确切会做的事。",
+              "pids": [
+                "p163"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "首先，我会写下 5–10 个内容风格跟我想做的相近的创作者。为什么？",
+              "pids": [
+                "p164"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为我可以看他们表现最好的内容，研究他们是怎么长起来的，再用自己的故事、想法和经历，想出我自己的复制计划。",
+              "pids": [
+                "p165"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我还能看看他们卖什么类型的产品，作为自己产品的灵感。每个伟大的艺术家创作时身边都有参考资料，它帮你给正努力实现的东西带来灵感和结构。",
+              "pids": [
+                "p166"
+              ]
+            }
+          ],
+          "pids": [
+            "p163",
+            "p164",
+            "p165",
+            "p166",
+            "p163",
+            "p164",
+            "p165",
+            "p166"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8468,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "接下来，我会做两样东西——一个微型产品，一个微型服务。",
+              "pids": [
+                "p167"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "微型产品是某种简单得离谱的东西，比如把我基于一个已验证话题写的一篇有价值的通讯，变成一个帮他们落实它的模板、提示词或书面指南，我只会收大概 19 美元。微型产品的目标不是现在就赚大钱，因为你的受众还很小。",
+              "pids": [
+                "p168"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "微型服务是一个大约 4 次辅导通话的套餐，围绕你所谈的内容帮他们解决一个问题。我会为此收 500–1000 美元。我本可以收一次性的单次通话，但那样就收不了这么多，而且坦白说，也没那么有价值。多几次通话、多赚点钱，根本不需要多花一分力气。",
+              "pids": [
+                "p169"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，我的两个杠杆就是：写已验证的社交媒体内容来建受众，以及每天推广一次我的产品或服务。这样我就拿到了来自现实的直接反馈。",
+              "pids": [
+                "p170"
+              ]
+            }
+          ],
+          "pids": [
+            "p167",
+            "p168",
+            "p169",
+            "p170",
+            "p167",
+            "p168",
+            "p169",
+            "p170"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果我没在社交媒体上增长、也没赚到钱，现实就在告诉我，我当前的行动不对，或者我漏掉了什么，那我就得学习，每天试新战术，不断迭代。",
+              "pids": [
+                "p171"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我们再来往细里拆。",
+              "pids": [
+                "p172"
+              ]
+            }
+          ],
+          "pids": [
+            "p171",
+            "p172",
+            "p171",
+            "p172"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "1）怎么选择卖什么",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "1）怎么选择卖什么",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "1）怎么选择卖什么",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "1) How to choose what to sell"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5102,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "别把它搞复杂了。",
+              "pids": [
+                "p174"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "暂时先别管产品或服务的类型。",
+              "pids": [
+                "p175"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "盯着痛点（pain）、热情（passion）或流程（process）。",
+              "pids": [
+                "p176"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你生活里有什么痛点是已经解决了的、而别人也能从这个解法里受益？想想健康、财富、人际关系和幸福。你克服过什么？哪怕再小？",
+              "pids": [
+                "p177"
+              ]
+            }
+          ],
+          "pids": [
+            "p174",
+            "p175",
+            "p176",
+            "p177",
+            "p174",
+            "p175",
+            "p176",
+            "p177"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7388,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你有什么热情或兴趣，既提升了你的生活质量，也能提升别人的？拿哲学来说，它显然能让人活得更好。见鬼，Paul Musso 把他的付费 Substack 变成了一所哲学学校，做得非常好。任何东西都能变现。我不想听你那些没经验不支持的反对意见。",
+              "pids": [
+                "p178"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "有什么流程或日常，能给你带来生活里某个特定的结果？可以是一套晨间效率日常、一套写作系统、一套营养方法，或者你做的某件哪怕只有一点点独特的事。",
+              "pids": [
+                "p179"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "再说一遍，别想太多。",
+              "pids": [
+                "p180"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们只是需要一个起点。你不是从一块已经雕好的大理石开始，你从那块丑石料开始，再随着时间一点点打磨它。",
+              "pids": [
+                "p181"
+              ]
+            }
+          ],
+          "pids": [
+            "p178",
+            "p179",
+            "p180",
+            "p181",
+            "p178",
+            "p179",
+            "p180",
+            "p181"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "2）找一个已验证的角度——这才是你卖出任何东西的办法",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "2）找一个已验证的角度——\n这才是你卖出任何东西的办法",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "2）找一个已验证的角度——\n这才是你卖出任何东西的办法",
+          "note": "本节标题取自已发布正文。",
+          "en": "2) Find a validated angle, that’s how you sell anything"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5606,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "干这个我已经很久了。",
+              "pids": [
+                "p183"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我看到新手做第一个产品时最大的问题，就是他们没先去找对角度。",
+              "pids": [
+                "p184"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说的角度，是指你怎么定位产品，让人觉得它有价值。你不会把产品直接命名成《写作课》，你会起一个能在别人心里点燃欲望的名字。",
+              "pids": [
+                "p185"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "通常，你得靠大量而无聊的市场调研，才能找到对的角度。",
+              "pids": [
+                "p186"
+              ]
+            }
+          ],
+          "pids": [
+            "p183",
+            "p184",
+            "p185",
+            "p186",
+            "p183",
+            "p184",
+            "p185",
+            "p186"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6470,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "但在今天这个世界上，你有社交媒体。你能确切地看到人们想要什么。怎么看？看一条帖子的互动数据。",
+              "pids": [
+                "p187"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果一个标题为《如何连续专注 12 小时》的 YouTube 视频爆火了，那你可以推断，一个叫《如何连续学习 12 小时》的产品会卖得极好，尤其是当它的链接就放在那个视频简介里。它可以是一套课程，配一个帮你学习的 AI 学习伙伴，再加一个专注追踪模板。",
+              "pids": [
+                "p188"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "那我们在这儿具体要做什么？",
+              "pids": [
+                "p189"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "先拿出你产品的话题。",
+              "pids": [
+                "p190"
+              ]
+            }
+          ],
+          "pids": [
+            "p187",
+            "p188",
+            "p189",
+            "p190",
+            "p187",
+            "p188",
+            "p189",
+            "p190"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "然后，打开 Eden，或者用连了 Eden MCP 的 Claude（这让它能研究热门帖子、定时发帖、经营你的创作者生意——比如帮你做产品），再粘上这段：",
+              "pids": [
+                "p191"
+              ]
+            }
+          ],
+          "pids": [
+            "p191",
+            "p191"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "我正在打造一个关于[话题]的产品。它帮助人们[实现的转变]。我希望你研究所有平台上表现最好的社交帖子，找出可以作为我产品绝佳角度的那些，然后帮我头脑风暴产品的名字。举一个粗略的例子，一个标题为\"如何一天专注 12 小时\"的爆款 YouTube 视频，可以为一个效率产品或学习伙伴产品提供灵感。"
+            }
+          ],
+          "pids": [
+            "p192"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5462,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "它随后会在一个由数百万条爆款帖子组成的语料库里搜索，找出跟你的产品最像的那些。",
+              "pids": [
+                "p193"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "额外收获：你可以把这些社交帖子当成自己帖子的灵感。要是你把这些想法融进内容里，那在简介或评论里植入你的产品，就会大大提高它既爆火、又带来一堆销售的概率。",
+              "pids": [
+                "p194"
+              ]
+            }
+          ],
+          "pids": [
+            "p193",
+            "p194",
+            "p193",
+            "p194"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "3）微型产品",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 6 节",
+        "title": "3）微型产品",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "3）微型产品",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "3) The Micro Product"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你大概不信，但你手边已经躺着一个数字产品了。",
+              "pids": [
+                "p196"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你聊的是职业建议，你可以把一份你的简历副本卖 10 美元，再附上它为什么奏效的拆解。",
+              "pids": [
+                "p197"
+              ]
+            }
+          ],
+          "pids": [
+            "p196",
+            "p197",
+            "p196",
+            "p197"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "而在 Eden 里，因为你能创建自己的 AI 产品，同样这个东西你能卖 49 美元，只不过这次 AI 会帮他们写出自己的简历。",
+              "pids": [
+                "p198"
+              ]
+            }
+          ],
+          "pids": [
+            "p198",
+            "p198"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这就是微型产品。",
+              "pids": [
+                "p199"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "把你早就散落在笔记、Google Drive，甚至读过的书里的知识拿出来。",
+              "pids": [
+                "p200"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "或者，拿出你写过的内容。",
+              "pids": [
+                "p201"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你是新手，那就拿别人在你的话题或细分领域写过的、已验证的内容。",
+              "pids": [
+                "p202"
+              ]
+            }
+          ],
+          "pids": [
+            "p199",
+            "p200",
+            "p201",
+            "p202",
+            "p199",
+            "p200",
+            "p201",
+            "p202"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我不是让你去偷他们的内容。相反，用同一套 Eden 或 Claude 配置试试这个提示词：",
+              "pids": [
+                "p203"
+              ]
+            }
+          ],
+          "pids": [
+            "p203",
+            "p203"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6002,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "研究[话题]领域表现最好的 YouTube 视频，特别是那些以某种方式帮助人们改善生活的视频。然后，帮我围绕它头脑风暴出我自己独特的产品点子。对于一个爆火的自我提升视频，产品可以是类似\"30 天人生重启\"这样的东西，配一个会采访用户并制定定制计划的 AI。对于一个健身视频，它可以做同样的事，只不过是定制的营养或训练计划。"
+            }
+          ],
+          "pids": [
+            "p204"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "别指望任何 AI 能给你一个完美的点子。",
+              "pids": [
+                "p205"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "AI 的输出只是灵感，你可以在它上面迭代。跟它对话，把它往你觉得最真实的方向引。",
+              "pids": [
+                "p206"
+              ]
+            }
+          ],
+          "pids": [
+            "p205",
+            "p206",
+            "p205",
+            "p206"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "4）微型服务",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 7 节",
+        "title": "4）微型服务",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "4）微型服务",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "4) The Micro Service"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6182,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "微型服务是一个包含 4 次一对一通话的套餐，你在其中帮某人拿到一个特定的结果。",
+              "pids": [
+                "p208"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们付钱给你，你们一个月里每周见一次。你带他们走完各个步骤，布置作业，修正他们上周卡住的地方。",
+              "pids": [
+                "p209"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "就这么回事。",
+              "pids": [
+                "p210"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对那些觉得自己还没准备好做一整套辅导项目、但又不想为了卖一次 100–200 美元的通话而大动干戈的人来说，这是个恰到好处的折中。",
+              "pids": [
+                "p211"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我会为此收 500–1000 美元。",
+              "pids": [
+                "p212"
+              ]
+            }
+          ],
+          "pids": [
+            "p208",
+            "p209",
+            "p210",
+            "p211",
+            "p212",
+            "p208",
+            "p209",
+            "p210",
+            "p211",
+            "p212"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5282,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "要是听着很多，其实差不多就是一个线上私教的价格。而且这个价只是个测试点。如果有 5 个人各付 1000 美元，那就是你的第一个 5000 美元月份。现在你有了需要的全部证据，可以提价，或者把它做成更大的东西。",
+              "pids": [
+                "p213"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "为什么是 4 次通话，而不是 1 次？",
+              "pids": [
+                "p214"
+              ]
+            }
+          ],
+          "pids": [
+            "p213",
+            "p214",
+            "p213",
+            "p214"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你今天就可以开始。不需要网站、不需要 logo、不需要课程大纲。",
+                "en": "You can start today. No website, no logo, no course curriculum.",
+                "pids": [
+                  "p215"
+                ]
+              },
+              {
+                "zh": "一次通话只是打气。四次通话的时间足以真正改变一些东西。",
+                "en": "One call is a pep talk. Four calls is enough time to actually change something.",
+                "pids": [
+                  "p216"
+                ]
+              },
+              {
+                "zh": "卖 4 次通话不比卖 1 次多费工夫，而你赚 4 倍的钱。",
+                "en": "Selling 4 calls takes no more work than selling 1, and you make 4x the money.",
+                "pids": [
+                  "p217"
+                ]
+              },
+              {
+                "zh": "你会第一手听到客户的痛点，这会让你接下来打造的任何东西都好 10 倍。你的辅导笔记会变成你的课程。",
+                "en": "You hear your customers’ pain points firsthand, which makes whatever you build next 10x better. Your coaching notes become your course.",
+                "pids": [
+                  "p218"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p215",
+            "p216",
+            "p217",
+            "p218",
+            "p215",
+            "p216",
+            "p217",
+            "p218"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5102,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "下面这个错误，我一再见到。",
+              "pids": [
+                "p219"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "自由职业者、教练和顾问总觉得，得等一切就绪了才能开始卖——落地页、品牌配色、12 个模块的课程。",
+              "pids": [
+                "p220"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "错。",
+              "pids": [
+                "p221"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你只需要能教你知道的东西。你多半在某项技能或兴趣上比某人领先 1–2 步，这就够了。",
+              "pids": [
+                "p222"
+              ]
+            }
+          ],
+          "pids": [
+            "p219",
+            "p220",
+            "p221",
+            "p222",
+            "p219",
+            "p220",
+            "p221",
+            "p222"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "选你的路线：教学还是辅导",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 8 节",
+        "title": "选你的路线：\n教学还是辅导",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "选你的路线：\n教学还是辅导",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Pick your route: tutorial or coaching"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6326,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "微型服务有两种。",
+              "pids": [
+                "p224"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "1）教学型（基于技能）。你有一项人们通常愿意付钱请自由职业者来做的技能：网页设计、平面设计、编程、写作、视频剪辑、潜在客户开发。",
+              "pids": [
+                "p225"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "与其替人做，不如教他们做。",
+              "pids": [
+                "p226"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "“替你做”的市场又小、竞争又激烈；“教我做”的市场大得多：想学一项新技能的人、雇不起人的单人生意主、想转行的人。你能在 4 次通话里帮他们建好第一个网站、设计第一个品牌，或者写出头 4 封通讯吗？",
+              "pids": [
+                "p227"
+              ]
+            }
+          ],
+          "pids": [
+            "p224",
+            "p225",
+            "p226",
+            "p227",
+            "p224",
+            "p225",
+            "p226",
+            "p227"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5552,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "2）辅导型（基于兴趣）。你陪某人在生活里拿到一个结果：健身、营养、睡眠、效率、心理健康、人际关系、金钱、灵性，或者只是帮他们的生活重新找回方向。",
+              "pids": [
+                "p228"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "有个人自称“BTC 教练”，他教人了解比特币，因为他觉得这值得了解，那就是他的生意。",
+              "pids": [
+                "p229"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "任何能改善别人生活的东西，你都能拿去变现。",
+              "pids": [
+                "p230"
+              ]
+            }
+          ],
+          "pids": [
+            "p228",
+            "p229",
+            "p230",
+            "p228",
+            "p229",
+            "p230"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "一个微型服务实际由什么构成",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 9 节",
+        "title": "一个微型服务实际由什么构成",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "一个微型服务实际由什么构成",
+          "note": "本节标题取自已发布正文。",
+          "en": "What a micro service actually consists of"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6398,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这是大多数人跳过的部分。他们知道自己想“做辅导”，却完全不知道通话时到底会发生什么。",
+              "pids": [
+                "p232"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "下面是你需要的东西。（拿出你画内容地图的那张纸。）",
+              "pids": [
+                "p233"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "1）你的故事。你从哪儿起步？是什么让你想改变？你在什么上挣扎过？你的“顿悟”时刻是什么？你希望自己当初做法有什么不同？",
+              "pids": [
+                "p234"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当你回看自己的转变，你能提供什么就一目了然了。额外收获：你在这儿写的一切都是内容，它就是你的第一个故事串。",
+              "pids": [
+                "p235"
+              ]
+            }
+          ],
+          "pids": [
+            "p232",
+            "p233",
+            "p234",
+            "p235",
+            "p232",
+            "p233",
+            "p234",
+            "p235"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6866,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "2）他们现在在哪儿。描述你最能帮到的那个人的普通一天：什么让他们沮丧？他们已经试过什么？如果什么都不变，会怎样？",
+              "pids": [
+                "p236"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "3）他们 1 个月后想到哪儿。要具体、可信。不是“精通网页设计”，那得 6 个月；而是“30 天建好你的第一个网站”。不是“变健康”，而是“减掉头 10 磅，并建立一套你真能坚持的训练日常”。",
+              "pids": [
+                "p237"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "4）步骤。他们确切需要知道什么、做什么，才能从 A 点走到 B 点？",
+              "pids": [
+                "p238"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "先别急着整理步骤。如果你一边头脑风暴一边分组，最后会啥也没捞着，只管把每一步都倒出来。",
+              "pids": [
+                "p239"
+              ]
+            }
+          ],
+          "pids": [
+            "p236",
+            "p237",
+            "p238",
+            "p239",
+            "p236",
+            "p237",
+            "p238",
+            "p239"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8252,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我当初给一个网页设计报价列提纲时，原始清单是这样的：设置主机、连接域名、学设计基础、选模板、定品牌配色和字体、给每个页面写文案、搭页面结构、把文案放上页面、上线。",
+              "pids": [
+                "p240"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后把它们分进 4 次通话。要是需要更多次，就多收钱；要是用不了，就做 2 次、少收钱。这一切都很灵活。",
+              "pids": [
+                "p241"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果有些步骤模糊，就去研究。读你所在话题的畅销书（大多数辅导项目不过是一对一讲授的一本书），买 3–5 个已经在向你的受众销售的产品，看看里面装了什么。你不是在抄袭，你是在确保自己没漏掉任何东西。",
+              "pids": [
+                "p242"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "5）一个名字。给你的步骤起个名，让人把它们当成新东西：《网页设计入门包》《30 天重启》《创作者磁铁》。系统好卖，而一个名字会让你的步骤感觉像个系统。",
+              "pids": [
+                "p243"
+              ]
+            }
+          ],
+          "pids": [
+            "p240",
+            "p241",
+            "p242",
+            "p243",
+            "p240",
+            "p241",
+            "p242",
+            "p243"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6326,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "6）作业。每次通话后，给他们一张简短的任务清单，就像私人教练那样：他们做完，写下自己卡在哪儿，带到下一次通话。",
+              "pids": [
+                "p244"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "7）入门引导（Onboarding）。第一次通话之前，你得知道他们从哪儿起步。健身教练会问你的体重和围度，网页设计教练会问你用过什么工具。你可以发几个问题过去，或者加一场“第零次通话”当启动，这样一共就变成 5 次通话。",
+              "pids": [
+                "p245"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在那之后，每次通话都遵循同样的三段式结构：",
+              "pids": [
+                "p246"
+              ]
+            }
+          ],
+          "pids": [
+            "p244",
+            "p245",
+            "p246",
+            "p244",
+            "p245",
+            "p246"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "上周的任务。进展如何？他们卡在哪里？",
+                "en": "Last week’s tasks. How did it go? Where did they get stuck?",
+                "pids": [
+                  "p247"
+                ]
+              },
+              {
+                "zh": "痛点。一起解决他们正在挣扎的问题。边做边教。",
+                "en": "Pain points. Work through what they’re struggling with. Teach as you go.",
+                "pids": [
+                  "p248"
+                ]
+              },
+              {
+                "zh": "下一步。带他们过一遍这周要做什么。",
+                "en": "Next steps. Walk them through what to do this week.",
+                "pids": [
+                  "p249"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p247",
+            "p248",
+            "p249",
+            "p247",
+            "p248",
+            "p249"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "每次通话按 30–60 分钟来安排，有时更长，没关系。",
+              "pids": [
+                "p250"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你在 4 次通话里帮得够多，他们里很多人会想再来 4 次，那现在就是 2000 美元而不是 1000 美元了。",
+              "pids": [
+                "p251"
+              ]
+            }
+          ],
+          "pids": [
+            "p250",
+            "p251",
+            "p250",
+            "p251"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想要人帮忙列提纲，把这段粘进 Eden 对话，或者粘进连了 Eden MCP 的 Claude 里：https://eden.so/features/store",
+              "pids": [
+                "p252"
+              ]
+            }
+          ],
+          "pids": [
+            "p252",
+            "p252"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "帮我为一个微型服务列提纲：一个包含 4 次一对一通话、定价 500–1000 美元的套餐。我的技能或兴趣是[话题]。一次问我一个问题，了解我的故事和我帮助的人。然后写出：他们现在在哪里、一个具体的 1 个月结果、达成它的每一个步骤并分到 4 次通话中、每次通话后的作业、5 个入门引导问题，以及 3 个名字点子。"
+            }
+          ],
+          "pids": [
+            "p253"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在 Eden 中设置",
+              "pids": [
+                "p254"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在 Eden 里，微型服务就是一个“辅导”（Coaching）产品，大约 10 分钟就搞定。",
+              "pids": [
+                "p255"
+              ]
+            }
+          ],
+          "pids": [
+            "p254",
+            "p255",
+            "p254",
+            "p255"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "进入\"商店 → 产品\"（Store → Products），点击\"新产品\"（New product），选择\"辅导\"（Coaching）。",
+                "en": "Go to Store → Products, click New product, and pick Coaching.",
+                "pids": [
+                  "p256"
+                ]
+              },
+              {
+                "zh": "设置价格（500–1000 美元）。",
+                "en": "Set your price ($500-$1,000).",
+                "pids": [
+                  "p257"
+                ]
+              },
+              {
+                "zh": "在\"辅导\"步骤中，把\"包含通话次数\"（Calls included）设为 4（加启动通话则为 5），选择通话时长，并把辅导期设为 4 周。",
+                "en": "On the Coaching step, set Calls included to 4 (or 5 with a kickoff call), pick your call length, and set coaching to last 4 weeks.",
+                "pids": [
+                  "p258"
+                ]
+              },
+              {
+                "zh": "在\"预约\"（Booking）下，粘贴你的预约链接。",
+                "en": "Under Booking, paste your scheduling link.",
+                "pids": [
+                  "p259"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p256",
+            "p257",
+            "p258",
+            "p259",
+            "p256",
+            "p257",
+            "p258",
+            "p259"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 5,
+            "items": [
+              {
+                "zh": "在\"申请\"（Applications）下，打开\"先申请\"（People apply first）。这就是你的问卷（下面详述）。你的页面现在显示\"申请\"（Apply）而不是\"购买\"（Buy）。",
+                "en": "Under Applications, turn on People apply first. This is your questionnaire (more on that below). Your page now shows Apply instead of Buy.",
+                "pids": [
+                  "p260"
+                ]
+              },
+              {
+                "zh": "在\"首次通话前\"（Before the first call）下，添加你的入门引导问题。客户在预约前回答它们。",
+                "en": "Under Before the first call, add your onboarding questions. Clients answer them before they book.",
+                "pids": [
+                  "p261"
+                ]
+              },
+              {
+                "zh": "写一个简短的页面，涵盖痛点、结果，以及 4 次通话的内容。连接 Stripe，发布，并把它添加到你的简介链接页。",
+                "en": "Write a short page covering the pain points, the outcome, and what the 4 calls cover. Connect Stripe, publish, and add it to your link-in-bio page.",
+                "pids": [
+                  "p262"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p260",
+            "p261",
+            "p262",
+            "p260",
+            "p261",
+            "p262"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "每个客户都有自己的私人空间放通话和资料，你就不用在 Google 文档和邮件往来之间手忙脚乱了。",
+              "pids": [
+                "p263"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在的问题是：",
+              "pids": [
+                "p264"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我怎么吸引那些想付钱给我的人？",
+              "pids": [
+                "p265"
+              ]
+            }
+          ],
+          "pids": [
+            "p263",
+            "p264",
+            "p265",
+            "p263",
+            "p264",
+            "p265"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "第 4 步——怎么拿到你的第一个客户",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 10 节",
+        "title": "第 4 步——怎么拿到你的第一个客户",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第 4 步——怎么拿到你的第一个客户",
+          "note": "本节标题取自已发布正文。",
+          "en": "Step 4 - How to get your first client"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5030,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你的受众很少（或者干脆没有），一开始你得手动来做这件事。",
+              "pids": [
+                "p267"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这不是坏事。这是你学会销售的方式，也是你弄清客户真正想要什么的方式。随着时间推移，你的内容会接手，把人带到你面前。",
+              "pids": [
+                "p268"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "流程是这样的：",
+              "pids": [
+                "p269"
+              ]
+            }
+          ],
+          "pids": [
+            "p267",
+            "p268",
+            "p269",
+            "p267",
+            "p268",
+            "p269"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "瞄准你的微型服务所解决之痛点的社交帖子。它们获得注意力，打开对话之门。",
+                "en": "Social posts that target the pain points your micro service solves. These get attention and open the door to conversations.",
+                "pids": [
+                  "p270"
+                ]
+              },
+              {
+                "zh": "你的通讯，它证明你知道自己在说什么，并更深入地探讨这些痛点。",
+                "en": "Your newsletter, which proves you know what you’re talking about and goes deeper on those pain points.",
+                "pids": [
+                  "p271"
+                ]
+              },
+              {
+                "zh": "一份问卷，让人们举手表示想与你合作。",
+                "en": "A questionnaire where people raise their hand to work with you.",
+                "pids": [
+                  "p272"
+                ]
+              },
+              {
+                "zh": "与填写问卷、回复你的通讯或与你的帖子互动的人私信沟通。",
+                "en": "DMs with the people who fill it out, reply to your newsletter, or engage with your posts.",
+                "pids": [
+                  "p273"
+                ]
+              },
+              {
+                "zh": "付款链接。",
+                "en": "The link to pay.",
+                "pids": [
+                  "p274"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p270",
+            "p271",
+            "p272",
+            "p273",
+            "p274",
+            "p270",
+            "p271",
+            "p272",
+            "p273",
+            "p274"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5354,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "注意，这里没有销售页。",
+              "pids": [
+                "p275"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这让人犯糊涂。旧的商业建议是给付费广告和 SEO 打造的：陌生人冷冰冰地落在你网站上，得靠一个长长的销售页来说服他们。我们干的不是那套。你的内容已经完成了说服，你需要的只是一种办法，找出谁感兴趣，好跟他们聊。",
+              "pids": [
+                "p276"
+              ]
+            }
+          ],
+          "pids": [
+            "p275",
+            "p276",
+            "p275",
+            "p276"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "1）建你的问卷",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 11 节",
+        "title": "1）建你的问卷",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "1）建你的问卷",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "1) Build your questionnaire"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的问卷是一份简短的申请，它做三件事：",
+              "pids": [
+                "p278"
+              ]
+            }
+          ],
+          "pids": [
+            "p278",
+            "p278"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "筛掉只看不买的人。你不想和一个根本不会买的人花一个小时通话。",
+                "en": "It filters out tire kickers. You don’t want to spend an hour on a call with someone who was never going to buy.",
+                "pids": [
+                  "p279"
+                ]
+              },
+              {
+                "zh": "让人们意识到自己的痛点。好的问题会让人意识到自己卡得有多死。这正是让他们想要帮助的东西。",
+                "en": "It makes people aware of their own pain. Good questions make someone realize how stuck they are. That’s what makes them want help.",
+                "pids": [
+                  "p280"
+                ]
+              },
+              {
+                "zh": "降低压力。\"这是我的日历，预约一次销售通话\"让人望而生畏。\"填一下这份简短的表格，看看我能不能帮到你\"则不会。你会抓住很多安静但感兴趣、本来永远不会预约通话的人。",
+                "en": "It lowers the pressure. “Here’s my calendar, book a sales call” is intimidating. “Fill out this quick form to see if I can help” is not. You’ll catch a lot of quiet, interested people who would never book a call.",
+                "pids": [
+                  "p281"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p279",
+            "p280",
+            "p281",
+            "p279",
+            "p280",
+            "p281"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在顶部，写类似这样的话：",
+              "pids": [
+                "p282"
+              ]
+            }
+          ],
+          "pids": [
+            "p282",
+            "p282"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "如果你在以下方面挣扎：\n\n- [痛点]\n\n- [痛点]\n\n- [痛点]\n填写下面的问卷。如果我认为我能帮到你，我会再联系你问几个问题。"
+            }
+          ],
+          "pids": [
+            "p283"
+          ]
+        },
+        {
+          "layout": "claim",
+          "reveal": "write",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "claim",
+              "text": "然后从这份清单里挑 5–8 个问题：",
+              "pids": [
+                "p284"
+              ]
+            }
+          ],
+          "pids": [
+            "p284",
+            "p284"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "你的社交媒体账号（重要：这是你私信他们的方式）"
+            },
+            {
+              "n": "2.",
+              "text": "你做什么工作？"
+            },
+            {
+              "n": "3.",
+              "text": "你目前在[话题]方面处于什么状态？（营收、健身水平、技能水平等）"
+            },
+            {
+              "n": "4.",
+              "text": "你想在[时间范围]内到达哪里？"
+            }
+          ],
+          "pids": [
+            "p285",
+            "p286",
+            "p287",
+            "p288"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "5.",
+              "text": "你最挣扎的是什么？（多选）"
+            },
+            {
+              "n": "6.",
+              "text": "你尝试获得[结果]有多久了？"
+            },
+            {
+              "n": "7.",
+              "text": "在 1–10 分里，你对获得[结果]有多认真？"
+            },
+            {
+              "n": "8.",
+              "text": "如果我们合适，你准备好推进了吗，还是你需要别人同意？"
+            }
+          ],
+          "pids": [
+            "p289",
+            "p290",
+            "p291",
+            "p292"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "把“你最挣扎的是什么？”设成多选题，选项就用你的报价所解决的那些痛点。这是表格上最重要的一题。人们读到这些选项会想“这说的就是我”，它会替你完成销售。",
+              "pids": [
+                "p293"
+              ]
+            }
+          ],
+          "pids": [
+            "p293",
+            "p293"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在 Eden 里，这就是你在辅导产品中打开的那个申请。你最多能加 8 个问题，并标出哪些答案意味着某人不合适。每一份申请都会进到“商店 → 客户”（Store → Clients）。",
+              "pids": [
+                "p294"
+              ]
+            }
+          ],
+          "pids": [
+            "p294",
+            "p294"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "2）把它放到每一个地方",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 12 节",
+        "title": "2）把它放到每一个地方",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "2）把它放到每一个地方",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "2) Put it everywhere"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "一份没人看到的问卷毫无用处，把它放到：",
+              "pids": [
+                "p296"
+              ]
+            }
+          ],
+          "pids": [
+            "p296",
+            "p296"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你的简介链接里",
+                "en": "In your link in bio",
+                "pids": [
+                  "p297"
+                ]
+              },
+              {
+                "zh": "每封通讯的中间和结尾（\"如果你想和我一起解决这个问题，填一下这份简短的问卷，我会联系你。\"）",
+                "en": "In the middle and at the end of every newsletter (”If you want to work with me on this, fill out this quick questionnaire and I’ll reach out.”)",
+                "pids": [
+                  "p298"
+                ]
+              },
+              {
+                "zh": "瞄准你报价痛点的帖子和帖子串的结尾",
+                "en": "At the end of posts and threads that target your offer’s pain points",
+                "pids": [
+                  "p299"
+                ]
+              },
+              {
+                "zh": "你的微型产品里面（一个付了你 19 美元的人，付你 1000 美元的可能性要大得多）",
+                "en": "Inside your micro product (someone who paid you $19 is far more likely to pay you $1,000)",
+                "pids": [
+                  "p300"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p297",
+            "p298",
+            "p299",
+            "p300",
+            "p297",
+            "p298",
+            "p299",
+            "p300"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "然后每天推广一次，每一天。大多数人一个月才提一次自己的报价，还纳闷为什么没人买。",
+              "pids": [
+                "p301"
+              ]
+            }
+          ],
+          "pids": [
+            "p301",
+            "p301"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "3）开启对话，而不是推销",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 13 节",
+        "title": "3）开启对话，而不是推销",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "3）开启对话，而不是推销",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "3) Start conversations, not sales pitches"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "人们用一堆花里胡哨的私信话术，把这事搞得过于复杂，你不需要那些。",
+              "pids": [
+                "p303"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你需要的是一场有意思的对话。大多数好的对话是这么走的。",
+              "pids": [
+                "p304"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第 1 步：问他们的目标。",
+              "pids": [
+                "p305"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "人喜欢聊自己正在做的事，从那儿开始。",
+              "pids": [
+                "p306"
+              ]
+            }
+          ],
+          "pids": [
+            "p303",
+            "p304",
+            "p305",
+            "p306",
+            "p303",
+            "p304",
+            "p305",
+            "p306"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "对话都从哪来？回复你帖子的人、转发你的人、回复你通讯的人、私信你的人，还有最重要的——填了你问卷的人。",
+              "pids": [
+                "p307"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果他们填了问卷：",
+              "pids": [
+                "p308"
+              ]
+            }
+          ],
+          "pids": [
+            "p307",
+            "p308",
+            "p307",
+            "p308"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "嘿 [名字]，收到你填的问卷了。能多跟我说说你在[话题]上的目标吗？"
+            }
+          ],
+          "pids": [
+            "p309"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果他们回复了你的帖子：",
+              "pids": [
+                "p310"
+              ]
+            }
+          ],
+          "pids": [
+            "p310",
+            "p310"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "接着你在我帖子下的回复聊，因为在这里更方便跟进对话。你现在在[话题]上有在做什么吗？"
+            }
+          ],
+          "pids": [
+            "p311"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果他们回复了你的通讯，先回应他们说的话，然后：",
+              "pids": [
+                "p312"
+              ]
+            }
+          ],
+          "pids": [
+            "p312",
+            "p312"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "你现在在[话题]上在做什么？有卡住的地方吗？"
+            }
+          ],
+          "pids": [
+            "p313"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "第 2 步：给一个专家级的建议。",
+              "pids": [
+                "p314"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一旦他们说出自己的目标和拦路的东西，就亮出你懂行。给他们一条他们没听过的建议。",
+              "pids": [
+                "p315"
+              ]
+            }
+          ],
+          "pids": [
+            "p314",
+            "p315",
+            "p314",
+            "p315"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "哦不错。我上周刚帮一个人解决过这个。有效的做法是：找一个在他们话题里爆火的 YouTube 视频，把它当作通讯的话题，然后在不看那个视频的情况下写出自己的观点。好的通讯和好的视频运作方式很像。你试过类似的做法吗？"
+            }
+          ],
+          "pids": [
+            "p316"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你还没帮过任何人，就分享你自己是怎么拿到那个结果的。",
+              "pids": [
+                "p317"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第 3 步：软性推广。",
+              "pids": [
+                "p318"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "回应他们说的话，然后顺口提一下你的报价：",
+              "pids": [
+                "p319"
+              ]
+            }
+          ],
+          "pids": [
+            "p317",
+            "p318",
+            "p319",
+            "p317",
+            "p318",
+            "p319"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "如果你感兴趣，我会一对一帮人解决这个问题。我们分 4 次通话来做，我会带你写出接下来的 4 封通讯。目标是让每一封的表现都比上一封好一倍。"
+            }
+          ],
+          "pids": [
+            "p320"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5102,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "不施压，没有倒计时，只是让他们知道有这么个东西。",
+              "pids": [
+                "p321"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第 4 步：用价值跟进。",
+              "pids": [
+                "p322"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这才是赚钱的地方，因为大多数人从不跟进。",
+              "pids": [
+                "p323"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果他们没回，等 2–3 天，找一样对他们目标有帮助的东西（一个视频、一条帖子、一个帖子串）发过去：",
+              "pids": [
+                "p324"
+              ]
+            }
+          ],
+          "pids": [
+            "p321",
+            "p322",
+            "p323",
+            "p324",
+            "p321",
+            "p322",
+            "p323",
+            "p324"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "嘿，刚才在听这个，想到了你。觉得它可能对[他们的目标]有帮助。[链接]"
+            }
+          ],
+          "pids": [
+            "p325"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "还是没回？下周再跟一次；仍然没动静？那就放手。他们准备好了会回来，而回来的人数多得惊人。",
+              "pids": [
+                "p326"
+              ]
+            }
+          ],
+          "pids": [
+            "p326",
+            "p326"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "4）成交",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 14 节",
+        "title": "4）成交",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "4）成交",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "4) Close the sale"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果他们感兴趣，会问几个问题。回答完，然后：",
+              "pids": [
+                "p328"
+              ]
+            }
+          ],
+          "pids": [
+            "p328",
+            "p328"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "这是报名页面，你准备好了随时可以报。不着急：[链接]"
+            }
+          ],
+          "pids": [
+            "p329"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5336,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在 Eden 里，到“商店 → 客户”打开他们的申请，点“批准”（Approve）。Eden 会给他们发一封带付款链接的邮件，你也可以把同一个链接复制到私信里。想先聊聊？那就点“邀请通话”（Invite to a call）。一旦他们付了款，就会回答你的入门引导问题，并自己预约第一次通话。",
+              "pids": [
+                "p330"
+              ]
+            }
+          ],
+          "pids": [
+            "p330",
+            "p330"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "就这样。",
+              "pids": [
+                "p331"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这里没什么魔法。他们想买就会买，不想就不会。不是所有人都会买，这没关系。",
+              "pids": [
+                "p332"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "算笔账",
+              "pids": [
+                "p333"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "假设你这么做一个月：",
+              "pids": [
+                "p334"
+              ]
+            }
+          ],
+          "pids": [
+            "p331",
+            "p332",
+            "p333",
+            "p334",
+            "p331",
+            "p332",
+            "p333",
+            "p334"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你的帖子获得 1000–5000 次曝光（任何新手都能做到）",
+                "en": "Your posts get 1,000-5,000 impressions (any beginner can do this)",
+                "pids": [
+                  "p335"
+                ]
+              },
+              {
+                "zh": "30–40 个人填写了你的问卷",
+                "en": "30-40 people fill out your questionnaire",
+                "pids": [
+                  "p336"
+                ]
+              },
+              {
+                "zh": "你另外给 20–30 个点赞、回复或分享了你帖子的人发私信",
+                "en": "You message 20-30 more people who liked, replied to, or shared your posts",
+                "pids": [
+                  "p337"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p335",
+            "p336",
+            "p337",
+            "p335",
+            "p336",
+            "p337"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6398,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "付出这么多努力，我很难相信你找不到 5 个人，各付你 1000 美元。",
+              "pids": [
+                "p338"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "那就是一个月 5000 美元，一个人，没有网站、没有团队、没有广告预算。",
+              "pids": [
+                "p339"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而且每天只需要 1–2 小时：写帖子、推广问卷、查看申请、开启 3–5 场对话。",
+              "pids": [
+                "p340"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "给它 2–3 个月。哪怕只有一个人付钱，你也证明了需求存在。然后你可以提价，把通话变成一门课程，或者打造你真正想做的产品——因为现在你确切地知道，人们愿意为什么付钱。",
+              "pids": [
+                "p341"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这就是软富有。",
+              "pids": [
+                "p342"
+              ]
+            }
+          ],
+          "pids": [
+            "p338",
+            "p339",
+            "p340",
+            "p341",
+            "p342",
+            "p338",
+            "p339",
+            "p340",
+            "p341",
+            "p342"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5570,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】@Willydqnr（0 赞）| https://x.com/Willydqnr/status/2110057386870522305\n\"从第一天就开始变现\"这部分让我很有共鸣。太多创作者要等到自己\"足够大\"——但只要报价解决的是一个真实的问题，哪怕一批很小的受众也能撑起一个数字产品。\n（另有 1 条评论 @eliadeleoai 插入在第 1 步\"宽泛话题\"段落之后。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "完整课程：\n如何把你的兴趣变成一门赚钱的生活方式生意",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "网红已死，体验时代已经到来",
+              "href": "22.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/21.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

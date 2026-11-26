@@ -1,0 +1,2884 @@
+{
+  "meta": {
+    "id": "05",
+    "kind": "dankoe",
+    "title": "完全指南：如何随时开启极致专注",
+    "en": "Full guide: how to unlock extreme focus on command",
+    "kicker": "第 5 篇 · 2026-01-18 · 约 26 分钟",
+    "citation": "原题：Full guide: how to unlock extreme focus on command<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-18 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2012956603297964167\">https://x.com/thedankoe/status/2012956603297964167</a>",
+    "classic": "../classic/05.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "04",
+      "title": "如何聪明地表达自己",
+      "href": "04.html"
+    },
+    "next": {
+      "id": "06",
+      "title": "当工作失去意义时，工作的未来",
+      "href": "06.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "完全指南：如何随时开启极致专注",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 5 篇",
+        "title": "完全指南：\n如何随时开启极致专注",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 5 篇 · 2026-01-18 · 约 26 分钟",
+          "title": "完全指南：\n如何随时开启极致专注",
+          "en": "Full guide: how to unlock extreme focus on command",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-01-18  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：Full guide: how to unlock extreme focus on command<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-18 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2012956603297964167\">https://x.com/thedankoe/status/2012956603297964167</a>"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5210,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你还远没体验到自己能力的极限。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而一旦你学会怎么释放这股力量，就能做成大多数人觉得不可能的事。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "不幸的是，大多数人对成功的理解完全反了。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们以为，要看到任何结果，就得像自己最喜欢的企业家那样每天苦干 12 小时。",
+              "pids": [
+                "p4"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5570,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "现实是，你有自己的责任。我懂。你们中有些人没法凭空变出时间。你可能有工作、有孩子、有伴侣。这些都重要。也就是说，你每天大概只有一个小时能投到更好的未来上。",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这其实是好事，因为 365 个小时足够彻底改变你的人生。",
+              "pids": [
+                "p6"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "每天一小时。",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一个有意义的项目。",
+              "pids": [
+                "p8"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "一个关于未来的愿景。",
+              "pids": [
+                "p9"
+              ]
+            }
+          ],
+          "pids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7532,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你能花 8 小时建造别人的梦想，就能花 1 小时建造自己的。",
+              "pids": [
+                "p10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你空余时间更多，那更好，但别以为你\"需要更多时间\"。你需要的是一种深刻的清晰感，让你把现有的时间用到极致。而且你需要感觉到，你的努力正在给人生带来改变。",
+              "pids": [
+                "p11"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我注意到一种规律：那些成功了、却没为成功牺牲生活的创意人和 CEO，体力上干得很少，可人们却把他们看作勤奋的人。在头脑里，他们一直在想、在谋划、在筹算。他们在脑子里工作。一旦想法清晰了，他们就以别人赶不上的速度去执行。",
+              "pids": [
+                "p12"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "生产力就像健身。你不会不吃不睡、每天练 8 小时，还指望有进步。头脑也一样。",
+              "pids": [
+                "p13"
+              ]
+            }
+          ],
+          "pids": [
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p10",
+            "p11",
+            "p12",
+            "p13"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "据此，工作分 3 种：",
+              "pids": [
+                "p14"
+              ]
+            }
+          ],
+          "pids": [
+            "p14",
+            "p14"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "建造（Building）——高强度的深度工作爆发期，把一个项目变为现实，比如一个产品、一项服务或一个品牌。",
+                "en": "Building – Intense bursts of deep work to bring a project to life, like a product, service, or brand.",
+                "pids": [
+                  "p15"
+                ]
+              },
+              {
+                "zh": "维护（Maintenance）——你已经系统化了的、持续且往往重复的工作，用来维持你建起来的东西继续运转，比如营销或客户服务。",
+                "en": "Maintenance – Consistent and often repetitive work that you've systemized to keep what you built alive, like marketing or customer service.",
+                "pids": [
+                  "p16"
+                ]
+              },
+              {
+                "zh": "恢复（Recovery）——几乎所有人都忽视的潜意识工作。也就是休息、闲暇，以及摆脱狭窄聚焦带来的压力——正是这些让突破性的想法得以成形，塑造你未来的工作。",
+                "en": "Recovery – Subconscious work that almost everyone ignores. The rest, leisure, and lack of narrow focused stress that allows breakthrough ideas to form the future of your work.",
+                "pids": [
+                  "p17"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p15",
+            "p16",
+            "p17",
+            "p15",
+            "p16",
+            "p17"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5264,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "所以，你的目标是每天建造一小时，直到你能全职追求自己想要的东西。然后，你再开始考虑过渡到维护工作。",
+              "pids": [
+                "p18"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但你要建造什么？",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你怎么穿透那些干扰、还有那个像敌人一样的内心声音？",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你从哪里找到源源不断的动力，每天出现在工作面前？",
+              "pids": [
+                "p21"
+              ]
+            }
+          ],
+          "pids": [
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p18",
+            "p19",
+            "p20",
+            "p21"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6812,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些问题的答案，很大程度上决定了你的人生。",
+              "pids": [
+                "p22"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "关于深度生产力，我有 6 个观点想分享。不只是\"坐下来干活\"——这话已经被说烂了，而且显然没解决所有人的问题。你需要的是理解。我们要剖析专注的心理学、干扰是怎么运作的，最后再给你一套流程，让你每天这一小时真正产生价值。",
+              "pids": [
+                "p23"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这会很全面。一堂完整的专注大师课，让你从一篇文章里拿到 10 本书的知识。",
+              "pids": [
+                "p24"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我希望读完之后，你别无选择，只能对自己想从人生中得到什么、怎么得到它，感到清晰。",
+              "pids": [
+                "p25"
+              ]
+            }
+          ],
+          "pids": [
+            "p22",
+            "p23",
+            "p24",
+            "p25",
+            "p22",
+            "p23",
+            "p24",
+            "p25"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "正因如此，这篇会很长。我只求你投入全部注意力。如果你现在没时间，就收藏起来，回头再读。",
+              "pids": [
+                "p26"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我们开始吧。",
+              "pids": [
+                "p27"
+              ]
+            }
+          ],
+          "pids": [
+            "p26",
+            "p27",
+            "p26",
+            "p27"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "一、为什么坐下来干活这么难",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "一、为什么坐下来干活这么难",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "一、为什么坐下来干活这么难",
+          "note": "本节标题取自已发布正文。",
+          "en": "I – Why it's so hard to sit down and do the work"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "内在体验的最佳状态，是意识中存在秩序的状态。当心理能量——或者说注意力——被投入到现实的目标中，并且技能与行动机会相匹配时，这种状态就会出现。追求目标会给意识带来秩序，因为一个人必须把注意力集中在手头的任务上，暂时忘掉其他一切。",
+              "attr": "——米哈里·契克森米哈赖（Mihaly Csikszentmihalyi）"
+            }
+          ],
+          "pids": [
+            "p29"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5786,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的心智是一台运行着\"人生游戏\"的超级计算机。",
+              "pids": [
+                "p30"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的注意力（一种极其稀缺的资源）就是内存（RAM）。",
+              "pids": [
+                "p31"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "给不懂技术的人解释一下，RAM 的意思是\"随机存取存储器\"。它决定了计算机的性能。",
+              "pids": [
+                "p32"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你打开的程序和浏览器标签页越多，电脑就越慢。心智也是这么运作的，但有个重要前提……你的心智能处理的信息量有个上限。",
+              "pids": [
+                "p33"
+              ]
+            }
+          ],
+          "pids": [
+            "p30",
+            "p31",
+            "p32",
+            "p33",
+            "p30",
+            "p31",
+            "p32",
+            "p33"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8342,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "人类每秒大约能处理 50 比特的有意识信息。无意识心智每秒大约能处理 1100 万比特（用来走路、感知、调用储存的习惯或模式之类的事），不过这不是重点。",
+              "pids": [
+                "p34"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "换句话说，全加起来，你一生大约有 1250 亿比特信息可以\"用掉\"。就这么多。这就是你的潜力。你给予注意力的每一件事，都会让这个数字少一点。这该让你害怕。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "可悲的是，大多数人同时跑着好几个高负载程序。难怪他们没法专注。他们的注意力被撕成几块：对过去犯下的错的懊悔、对未来一堆压力重重任务的担心、为了躲开前两者而对享乐和娱乐的渴望，还有那些本该做完却忘了的任务留下的\"未闭合回路\"（open loops）（说的就是你们这些忘了倒垃圾的哥们）。",
+              "pids": [
+                "p36"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "干扰的清单还长着呢，而这正是危险所在。",
+              "pids": [
+                "p37"
+              ]
+            }
+          ],
+          "pids": [
+            "p34",
+            "p35",
+            "p36",
+            "p37",
+            "p34",
+            "p35",
+            "p36",
+            "p37"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5732,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你懂熵（entropy），就明白：你要是对自己的人生什么都不做，它只会变得越来越乱、越来越让人招架不住。",
+              "pids": [
+                "p38"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你不会保持原样。",
+              "pids": [
+                "p39"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你不费吹灰之力，就会在泥潭里越陷越深。",
+              "pids": [
+                "p40"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "美好的生活需要你朝着自己的目标持续用力。你知道那种感觉：一切都对上了，你进入一段充实到忘我的工作。我想告诉你怎么复制它。",
+              "pids": [
+                "p41"
+              ]
+            }
+          ],
+          "pids": [
+            "p38",
+            "p39",
+            "p40",
+            "p41",
+            "p38",
+            "p39",
+            "p40",
+            "p41"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8882,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "给好奇的人解释一下，熵是物理学里最基本的原理之一。简单说，事物处于无序状态的方式，远远多过处于有序状态的方式，所以系统会自然趋向更乱、往往更混沌的状态。要保持有序，就得投入能量。",
+              "pids": [
+                "p42"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "举个日常的例子：你不花精力维护书架，书就会散落在你家各处、你朋友家，还有你想都想不到的地方。你越久不整理，等终于决定整理时，就越费劲。",
+              "pids": [
+                "p43"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "再比如，你不花精力打扫房间，它就会慢慢越来越乱，直到有一天你上班迟到——因为你那双好袜子压在上周的披萨盒底下。",
+              "pids": [
+                "p44"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "于是，心理熵（psychic entropy，也就是心智趋向无序）就成了看待专注和干扰的一个有用隐喻。这对创造力可能有用，我们谈到一种更好的日常安排时会讲；但就专注工作而言，你为什么没法聚焦在一件事上，原因就很明显了。",
+              "pids": [
+                "p45"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你没有生产力，是因为你没有清晰感。",
+              "pids": [
+                "p46"
+              ]
+            }
+          ],
+          "pids": [
+            "p42",
+            "p43",
+            "p44",
+            "p45",
+            "p46",
+            "p42",
+            "p43",
+            "p44",
+            "p45",
+            "p46"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你没有清晰感，是因为你任由注意力飘向一个干扰，然后不知不觉，你的头脑就像一场兄弟会派对的尾声：到处都是醉倒的人，你甚至不知道从哪儿开始收拾。",
+              "pids": [
+                "p47"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "好消息是，解法很简单，但很有力。",
+              "pids": [
+                "p48"
+              ]
+            }
+          ],
+          "pids": [
+            "p47",
+            "p48",
+            "p47",
+            "p48"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "二、如何随时开启惊人的专注力",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "二、如何随时开启惊人的专注力",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "二、如何随时开启惊人的专注力",
+          "note": "本节标题取自已发布正文。",
+          "en": "II – How to unlock insane focus on command"
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/05_1.jpg",
+            "alt": "心流模型：挑战与技能高低组合出的八个状态"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "清晰（Clarity）、重要（Importance）、紧迫（Urgency）。",
+              "pids": [
+                "p50"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些是关键要素，挡住干扰，不让它们钻进你的心智。这些是深度专注工作的必要条件。",
+              "pids": [
+                "p51"
+              ]
+            }
+          ],
+          "pids": [
+            "p50",
+            "p51",
+            "p50",
+            "p51"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "要获得清晰，你需要选择一项有足够挑战性、足以带来新鲜感的任务。",
+                "en": "To gain clarity, you need to choose a task that is challenging enough to be novel.",
+                "pids": [
+                  "p52"
+                ]
+              },
+              {
+                "zh": "如果这项任务让你不知所措，你需要把它分解成你确实清楚的子目标。然后，你去执行，并习得让你能继续推进主任务的技能。",
+                "en": "If that task overwhelms you, you need to break the task down into sub-goals that you do have clarity on. Then, you execute and acquire the skill that allows you to continue moving to the main task.",
+                "pids": [
+                  "p53"
+                ]
+              },
+              {
+                "zh": "要找到\"重要\"的东西，你需要完全理解：（1）如果不实现这个目标，你的人生最终会落到哪里；（2）如果实现了这个目标，你的潜力可以达到什么程度。",
+                "en": "For you to find something important, you need to fully understand (1) where your life will end up without achieving the goal and (2) what your potential could be if you achieved the goal.",
+                "pids": [
+                  "p54"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p52",
+            "p53",
+            "p54",
+            "p52",
+            "p53",
+            "p54"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6236,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "紧迫，是让你现在、而不是待会儿就坐下来工作的东西。不过这一切的具体流程，我们几段之后会讲。",
+              "pids": [
+                "p55"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "进入心流状态（flow state）——也就是最理想的体验状态——最简单的公式，是确保你接手的挑战刚好略高于你的技能水平。",
+              "pids": [
+                "p56"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为你想想看。",
+              "pids": [
+                "p57"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果一个目标的挑战对你的技能来说太高，你就会焦虑。太低，你就会无聊。在电子游戏里，你 1 级时不会去挑战 100 级的角色。那肯定不好玩。",
+              "pids": [
+                "p58"
+              ]
+            }
+          ],
+          "pids": [
+            "p55",
+            "p56",
+            "p57",
+            "p58",
+            "p55",
+            "p56",
+            "p57",
+            "p58"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8468,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "想象你在上班。工作重复，一点挑战都没有。你无聊，而无聊会让你变得以自我为中心。你的专注断了，开始想自己本可以去做的更好的事。",
+              "pids": [
+                "p59"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在想象你被迫在一千人面前演讲。你从没练过。这让你招架不住，于是你焦虑。焦虑导致自我意识过剩。你的注意力转向内在，负面念头涌进脑海，告诉你自己有多不够好。",
+              "pids": [
+                "p60"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但这些并不总是坏事。",
+              "pids": [
+                "p61"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "只有在你想专注时，它们才是敌人。而问题恰恰在这儿……人们并没有专注于那些真能创造他们想要生活的任务。他们卡在\"执行模式\"（doing mode）里（一种狭窄的压力状态，让你察觉不到可能改变人生的想法或机会），还觉得自己要是不高效产出就毫无价值——因为社会已经说服了他们，生产力是最高价值。",
+              "pids": [
+                "p62"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "事实上，无聊可以是通往新奇的大门。",
+              "pids": [
+                "p63"
+              ]
+            }
+          ],
+          "pids": [
+            "p59",
+            "p60",
+            "p61",
+            "p62",
+            "p63",
+            "p59",
+            "p60",
+            "p61",
+            "p62",
+            "p63"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5354,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "焦虑也完全可能就是你实现终极创造力需要的那种混乱。",
+              "pids": [
+                "p64"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你没法独自在房间里待着，这很可能就是你大多数问题的根源。（译注：此句化用帕斯卡\"人类所有的不幸都源于不能安静地独坐在房间里\"。）",
+              "pids": [
+                "p65"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "那么，缺了什么？",
+              "pids": [
+                "p66"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "答案在于：每个人都工作得太多了。",
+              "pids": [
+                "p67"
+              ]
+            }
+          ],
+          "pids": [
+            "p64",
+            "p65",
+            "p66",
+            "p67",
+            "p64",
+            "p65",
+            "p66",
+            "p67"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "三、高度成功的创意人的日常安排",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "三、高度成功的创意人的日常安排",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "三、高度成功的创意人的日常安排",
+          "note": "本节标题取自已发布正文。",
+          "en": "III – The routines of highly successful creatives"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "下午，用书籍、学习和社交填满你的大脑\n睡前，用写日记、做计划和冥想清空你的大脑\n早上，用创造、产出和专注使用你的大脑"
+            }
+          ],
+          "pids": [
+            "p69"
+          ]
+        },
+        {
+          "layout": "claim",
+          "reveal": "write",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "claim",
+              "text": "我一直对西方的工作文化有种反感。",
+              "pids": [
+                "p70"
+              ]
+            }
+          ],
+          "pids": [
+            "p70",
+            "p70"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "每周工作 80 小时",
+                "en": "80-hour work weeks",
+                "pids": [
+                  "p71"
+                ]
+              },
+              {
+                "zh": "高压环境",
+                "en": "High-pressure environments",
+                "pids": [
+                  "p72"
+                ]
+              },
+              {
+                "zh": "几乎没有休息和恢复的时间",
+                "en": "Little time for rest and recovery",
+                "pids": [
+                  "p73"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p71",
+            "p72",
+            "p73",
+            "p71",
+            "p72",
+            "p73"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9170,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在我看来，这从来都不\"对\"。它是机械的。机器人式的。没有灵魂的。我为什么要为我不喜欢的人、做我不喜欢的事，同时还清清楚楚知道我的行动对我的未来毫无贡献？因为如果它们有贡献，我工作起来就不会有问题——那感觉就不像工作了。",
+              "pids": [
+                "p74"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人把过度工作当荣誉勋章戴着。",
+              "pids": [
+                "p75"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但我们真正记得住的那些艺术家、创意人和远见者，根本没参加这场想象出来的竞赛。",
+              "pids": [
+                "p76"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "举个例子，古希腊人把休息看作一种馈赠。它是文明生活的顶峰。几乎每个古代社会都认识到，工作和休息对美好生活都必不可少。一个提供活下去的手段，另一个赋予生活意义。直到工业化，朝九晚五的工作才出现，而如今我们已经没法想象换一种活法。在那之前，大多数人是自雇的农民和手艺人。他们主导自己的工作——随着 AI 持续加速把工作自动化，这将成为每个人必须做出的一个关键决定。",
+              "pids": [
+                "p77"
+              ]
+            }
+          ],
+          "pids": [
+            "p74",
+            "p75",
+            "p76",
+            "p77",
+            "p74",
+            "p75",
+            "p76",
+            "p77"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们逆向拆解高度成功的创意人的生活方式，会看到同样的规律。",
+              "pids": [
+                "p78"
+              ]
+            }
+          ],
+          "pids": [
+            "p78",
+            "p78"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/05_2.jpg",
+            "alt": "26 位著名创意人的作息时间表"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7352,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "他们并没有每天苦干 16 个小时（嗯，有时候确实会，但那是因为他们自己选择这么干，不是被迫，这有天壤之别）。",
+              "pids": [
+                "p79"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "事实上，他们大部分时间都在闲暇里度过，可他们为社会贡献了一些最重要的思想，影响着我们今天的生活。他们在泳池边躺平、打网球，或者在苹果园区里踱步，因为他们是少数意识到大脑在休息时会发生什么的人。他们最好的\"工作\"，正是在那时完成的。",
+              "pids": [
+                "p80"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "（顺便说一句，我说的\"休息\"不是泡泡浴和红酒。大多数人用廉价的享乐来逃避他们讨厌的生活，还把这叫作休息。）",
+              "pids": [
+                "p81"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "注意力转向内在时，休息才真正发生。",
+              "pids": [
+                "p82"
+              ]
+            }
+          ],
+          "pids": [
+            "p79",
+            "p80",
+            "p81",
+            "p82",
+            "p79",
+            "p80",
+            "p81",
+            "p82"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7532,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当你不再专注外部任务，大脑会自动切换到默认模式网络（Default Mode Network），它连接着大脑中与视觉思维和创造力相关的区域。",
+              "pids": [
+                "p83"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "有意思的是，我们的大脑在这种模式下消耗的能量并没少多少。也就是说，你休息的时候，大脑仍在工作，而且干得相当卖力。这就是成功创意人的秘密。他们主动给自己休息，因为社会不会给他们；他们的大脑会迸发出各种想法，他们赶紧记下来。然后，到了深度专注的时段，就把这些想法用在一个通向渴望未来的有意义项目上，把它们变成现实。",
+              "pids": [
+                "p84"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因此，最好的日常安排并不来自你最近听的那期播客。它来自 3 项活动。",
+              "pids": [
+                "p85"
+              ]
+            }
+          ],
+          "pids": [
+            "p83",
+            "p84",
+            "p85",
+            "p83",
+            "p84",
+            "p85"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "一项填满你的头脑——你需要教育、观念和新颖的资源，以便应用到你的目标上。这会带来内在动机。",
+                "en": "One that fills your mind – you need education, ideas, and novel resources you can apply toward your goals. This leads to intrinsic motivation.",
+                "pids": [
+                  "p86"
+                ]
+              },
+              {
+                "zh": "一项清空你的头脑——你不想被困在一个由各种念头和有用想法组成的混乱泡泡里。那正是你毫无进展的原因。把东西写下来。",
+                "en": "One that empties your mind – you don’t want to be trapped in a chaotic bubble of thoughts and useful ideas. That’s exactly how you make zero progress. Write things down.",
+                "pids": [
+                  "p87"
+                ]
+              },
+              {
+                "zh": "一项使用你的头脑——你需要一个载体来集中你的努力。一个项目。一门生意。一样属于你自己的、能让你应用所学和想法的东西。",
+                "en": "One that uses your mind – you need a vessel to focus your efforts. A project. A business. Something of your own that you can apply your education and ideas to.",
+                "pids": [
+                  "p88"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p86",
+            "p87",
+            "p88",
+            "p86",
+            "p87",
+            "p88"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们会讲最后一项，让你能进入深度专注工作的状态；但现在，我允许你休息，因为正是休息让你的工作有冲击力。",
+              "pids": [
+                "p89"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "去散个步。",
+              "pids": [
+                "p90"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "开车去树林里待一天。",
+              "pids": [
+                "p91"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "拿出个笔记本，想象一个更好的未来。",
+              "pids": [
+                "p92"
+              ]
+            }
+          ],
+          "pids": [
+            "p89",
+            "p90",
+            "p91",
+            "p92",
+            "p89",
+            "p90",
+            "p91",
+            "p92"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当然，这些听着都挺美，但它还是帮不了那些不知道该做什么的人。尤其帮不了那些没动力迈入新生活的人。",
+              "pids": [
+                "p93"
+              ]
+            }
+          ],
+          "pids": [
+            "p93",
+            "p93"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "四、想让人生改变，你就得够极端",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "四、想让人生改变，你就得够极端",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "四、想让人生改变，你就得够极端",
+          "note": "本节标题取自已发布正文。",
+          "en": "IV – You need to be extreme if you want your life to change"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我人生中有几个时刻，记得特别清楚。",
+              "pids": [
+                "p95"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它们总是遵循同样的模式。",
+              "pids": [
+                "p96"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "首先，我对自己毫无进展感到一种张力。我知道必须有所改变。",
+              "pids": [
+                "p97"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "其次，这种张力变得无法忍受。我知道我正在辜负未来的自己。",
+              "pids": [
+                "p98"
+              ]
+            }
+          ],
+          "pids": [
+            "p95",
+            "p96",
+            "p97",
+            "p98",
+            "p95",
+            "p96",
+            "p97",
+            "p98"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5300,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "第三，我消失了。我从零开始。我的生活似乎在一瞬间翻转，我进入了一段对某个目标深度痴迷的时期。",
+              "pids": [
+                "p99"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我想弄懂这个过程，于是去找答案。以下是我的发现。",
+              "pids": [
+                "p100"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "1）走极端会改变你的大脑",
+              "pids": [
+                "p101"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "\"一起放电的神经元，会连接在一起。\"（Neurons that fire together, wire together.）",
+              "pids": [
+                "p102"
+              ]
+            }
+          ],
+          "pids": [
+            "p99",
+            "p100",
+            "p101",
+            "p102",
+            "p99",
+            "p100",
+            "p101",
+            "p102"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6614,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这是赫布定律（Hebb's Law），一句著名的说法，概括了一个与神经可塑性有关的神经心理学理论。",
+              "pids": [
+                "p103"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你可能知道，神经可塑性是指你的大脑在一生中通过形成新的神经连接来重新布线的能力。你的大脑不是固定不变、僵硬死板的。它能根据你的经历、想法和行动去适应、学习、改变。",
+              "pids": [
+                "p104"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在改变人生这件事上走极端，能加快这个过程。",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "人们大声喊\"坚持是关键\"，这没错——重复会通过持续的努力强化神经通路——但我们能再往前走一步。",
+              "pids": [
+                "p106"
+              ]
+            }
+          ],
+          "pids": [
+            "p103",
+            "p104",
+            "p105",
+            "p106",
+            "p103",
+            "p104",
+            "p105",
+            "p106"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5390,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "新奇和挑战会更强烈地刺激神经可塑性。",
+              "pids": [
+                "p107"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，当你拨动开关、全力以赴追一个目标时，你就把大脑放进了一个能迅速适应的环境，帮这种状态变成你的新标准。",
+              "pids": [
+                "p108"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "2）强度和痴迷会调出一种神经化学\"鸡尾酒\"",
+              "pids": [
+                "p109"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人陷入停滞，是因为他们去找外在的激励。",
+              "pids": [
+                "p110"
+              ]
+            }
+          ],
+          "pids": [
+            "p107",
+            "p108",
+            "p109",
+            "p110",
+            "p107",
+            "p108",
+            "p109",
+            "p110"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "但当你处在我们要讨论的那种痴迷状态里，推动你的是内在的激励。",
+              "pids": [
+                "p111"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它们层层叠加、彼此强化，以一种能维持某种程度心流的方式（心流就是最佳体验，最令人享受的心智状态之一）：",
+              "pids": [
+                "p112"
+              ]
+            }
+          ],
+          "pids": [
+            "p111",
+            "p112",
+            "p111",
+            "p112"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7856,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "好奇心（Curiosity）——探索未知、学习如何改变、填补知识空白的渴望。会带来来自新奇感的\"好的多巴胺\"，以及能提升注意力、让你做好学习准备的去甲肾上腺素。",
+                "en": "Curiosity – The desire to explore the unknown, learn how to change, and fill knowledge gaps. Results in good dopamine from novelty and norepinephrine which heightens attention preparing you to learn.",
+                "pids": [
+                  "p113"
+                ]
+              },
+              {
+                "zh": "热情（Passion）——对那条能让你改变人生的道路建立起强烈的热忱。带来更多好的多巴胺和去甲肾上腺素。",
+                "en": "Passion – An intense enthusiasm is built for the path that allows you to change your life. Results in more good dopamine and norepinephrine.",
+                "pids": [
+                  "p114"
+                ]
+              },
+              {
+                "zh": "使命（Purpose）——感觉你的行动在为某种比你自身更大的东西做贡献。实现目标会带来更多多巴胺，从而强化行为。血清素来自意义感和归属感。催产素来自连接。",
+                "en": "Purpose – The feeling that your actions contribute to something larger than yourself. Achieving goals results in more dopamine which reinforces behavior. Serotonin stems from significance and belonging. Oxytocin stems from connection.",
+                "pids": [
+                  "p115"
+                ]
+              },
+              {
+                "zh": "自主（Autonomy）——主导自己的生活和工作的渴望。掌控自己的选择、行动和环境。又一次带来更多多巴胺，并降低皮质醇（那种被装进盒子里的压力），让你能做出有创造性的决定。",
+                "en": "Autonomy – The desire to direct your own life and work. To control your choices, actions, and environment. Results in yet again more dopamine and a reduction in cortisol (the stress from feeling put in a box), allowing for creative decision making.",
+                "pids": [
+                  "p116"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p113",
+            "p114",
+            "p115",
+            "p116",
+            "p113",
+            "p114",
+            "p115",
+            "p116"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 5,
+            "items": [
+              {
+                "zh": "精通（Mastery）——学习和成长的过程本身就是回报。带来可持续的好的多巴胺，让你一直留在游戏里。",
+                "en": "Mastery – The process of learning and growing is its own reward. Results in sustainable good dopamine that keeps you in the game.",
+                "pids": [
+                  "p117"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p117",
+            "p117"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5498,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你从好奇和实验开始，直到找到一样东西，把你拉得更深。",
+              "pids": [
+                "p118"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "投入足够多的努力后，你就会对这个目标产生热情。热情不是你直接选出来的。",
+              "pids": [
+                "p119"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你把这份热情挂在某种比你自身更大的东西上——一个使命。",
+              "pids": [
+                "p120"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你脱离默认路径，习得让你自主、主导自己工作的技能，往往是通过创业。",
+              "pids": [
+                "p121"
+              ]
+            }
+          ],
+          "pids": [
+            "p118",
+            "p119",
+            "p120",
+            "p121",
+            "p118",
+            "p119",
+            "p120",
+            "p121"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5012,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你从浅层的理由（赚钱之类）转向一种哲学意义上的精通感，让你能一直留在游戏里。",
+              "pids": [
+                "p122"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "等我们把这些融进每天的专注工作时段，你就会明白它们是怎么起作用的。",
+              "pids": [
+                "p123"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "3）你的心智会按你痴迷的东西来过滤现实",
+              "pids": [
+                "p124"
+              ]
+            }
+          ],
+          "pids": [
+            "p122",
+            "p123",
+            "p124",
+            "p122",
+            "p123",
+            "p124"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "一个把自己看作\"失败型人格\"的人，无论他多么用心良苦、多么有意志力，哪怕机会真的砸到他腿上，他也总会找到某种方式失败。一个把自己看作不公的受害者、\"注定要受苦\"的人，也必然会找到各种情境来印证他的看法。",
+              "attr": "——麦克斯威尔·马尔茨（Maxwell Maltz）"
+            }
+          ],
+          "pids": [
+            "p125"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6416,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的大脑靠一个显著性网络（salience network）运作。",
+              "pids": [
+                "p126"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "也就是说，谁提供最多的多巴胺，谁就变得最重要。",
+              "pids": [
+                "p127"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对我们的祖先来说，唯一的目标就是交配和生存。那才是他们看重的。他们的心智倾向于留意稀缺资源，比如脂肪、糖或盐。",
+              "pids": [
+                "p128"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在今天这个世界，企业和社交媒体公司劫持了我们大脑的这一部分。数字化的脂肪、糖和盐。他们没完没了地研究这个机制怎么运作，再把它武器化，好把你留在他们的平台上。",
+              "pids": [
+                "p129"
+              ]
+            }
+          ],
+          "pids": [
+            "p126",
+            "p127",
+            "p128",
+            "p129",
+            "p126",
+            "p127",
+            "p128",
+            "p129"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6776,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这就导致了我们如今身处的\"廉价多巴胺流行病\"。",
+              "pids": [
+                "p130"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们的大脑过去会指出那些能让我们生存、繁荣的资源，可现在干扰太多，我们被困在一个让人喘不过气的虚无泡泡里。除非我们一把撕掉创可贴、全神贯注在一个自己选的目标上，否则生活只会变得糟得多。",
+              "pids": [
+                "p131"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，当你痴迷于那个目标时，心智开始愈合，你新长出来的好奇心，会带你走向实现你那版独特成功所需的知识、技能和行动。",
+              "pids": [
+                "p132"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就引出了：怎么安排你的生活，把这个效应放到最大。",
+              "pids": [
+                "p133"
+              ]
+            }
+          ],
+          "pids": [
+            "p130",
+            "p131",
+            "p132",
+            "p133",
+            "p130",
+            "p131",
+            "p132",
+            "p133"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "五、改变了我人生的深度工作日常",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "五、改变了我人生的深度工作日常",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "五、改变了我人生的深度工作日常",
+          "note": "本节标题取自已发布正文。",
+          "en": "V – The deep work routine that changed my life"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5498,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你需要一套日常安排（routine）。",
+              "pids": [
+                "p135"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你觉得自己不需要，那可能是没意识到：你早就有一套不是自己建的日常安排。是你父母、老师、雇主和社会给你建的。",
+              "pids": [
+                "p136"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "又或者，你的\"日常安排\"就是没有日常安排——而这本身仍然是一种日常安排。",
+              "pids": [
+                "p137"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但我们要的不是随便什么老套的日常安排。",
+              "pids": [
+                "p138"
+              ]
+            }
+          ],
+          "pids": [
+            "p135",
+            "p136",
+            "p137",
+            "p138",
+            "p135",
+            "p136",
+            "p137",
+            "p138"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们要确保你做的事，真正在推着你朝想要的生活走。",
+              "pids": [
+                "p139"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "尤其是当你只有一个小时空闲的时候。",
+              "pids": [
+                "p140"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "下面的流程会帮你判断，什么值得你花那一个小时。",
+              "pids": [
+                "p141"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "除此之外，我强烈建议你在一整天里都有意识地休息。",
+              "pids": [
+                "p142"
+              ]
+            }
+          ],
+          "pids": [
+            "p139",
+            "p140",
+            "p141",
+            "p142",
+            "p139",
+            "p140",
+            "p141",
+            "p142"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7478,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "就我个人而言，我把每天排成一个优先级阶梯。",
+              "pids": [
+                "p143"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "早上第一件事就是写作，因为那是我杠杆最高的任务。在我的生意里，我是管分发的那个。公司的成功，取决于我的写作出色到什么程度。1 条帖子就能触达数百万人——这是荒谬级别的杠杆（当然，不是每次都这样）。",
+              "pids": [
+                "p144"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对别人来说，尤其是还没走上自己道路的人，打造产品可能才是那一小时最重要的任务。等产品建好了（记住，工作有 3 种——建造、维护、恢复），他们就可以开始调整优先级。",
+              "pids": [
+                "p145"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我倾向于把工作时段分成两种——生产力时段和创造力时段。两种完全不同的专注模式。一种狭窄，一种开放。",
+              "pids": [
+                "p146"
+              ]
+            }
+          ],
+          "pids": [
+            "p143",
+            "p144",
+            "p145",
+            "p146",
+            "p143",
+            "p144",
+            "p145",
+            "p146"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6200,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "早上第一件事，我在第一个时段做优先级最高的任务，然后去散步，当作创造力时段（还记得大脑里的默认模式网络吧）。散步时，有时我读书，有时我思考，有时我试着解决一个问题。然后我把这个过程再重复几轮，直到当天的活干完。这成了一道\"别再想工作\"的硬截止点，让我的头脑去做它最擅长的事。",
+              "pids": [
+                "p147"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "说完这些，下面就是开启一段朝目标高强度进步时期的流程。",
+              "pids": [
+                "p148"
+              ]
+            }
+          ],
+          "pids": [
+            "p147",
+            "p148",
+            "p147",
+            "p148"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/05_3.jpg",
+            "alt": "七层金字塔：愿景、反愿景、使命、目标、项目、学习、杠杆"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "1）愿景与反愿景（Vision & Anti Vision）",
+              "pids": [
+                "p149"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "对 2 件事保持残酷的清醒：",
+              "pids": [
+                "p150"
+              ]
+            }
+          ],
+          "pids": [
+            "p149",
+            "p150",
+            "p149",
+            "p150"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你不想要什么",
+                "en": "What you don't want",
+                "pids": [
+                  "p151"
+                ]
+              },
+              {
+                "zh": "如果你继续采取同样的行动，你最终会落到哪里",
+                "en": "Where you will end up if you keep taking the same actions",
+                "pids": [
+                  "p152"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p151",
+            "p152",
+            "p151",
+            "p152"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6200,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "观察大众，看看没脑子的行动会把人带到哪儿去。那可不好看。在这儿静静地跟自己的想法待一会儿。知道自己不想要什么（来自经验），比知道自己想要什么（来自想象）容易。",
+              "pids": [
+                "p153"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，为你的未来造一个反愿景。",
+              "pids": [
+                "p154"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "拿个笔记本坐下来，写得具体点。",
+              "pids": [
+                "p155"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "写下你不想要的每一件事，以及为什么。动笔时，你应该会感到一种深深的不适开始升起来。在感受到这种不适之前，别停笔。",
+              "pids": [
+                "p156"
+              ]
+            }
+          ],
+          "pids": [
+            "p153",
+            "p154",
+            "p155",
+            "p156",
+            "p153",
+            "p154",
+            "p155",
+            "p156"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7100,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "带着这种不适，变得\"小气\"一点。真的非常小气。确切地写下：如果你能从零开始创造自己的生活，它会是什么样。想想那些你一直想实现、却因为不够\"理性\"而束之高阁的大目标。",
+              "pids": [
+                "p157"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你的朋友和家人觉得你根本实现不了这些目标，那就更好了。",
+              "pids": [
+                "p158"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "还是在那本笔记本里，确切写下你打算怎么做成这些事。把你需要学的每一件小事都写下来。自上而下——从你理想的未来，到你必须迈出的具体一步——把要做的事规划出来。",
+              "pids": [
+                "p159"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要写下的最后一样东西，是所有可能挡在你想要生活前面的干扰。",
+              "pids": [
+                "p160"
+              ]
+            }
+          ],
+          "pids": [
+            "p157",
+            "p158",
+            "p159",
+            "p160",
+            "p157",
+            "p158",
+            "p159",
+            "p160"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6650,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "成功与其说靠自律，不如说是把那些让自律变难的干扰清除掉。",
+              "pids": [
+                "p161"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "接下来，消失。",
+              "pids": [
+                "p162"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "不是从生活里消失，而是从那些把你拴在旧习惯上的东西里消失。",
+              "pids": [
+                "p163"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些东西可以是人、游戏、应用。一次性全清掉、然后熬过那阵难受，要比把计划告诉所有人（再听他们那些\"桶中螃蟹\"式的意见）容易得多。（译注：\"桶中螃蟹\"指一只螃蟹想爬出桶时，其他螃蟹会把它拽回去，喻指见不得别人好、拖人后腿的心态。）",
+              "pids": [
+                "p164"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "换句话说，戒掉你对\"感觉糟糕\"的上瘾。",
+              "pids": [
+                "p165"
+              ]
+            }
+          ],
+          "pids": [
+            "p161",
+            "p162",
+            "p163",
+            "p164",
+            "p165",
+            "p161",
+            "p162",
+            "p163",
+            "p164",
+            "p165"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这种上瘾，通常来自把时间和精力给了那些并不关心你死活的人、活动和东西。",
+              "pids": [
+                "p166"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你不需要解释自己。",
+              "pids": [
+                "p167"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "2）建立目标层级（Hierarchy Of Goals）",
+              "pids": [
+                "p168"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "心智渴望秩序。",
+              "pids": [
+                "p169"
+              ]
+            }
+          ],
+          "pids": [
+            "p166",
+            "p167",
+            "p168",
+            "p169",
+            "p166",
+            "p167",
+            "p168",
+            "p169"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5426,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你需要建起一个随时能调用的新心智框架。记住，你得把能量投进那个能创造你想要生活的系统里，否则不管你愿不愿意，你的心智都会慢慢变得更无序、更混乱。",
+              "pids": [
+                "p170"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就是我们在这里做的事。",
+              "pids": [
+                "p171"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们在造一个坚不可摧的框架。",
+              "pids": [
+                "p172"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我们定目标，并不是指望着实现它们。",
+              "pids": [
+                "p173"
+              ]
+            }
+          ],
+          "pids": [
+            "p170",
+            "p171",
+            "p172",
+            "p173",
+            "p170",
+            "p171",
+            "p172",
+            "p173"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5732,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "大目标用来定方向。小目标用来给清晰。你只是在对要走的路线做一个有根据的猜测。等真要沿着这条路往前走时，你需要实时调整——这是我们最后要学的。",
+              "pids": [
+                "p174"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当眼前的任务简单到愚蠢、让你忍不住就把它做掉时，你就不需要无穷无尽的动力了。",
+              "pids": [
+                "p175"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "把你的愿景拆成小块。",
+              "pids": [
+                "p176"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "定一个 10 年目标。",
+              "pids": [
+                "p177"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "然后是 1 年目标。",
+              "pids": [
+                "p178"
+              ]
+            }
+          ],
+          "pids": [
+            "p174",
+            "p175",
+            "p176",
+            "p177",
+            "p178",
+            "p174",
+            "p175",
+            "p176",
+            "p177",
+            "p178"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "然后是 1 个月目标。",
+              "pids": [
+                "p179"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后是 1 周目标。",
+              "pids": [
+                "p180"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但现在，我们需要一样值得去做的东西。这大概就是大多数人生活里缺的那一块。",
+              "pids": [
+                "p181"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "3）基于项目的学习（Project-Based Learning）",
+              "pids": [
+                "p182"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你知道自己不想从人生中得到什么。",
+              "pids": [
+                "p183"
+              ]
+            }
+          ],
+          "pids": [
+            "p179",
+            "p180",
+            "p181",
+            "p182",
+            "p183",
+            "p179",
+            "p180",
+            "p181",
+            "p182",
+            "p183"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你对自己想从人生中得到什么，也有了个概念。",
+              "pids": [
+                "p184"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在你需要习得技能和知识，把这两者之间的差距填上。",
+              "pids": [
+                "p185"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "怎么才能一边慢慢走进未知，一边又有办法把沿途可能出现的混乱理出秩序？",
+              "pids": [
+                "p186"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "个人项目。",
+              "pids": [
+                "p187"
+              ]
+            }
+          ],
+          "pids": [
+            "p184",
+            "p185",
+            "p186",
+            "p187",
+            "p184",
+            "p185",
+            "p186",
+            "p187"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9116,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "最好的学习方式，是去做一个真实世界的项目，只在需要时才去搜信息。你学到多少，跟你在项目上推进了多少直接相关。",
+              "pids": [
+                "p188"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当你刷无穷无尽的教程时，你只是在用噪音填满头脑。那些信息大部分都浪费了。它带来不堪重负、焦虑，还拖慢你的学习。等真要做项目时，你会觉得自己什么都没学到，因为你还是不知道该做什么。无尽的消费制造无尽的选项。我们不要那样。",
+              "pids": [
+                "p189"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "举个例子，很少有人光靠看教程就学会 Photoshop。他们脑子里有一张想做出来的图。他们试、失败，而从那次失败里，他们有了一样具体要学、能直接派上用场的东西。没有任何知识被浪费。你尝试、失败，然后在恰恰需要的时候去搜你需要的信息。",
+              "pids": [
+                "p190"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "给好奇的人解释一下，\"项目\"可以是任何东西。你的健康可以是个项目。你的生意可以是个项目。项目只是一种实现目标、或朝目标推进的结构化方式。",
+              "pids": [
+                "p191"
+              ]
+            }
+          ],
+          "pids": [
+            "p188",
+            "p189",
+            "p190",
+            "p191",
+            "p188",
+            "p189",
+            "p190",
+            "p191"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9098,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你现在站的地方和你想去的地方之间的桥，是一系列能反映你在自己身上培养出的价值的项目。愿意的话，你可以把那个项目变成一个产品——因为你已经解决了自己生活里的一个问题，现在能帮别人做同样的事。如今，一个高质量的项目就是你创业所需的唯一资格，甚至把它发到网上就能让你被雇用——想到在一切都被自动化消灭之后，这是最后剩下的几个选项之一，这真是一件了不起的事。",
+              "pids": [
+                "p192"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "以下是起步方法：",
+              "pids": [
+                "p193"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "挑一样能推动你朝人生所想前进的东西去建造。把它当成一个传统目标，但项目会把这个目标变成一个系统。新建一条笔记，把想到的一切都倒出来（brain dump）。存下 3–5 个你想效仿的灵感来源。研究这些来源，拆解它们的结构。把项目规划成若干部分、里程碑，以及你需要学的东西。",
+              "pids": [
+                "p194"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在你准备好开始了，但别从学习开始。从你已经会的开始。",
+              "pids": [
+                "p195"
+              ]
+            }
+          ],
+          "pids": [
+            "p192",
+            "p193",
+            "p194",
+            "p195",
+            "p192",
+            "p193",
+            "p194",
+            "p195"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5408,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "学习来自挣扎，不是死记硬背。开始做项目。让它暴露你知识上的空白。试着自己搞明白。在你的大脑最可能记住答案的时候，才去搜答案。",
+              "pids": [
+                "p196"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "4）撬动杠杆的任务（Lever Moving Tasks）",
+              "pids": [
+                "p197"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "每一天，至少完成 1–3 项能推动项目往前走的优先任务。",
+              "pids": [
+                "p198"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这就是你唯一需要的生产力建议。",
+              "pids": [
+                "p199"
+              ]
+            }
+          ],
+          "pids": [
+            "p196",
+            "p197",
+            "p198",
+            "p199",
+            "p196",
+            "p197",
+            "p198",
+            "p199"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6056,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "一个很好用的经验法则是：",
+              "pids": [
+                "p200"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "2 周后，如果你在目标上没取得任何明显进展，说明你没有撬动正确的杠杆。你哪里做错了。大多数人不会承认这点，或者会故意做些瞎忙的活来逃避进步——因为他们暗地里就想失败。",
+              "pids": [
+                "p201"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这是个更大的问题。",
+              "pids": [
+                "p202"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的心智会注意到实现目标的机会，可很多人心里有个无意识的、或者被深度编程的目标：保持原样。他们想失败。",
+              "pids": [
+                "p203"
+              ]
+            }
+          ],
+          "pids": [
+            "p200",
+            "p201",
+            "p202",
+            "p203",
+            "p200",
+            "p201",
+            "p202",
+            "p203"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5552,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "到目前为止，我们的\"反干扰框架\"由这些部分组成：愿景 → 反愿景 → 目标层级 → 项目 → 撬动杠杆的任务。",
+              "pids": [
+                "p204"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这会形成一个紧密的反馈回路，带来更多心流状态、乐趣和进步。",
+              "pids": [
+                "p205"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就是地基。这就是推着你更深走进未知的东西。",
+              "pids": [
+                "p206"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "最后，你到底该怎么应对沿途的高峰、低谷、情绪和不确定性？",
+              "pids": [
+                "p207"
+              ]
+            }
+          ],
+          "pids": [
+            "p204",
+            "p205",
+            "p206",
+            "p207",
+            "p204",
+            "p205",
+            "p206",
+            "p207"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "六、你的潜力，取决于你愿意拥抱多少不确定性",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 6 节",
+        "title": "六、你的潜力，\n取决于你愿意拥抱多少不确定性",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "六、你的潜力，\n取决于你愿意拥抱多少不确定性",
+          "note": "本节标题取自已发布正文。",
+          "en": "VI – Your potential is determined by the amount of uncertainty you're willing to embrace"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "不确定性是信号，不是噪音。",
+              "pids": [
+                "p209"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你本来就该感到迷茫。",
+              "pids": [
+                "p210"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你本来就该感到不知所措。",
+              "pids": [
+                "p211"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你本来就该觉得自己完全不知道在干什么。",
+              "pids": [
+                "p212"
+              ]
+            }
+          ],
+          "pids": [
+            "p209",
+            "p210",
+            "p211",
+            "p212",
+            "p209",
+            "p210",
+            "p211",
+            "p212"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6506,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当你决定改变人生时，你到底指望发生什么？你以为你一试某件事，所有可能的知识和技能就会自动存进你脑子里？",
+              "pids": [
+                "p213"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当你承诺去建造属于自己的东西时，你就承诺了一种充满不确定性的生活，因为你承诺了一种不断学习的生活。",
+              "pids": [
+                "p214"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "问题在于，最成功的人对此不会退缩。他们不把不确定性当成危险的东西，所以战斗或逃跑反应不会被触发。他们能头脑清醒地跋涉进未知，从而做出恰当的决定。",
+              "pids": [
+                "p215"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "怎么做到的？",
+              "pids": [
+                "p216"
+              ]
+            }
+          ],
+          "pids": [
+            "p213",
+            "p214",
+            "p215",
+            "p216",
+            "p213",
+            "p214",
+            "p215",
+            "p216"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8990,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "因为他们意识到，所有超额的收益，都在于他们拥抱、管理和延展不确定性的能力。他们意识到，那种\"确定\"的生活，回报最低。",
+              "pids": [
+                "p217"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "工作是确定的。你的工资就反映了这一点。生意是不确定的，取决于你在哪个层级运作。从本地生意、代理业务、自由职业，甚至信息产品起步，这是第一层级。它不确定，但简单，年收入上限大约在 100 万到 500 万美元之间，超过之后你就得通过组建团队、或者把商业模式扩展到软件、实体产品之类的东西，来进一步加大赌注。",
+              "pids": [
+                "p218"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "投资也一样。你可以把积蓄投进\"确定\"的 401k（美国的一种退休储蓄计划）。那是第 1 层级。你可以投资股市，那是第 2 层级。你可以投资企业、比特币，或者更不确定的资产。自然，这些投资回报最高，但风险也最高。",
+              "pids": [
+                "p219"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "人们太怕犯错，以至于犯下了所有错误里最大的那个：不犯错。",
+              "pids": [
+                "p220"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "想象一辆自动驾驶汽车。",
+              "pids": [
+                "p221"
+              ]
+            }
+          ],
+          "pids": [
+            "p217",
+            "p218",
+            "p219",
+            "p220",
+            "p221",
+            "p217",
+            "p218",
+            "p219",
+            "p220",
+            "p221"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6272,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "多年来，它不断收到负反馈，正是这些反馈打磨着塑造这辆车\"心智\"的系统。",
+              "pids": [
+                "p222"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它能轻松地在路上行驶，甚至可以说可能比人类开得更安全。",
+              "pids": [
+                "p223"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "尽管我们平时不这么想，但这辆自动驾驶汽车在真正能抵达一个有意义的目的地之前，犯了数百万、甚至数十亿次错误。",
+              "pids": [
+                "p224"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我真希望能告诉你，每个读到这里的人，第一次朝目标努力就能看到成功。可要是真那样，目标就失去了全部意义。",
+              "pids": [
+                "p225"
+              ]
+            }
+          ],
+          "pids": [
+            "p222",
+            "p223",
+            "p224",
+            "p225",
+            "p222",
+            "p223",
+            "p224",
+            "p225"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们刚才做的一切都有用，但我没法全程牵着你的手，任何人都做不到。",
+              "pids": [
+                "p226"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你必须经历和每一个成功者完全相同的过程。",
+              "pids": [
+                "p227"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你必须不断投资于你的\"失败组合\"，直到你负担得起成功。",
+              "pids": [
+                "p228"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p229"
+              ]
+            }
+          ],
+          "pids": [
+            "p226",
+            "p227",
+            "p228",
+            "p229",
+            "p226",
+            "p227",
+            "p228",
+            "p229"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 4500,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】检索到的公开回复中，没有达到\"高质量\"标准的评论（唯一一条较长回复是借机推广自家应用），故不收录。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "完全指南：\n如何随时开启极致专注",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "当工作失去意义时，工作的未来",
+              "href": "06.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/05.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

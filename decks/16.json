@@ -1,0 +1,3154 @@
+{
+  "meta": {
+    "id": "16",
+    "kind": "dankoe",
+    "title": "战略思维的艺术（如何取得惊人的成功）",
+    "en": "The Art Of Strategic Thinking (How To Become Wildly Successful)",
+    "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+    "citation": "原题：The Art Of Strategic Thinking (How To Become Wildly Successful)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-08-09（北京时间；原始时间戳为 2026-08-08 21:07 UTC） · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2086197754452377955\">https://x.com/thedankoe/status/2086197754452377955</a><br>译注：原文小笔误按语义译出：国际象棋段落中\"Their kind\"应为\"Their king\"（王）；\"for more followers\"应为\"far more\"；\"Intagrative\"应为\"Integrative\"。开头预告\"4 个想法\"\"大师级战略家的 9 种特质\"，正文实际为四个章节、宫本武藏九条与七条原则，原文如此。",
+    "classic": "../classic/16.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "15",
+      "title": "如何记住你读过的一切（别再努力去记了）",
+      "href": "15.html"
+    },
+    "next": {
+      "id": "17",
+      "title": "给我 20 分钟，我让你无法被操纵",
+      "href": "17.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "战略思维的艺术（如何取得惊人的成功）",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 16 篇",
+        "title": "战略思维的艺术（如何取得惊人的成功）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 16 篇 · 2026-08-09 · 约 28 分钟",
+          "title": "战略思维的艺术（如何取得惊人的成功）",
+          "en": "The Art Of Strategic Thinking (How To Become Wildly Successful)",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-08-09  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：The Art Of Strategic Thinking (How To Become Wildly Successful)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-08-09（北京时间；原始时间戳为 2026-08-08 21:07 UTC） · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2086197754452377955\">https://x.com/thedankoe/status/2086197754452377955</a><br>译注：原文小笔误按语义译出：国际象棋段落中\"Their kind\"应为\"Their king\"（王）；\"for more followers\"应为\"far more\"；\"Intagrative\"应为\"Integrative\"。开头预告\"4 个想法\"\"大师级战略家的 9 种特质\"，正文实际为四个章节、宫本武藏九条与七条原则，原文如此。"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "现在每个人都在争先恐后地想成功。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "正如你猜到的，他们里头 99.99% 的人到头来根本不会成功。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为他们都痴迷错了东西。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "在 Instagram 上爆火的最新 Claude Code 技能。",
+              "pids": [
+                "p4"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7136,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "那个教你用 5 个可执行步骤创业的 YouTube 视频（我到现在都没搞懂，人们怎么就意识不到，他们对“可执行步骤”的渴求，一点忙都帮不上）。",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们痴迷的是战术。",
+              "pids": [
+                "p6"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "就是所有人都能接触到的那点知识。你难道没意识到，你想要的、赚到 1 亿美元所需的全部信息，都能在网上、书里或者跟 AI 的对话里轻松找到吗？",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你有没有停下来想过，为什么现在全世界不是每个人都在赚几百万？你有没有想过，你如此渴求的“可执行建议”根本带你到不了任何地方，除非你知道捡起的这些碎片怎么拼进整幅拼图？",
+              "pids": [
+                "p8"
+              ]
+            }
+          ],
+          "pids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p5",
+            "p6",
+            "p7",
+            "p8"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7370,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些人里的大多数为什么没法真正拿到他们拼命追求的成功，原因显而易见。",
+              "pids": [
+                "p9"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第一，他们只是把一种廉价多巴胺换成了另一种更隐蔽的。那种让他们觉得自己真在进步、其实一寸没挪的形式。我甚至觉得，无休止地收集战术，比末日刷屏看愤怒诱饵视频更糟。",
+              "pids": [
+                "p10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第二，他们没有一个战略，能把手头收集的战术用到极致。他们身上没有一根战略的骨头。见鬼，他们一半时间压根没在思考，只是被擅长网络营销的人当木偶一样拨弄（你控制不住自己的心智，这不是营销者的错）。",
+              "pids": [
+                "p11"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在，如果你也属于这一拨，我可不是想数落你。",
+              "pids": [
+                "p12"
+              ]
+            }
+          ],
+          "pids": [
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p9",
+            "p10",
+            "p11",
+            "p12"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6506,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "6 年前，我掉进了同一个坑。到现在我还常常掉进去。这篇文章既是写给你的，也是写给我自己的。我开了一个又一个生意（Facebook 广告、SEO、代发货、数字艺术，还有几个别的），可它们与其说是生意，不如说是爱好。我想像所有人一样赚到钱、辞掉工作，但我的行动完全没反映出这一点。除了赚钱，我什么都干了。",
+              "pids": [
+                "p13"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我学了那项“高价值技能”。感觉真不错。",
+              "pids": [
+                "p14"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我建了网站。感觉真不错。",
+              "pids": [
+                "p15"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我注册了有限责任公司。感觉真不错。",
+              "pids": [
+                "p16"
+              ]
+            }
+          ],
+          "pids": [
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p13",
+            "p14",
+            "p15",
+            "p16"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5444,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "可到了要开口请别人为我的服务付钱的时候，我人却找不着了。",
+              "pids": [
+                "p17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "缺的那一块，是战略。",
+              "pids": [
+                "p18"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但不只是一个战略……而是战略性思考的能力，这是一项极难学会的技能。",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这篇文章我也许没法把所有东西都教给你，但我确实想分享我能找到或想到的、最有说服力的 4 个想法。",
+              "pids": [
+                "p20"
+              ]
+            }
+          ],
+          "pids": [
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p17",
+            "p18",
+            "p19",
+            "p20"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5174,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们会聊：为什么缺乏战略就等于对人生结果缺乏掌控、大师级战略家的 9 种特质，最后是怎么创建你自己的人生战略、练出战略思考的能力。",
+              "pids": [
+                "p21"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这篇会很长，我的大多数文章都这样。",
+              "pids": [
+                "p22"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我建议你留出时间来读，忍住别去无限刷屏。",
+              "pids": [
+                "p23"
+              ]
+            }
+          ],
+          "pids": [
+            "p21",
+            "p22",
+            "p23",
+            "p21",
+            "p22",
+            "p23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "一、战略，就是进入一个优势位置，同时让对手落到更差的位置",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "一、战略，就是进入一个优势位置，\n同时让对手落到更差的位置",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "一、战略，就是进入一个优势位置，\n同时让对手落到更差的位置",
+          "note": "本节标题取自已发布正文。",
+          "en": "I - Strategy is getting yourself into a superior position, while at the same time making sure your opponent is in a worse one."
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "战术源于优势位置。",
+              "attr": "——鲍比·菲舍尔（Bobby Fischer），国际象棋特级大师"
+            }
+          ],
+          "pids": [
+            "p25"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们来过一遍一盘简单的国际象棋。",
+              "pids": [
+                "p26"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我尽量别把你说无聊了，好赶紧切入正题。",
+              "pids": [
+                "p27"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "棋手一在对局前段做的，都是些看着很无聊的事。",
+              "pids": [
+                "p28"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "他们没进攻，也没吃掉任何棋子。",
+              "pids": [
+                "p29"
+              ]
+            }
+          ],
+          "pids": [
+            "p26",
+            "p27",
+            "p28",
+            "p29",
+            "p26",
+            "p27",
+            "p28",
+            "p29"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5804,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "从外头看，他们好像什么都没干……只是把棋子挪到棋盘上某些格子。",
+              "pids": [
+                "p30"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在国际象棋这样的游戏里，你在一个网格上下棋，可网格上的格子并非生来平等。棋盘中央的一枚棋子，能去的地方比卡在角落后面的一枚多得多。",
+              "pids": [
+                "p31"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "棋手一把一个车滑到一条畅通无阻的开放线上。",
+              "pids": [
+                "p32"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们把一个象放在一条直指敌方王的斜线上。",
+              "pids": [
+                "p33"
+              ]
+            }
+          ],
+          "pids": [
+            "p30",
+            "p31",
+            "p32",
+            "p33",
+            "p30",
+            "p31",
+            "p32",
+            "p33"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5210,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "他们把一个马放在靠近棋盘中央的格子上。",
+              "pids": [
+                "p34"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "与此同时，棋手二的棋子互相碍事。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们最强的棋子被困在自己的兵后面。",
+              "pids": [
+                "p36"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们的王卡在棋盘中间，因为一直没找到安全的时机把它挪到角落里去。",
+              "pids": [
+                "p37"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "他们只是在对棋手一的走法做出反应。",
+              "pids": [
+                "p38"
+              ]
+            }
+          ],
+          "pids": [
+            "p34",
+            "p35",
+            "p36",
+            "p37",
+            "p38",
+            "p34",
+            "p35",
+            "p36",
+            "p37",
+            "p38"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5372,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "棋手一把马走到一个能同时攻击棋手二的王和后的格子上。",
+              "pids": [
+                "p39"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在国际象棋里，这叫“捉双”（fork）。你的对手只能救一个，而丢哪个都不好。",
+              "pids": [
+                "p40"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，棋手二显然必须动王，免得被吃掉，可这正好让棋手一吃掉了他们的后——棋盘上最强的棋子。对局结束。",
+              "pids": [
+                "p41"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "观众沸腾了。",
+              "pids": [
+                "p42"
+              ]
+            }
+          ],
+          "pids": [
+            "p39",
+            "p40",
+            "p41",
+            "p42",
+            "p39",
+            "p40",
+            "p41",
+            "p42"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5786,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "问题在于，任何走到那个确切局面的棋手，都能走出这一步。",
+              "pids": [
+                "p43"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "棋手一之所以能走到那，是因为他们用整盘棋在给它铺路。",
+              "pids": [
+                "p44"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要是从开局里抽掉任何一个无聊的步骤，捉双——这个致胜的战术——就不存在了。马会被挡住，王会在防守棋子赶到时逃掉。",
+              "pids": [
+                "p45"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "教训：战略，就是进入一个优势位置，同时让对手落到更差的位置。",
+              "pids": [
+                "p46"
+              ]
+            }
+          ],
+          "pids": [
+            "p43",
+            "p44",
+            "p45",
+            "p46",
+            "p43",
+            "p44",
+            "p45",
+            "p46"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6704,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "战略，就是一步一步把自己位置变好、把对手位置变差的工作，直到两者之间的差距大到战术开始自己冒出来。",
+              "pids": [
+                "p47"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但在人生这场游戏里，你既是棋手，也是对手。你做的每个决定都在改变你的位置，而大多数人对自己身在何处完全看不见。",
+              "pids": [
+                "p48"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果普通人的人生是一盘国际象棋，他们永远走不到捉双的位置；就算走到了，他们甚至也认不出来。游戏里最强的战术之一，对他们来说既用不上，也不在意识之中。",
+              "pids": [
+                "p49"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这就是为什么战略必须先行。",
+              "pids": [
+                "p50"
+              ]
+            }
+          ],
+          "pids": [
+            "p47",
+            "p48",
+            "p49",
+            "p50",
+            "p47",
+            "p48",
+            "p49",
+            "p50"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5912,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想在副业上、在练出好看的体格上，或者干脆在从人生里得到你想要的东西上真正成功，你就不能跟大多数人一样。",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人花在制定战略上的时间是零。",
+              "pids": [
+                "p52"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而只要你观察社会，就会看到战术层面思考的结果有多灾难。如果你不花时间做战略思考来克服自己的短板，你不可避免地会掉进跟所有人一样的无意识日常。",
+              "pids": [
+                "p53"
+              ]
+            }
+          ],
+          "pids": [
+            "p51",
+            "p52",
+            "p53",
+            "p51",
+            "p52",
+            "p53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "二、普通人困在一个逃不出去的、无意识的挣扎循环里",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "二、普通人困在一个逃不出去的、无意识的挣扎循环里",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "二、普通人困在一个逃不出去的、无意识的挣扎循环里",
+          "note": "本节标题取自已发布正文。",
+          "en": "II - The average person lives in a mindless cycle of struggles they can't escape."
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6686,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "谢天谢地，你不是真在战场上。",
+              "pids": [
+                "p55"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为要是，你早死了。",
+              "pids": [
+                "p56"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人犯的都是高度可预测的战略错误；如果他们真处在暴力的环境里，他们必输无疑，而赢家会研究他们做了什么，好去做完全相反的事。",
+              "pids": [
+                "p57"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "结婚太早（或太晚）、在任何事上都没练到精通、相信 AI 能替你包办一切（我是以一个挺 AI 的人的身份说这话）、追钱而不是追意义、不负责任地负债、赖在一段糟糕的关系里、不投资教育、爬一架通向虚无的企业阶梯。清单还能一直列下去。",
+              "pids": [
+                "p58"
+              ]
+            }
+          ],
+          "pids": [
+            "p55",
+            "p56",
+            "p57",
+            "p58",
+            "p55",
+            "p56",
+            "p57",
+            "p58"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9998,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "普通人不会试着解决自己的问题或挣扎。他们卡在日常里，一遍又一遍过着同一天。他们从没想过要从中猛醒、做战略思考、改变方向，好最终抵达人生里一个更有利的位置。",
+              "pids": [
+                "p59"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你想领先 99% 的人，你要做的只是停下来、想一想，真正试着克服眼前的挣扎，同时考虑一条让你不必再面对那种程度挣扎的路。",
+              "pids": [
+                "p60"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在，你也许不在真正的战场上，但你始终在一个隐喻的战场上。一个你既是主角又是反派的战场。在你 18 岁之前，你的父母在很大程度上掌控着你的人生战略，而它又深受他们自己的父母和文化影响。对读这篇文章的大多数人来说，这意味着你整套“战略”就是上学、找工作、到了某个岁数退休；但你内心某处藏着一个声音，低声说这条路会把你带向确定的后悔。",
+              "pids": [
+                "p61"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一进入成年，你的心智就从某个既定位置运作，手里握着一组基本帮不上你的战术，而恰恰在这个节骨眼上，敌人开始进攻。你慢慢被一连串账单、责任、念头、情绪，还有“余生想做什么”这个问题轮番轰炸。",
+              "pids": [
+                "p62"
+              ]
+            }
+          ],
+          "pids": [
+            "p59",
+            "p60",
+            "p61",
+            "p62",
+            "p59",
+            "p60",
+            "p61",
+            "p62"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6020,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "现代的舒适让人们混着日子也能活下去，这更是帮了倒忙——真正的战争里，将军是把自己性命押上去的，那才逼出了战略的深度。而你呢，只是做完“你该做的事”就到此为止，因为只要熬过大半个无意义的一天，至少你能回家打电子游戏，或者跟哥们灌几瓶啤酒。",
+              "pids": [
+                "p63"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你需要压力。",
+              "pids": [
+                "p64"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "战术性压力。",
+              "pids": [
+                "p65"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "把自己放到一个必须制定战略、否则就输的位置上。",
+              "pids": [
+                "p66"
+              ]
+            }
+          ],
+          "pids": [
+            "p63",
+            "p64",
+            "p65",
+            "p66",
+            "p63",
+            "p64",
+            "p65",
+            "p66"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6722,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "搬进一套你负担不起的公寓。订一张飞往从没去过之地的机票。投资商业软件、课程或辅导，哪怕你觉得它是骗局，因为至少你的财务被押上了，你再也没法活在一层虚假舒适的裹尸布里。",
+              "pids": [
+                "p67"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "好了，你懂了。",
+              "pids": [
+                "p68"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你需要一个战略，也需要练出战略思考这项技能，因为没有它们，你做的每个决定都会变得随意。",
+              "pids": [
+                "p69"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而如果人生的结果，是你一个个决定所带来结果的累积，那么把注意力放在这一点上，也许终于能让你对自己的人生有更精细的掌控。",
+              "pids": [
+                "p70"
+              ]
+            }
+          ],
+          "pids": [
+            "p67",
+            "p68",
+            "p69",
+            "p70",
+            "p67",
+            "p68",
+            "p69",
+            "p70"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "三、往深里钻，直到在你做的一切里都能看到模式，以此建立一个优势的人生位置",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "三、往深里钻，直到在你做的一切里都能看到模式，\n以此建立一个优势的人生位置",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "三、往深里钻，直到在你做的一切里都能看到模式，\n以此建立一个优势的人生位置",
+          "note": "本节标题取自已发布正文。",
+          "en": "III - How to build a superior life position by going so deep you see patterns in everything you do"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在宫本武藏的《五轮书》里，有 9 条每个战略家都该遵循的戒律／原则：",
+              "pids": [
+                "p72"
+              ]
+            }
+          ],
+          "pids": [
+            "p72",
+            "p72"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "不怀邪念",
+                "en": "Don't think dishonestly",
+                "pids": [
+                  "p73"
+                ]
+              },
+              {
+                "zh": "修炼即是道本身",
+                "en": "Training is the Way itself",
+                "pids": [
+                  "p74"
+                ]
+              },
+              {
+                "zh": "涉猎诸艺",
+                "en": "Get acquainted with every art",
+                "pids": [
+                  "p75"
+                ]
+              },
+              {
+                "zh": "知晓百工之道",
+                "en": "Know the Ways of all professions",
+                "pids": [
+                  "p76"
+                ]
+              },
+              {
+                "zh": "明辨世事得失",
+                "en": "Understand gain and loss in worldly dealings",
+                "pids": [
+                  "p77"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p73",
+            "p74",
+            "p75",
+            "p76",
+            "p77",
+            "p73",
+            "p74",
+            "p75",
+            "p76",
+            "p77"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 6,
+            "items": [
+              {
+                "zh": "对万事培养直觉判断",
+                "en": "Develop intuitive judgment about everything",
+                "pids": [
+                  "p78"
+                ]
+              },
+              {
+                "zh": "洞察不可见之物",
+                "en": "Perceive what can't be seen",
+                "pids": [
+                  "p79"
+                ]
+              },
+              {
+                "zh": "留心细微之事",
+                "en": "Attend even to small things",
+                "pids": [
+                  "p80"
+                ]
+              },
+              {
+                "zh": "不做无用之事",
+                "en": "Do nothing useless",
+                "pids": [
+                  "p81"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p78",
+            "p79",
+            "p80",
+            "p81",
+            "p78",
+            "p79",
+            "p80",
+            "p81"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6974,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在武藏看来，所谓战略家，是深入一门学科、深到在它底部触碰到某种普遍之物的人。",
+              "pids": [
+                "p82"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你会注意到一些不专属于商业、人际关系、剑术或国际象棋的模式。它们是常量；一旦你看见这些模式，并在各个领域里都认出它们，你在所有领域里都会高效得多，因为你从来不是真的从零开始——你对现实整体的理解站在你这边。",
+              "pids": [
+                "p83"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这 9 条戒律，定义了这种人从外面看是什么样。",
+              "pids": [
+                "p84"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现代意义上的通才，通常是对很多东西都懂一点的人，样样通；但武藏在这里描述的，有点不一样。",
+              "pids": [
+                "p85"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "有通才。",
+              "pids": [
+                "p86"
+              ]
+            }
+          ],
+          "pids": [
+            "p82",
+            "p83",
+            "p84",
+            "p85",
+            "p86",
+            "p82",
+            "p83",
+            "p84",
+            "p85",
+            "p86"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "有专才。",
+              "pids": [
+                "p87"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后还有大师（战略家）。",
+              "pids": [
+                "p88"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这也跟自我发展阶段、螺旋动力学相当对得上——战略家这个阶段是够得着的，并带有下面这些特质：",
+              "pids": [
+                "p89"
+              ]
+            }
+          ],
+          "pids": [
+            "p87",
+            "p88",
+            "p89",
+            "p87",
+            "p88",
+            "p89"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6866,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "系统思维——战略家能同时看到相互竞争的系统和视角，而成就者（自我提升者、生意人）在单一的成功与成就系统内运作。",
+                "en": "Systems thinking - Strategists see competing systems and perspectives simultaneously, while Achievers (self-helpers, businessmen) operate within a single system of success and achievement.",
+                "pids": [
+                  "p90"
+                ]
+              },
+              {
+                "zh": "与悖论自在相处——他们容纳矛盾（比如同时支持和反对 AI），而不是把矛盾消解成清晰（但虚假）的答案。",
+                "en": "Comfortable with paradox - They hold contradictions (like being both pro and anti AI) rather than resolving them into clear (false) answers.",
+                "pids": [
+                  "p91"
+                ]
+              },
+              {
+                "zh": "过程重于结果——他们关心事情如何发生以及其中起作用的原则，而不只是结果。",
+                "en": "Process over outcome - They care about how things happen and the principles at play, not just results.",
+                "pids": [
+                  "p92"
+                ]
+              },
+              {
+                "zh": "意识到约束——他们看到自己的假设和框架如何塑造自己的感知。",
+                "en": "Awareness of constraints - They see how their own assumptions and frameworks shape what they perceive.",
+                "pids": [
+                  "p93"
+                ]
+              },
+              {
+                "zh": "元意识——战略家能观察自己的意义建构过程，而不只是运用专业知识或驾驭社交动态。",
+                "en": "Meta-awareness - Strategists can observe their own meaning-making and not just deploy expertise or navigate social dynamics.",
+                "pids": [
+                  "p94"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p90",
+            "p91",
+            "p92",
+            "p93",
+            "p94",
+            "p90",
+            "p91",
+            "p92",
+            "p93",
+            "p94"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 6,
+            "items": [
+              {
+                "zh": "有原则的灵活性——他们有坚定的价值观，但灵活调整方法，而不是死守规则或从众。",
+                "en": "Principled flexibility - They have strong values but adapt methods fluidly, versus rigid rules or social conformity.",
+                "pids": [
+                  "p95"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p95",
+            "p95"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/16_1.jpg",
+            "alt": "意识发展的阶段弧线：从前习俗、习俗到后习俗与超越"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6812,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "最重要的是，战略家的核心特质，是能同时持有多个框架或视角。他们往往不教条，不选非黑即白的一边。社交媒体上大多数人吵到天昏地暗，是因为他们还没有这样的心智容量。",
+              "pids": [
+                "p96"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "战略家把自己的建构看成选择。",
+              "pids": [
+                "p97"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们的身份、价值观、世界观。",
+              "pids": [
+                "p98"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大师／战略家同时拿到通才和专才的好处：既能擅长很多事（这样就不会把心智收窄到一个领域、限制了自己的潜力），又能在某一件事上显著出众（这样就能拿到超额的结果，最好是在一个有意义的领域里）。",
+              "pids": [
+                "p99"
+              ]
+            }
+          ],
+          "pids": [
+            "p96",
+            "p97",
+            "p98",
+            "p99",
+            "p96",
+            "p97",
+            "p98",
+            "p99"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8558,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这就是我们的目标，而你一眼就能看出，有多少人根本不遵守这些戒律。",
+              "pids": [
+                "p100"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人太认同意识形态了（见：宗教、挺／反 AI、当天流行的各种分心之物），以至于根本理解不了“不怀邪念”（Don't think dishonestly，字面意思是“不要不诚实地思考”）这条戒律，因为他们陷在持续的自我欺骗循环里。他们的心智被极端的非黑即白观点（最低级的智力）劫持，念头离真相并不近。而你离真相越远，按定义就越是个说谎者。大多数极端观点都是盲目的谎言，你在互联网上随处可见。看穿它。",
+              "pids": [
+                "p101"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "等我们学怎么进行战略思考时，我会再给你一个看待这些戒律的透镜；但“不怀邪念”跟“不做无用之事”联系得很紧，因为处在持续说谎、无意识算计的状态里，本身就是无用的。",
+              "pids": [
+                "p102"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "无意识的生活方式，就是无用的生活方式。",
+              "pids": [
+                "p103"
+              ]
+            }
+          ],
+          "pids": [
+            "p100",
+            "p101",
+            "p102",
+            "p103",
+            "p100",
+            "p101",
+            "p102",
+            "p103"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你只要去审视一下自己的念头和行为有没有用，就能迅速扭转人生。",
+              "pids": [
+                "p104"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在的问题是：",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要精通什么？",
+              "pids": [
+                "p106"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的“修炼”形式是什么？",
+              "pids": [
+                "p107"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你怎么开始理解得与失？",
+              "pids": [
+                "p108"
+              ]
+            }
+          ],
+          "pids": [
+            "p104",
+            "p105",
+            "p106",
+            "p107",
+            "p108",
+            "p104",
+            "p105",
+            "p106",
+            "p107",
+            "p108"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你怎么开始体现大师级战略家的那些原则？",
+              "pids": [
+                "p109"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "还有在我看来最重要的：你怎么去做一件有用的事？",
+              "pids": [
+                "p110"
+              ]
+            }
+          ],
+          "pids": [
+            "p109",
+            "p110",
+            "p109",
+            "p110"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "四、进行战略思考，终于夺回对人生的掌控",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "四、进行战略思考，\n终于夺回对人生的掌控",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "四、进行战略思考，\n终于夺回对人生的掌控",
+          "note": "本节标题取自已发布正文。",
+          "en": "IV - how to think so strategically you finally take back control of your life"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8324,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "大多数人的人生很糟，不是因为运气差、境遇不好或缺机会，而是因为普通人压根想不到要去解决自己人生里的问题。",
+              "pids": [
+                "p112"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "问题只是他们与之共存的东西。",
+              "pids": [
+                "p113"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们没把自己发展到那个程度：把问题看成谜题，并明白所有问题在足够长的时间尺度上、在拿到适当资源的前提下、在此前一系列问题已经解决的前提下，最终都是可解的（比如：不先造出发动机，你就造不出火箭。火箭在过去看似不可能，可太空旅行的问题最终被解决了，靠的就是战略性的长期思考）。",
+              "pids": [
+                "p114"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你也许不想造火箭，但你可以对自己的人生产生同样量级的影响。你可以做出一门赚到改变人生之财富的生意，彻底扭转自己的健康，或者真正实现任何你下定决心要做的事——只要你不分心。",
+              "pids": [
+                "p115"
+              ]
+            }
+          ],
+          "pids": [
+            "p112",
+            "p113",
+            "p114",
+            "p115",
+            "p112",
+            "p113",
+            "p114",
+            "p115"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5318,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "幸运的是，我们可以研究是什么造就了一个好战略。",
+              "pids": [
+                "p116"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些原则在军事、商业和体育领域已经被打磨了几个世纪。你有海量的历史胜负案例可以逆向拆解、研究。",
+              "pids": [
+                "p117"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而妙处在于，它们全都适用于你的个人生活和成功。原则是跨领域的。",
+              "pids": [
+                "p118"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我挑了其中 7 条。",
+              "pids": [
+                "p119"
+              ]
+            }
+          ],
+          "pids": [
+            "p116",
+            "p117",
+            "p118",
+            "p119",
+            "p116",
+            "p117",
+            "p118",
+            "p119"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你要是坐下来、花时间真正去做这件事，你的人生会变。",
+              "pids": [
+                "p120"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这不保证你的战略必胜，但它确实能帮你不被对手践踏——而那个对手，往往就是你自己。",
+              "pids": [
+                "p121"
+              ]
+            }
+          ],
+          "pids": [
+            "p120",
+            "p121",
+            "p120",
+            "p121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "原则 1——愿景",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "原则 1——愿景",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "原则 1——愿景",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Principle 1 - Vision"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "没有人会突然走运。如果星辰突然为你排成一线，其实是你把它们排成一线的，无论有意还是无意——通过选择住在哪里、向谁学习、和谁结婚、和谁交朋友、维持什么样的生活方式、承担什么风险，以及相信什么愿景。",
+              "attr": "——X 上的 @orangebook_"
+            }
+          ],
+          "pids": [
+            "p123"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6164,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你没有愿景，你就是迷失的。",
+              "pids": [
+                "p124"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的行动背后没有意图。你手里攥着 10 支飞镖——10 个决定人生结果的大胆决定——可你连一个可以瞄准的靶子都没有。",
+              "pids": [
+                "p125"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你连打中靶子的机会都没有……更别说正中靶心了，尽管在飞镖里靶心并不是得分最高的一击——这在飞镖里很傻，但在人生这场游戏里却是一条贴切的规则，因为靶心什么都教不了你。",
+              "pids": [
+                "p126"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "当然，迷失也有它的好处。",
+              "pids": [
+                "p127"
+              ]
+            }
+          ],
+          "pids": [
+            "p124",
+            "p125",
+            "p126",
+            "p127",
+            "p124",
+            "p125",
+            "p126",
+            "p127"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7640,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你要么任由熵把你拖进湮灭，要么下定决心把事情搞清楚、收集愿景、踏上自己的路。虚空，正是成功诞生的地方。",
+              "pids": [
+                "p128"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "愿景，是你追求的终极结果。",
+              "pids": [
+                "p129"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它不是一个模糊的愿望。它必须尽可能具体，必须足够有吸引力，足以激励、指引每一个行动。因为在你弄清自己想要什么之前，你根本不可能有战略。一旦弄清了，你就能逆向推出每一步，边走边迭代。",
+              "pids": [
+                "p130"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你想在 35 岁前成为一个情绪坚韧、深度自我觉察、财务独立的人——这就叫具体。你就能拿它去评估每一个日常决定。刷两小时社交媒体大概不会让你朝那靠近，而没有愿景，你甚至不会把它记作人生里的一个问题。",
+              "pids": [
+                "p131"
+              ]
+            }
+          ],
+          "pids": [
+            "p128",
+            "p129",
+            "p130",
+            "p131",
+            "p128",
+            "p129",
+            "p130",
+            "p131"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7136,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想在 18 个月内，在个人成长领域做出一个拥有 5 万受众的通讯，赚到足够让你辞职的钱——那么每一条内容、每一个平台选择、每一个变现决定，都能对照这个意图来评估。此外，人们在社交媒体上硬塞给你的所有战术，都能被筛一遍，只留下真正适用于你的。你的任务只是对分心之物说不。现在人人都在谈个人品牌，所以我做了个小机器人，它会研究你的细分领域，给你一套战略加一份表现好的帖子素材库。挺酷的，在这儿免费用。https://app.eden.so/w/dan-s-workspace/prompts/c93eb1c2-8390-4503-afc2-15eee0d0804e",
+              "pids": [
+                "p132"
+              ]
+            }
+          ],
+          "pids": [
+            "p132",
+            "p132"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5246,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "然而，光靠想“我想要什么？”，很难养出愿景。",
+              "pids": [
+                "p133"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "相反，从反愿景（anti-vision）和事后剖析（post-mortem）入手更容易：先搞明白彻底失败是什么样，再把它当成一种反转机制，找到你真正想要的东西。",
+              "pids": [
+                "p134"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这是第一步。",
+              "pids": [
+                "p135"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这是你现在就该停下阅读、立刻去做的事。",
+              "pids": [
+                "p136"
+              ]
+            }
+          ],
+          "pids": [
+            "p133",
+            "p134",
+            "p135",
+            "p136",
+            "p133",
+            "p134",
+            "p135",
+            "p136"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "反愿景——确切地想一想你不希望结果是什么样子。",
+                "en": "Anti-vision – Think of exactly what you don't want the outcome to be.",
+                "pids": [
+                  "p137"
+                ]
+              },
+              {
+                "zh": "事后剖析——逆向推演那个反愿景当初为什么会发生。犯了哪些错误？你要如何避免它们？",
+                "en": "Post-mortem – Reverse engineer why that anti-vision would have happened in the first place. What mistakes were made and how do you avoid them?",
+                "pids": [
+                  "p138"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p137",
+            "p138",
+            "p137",
+            "p138"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "从那儿出发，你就站在一个好得多的位置，可以造出一个 MVV——最小可行愿景（minimum viable vision），它会随着你向前迈出的每一步变得更强、更清晰。",
+              "pids": [
+                "p139"
+              ]
+            }
+          ],
+          "pids": [
+            "p139",
+            "p139"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想被人狠狠盘问一番、弄清自己的 MVV 是什么，我做了这个人生战略提示词。https://app.eden.so/posts/substack/4a955ecf-7e7a-4de1-948b-3f5cbc4c6f36",
+              "pids": [
+                "p140"
+              ]
+            }
+          ],
+          "pids": [
+            "p140",
+            "p140"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "原则 2——研究",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 6 节",
+        "title": "原则 2——研究",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "原则 2——研究",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Principle 2 - Research"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "少担心 AI 会接管哪些\"职业技能\"，多关心你是否在把自己、以及把你的孩子，训练成高能动性、有洞察力、自我驱动的人，能够以一颗适应性强的心智应对一个不可知的未来。",
+              "attr": "——德文·埃里克森"
+            }
+          ],
+          "pids": [
+            "p142"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8990,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在战争里，将军会派出间谍、研究地形、摸清敌人的习惯和倾向，因为你需要在行动之前拿到情报。",
+              "pids": [
+                "p143"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你上一次研究自己是什么时候？你上一次审视自己的习惯、以及它们正在复利累积成什么样的人生，是什么时候？你上一次留意自己的心智如何对一些鸡毛蒜皮的小事做出反应——那些小事最后把你的脑子堵上好几个小时，把你从路上拽走——是什么时候？",
+              "pids": [
+                "p144"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人对怎么建立一份事业、健康的关系如何运作、精通的过程长什么样等等，毫无情报。他们一时兴起来了动力，决定终于要去实现那个拖了又拖的目标，可他们为什么会扑空，显而易见。",
+              "pids": [
+                "p145"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在你用灵性修习之类的东西开始改善生活之前，先研究多种传统，读一读关于不同技巧的研究，跟做了很多年的人聊聊，关注一系列账号，并搞清楚你自己的心理模式、以及通常是什么触发了你。",
+              "pids": [
+                "p146"
+              ]
+            }
+          ],
+          "pids": [
+            "p143",
+            "p144",
+            "p145",
+            "p146",
+            "p143",
+            "p144",
+            "p145",
+            "p146"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "别抓起第一个以 Instagram 广告形式跳出来的冥想应用就开始。",
+              "pids": [
+                "p147"
+              ]
+            }
+          ],
+          "pids": [
+            "p147",
+            "p147"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5516,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在你写一条社交媒体帖子或一篇文章之前，先研究什么在赢、什么在输，并让它为你的战略提供依据（我建议为此用一个研究工具，这样你就不必花好几天去筛废话）。你整理创作者名单，看、读竞争对手的内容，开始琢磨怎么把自己楔进一个获胜的位置。https://eden.so/brand-strategy",
+              "pids": [
+                "p148"
+              ]
+            }
+          ],
+          "pids": [
+            "p148",
+            "p148"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5084,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你“只是想写作”，那尽管写，但同样，别指望光凭你有聪明的想法，就会有人给你注意力。写作可以是一项极好的爱好，但如果你把它当成一种有意义的工作，这些战略原则就适用，因为到那时，它就是一门生意。",
+              "pids": [
+                "p149"
+              ]
+            }
+          ],
+          "pids": [
+            "p149",
+            "p149"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "原则 3——准备",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 7 节",
+        "title": "原则 3——准备",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "原则 3——准备",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Principle 3 - Preparation"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6650,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你必须认清自己有什么资源、缺什么。",
+              "pids": [
+                "p151"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为你不会在没食物、没后勤、没武器、没支援的情况下，就空投到战场上。",
+              "pids": [
+                "p152"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一旦你知道自己有哪些资源、缺哪些，你就开始建立储备：金钱、时间、知识、技能、住的地方、人脉和关系。",
+              "pids": [
+                "p153"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在尝试重大的人生改变（辞职、结束一段关系、启动一个新项目或新事业）之前，先建好你的财务跑道、削减开支、练出你需要的情绪调节技能，并把支持系统安排到位。别只是冲进战场。",
+              "pids": [
+                "p154"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "换句话说，你需要对冲风险。",
+              "pids": [
+                "p155"
+              ]
+            }
+          ],
+          "pids": [
+            "p151",
+            "p152",
+            "p153",
+            "p154",
+            "p155",
+            "p151",
+            "p152",
+            "p153",
+            "p154",
+            "p155"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7586,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "每个目标都带着风险，风险越高往往回报越高，你必须为此做出调整。",
+              "pids": [
+                "p156"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对想多赚钱的人来说，你可以做软件、卖信息产品、开代理公司、学加密货币交易，还有一大堆其他选择，每一种都有自己的风险水平。",
+              "pids": [
+                "p157"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "市场上信息产品泛滥，因为（1）它们有效，（2）它们风险低，利润率很漂亮。但对 SaaS 来说，即便现在更容易做出来，风险状况也高得多，而且利润率正在变薄，因为更高的可及性只意味着，为了把它建起来，你得花钱买更多技术。",
+              "pids": [
+                "p158"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对更多人来说（译注：原文“For more people”，疑为“For most people”，即“对大多数人来说”），你能做的最好的事，就是用一切可能的手段对冲风险。",
+              "pids": [
+                "p159"
+              ]
+            }
+          ],
+          "pids": [
+            "p156",
+            "p157",
+            "p158",
+            "p159",
+            "p156",
+            "p157",
+            "p158",
+            "p159"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5876,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你年轻，这意味着卖掉你拥有的一切，住进一套糟糕的公寓，砍掉所有开支，好让你在建立自己事业时拥有最大的杠杆。",
+              "pids": [
+                "p160"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "年轻人拥有时间这项资源，但没有钱，所以他们得靠控制自己能控制的变量来补上这一块。",
+              "pids": [
+                "p161"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一个确确实实没什么可失去的人，处在比那些财务上不负责任的人好得多的位置，能用的战术也多得多。",
+              "pids": [
+                "p162"
+              ]
+            }
+          ],
+          "pids": [
+            "p160",
+            "p161",
+            "p162",
+            "p160",
+            "p161",
+            "p162"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "原则 4——聚焦",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 8 节",
+        "title": "原则 4——聚焦",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "原则 4——聚焦",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Principle 4 - Focus"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "是否存在一个点，做得更多却不会产出更多？是否存在一个点，做得更少（但想得更多）实际上会产出更好的结果？",
+              "attr": "——格雷格·麦吉沃恩，《精要主义》"
+            }
+          ],
+          "pids": [
+            "p164"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5228,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "兵力集中。",
+              "pids": [
+                "p165"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这是一条军事原则：把资源集中在决定性的那一点上，别摊得薄薄一层。",
+              "pids": [
+                "p166"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "最好的例子是 1940 年的法国。",
+              "pids": [
+                "p167"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "法国人的坦克和部队都比德国人多，原始资源多得多。但他们把装甲部队平均铺满整条战线，于是每个区段只有几辆坦克。",
+              "pids": [
+                "p168"
+              ]
+            }
+          ],
+          "pids": [
+            "p165",
+            "p166",
+            "p167",
+            "p168",
+            "p165",
+            "p166",
+            "p167",
+            "p168"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7658,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "德国人把所有装甲部队集中到一处，从单一一个点（阿登森林）冲了过去，而法国人以为那里根本过不来，所以几乎没设防。",
+              "pids": [
+                "p169"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "聚焦，关乎的是你把手里的东西放在哪儿。",
+              "pids": [
+                "p170"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在人生里，任何一个时刻你拥有的就那么多。大多数人想改变人生，把 10% 的注意力分给饮食、睡眠、锻炼、冥想、人际关系、副业等等——可如果他们盯住那个最拖后腿的单一瓶颈，反而会更快地把这些都变好。",
+              "pids": [
+                "p171"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你先集中解决一个巨大的财务困境，就能腾出更多资源，再把它们投到下一个问题上，比如饮食。然后你能轻松买得起更高质量的食物，这又给了你精力这项资源，可以投进人际关系里。",
+              "pids": [
+                "p172"
+              ]
+            }
+          ],
+          "pids": [
+            "p169",
+            "p170",
+            "p171",
+            "p172",
+            "p169",
+            "p170",
+            "p171",
+            "p172"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6452,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "生意也一样。在社交媒体这样的地方，增长不只是内容。把内容同步发到所有平台，会占掉你本可以用来跟那些能帮你增长的人建立联系的时间。先专注一个平台，你会涨多得多的粉丝，然后可以把它当杠杆去其他平台增长——比你在同样时间里把兵力摊到所有平台上快得多。这是创作者训练营里的一个重点：依赖算法，算不上一个充分的战略。",
+              "pids": [
+                "p173"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "假以时日，专注一件事能让你把每件事都做得更好。",
+              "pids": [
+                "p174"
+              ]
+            }
+          ],
+          "pids": [
+            "p173",
+            "p174",
+            "p173",
+            "p174"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "原则 5——执行",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 9 节",
+        "title": "原则 5——执行",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "原则 5——执行",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Principle 5 - Execute"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "战略，就是你选择如何把有限的资源分配给无限的选项。",
+              "attr": "——亚历克斯·霍莫兹（Alex Hormozi）"
+            }
+          ],
+          "pids": [
+            "p176"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5534,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "把战略执行好，就是在宏观（愿景）和微观（日常行动）之间持续来回跳转，确保你做的决定有目标、有意图。",
+              "pids": [
+                "p177"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这正是战略的核心——做跟 99% 的人相反的事，因为大多数人不会跳出自己的条件化、被指派的目标或重复的日常去思考。",
+              "pids": [
+                "p178"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "可你怎么才能有效地执行？",
+              "pids": [
+                "p179"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这是一切汇合的地方。",
+              "pids": [
+                "p180"
+              ]
+            }
+          ],
+          "pids": [
+            "p177",
+            "p178",
+            "p179",
+            "p180",
+            "p177",
+            "p178",
+            "p179",
+            "p180"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7676,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "练习把愿景放在脑海深处，把它写在某个地方，每天早上看一眼。它必须通过反复接触成为你是谁的一部分。",
+                "en": "Practice holding your vision in the back of your mind, write it down somewhere and look at it every morning. It must become a part of who you are through repeat exposure.",
+                "pids": [
+                  "p181"
+                ]
+              },
+              {
+                "zh": "记下你从研究对手或自己当中学到了什么。冥想它。沉思它。让它在你心智中腌制，以便开始建立联系。",
+                "en": "Take note of what you learned from studying your opponents or yourself. Meditate on it. Contemplate it. Let it marinate in your mind so that it can start to make connections.",
+                "pids": [
+                  "p182"
+                ]
+              },
+              {
+                "zh": "识别出你能利用的主要资源。对年轻人来说，最有可能是时间和自由。对有些人来说，是资本。对另一些人来说，是一批网络受众。对更多人来说，是一组奇怪的兴趣和知识。是的，对很多人来说，是 AI——但不是低层次意义上的。",
+                "en": "Identify the primary resource you can leverage. For young people, it's time and freedom, most likely. For some, it's capital. For others, it's an internet audience. For more, it's a weird set of interests and knowledge. And yes, for many, it's AI - but not from the low level sense.",
+                "pids": [
+                  "p183"
+                ]
+              },
+              {
+                "zh": "选择你的兵力集中打法。唯一杠杆最高的点在哪里？那个能在不止一个领域解锁进展的点？那个让其他一切都变得更容易的东西？",
+                "en": "Choose your concentration of force play. Where is the single highest-leverage point? The one that would unlock progress in more than one domain? The thing that makes everything else easier?",
+                "pids": [
+                  "p184"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p181",
+            "p182",
+            "p183",
+            "p184",
+            "p181",
+            "p182",
+            "p183",
+            "p184"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5444,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "从那儿出发，我们有了一个粗略的计划，但它得变得一清二楚。",
+              "pids": [
+                "p185"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们必须把愿景逆向拆成一套目标层级，好让我们对日常行动有个全局视角。",
+              "pids": [
+                "p186"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "倒推出 1 年目标、90 天目标、每周优先事项和每日习惯。每一步都应该能追溯到一个意图或愿景；如果不能，就先放到一边。",
+              "pids": [
+                "p187"
+              ]
+            }
+          ],
+          "pids": [
+            "p185",
+            "p186",
+            "p187",
+            "p185",
+            "p186",
+            "p187"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如前所述，我做了个提示词来带你走完这个过程，因为我觉得它有用。https://app.eden.so/w/dan-s-workspace/prompts/c93eb1c2-8390-4503-afc2-15eee0d0804e",
+              "pids": [
+                "p188"
+              ]
+            }
+          ],
+          "pids": [
+            "p188",
+            "p188"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "原则 6——适应",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 10 节",
+        "title": "原则 6——适应",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "原则 6——适应",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Principle 6 - Adapt"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "除非一个人愿意放弃保护性日常的安全，否则不可能体验到掌控感。只有当一个不确定的结果悬而未决、而一个人又能影响那个结果时，她才能真正知道自己是否处于掌控之中。",
+              "attr": "——米哈里·契克森米哈赖，《心流》"
+            }
+          ],
+          "pids": [
+            "p190"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "僵化的战略，是必败的战略。",
+              "pids": [
+                "p191"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在当今世界尤其如此。环境每 3–6 个月就变一次，而且变化只会越来越快。在我看来，未来属于战略家，因为大师能即时适应。他们不需要大量的技能升级和再教育，可以凭直觉顺着生活抛过来的任何东西走。",
+              "pids": [
+                "p192"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的任务，是对战场上此时此地真正发生的事做出反应，而不是对你脑中编出来的最坏情况、或对还没成真的幻想做出反应。",
+              "pids": [
+                "p193"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你承诺了一套晨间日常，可工作时间表变了，别把这套日常扔掉——那是大多数人会做的事，别做大多数人做的事。你战略的愿景和意图不会变（变得更自律、更踏实），但战术会变。如果某种冥想方法或商业策略在六个月后不再奏效，就去实验。",
+              "pids": [
+                "p194"
+              ]
+            }
+          ],
+          "pids": [
+            "p191",
+            "p192",
+            "p193",
+            "p194",
+            "p191",
+            "p192",
+            "p193",
+            "p194"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6254,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "系统会随着时间崩塌，你该料到这一点。你下载的 Notion 模板 3–6 个月后就不中用了，你的 Claude 技能也是，任何 AI 策略也是。你仍然得足够有本事，才能看出什么时候某样东西不管用了。",
+              "pids": [
+                "p195"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "总有人跑来跟我说，他们的帖子在社交媒体上表现不好。答案是适应：找个新战术，做实验，做点不一样的。你要是一直做同样的事，显然不可能继续拿到结果。",
+              "pids": [
+                "p196"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "回顾、反思、预测。",
+              "pids": [
+                "p197"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "每周安排它们。",
+              "pids": [
+                "p198"
+              ]
+            }
+          ],
+          "pids": [
+            "p195",
+            "p196",
+            "p197",
+            "p198",
+            "p195",
+            "p196",
+            "p197",
+            "p198"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "回顾你这一周，看看自己是否在正轨上；反思你的进展；预测你正走向哪里，必要时调整。",
+              "pids": [
+                "p199"
+              ]
+            }
+          ],
+          "pids": [
+            "p199",
+            "p199"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "原则 7——研究原则",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 11 节",
+        "title": "原则 7——研究原则",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "原则 7——研究原则",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Principle 7 - Study of Principles"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5408,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我鼓励你接受一个信念：任何事都是一项技能。",
+              "pids": [
+                "p201"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "任何事都是一个你能不断累积经验的研究领域。",
+              "pids": [
+                "p202"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "战略本身就是一个研究领域，它的原则跨领域成立。你越研究这些原则，就越擅长把它们用到自己的人生处境里。这是一项终身持续的修习。",
+              "pids": [
+                "p203"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "读孙子。",
+              "pids": [
+                "p204"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "读认知偏差。",
+              "pids": [
+                "p205"
+              ]
+            }
+          ],
+          "pids": [
+            "p201",
+            "p202",
+            "p203",
+            "p204",
+            "p205",
+            "p201",
+            "p202",
+            "p203",
+            "p204",
+            "p205"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "研究习惯如何形成。",
+              "pids": [
+                "p206"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "学习谈判的原则。",
+              "pids": [
+                "p207"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "研究内容为什么会爆火。",
+              "pids": [
+                "p208"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "研究注意力经济如何运作。",
+              "pids": [
+                "p209"
+              ]
+            }
+          ],
+          "pids": [
+            "p206",
+            "p207",
+            "p208",
+            "p209",
+            "p206",
+            "p207",
+            "p208",
+            "p209"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6596,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "别只是照抄其他创作者做的事。理解原则，这样你才能想出自己的招数（并且真正明白自己为什么采取那个行动）。",
+              "pids": [
+                "p210"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "除此之外，我相信研究真正原则的最好办法，是研究现实本身。因为战略，不过是把现实的原则应用到人类的目标上。",
+              "pids": [
+                "p211"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我想留给你一份可以研究的领域清单，然后由你自己去钻几个兔子洞，开始建立联系。",
+              "pids": [
+                "p212"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我会在最后留几个链接，这样你可以马上开始读。（译注：抓取内容中文末未见单独列出的阅读链接。）",
+              "pids": [
+                "p213"
+              ]
+            }
+          ],
+          "pids": [
+            "p210",
+            "p211",
+            "p212",
+            "p213",
+            "p210",
+            "p211",
+            "p212",
+            "p213"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "形式系统：",
+              "pids": [
+                "p214"
+              ]
+            }
+          ],
+          "pids": [
+            "p214",
+            "p214"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "控制论——研究任何系统（机械的、生物的或社会的）中的反馈回路、控制和自我调节。",
+                "en": "Cybernetics - The study of feedback loops, control, and self-regulation in any system (mechanical, biological, or social).",
+                "pids": [
+                  "p215"
+                ]
+              },
+              {
+                "zh": "系统论——研究整体、相互联系、存量与流量、涌现和杠杆点。",
+                "en": "Systems theory - The study of wholes, interconnections, stocks and flows, emergence, and leverage points.",
+                "pids": [
+                  "p216"
+                ]
+              },
+              {
+                "zh": "热力学——尤其是第二定律，熵总是增加。每个有序系统都需要能量输入来抵抗衰败。否则你的习惯和日常就会崩塌。收拾你的房间。",
+                "en": "Thermodynamics - Especially the Second Law, entropy always increases. Every ordered system requires energy input to resist decay. Your habits and routines will fall apart otherwise. Clean your room.",
+                "pids": [
+                  "p217"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p215",
+            "p216",
+            "p217",
+            "p215",
+            "p216",
+            "p217"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "哲学传统：",
+              "pids": [
+                "p218"
+              ]
+            }
+          ],
+          "pids": [
+            "p218",
+            "p218"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "道家——道作为现实不可言说的根本原理。无为（顺应自然的行动，而非强行的行动）、阴阳（互补的对立面），以及修炼不费力的精通。",
+                "en": "Taoism - The Tao as the ineffable underlying principle of reality. Wu wei (action in accordance with nature, not forced action), yin yang (complementary opposites), and cultivation of effortless mastery.",
+                "pids": [
+                  "p219"
+                ]
+              },
+              {
+                "zh": "长青哲学（Perennial Philosophy）——主张所有主要智慧传统共享一个共同的形而上学内核。存在一个终极实在，人的自我可以参与其中，而人生的目的就是实现这一点。",
+                "en": "Perennial Philosophy - The claim that all major wisdom traditions share a common metaphysical core. There's an ultimate reality, the human self can participate in it, and the purpose of life is to realize this.",
+                "pids": [
+                  "p220"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p219",
+            "p220",
+            "p219",
+            "p220"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "整合性元框架：",
+              "pids": [
+                "p221"
+              ]
+            }
+          ],
+          "pids": [
+            "p221",
+            "p221"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "整合理论（肯·威尔伯）——在象限、发展层级、意识状态和类型上绘制现实的地图。",
+                "en": "Integral Theory (Ken Wilber) - Maps reality across quadrants, levels of development, states of consciousness, and types.",
+                "pids": [
+                  "p222"
+                ]
+              },
+              {
+                "zh": "螺旋动力学——一个关于价值体系通过各个层级发展的模型。它模拟了人类在不同阶段如何建构意义，而对一个战略家来说，这就是在研究现实，因为现实是由观察者建构的。",
+                "en": "Spiral dynamics - A model of value-systems development through tiers. It models how humans construct meaning at different stages, which, for a strategist, is studying reality, because it's constructed by the observer.",
+                "pids": [
+                  "p223"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p222",
+            "p223",
+            "p222",
+            "p223"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "隐秘的／象征的：",
+              "pids": [
+                "p224"
+              ]
+            }
+          ],
+          "pids": [
+            "p224",
+            "p224"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "赫尔墨斯原理（《凯巴利恩》）——心智、对应、振动、极性、节奏、因果和阴阳（gender）。一组紧凑的透镜，影响了许多新思想（New Thought）传统。\"如其在上，如其在下。\"",
+                "en": "Hermetic Principles (The Kybalion) - Mentalism, correspondence, vibration, polarity, rhythm, cause and effect, and gender. A compact set of lenses that have influences a lot of new thought traditions. “As above, so below.”",
+                "pids": [
+                  "p225"
+                ]
+              },
+              {
+                "zh": "荣格炼金术——心理和灵性的转化过程。一个关于深层改变如何在一个人或一个系统中真正发生的框架。",
+                "en": "Jungian Alchemy - Psychological and spiritual process of transformation. A framework for how deep change actually works in a person or system.",
+                "pids": [
+                  "p226"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p225",
+            "p226",
+            "p225",
+            "p226"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "战略的／数学的：",
+              "pids": [
+                "p227"
+              ]
+            }
+          ],
+          "pids": [
+            "p227",
+            "p227"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "博弈论——对战略互动的数学研究。零和博弈与正和博弈、囚徒困境、纳什均衡。",
+                "en": "Game Theory - The mathematical study of strategic interaction. Zero sum vs positive sum games, the prisoner's dilemma, nash equilibrium.",
+                "pids": [
+                  "p228"
+                ]
+              },
+              {
+                "zh": "进化论——选择、适应、适应度景观、变异与保留。",
+                "en": "Evolutionary Theory - Selection, adaptation, fitness landscapes, variation and retention.",
+                "pids": [
+                  "p229"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p228",
+            "p229",
+            "p228",
+            "p229"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "所有这些，都是指向现实不同侧面如何真正运作的透镜。",
+              "pids": [
+                "p230"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要是接下来一年就只研究这些，你对几乎任何其他技能、领域或学习方向的理解都会跟着提升。你会自然地在人生中做的每件事上变得更好。",
+              "pids": [
+                "p231"
+              ]
+            }
+          ],
+          "pids": [
+            "p230",
+            "p231",
+            "p230",
+            "p231"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想继续读，我推荐《人类 3.0》。那是我自己对其中许多框架的综合，还包括更多来自心流和表现心理学的内容。https://eden.so/",
+              "pids": [
+                "p232"
+              ]
+            }
+          ],
+          "pids": [
+            "p232",
+            "p232"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "希望这些都有用。",
+              "pids": [
+                "p233"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "回头聊。",
+              "pids": [
+                "p234"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p235"
+              ]
+            }
+          ],
+          "pids": [
+            "p233",
+            "p234",
+            "p235",
+            "p233",
+            "p234",
+            "p235"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5264,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想要一个能保存、阅读和划重点文章、链接、PDF 和 ePub 的地方，可以在这里试试 Eden。https://eden.so/",
+              "pids": [
+                "p236"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你是创作者，你可以用 Eden 研究什么在流行、研究创作者的头部帖子、在所有平台定时发布内容（这篇就是在 Eden 里写好并定时发的），等等。",
+              "pids": [
+                "p237"
+              ]
+            }
+          ],
+          "pids": [
+            "p236",
+            "p237",
+            "p236",
+            "p237"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "它是在网上脱颖而出的终极优势。（译注：原文“the ultimate advantage so standing out online”有笔误，按语义译出。）",
+              "pids": [
+                "p238"
+              ]
+            }
+          ],
+          "pids": [
+            "p238",
+            "p238"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 4500,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】检索到的公开回复中没有达到\"高质量\"标准的评论，故不收录。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "战略思维的艺术（如何取得惊人的成功）",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "给我 20 分钟，我让你无法被操纵",
+              "href": "17.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/16.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

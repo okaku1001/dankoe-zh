@@ -1,0 +1,1499 @@
+{
+  "meta": {
+    "id": "04",
+    "kind": "dankoe",
+    "title": "如何聪明地表达自己",
+    "en": "How to articulate yourself intelligently",
+    "kicker": "第 4 篇 · 2026-01-15 · 约 15 分钟",
+    "citation": "原题：How to articulate yourself intelligently<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-15 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2011827303962329458\">https://x.com/thedankoe/status/2011827303962329458</a>",
+    "classic": "../classic/04.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "03",
+      "title": "如何用一天时间，彻底修正你的整个人生",
+      "href": "03.html"
+    },
+    "next": {
+      "id": "05",
+      "title": "完全指南：如何随时开启极致专注",
+      "href": "05.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "如何聪明地表达自己",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 4 篇",
+        "title": "如何聪明地表达自己",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 4 篇 · 2026-01-15 · 约 15 分钟",
+          "title": "如何聪明地表达自己",
+          "en": "How to articulate yourself intelligently",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-01-15  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：How to articulate yourself intelligently<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-15 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2011827303962329458\">https://x.com/thedankoe/status/2011827303962329458</a>"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7784,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我年轻的时候，总被那些听起来很聪明的人吸引。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "比如艾伦·沃茨（Alan Watts）、乔丹·彼得森（Jordan Peterson）、丹尼尔·施马滕伯格（Daniel Schmachtenberger），或者其他能把深刻观念讲得有意思的人。大多数时候，我并不明白他们在说什么（要么是我太年轻，要么是他们把每件说的东西都搞得太复杂），但听着聪明、表达清楚，我还是会听下去，还对他们挺敬重。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "问题是，我从没想过自己也能做到。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这不是说我现在是世界上最会表达的人。我不是。我只是当时不觉得自己的脑子有这个本事。我在学校里是个聪明孩子，可擅长考试，和能就重大问题串起连贯的思考、再讲给别人听，是两种很不一样的技能。",
+              "pids": [
+                "p4"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8144,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我总觉得得把整本整本书的信息背下来，才能当场复述出来，因为我就是被那样训练着学的。",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但现在，十多年过去了，也没刻意去练表达……我的工作——作为一名写作者、自封的互联网小网红——就是用有用或有冲击力的方式表达观念。过去 6 年，数百万人在屏幕上读我的想法。",
+              "pids": [
+                "p6"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "问题是，我这人挺无聊。我不擅娱乐别人，也没那么幽默。我甚至不会说自己的写作有多革命性。我这么说，是想激励那些和我一样比较内敛的人。",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "也许你是个想脱颖而出的新创作者。也许你是个想给自己的软件拉更多用户的创始人。也许你要上播客，不想说话结巴。也许你想在公司会议或销售电话里hold住全场。又或者，你只是想成为一个更有趣的人。",
+              "pids": [
+                "p8"
+              ]
+            }
+          ],
+          "pids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p5",
+            "p6",
+            "p7",
+            "p8"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我整理了 3 种聪明表达自己的方法，按从入门到高阶排了序。这些就是我要写或要说话时用的。",
+              "pids": [
+                "p9"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但在这之前，有件更重要的事得先做。",
+              "pids": [
+                "p10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "首先，我们得建起自己内心的\"精选金曲专辑\"。",
+              "pids": [
+                "p11"
+              ]
+            }
+          ],
+          "pids": [
+            "p9",
+            "p10",
+            "p11",
+            "p9",
+            "p10",
+            "p11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "内心的精选金曲专辑",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "内心的精选金曲专辑",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "内心的精选金曲专辑",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "The Inner Album Of Greatest Hits"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "如果你想聪明地表达自己，你需要一个由你最重要的 8–10 个观念组成的观念池，它们几乎可以和任何话题连接起来。这样，无论在什么场合需要写作或发言时，你都有一个已经思考过成百上千遍的起点。"
+            }
+          ],
+          "pids": [
+            "p13"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5498,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我最近被邀请上越来越多的大型播客。",
+              "pids": [
+                "p14"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但这些播客，和我刚起步时被邀请的那些，太不一样了。",
+              "pids": [
+                "p15"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "风险很大。这些大播客主在制作质量上砸几万美元（甚至更多）。真让人紧张。而且可能有几十万人听这期，我觉得自己有责任尽量提供最多的价值。",
+              "pids": [
+                "p16"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我还不是最好的播客嘉宾。",
+              "pids": [
+                "p17"
+              ]
+            }
+          ],
+          "pids": [
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p14",
+            "p15",
+            "p16",
+            "p17"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "每次回听，我总懊恼自己本可以把某句话讲得更好。",
+              "pids": [
+                "p18"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就引出了问题所在。",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我写过 2 本书。",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "成千上万条社交帖子。",
+              "pids": [
+                "p21"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "数百封新闻信和 YouTube 视频。",
+              "pids": [
+                "p22"
+              ]
+            }
+          ],
+          "pids": [
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6182,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "对我来说，哪些观念最有价值，一目了然。哪些观念浏览量最高、或者引来最多私信说\"这改变了我的人生\"，也一目了然。明摆着的是，我真正有的，只有 8–10 个大观念，代表了我的品牌和我能提供的价值。我花了无数个小时打磨这些观念。",
+              "pids": [
+                "p23"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些才是人们想听的观念。",
+              "pids": [
+                "p24"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些才是把新听众带进我是谁的观念。",
+              "pids": [
+                "p25"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但这正是我最大的心理障碍……我不想听起来像在重复自己。",
+              "pids": [
+                "p26"
+              ]
+            }
+          ],
+          "pids": [
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p23",
+            "p24",
+            "p25",
+            "p26"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8018,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "所以上播客、或者被请在人群面前讲话时，我会刻意避开那些我已经说得很好的东西。脑子一片空白，为了不出现尴尬的长停顿，只好硬挤出点什么。我想当场想出某个惊人的观点，可我明明知道观念不是这么运作的。观念需要时间去剖析、去探索。",
+              "pids": [
+                "p27"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "乔丹·彼得森在巅峰时期以表达著称。他很吸引人。为什么？看看他的作品积累就明白了。如果你在想表达的话题上没有作品积累，那你也许得把前方的工作量预期调高一点。",
+              "pids": [
+                "p28"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "那么，你为什么会听你最喜欢的音乐人的歌？",
+              "pids": [
+                "p29"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为他们有一种你喜欢的特定声音或风格。他们大部分音乐听着都差不多，只是这里那里有点变化。你听几秒钟，就能准确说出是哪位艺人。",
+              "pids": [
+                "p30"
+              ]
+            }
+          ],
+          "pids": [
+            "p27",
+            "p28",
+            "p29",
+            "p30",
+            "p27",
+            "p28",
+            "p29",
+            "p30"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5066,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果一个电子舞曲（EDM）艺人突然决定改唱乡村音乐，他的第一首歌会很糟——就像大多数第一次尝试那样——而且大部分听众都不会喜欢。",
+              "pids": [
+                "p31"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "做创作者、写作者、演讲者，或者只是一个想清楚表达自己的人，道理都一样。",
+              "pids": [
+                "p32"
+              ]
+            }
+          ],
+          "pids": [
+            "p31",
+            "p32",
+            "p31",
+            "p32"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "你需要写、需要讲，成千上万次，直到你最好的观念变得显而易见。从本质上说，你必须重复自己，因为最重要的观念值得被重复，不然你还能怎么打磨它们？"
+            }
+          ],
+          "pids": [
+            "p33"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5516,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你可以把这些\"大观念\"想象成推文。",
+              "pids": [
+                "p34"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在我的写作里，有几个我经常聊的话题：一人公司（one-person businesses）、实用哲学、怎么掌控你的心智、生活方式设计等等。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "每个话题下，我都有几条写过的、很有冲击力的短帖。",
+              "pids": [
+                "p36"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "仔细想想，播客上最好的发言者，是那些不直接回答主持人问题的人。",
+              "pids": [
+                "p37"
+              ]
+            }
+          ],
+          "pids": [
+            "p34",
+            "p35",
+            "p36",
+            "p37",
+            "p34",
+            "p35",
+            "p36",
+            "p37"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7586,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "他们不会说：\"嗯……好问题，这个话题我以前聊过，答案是这样的。\"",
+              "pids": [
+                "p38"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "相反，他们会自信地说出自己在这个话题上最好的观念，再用支撑论点展开。这既能让听众保持投入、让这期播客表现更好、让更多人想请你上他们的播客（像复利一样给你带来更多成功），而且它还是个能剪成短视频的片段。如果你的观念已经火过（或者达成过别的任何指标，比如带来更多用户、客户、投资人、人才等等），那他们发出你发言的片段时，它很可能再火一次。",
+              "pids": [
+                "p39"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "亚历克斯·霍尔莫齐（Alex Hormozi）就很擅长这个。",
+              "pids": [
+                "p40"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果一个播客主持人问他：\"在当今世界，你能学的最重要的技能是什么？\"",
+              "pids": [
+                "p41"
+              ]
+            }
+          ],
+          "pids": [
+            "p38",
+            "p39",
+            "p40",
+            "p41",
+            "p38",
+            "p39",
+            "p40",
+            "p41"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6956,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "霍尔莫齐可以只说\"销售\"或\"打造报价（offer）\"，但他明白这事是有层次的，所以他很可能会用他第二火的推文来回答：",
+              "pids": [
+                "p42"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "\"你能培养的最重要的一项技能，是在没有任何值得高兴的事情时，依然能保持好心情的能力。\"",
+              "pids": [
+                "p43"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这不仅出乎听众意料（也就是说它很新颖），还给霍尔莫齐和主持人铺垫出一场人们想听的有趣对话。",
+              "pids": [
+                "p44"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而且，这条推文已经有 10.5 万个赞了，所以被剪出来时，霍尔莫齐选择表达这个特定观念的这个简单决定，带来的结果会比他试着说点新东西多出指数级。",
+              "pids": [
+                "p45"
+              ]
+            }
+          ],
+          "pids": [
+            "p42",
+            "p43",
+            "p44",
+            "p45",
+            "p42",
+            "p43",
+            "p44",
+            "p45"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "道理说得通，但我们到底该怎么从入门到高阶地练？",
+              "pids": [
+                "p46"
+              ]
+            }
+          ],
+          "pids": [
+            "p46",
+            "p46"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "聪明地表达自己的 3 种方法",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "聪明地表达自己的 3 种方法",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "聪明地表达自己的 3 种方法",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "3 Methods To Articulate Yourself Intelligently"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "如果你不知道该学什么，就开始写作。不是因为写作是某种你一直在找的捷径，而是因为写作会教你如何思考、如何学习，以及如何激励别人关心你所做的事。"
+            }
+          ],
+          "pids": [
+            "p48"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7298,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我称自己为写作者，因为这是个方便的标签，但我其实不这么看自己。",
+              "pids": [
+                "p49"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我不在乎语法。我（大多数时候）也不在乎自己听起来有多聪明。我不在乎句子是不是冗长、读起来是不是最顺。可这些东西似乎并没妨碍我触达数百万读者。对有好观念的人来说，互联网已经彻底改变了可能性的边界。",
+              "pids": [
+                "p50"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在做\"写作者\"的这段旅程里，我意识到，写作远不只是把句子串起来。如果说思考是一幅拼图，那写作就是把拼图块拼上。",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，如果你想变得善于表达，大概应该开始写作。准确说，是开始有意识地写——因为你本来每天都在写。",
+              "pids": [
+                "p52"
+              ]
+            }
+          ],
+          "pids": [
+            "p49",
+            "p50",
+            "p51",
+            "p52",
+            "p49",
+            "p50",
+            "p51",
+            "p52"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 10520,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你给家人朋友发消息，给潜在客户、客户和同事发邮件。根据你的工作，你可能还要写项目提纲、反馈、提案等等。",
+              "pids": [
+                "p53"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要是真想一想，媒体（也就是你或你的雇主把你的作品摆到人们面前、说服他们在意你的作品，好让你活下去、拿到报酬的方式）的根基，就是写作。眼下，媒体正是所有人都在抢的东西。你想在任何事业上成事，就得去注意力所在的地方，拿下属于你的那块蛋糕。现在，注意力在社交媒体、YouTube、播客，还有像 Facebook 广告这样的广告上。这些全都要求你有说服力地表达——不管是视频脚本、帖子、销售文案、帖子配文，还是任何有人在读一段文字、听一段口播脚本的地方，而这几乎就是一切。",
+              "pids": [
+                "p54"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就是你练习表达观念的方式。你留出时间，就自己想讲清楚的话题去写。额外好处是：把观念公开发出去（真的只是多花 10 秒的一步），你就能以互动数据的形式拿到直接反馈，知道哪些最有冲击力。积累受众也没坏处。给你的作品、产品或服务弄条免费的分发渠道，是件很棒的事。",
+              "pids": [
+                "p55"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "话虽如此，你到底该怎么以写作的形式开始练表达？",
+              "pids": [
+                "p56"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这里有 3 个框架。",
+              "pids": [
+                "p57"
+              ]
+            }
+          ],
+          "pids": [
+            "p53",
+            "p54",
+            "p55",
+            "p56",
+            "p57",
+            "p53",
+            "p54",
+            "p55",
+            "p56",
+            "p57"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "光靠这些，就能帮你把所有没计划就开始的人远远甩在身后。",
+              "pids": [
+                "p58"
+              ]
+            }
+          ],
+          "pids": [
+            "p58",
+            "p58"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "入门——微故事（The Micro Story）",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "入门——微故事（The Micro Story）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "入门——微故事（The Micro Story）",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Beginner – The Micro Story"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6038,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "心智是一台故事引擎。",
+              "pids": [
+                "p60"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "人会忍不住关注一个故事，尤其是短小又有冲击力的。一旦你学会把它讲好，就能有效地\"短路\"别人的大脑，让他们对你聊的话题产生兴趣。",
+              "pids": [
+                "p61"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "故事的根基是转变（transformation）。这不一定像小说那样，是关于某个特定人物的转变。转变可以简单到提出一个问题、再给一个解决方案。",
+              "pids": [
+                "p62"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "想让它更有冲击力，可以这样组织你要说的话：",
+              "pids": [
+                "p63"
+              ]
+            }
+          ],
+          "pids": [
+            "p60",
+            "p61",
+            "p62",
+            "p63",
+            "p60",
+            "p61",
+            "p62",
+            "p63"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6992,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "问题（Problem）——陈述一个你观察到或亲身经历过、能引起共鸣的问题。这会让观念落地，并让人们对解决方案产生好奇（这就是讲故事的精髓）。",
+                "en": "Problem – state a relatable problem that you’ve observed or experienced before. This grounds the idea and makes people curious about the solution (storytelling in a nutshell).",
+                "pids": [
+                  "p64"
+                ]
+              },
+              {
+                "zh": "放大（Amplify）——描述如果这个问题得不到解决会导致怎样的负面结果。这既能增强人们对解决方案的渴望，也会让解决方案显得更有价值。",
+                "en": "Amplify – illustrate how that problem leads to a negative outcome if it is not solved. This both increases the desire for a solution and makes the solution perceived as that much more valuable.",
+                "pids": [
+                  "p65"
+                ]
+              },
+              {
+                "zh": "解决（Solution）——给出问题的解决方案。在一个短段落里，这可以是一句话或一个简短清单。在一封长新闻信、一篇文章或一个脚本里，这可以是所有要点及其解释。问题和放大部分就构成了钩子（hook）。",
+                "en": "Solution – state the solution to the problem. In a short paragraph, this can be one sentence or a short list. In a long newsletter, article, or script, this can be all of the key points with their explanations. The problem and amplification would account for the hook.",
+                "pids": [
+                  "p66"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p64",
+            "p65",
+            "p66",
+            "p64",
+            "p65",
+            "p66"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "愿意的话，我们可以把它搞得更复杂，但这只是个入门的起步方式。想多了解，就试着刷 X 的时候去辨认它。一旦你看出来了，就再也回不去了。",
+              "pids": [
+                "p67"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你学过一点文案或营销，以前就见过这个。它这么简单，可只要接收的那个人真有这个问题、真想要这个解决方案，它就能极其有力地戳中人性。做了 6 年，当我需要快速讲清一个想法时，它还是我的首选。我有了一个观念，就立刻开始想一个跟它相关的问题。",
+              "pids": [
+                "p68"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当然，这是假设你已经有了要写的观念。",
+              "pids": [
+                "p69"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "没有的话，你就得去\"狩猎\"观念。去读老书、在某个话题上钻兔子洞、听一档新播客，或者只是静静跟自己的思绪待着，跟着它们走，直到挖出一个有说服力的洞见。",
+              "pids": [
+                "p70"
+              ]
+            }
+          ],
+          "pids": [
+            "p67",
+            "p68",
+            "p69",
+            "p70",
+            "p67",
+            "p68",
+            "p69",
+            "p70"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5048,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你\"狩猎\"观念的时候，不是让信息左耳进右耳出。你是在全神贯注地听，找一个你恨不得是自己写出来的观念。",
+              "pids": [
+                "p71"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后你把它记下来，免得丢了。",
+              "pids": [
+                "p72"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后你用这些框架，用自己的话把它表达出来，让它呈现出新的形态。",
+              "pids": [
+                "p73"
+              ]
+            }
+          ],
+          "pids": [
+            "p71",
+            "p72",
+            "p73",
+            "p71",
+            "p72",
+            "p73"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "中级——金字塔原理（The Pyramid Principle）",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "中级——金字塔原理（The Pyramid Principle）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "中级——金字塔原理（The Pyramid Principle）",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Intermediate – The Pyramid Principle"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "金字塔原理是一种沟通框架，它把观念按层级、按逻辑组织起来，让信息更容易被接受、更有说服力。",
+              "pids": [
+                "p75"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "它很简单。",
+              "pids": [
+                "p76"
+              ]
+            }
+          ],
+          "pids": [
+            "p75",
+            "p76",
+            "p75",
+            "p76"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "从主要观点开始（关键结论或建议）",
+                "en": "Start with the main idea (the key conclusion or recommendation)",
+                "pids": [
+                  "p77"
+                ]
+              },
+              {
+                "zh": "用关键论据支撑它（通常 3–5 个要点）",
+                "en": "Support it with key arguments (usually 3-5 key points)",
+                "pids": [
+                  "p78"
+                ]
+              },
+              {
+                "zh": "提供详细证据（数据、例子、分析）",
+                "en": "Provide detailed evidence (data, examples, analysis)",
+                "pids": [
+                  "p79"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p77",
+            "p78",
+            "p79",
+            "p77",
+            "p78",
+            "p79"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5840,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "跟今天大多数内容不一样——它们要等到视频最后才给你答案——这是种\"答案先行\"的方法。",
+              "pids": [
+                "p80"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这跟我们前面讲霍尔莫齐上播客的例子完美契合。",
+              "pids": [
+                "p81"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果他对\"最值得学的技能是什么？\"的回答是：",
+              "pids": [
+                "p82"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "\"你能培养的最重要的一项技能，是在没有任何值得高兴的事情时，依然能保持好心情的能力。\"",
+              "pids": [
+                "p83"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这就可以当作金字塔顶端的答案。",
+              "pids": [
+                "p84"
+              ]
+            }
+          ],
+          "pids": [
+            "p80",
+            "p81",
+            "p82",
+            "p83",
+            "p84",
+            "p80",
+            "p81",
+            "p82",
+            "p83",
+            "p84"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6416,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "然后，他可以用关键论据来支撑，说明为什么这是最值得学的技能。你只要问 3–5 次\"为什么\"，给出扎实的理由就行。",
+              "pids": [
+                "p85"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "之后，他可以举自己生活里的例子、关于保持好心情的数据，或者客户的轶事。",
+              "pids": [
+                "p86"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，这是在新闻信、长推串或 YouTube 视频里展开要点的好方法。你也可以用它让一场会议或对话有个有趣的开场。当然，它还能用来回答播客上的问题。",
+              "pids": [
+                "p87"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "从一个好观念出发，就它提出论证，再用数据撑住。",
+              "pids": [
+                "p88"
+              ]
+            }
+          ],
+          "pids": [
+            "p85",
+            "p86",
+            "p87",
+            "p88",
+            "p85",
+            "p86",
+            "p87",
+            "p88"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "要是你写着写着、说着说着就接不下去了，下一个框架会帮到你。",
+              "pids": [
+                "p89"
+              ]
+            }
+          ],
+          "pids": [
+            "p89",
+            "p89"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "高阶——跨领域综合（Cross Domain Synthesis）",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "高阶——跨领域综合（Cross Domain Synthesis）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "高阶——跨领域综合（Cross Domain Synthesis）",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Advanced – Cross Domain Synthesis"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5516,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这是我最喜欢的一个，因为我兴趣广泛。",
+              "pids": [
+                "p91"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我很难只守着一个话题或一个细分领域。我喜欢研究心理学、哲学、商业、设计、科技、健康，还有任何能给我工具、让我过得更好的东西。",
+              "pids": [
+                "p92"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "除了那些我专注单一话题的文章（比如这篇），我大部分写作都倾向于用这种结构。",
+              "pids": [
+                "p93"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "结构是这样的：",
+              "pids": [
+                "p94"
+              ]
+            }
+          ],
+          "pids": [
+            "p91",
+            "p92",
+            "p93",
+            "p94",
+            "p91",
+            "p92",
+            "p93",
+            "p94"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7406,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "问题与放大——你的引言应该陈述一个能引起共鸣的问题，并描述如果这个问题得不到解决会发生什么。",
+                "en": "Problem and amplify – your introduction should state a relatable problem and illustrate what happens if that problem is not solved.",
+                "pids": [
+                  "p95"
+                ]
+              },
+              {
+                "zh": "跨领域综合——指出你其他兴趣中能帮助支撑你论点的规律或概念。如果我在谈深度工作（deep work），我可以用物理学中熵（entropy）的概念来说明分心是如何运作的。这能教给我的受众新东西，而且我可以安心睡觉，因为我知道外面所有其他讲深度工作的内容都没有这样做。",
+                "en": "Cross-domain synthesis – note patterns or concepts from your other interests that help support your argument. If I’m talking about deep work, I can use the concept of entropy from physics to illustrate how distraction works. This teaches my audience something new, and I can sleep well knowing that all other deep work content out there does not do this.",
+                "pids": [
+                  "p96"
+                ]
+              },
+              {
+                "zh": "独特的流程或解决方案——给出一系列最能解决你开头提出的问题的想法或步骤，从而完成这次转变。这些应该来自你自己的深思，而不是别人开的药方。",
+                "en": "Unique process or solution – give a list of ideas or steps that best solve the problem you introduced at the beginning, solidifying the transformation. These should come from your own contemplation rather than someone else’s prescription.",
+                "pids": [
+                  "p97"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p95",
+            "p96",
+            "p97",
+            "p95",
+            "p96",
+            "p97"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7532,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "实际操作中，你会有作品的标题（要是你喝醉了，在跟一个流浪汉进行一场诡异又深刻的对话，那就没有标题），带问题的引言，一个讲解来自另一个学科或兴趣的概念的章节，然后是用多个章节分别阐述每个要点、解决问题的独特方法。",
+              "pids": [
+                "p98"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这里的问题在于，这会导致东西很长——一封新闻信、一章书、一个 YouTube 视频，甚至一期单人播客。",
+              "pids": [
+                "p99"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你刚起步，你会对着空白屏幕发呆，因为不知道每个部分该填什么。",
+              "pids": [
+                "p100"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "好在，写作就像用观念搭乐高，而观念会以可预测的形式出现。你理解这些形式，就能引导自己的大脑去想接下来写什么。这里有几个简单的：",
+              "pids": [
+                "p101"
+              ]
+            }
+          ],
+          "pids": [
+            "p98",
+            "p99",
+            "p100",
+            "p101",
+            "p98",
+            "p99",
+            "p100",
+            "p101"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "痛点——如果我不知道怎么开始写或说，我就从一个相关的痛点开始，想法就会从那里开始流动。",
+                "en": "Pain point – if I don’t know how to start writing or speaking, I start with a relevant pain point, and ideas start to flow from there.",
+                "pids": [
+                  "p102"
+                ]
+              },
+              {
+                "zh": "例子——一旦你开了头，你可以在任何地方插入一个例子。这能让你说的话落地。",
+                "en": "Example – once you've started, you can throw an example in anywhere. This grounds what you are saying.",
+                "pids": [
+                  "p103"
+                ]
+              },
+              {
+                "zh": "个人故事——想想你生活中与你所写内容相关的一段经历。它可以放在任何位置。",
+                "en": "Personal story – think of a time in your life that relates to what you are writing about. This can go anywhere.",
+                "pids": [
+                  "p104"
+                ]
+              },
+              {
+                "zh": "统计数据——查一个真实的统计数据，为你的观点增加权威性。",
+                "en": "Statistic – research a truthful statistic that adds more authority to your point.",
+                "pids": [
+                  "p105"
+                ]
+              },
+              {
+                "zh": "隐喻——像跟孩子说话一样解释一个复杂的观念。艾伦·沃茨在这方面极其出色。",
+                "en": "Metaphor – explain a complex idea as if you are talking to a child. Alan Watts is incredible at this.",
+                "pids": [
+                  "p106"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p102",
+            "p103",
+            "p104",
+            "p105",
+            "p106",
+            "p102",
+            "p103",
+            "p104",
+            "p105",
+            "p106"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 6,
+            "items": [
+              {
+                "zh": "引语——加入一句能为你的说法提供依据的引语。引语很容易用，因为它们几乎总是很好的观念。",
+                "en": "Quote – include a quote that justifies what you are saying. Quotes are easy because they are almost always great ideas.",
+                "pids": [
+                  "p107"
+                ]
+              },
+              {
+                "zh": "重构（Reframe）——就你刚讨论的观点，给人们一个不同的视角。",
+                "en": "Reframe – give people a different perspective on the point you just discussed.",
+                "pids": [
+                  "p108"
+                ]
+              },
+              {
+                "zh": "是什么、怎么做、为什么——当其他一切都不管用时，就问：是什么？怎么做？为什么？思考就是提问。",
+                "en": "What, how, or why – when all else fails, simply ask what, how, or why? Thinking is questioning.",
+                "pids": [
+                  "p109"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p107",
+            "p108",
+            "p109",
+            "p107",
+            "p108",
+            "p109"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些就是构成我大部分提纲的\"乐高积木\"。我往往会在脑子里把它们全轮一遍。一旦你摸到窍门，它就会成为第二天性，你的思考过程也会开始重新布线。",
+              "pids": [
+                "p110"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "希望这些够你起步了。",
+              "pids": [
+                "p111"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p112"
+              ]
+            }
+          ],
+          "pids": [
+            "p110",
+            "p111",
+            "p112",
+            "p110",
+            "p111",
+            "p112"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5552,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】\n【读者评论】@edalgomezn（点赞 0）：一个在智识上真正称职的头脑，不仅要能把自己的想法讲清楚，还必须能分辨出什么时候这些想法需要改变。\n（译者按：这条评论补上了本文没有展开的一面——\"表达能力\"之外的\"修正能力\"，与作者在其他文章中强调的迭代、纠错一脉相承。）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "如何聪明地表达自己",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "完全指南：如何随时开启极致专注",
+              "href": "05.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/04.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2406 @@
+{
+  "meta": {
+    "id": "12",
+    "kind": "dankoe",
+    "title": "如何熬过 AI 大规模替代（并逃离工资奴役）",
+    "en": "How to survive AI mass replacement (& escape wage slavery)",
+    "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+    "citation": "原题：How to survive AI mass replacement (& escape wage slavery)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-06-22 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2069186019560394833\">https://x.com/thedankoe/status/2069186019560394833</a><br>译注：文中有作者自家产品 Eden 与训练营的推广，照译保留。",
+    "classic": "../classic/12.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "11",
+      "title": "人生是一场心智游戏，这样你才能赢",
+      "href": "11.html"
+    },
+    "next": {
+      "id": "13",
+      "title": "21 世纪最赚钱的技能（不是 AI）",
+      "href": "13.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "如何熬过 AI 大规模替代（并逃离工资奴役）",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 12 篇",
+        "title": "如何熬过 AI 大规模替代（并逃离工资奴役）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 12 篇 · 2026-06-22 · 约 22 分钟",
+          "title": "如何熬过 AI 大规模替代（并逃离工资奴役）",
+          "en": "How to survive AI mass replacement (& escape wage slavery)",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-06-22  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：How to survive AI mass replacement (& escape wage slavery)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-06-22 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2069186019560394833\">https://x.com/thedankoe/status/2069186019560394833</a><br>译注：文中有作者自家产品 Eden 与训练营的推广，照译保留。"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6110,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "很不幸，所有工作大概在接下来 5 秒内就会消失。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "至少，你要是把社交媒体上那些大嗓门的人太当真——比如我这篇文章的标题——感觉就是这么回事。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你甚至会把“反 AI”这套意识形态当成新身份，高喊“去他妈的 AI”，好让自己觉得在有所作为——却不用真去改变行为、拓宽技能、或适应新世界。毕竟谁想干那些事呢？谁会想成长呢？",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "AI 并不是你以为的那种威胁。",
+              "pids": [
+                "p4"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7442,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "真正的威胁，一直是同一个：",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的生存和福祉，依赖所有人，唯独不依赖你自己。任何形式的技术，总会威胁到这一点。你的雇主和政府，有他们自己的生存要顾；一旦有什么东西威胁到它，他们就会降到更低的思考层次，迅速想办法化解。这是人性。你可以争辩说他们“理应”关心你的福祉，可要是你盲目相信他们会兑现，那你注定会非常、非常失望。",
+              "pids": [
+                "p6"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "AI 太大了，靠哭闹是控制不了它的。",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在社交媒体上发帖说你多讨厌 AI，挡不住工作被取代（也不是说它们一定会被取代，先陪我假设一下），也绝对挡不住成功所需的技能跟着技术一起变。",
+              "pids": [
+                "p8"
+              ]
+            }
+          ],
+          "pids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p5",
+            "p6",
+            "p7",
+            "p8"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5858,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我写这封信，是想同时给你一个视角，和一个可能的解决方案（这方案自古就有）。",
+              "pids": [
+                "p9"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "有 4 个观点想跟你分享：关于工资奴役、关于成为高能动性的人，以及为什么——除非你从根本上改变你是谁——否则这些观点都毫无意义。",
+              "pids": [
+                "p10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "最后，我有一个简短的练习，6 个问题，它也许能为你打开一种全新的生活方式——哪怕它看起来很简单。",
+              "pids": [
+                "p11"
+              ]
+            }
+          ],
+          "pids": [
+            "p9",
+            "p10",
+            "p11",
+            "p9",
+            "p10",
+            "p11"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "开始之前，先自我赞助一下，两件事（要是你一看别人推广就上火，请跳过）：",
+              "pids": [
+                "p12"
+              ]
+            }
+          ],
+          "pids": [
+            "p12",
+            "p12"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/12_2.jpg",
+            "alt": "已知与未知之间那道边缘：就业、创业与最佳切换时机"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6452,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "@edendotso 现在支持所有平台（包括 Substack）的社交内容定时发布，还能研究任何平台上的异常爆款帖子，而且你可以通过 MCP 在 Claude 里完成这一切——这是完整的内容工作流。首月五折，在这里。https://letters.thedankoe.com/p/growing-on-social-media-is-easy-actually?lli=1\n下一期个人品牌训练营 7 月 8 日开始。你会学到 AI 时代人们真正需要的那套技能，并学会如何为你自己的品牌和生意定位。在报名截止前在这里加入。https://eden.so/bootcamp"
+            }
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "好，推广结束，下面是正文：",
+              "pids": [
+                "p15"
+              ]
+            }
+          ],
+          "pids": [
+            "p15",
+            "p15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "一、如何逃离工资奴役",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "一、如何逃离工资奴役",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "一、如何逃离工资奴役",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "I – How to escape wage slavery"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "工资奴役，就是为了生存，替别人做你没有选择的、毫无意义的苦差事。"
+            }
+          ],
+          "pids": [
+            "p17"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5588,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我并不反对工作。",
+              "pids": [
+                "p18"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我认为，工作是获取实践经验和技能的一块有价值垫脚石。",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但每当我“说工作的坏话”，总有人忍不住跳出来说：“你是个白痴！我其实挺喜欢我的工作的！”",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "那挺好。我不是在跟你说（而且我多少觉得你在撒谎——就为了逃避面对自己的潜力，同时又完全没意识到这一点）。",
+              "pids": [
+                "p21"
+              ]
+            }
+          ],
+          "pids": [
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p18",
+            "p19",
+            "p20",
+            "p21"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我说的是这些人：他们懂真正享受背后的心理学，一想到下面这种人生就受不了——人生的三分之一，做着你没选择的工作；三分之一，精神疲惫到什么都干不了；还有三分之一，在睡觉……这么持续 40 多年。",
+              "pids": [
+                "p22"
+              ]
+            }
+          ],
+          "pids": [
+            "p22",
+            "p22"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/12_3.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 10970,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你看，享受、意义和充实感，来自活在自己能力的边缘。这一点已经被研究得很透了。不，我不引用来源。享受，来自追求一个刚好略高于你技能水平的挑战：不至于难到让你焦虑，也不至于平淡到让你无聊。电子游戏就是吃准了这一点。你接下那些刚好够挑战的任务——因为要是你一个 1 级角色去做 100 级的任务，你会当场死掉，然后恨死这个游戏。这是进入心流状态头号驱动力；而如果你能造出一种生活结构，提高这个心流触发器出现的概率，享受就会源源不断。",
+              "pids": [
+                "p23"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "工作的问题在于：几个月之后，你就把该知道的都知道了。你只是打卡上班、完成任务、打卡下班。你无聊了。这违背你的天性。你能感觉到。你的注意力不再沉浸在任务里，而是转向“我还能干点什么别的？”——对大多数人来说，那个“别的”，跟什么有意义的目标无关，它指的是打开手机，让大脑烂掉。很少有工作会要求你持续提升技能，去匹配更大的挑战。",
+              "pids": [
+                "p24"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "往职业阶梯上爬会有帮助，但同样，挑战的程度你说了不算。你做的不是自己的项目。好奇心、热情、使命、自主和精通，注定会缺席——而这五样，正是心流的 5 个驱动因素。",
+              "pids": [
+                "p25"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这跟工资奴役有什么关系？",
+              "pids": [
+                "p26"
+              ]
+            }
+          ],
+          "pids": [
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p23",
+            "p24",
+            "p25",
+            "p26"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9980,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "嗯，文明说白了就是靠部落奴役其他部落建起来的。那套动态从没消失，只是抽象成了雇佣、法律和文化。社会本质上变成了一场金字塔骗局：底层的人永远比顶层多，从数学上讲，不可能人人都站到顶上。一个老板，一堆员工，员工指着老板过日子。",
+              "pids": [
+                "p27"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们大多数人，都是在工业标准下长大的。",
+              "pids": [
+                "p28"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "成为专才。在一个领域死磕。找一份高薪工作，好让我朋友们觉得——我儿子／女儿真成功。而既然你就是这么走过来的，大部分过程你都是两眼一抹黑。你只懂做好那份工作所需的那一项技能，却从没试着去理解那个给你付钱的系统。你没往别的领域花时间，所以不知道怎么造出属于自己的东西。你所知道的，只是在别人的东西里，填好一个角色。",
+              "pids": [
+                "p29"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "不知不觉间，你的思考能力就被碾碎了——哪怕你在自己选的那项技能上被公认“聪明”。你挣着还算体面的工资，却觉得财务不稳，于是陷进一个乱糟糟的压力循环。压力让心智变窄。于是，去想象一种真正建起了自己东西的生活，就更难了。",
+              "pids": [
+                "p30"
+              ]
+            }
+          ],
+          "pids": [
+            "p27",
+            "p28",
+            "p29",
+            "p30",
+            "p27",
+            "p28",
+            "p29",
+            "p30"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6218,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你没资本去做想做的事。你没时间做个人成长。而且你多半太累了——精神上的累，不是身体上的——没法重新给自己上课，因为你醒着的大部分时间，都在喂养别人的愿景。",
+              "pids": [
+                "p31"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "顺便说一句，这就是你熬过大规模替代的办法：把自己投进你自己的事里。",
+              "pids": [
+                "p32"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "问题在于，奴隶不知道自己是奴隶。",
+              "pids": [
+                "p33"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这远远不止工资奴役。我们都是奴隶——某种程度上，通常是意识形态和信仰体系的奴隶。",
+              "pids": [
+                "p34"
+              ]
+            }
+          ],
+          "pids": [
+            "p31",
+            "p32",
+            "p33",
+            "p34",
+            "p31",
+            "p32",
+            "p33",
+            "p34"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6524,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "奴役，说的是强制；而我们听到这个词，想到的是身体上的那种。但工资奴役是财务上的。如果你一不去上班就要出大事，又没本事搞出替代方案，那不管你的“感觉”怎么跟你说，你都符合奴隶的定义。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "更糟的是，如果你已经把自己的身份跟工作绑在一起，你可能会把这当成一次真正的攻击。你会感到威胁反应。你会想跟我吵——这没关系，但这只会进一步证明我的观点。",
+              "pids": [
+                "p36"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我想你明白了。",
+              "pids": [
+                "p37"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这很糟。我讨厌去想这事。",
+              "pids": [
+                "p38"
+              ]
+            }
+          ],
+          "pids": [
+            "p35",
+            "p36",
+            "p37",
+            "p38",
+            "p35",
+            "p36",
+            "p37",
+            "p38"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们来谈谈现在有哪些可能，以及你能做点什么。",
+              "pids": [
+                "p39"
+              ]
+            }
+          ],
+          "pids": [
+            "p39",
+            "p39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "二、成功的五种要素",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "二、成功的五种要素",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "二、成功的五种要素",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "II – The five ingredients of success"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "如果你不创建一套日常安排，别人就会给你分配一套。"
+            }
+          ],
+          "pids": [
+            "p41"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6668,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "大多数人，在人生的大半时间里，都被训练去学自己不想学的东西，找一份自己不在乎的工作，替一群自己在日常生活中绝不想沾边的人干活。",
+              "pids": [
+                "p42"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "虽然我认为 AI、技术和社交媒体，已经加速了我们的认识，让我们明白学校和工作不是唯一的路；但我也觉得，人们只是对周围世界那种纯粹的无意义，厌倦了。",
+              "pids": [
+                "p43"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对那些厌倦了默认路径的人，有五种要素能让你经得起未来考验——哪怕／就算所有工作都被取代，你也依然能做有意义的事：",
+              "pids": [
+                "p44"
+              ]
+            }
+          ],
+          "pids": [
+            "p42",
+            "p43",
+            "p44",
+            "p42",
+            "p43",
+            "p44"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "能动性（Agency）——不经许可\"直接去做事\"的能力。在没人要求你的时候，看到一个机会并付诸行动。",
+                "en": "Agency - the ability to “just do things” without permission. To see an opportunity and act on it when nobody asked you to.",
+                "pids": [
+                  "p45"
+                ]
+              },
+              {
+                "zh": "品味（Taste）——知道什么值得放到世界上的经验。",
+                "en": "Taste - the experience to know what’s worth putting out into the world.",
+                "pids": [
+                  "p46"
+                ]
+              },
+              {
+                "zh": "说服（Persuasion）——让人们在乎你所做之事的技能，不要和操纵混为一谈。",
+                "en": "Persuasion - the skill to get people to care about what you do, not to be confused with manipulation.",
+                "pids": [
+                  "p47"
+                ]
+              },
+              {
+                "zh": "坚持（Persistence）——理解犯错不等于死亡，而且犯错是必要的。",
+                "en": "Persistence - the understanding that mistakes do not equal death, and that they are necessary.",
+                "pids": [
+                  "p48"
+                ]
+              },
+              {
+                "zh": "迭代（Iteration）——根据反馈朝目标纠错的过程（如果某样东西行不通，就学习并调整，直到成功）。",
+                "en": "Iteration - the process of error correcting toward a goal based on feedback (if something doesn’t work, learn and pivot until success).",
+                "pids": [
+                  "p49"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p45",
+            "p46",
+            "p47",
+            "p48",
+            "p49",
+            "p45",
+            "p46",
+            "p47",
+            "p48",
+            "p49"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5840,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "眼下人人都痴迷于成为“高能动性”的人。",
+              "pids": [
+                "p50"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我懂。这确实重要。所有科技兄弟都在互相抄作业，说高能动性有多重要——而这恰恰暴露了他们自己是低能动性的。",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "没错，你得能朝一个目标发起行动。这是最能区分企业家和员工的特质之一。企业家，就是把没人要求的东西，拿到世界上来的人。",
+              "pids": [
+                "p52"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "但它只是创业拼图里的一块。",
+              "pids": [
+                "p53"
+              ]
+            }
+          ],
+          "pids": [
+            "p50",
+            "p51",
+            "p52",
+            "p53",
+            "p50",
+            "p51",
+            "p52",
+            "p53"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "上面这 5 种要素，其实可以归结为两项技能：把事情搞明白的能力，和知道该做什么的经验。",
+              "pids": [
+                "p54"
+              ]
+            }
+          ],
+          "pids": [
+            "p54",
+            "p54"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "到目前为止，AI 非常擅长创造资产，但创造爆款不等于创造资产。创造资产是创造爆款的必要但不充分条件。\n上周任何人都能做出一款电子游戏，就像 5 年前任何人都能做出一款电子游戏一样。技术唾手可得。它已经商品化了。你知道一年有多少款手游发布吗？成千上万。你知道一年能出多少爆款吗？零到五款。",
+              "attr": "——施特劳斯·泽尔尼克（Strauss Zelnick）"
+            }
+          ],
+          "pids": [
+            "p55"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "现在任何人都能造出任何东西，这意味着创业（工资奴役的解药）的门槛一直在降——但这其实没那么重要：",
+              "pids": [
+                "p56"
+              ]
+            }
+          ],
+          "pids": [
+            "p56",
+            "p56"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/12_4.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6398,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你，现在，就可以去做个应用。",
+              "pids": [
+                "p57"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "不是下一个 Notion，而是一个范围可控、专注在人们真能从中受益的结果上的应用或工具。一个不用成为爆款、也有价值的东西。",
+              "pids": [
+                "p58"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我其实挺推荐这么做的。我觉得软件会成为下一个“信息产品”。我的意思是：做软件，会成为创作者、独立创业者和其他一人公司的默认选项。信息产品能火这么久，是因为谁都能做——但这当然不代表它们都成功了。",
+              "pids": [
+                "p59"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "问题在于上面那张图。",
+              "pids": [
+                "p60"
+              ]
+            }
+          ],
+          "pids": [
+            "p57",
+            "p58",
+            "p59",
+            "p60",
+            "p57",
+            "p58",
+            "p59",
+            "p60"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6074,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你什么都能造，但这不代表：（1）它值得造；（2）有人会在乎；（3）你有能力根据反馈迭代、坚持，把它变成一个值得造、且有人在乎的东西。",
+              "pids": [
+                "p61"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要是真理解了这句话，就会过得很好。",
+              "pids": [
+                "p62"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第二个问题在于：能动性、品味、说服、坚持和迭代，可不是那种看几个 YouTube 视频就能学会的典型“高价值技能”。",
+              "pids": [
+                "p63"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "关于怎么变得高能动性的理论和推文，并不会让你变得更有能动性。",
+              "pids": [
+                "p64"
+              ]
+            }
+          ],
+          "pids": [
+            "p61",
+            "p62",
+            "p63",
+            "p64",
+            "p61",
+            "p62",
+            "p63",
+            "p64"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "练习它们的唯一办法，就是开始做你自己的事。",
+              "pids": [
+                "p65"
+              ]
+            }
+          ],
+          "pids": [
+            "p65",
+            "p65"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "三、雇佣的解药，是变得不可雇佣",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "三、雇佣的解药，是变得不可雇佣",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "三、雇佣的解药，是变得不可雇佣",
+          "note": "本节标题取自已发布正文。",
+          "en": "III – The antidote to employment is becoming unemployable"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我还记得拿下第一个网页设计客户那天。",
+              "pids": [
+                "p67"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我记得他们付了我 300 美元，买下一个糟透了的手写代码网站。那是家本地床垫公司，他们只是想要个地方，好让人们看到自家床垫。",
+              "pids": [
+                "p68"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "就这样。",
+              "pids": [
+                "p69"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "300 美元。",
+              "pids": [
+                "p70"
+              ]
+            }
+          ],
+          "pids": [
+            "p67",
+            "p68",
+            "p69",
+            "p70",
+            "p67",
+            "p68",
+            "p69",
+            "p70"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7874,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "就在那时，我开窍了。我知道：只要能重复、改进、迭代我刚用来赚到这笔钱的那一套，我就能以某种方式，对自己的生活方式和未来拿到更多掌控。它让我变得不可雇佣。它催生了一个深深的信念：我再也不接受任何工作了，我要自己为自己的生存去拼——哪怕这听起来很戏剧化。",
+              "pids": [
+                "p71"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但光是 300 美元这个数字，解释不了通向那一刻的一切——身份认同的转变，还有一开始骗自己相信这事能成。它也解释不了我接下来 7 年学到的东西。",
+              "pids": [
+                "p72"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我想给你两样东西：一个身份转变的开端——让你真正变成那个不可雇佣的人，而不只是喜欢这个念头的人；再加一份任何人都能用自己的方式去执行的行动计划。",
+              "pids": [
+                "p73"
+              ]
+            }
+          ],
+          "pids": [
+            "p71",
+            "p72",
+            "p73",
+            "p71",
+            "p72",
+            "p73"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "1）把自己扔进一个逼你成长的环境",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "1）把自己扔进一个逼你成长的环境",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "1）把自己扔进一个逼你成长的环境",
+          "note": "本节标题取自已发布正文。",
+          "en": "1) Hurl yourself into an environment that forces growth"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "改变人生最快的方式，是把自己从（物理和数字）环境中连根拔起。一夜之间改变一切。你去的地方、你关注的账号、你消费的信息等等。这很难，但绝对有效。"
+            }
+          ],
+          "pids": [
+            "p75"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5516,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "行为改变 = 身份改变。",
+              "pids": [
+                "p76"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你可以试着节食，减掉 30 磅，但如果你不是那种重视健康、又真心享受健康生活的人，你就会一直觉得像在往上坡跑。你会像大多数人一样，把体重全数反弹回来——除非你从根本上改变你是谁。",
+              "pids": [
+                "p77"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "怎么做？",
+              "pids": [
+                "p78"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "嗯，先搞清楚你是怎么变成今天这样的，会有帮助。",
+              "pids": [
+                "p79"
+              ]
+            }
+          ],
+          "pids": [
+            "p76",
+            "p77",
+            "p78",
+            "p79",
+            "p76",
+            "p77",
+            "p78",
+            "p79"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你出生在一个有特定价值观的家庭和文化中",
+                "en": "You were born into a family and culture with specific values",
+                "pids": [
+                  "p80"
+                ]
+              },
+              {
+                "zh": "你被灌输了这些价值观，即使你的父母没有强加给你",
+                "en": "You were indoctrinated with those values, even if your parents didn’t force them on you",
+                "pids": [
+                  "p81"
+                ]
+              },
+              {
+                "zh": "你去了一所有特定价值观的学校，由有特定价值观的老师教导",
+                "en": "You went to a school with specific values and were taught by teachers with specific values",
+                "pids": [
+                  "p82"
+                ]
+              },
+              {
+                "zh": "你接触了海量的信息，这些信息可能把你的价值观推向叛逆、懒惰、受害者心态",
+                "en": "You were exposed to an absurd amount of information that may have shifted your values toward rebellion, laziness, victimhood",
+                "pids": [
+                  "p83"
+                ]
+              },
+              {
+                "zh": "你有了手机，而由于社交媒体以及我们控制不住自己的猴子脑，那个条件反射的过程呈指数级加剧",
+                "en": "You got a phone, and that conditioning process increased exponentially thanks to social media and our monkey brains not being able to control ourselves",
+                "pids": [
+                  "p84"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p80",
+            "p81",
+            "p82",
+            "p83",
+            "p84",
+            "p80",
+            "p81",
+            "p82",
+            "p83",
+            "p84"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6128,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当然，这个过程还有更多内容，但你明白意思了。",
+              "pids": [
+                "p85"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在，这并不算坏，某种程度上它还是必要的。",
+              "pids": [
+                "p86"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我听过不少“真实性兄弟”说，他们讨厌“模仿”或抄袭这种念头——可他们照样用两条腿走路、说英语，因为嗯，大家就是这么干的。你在模仿。这就叫学习。",
+              "pids": [
+                "p87"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "只有当你的行为，背离了你内核所召唤的那种生活，它才变得糟糕——那个在你心底低语“你注定要做更多”的声音。",
+              "pids": [
+                "p88"
+              ]
+            }
+          ],
+          "pids": [
+            "p85",
+            "p86",
+            "p87",
+            "p88",
+            "p85",
+            "p86",
+            "p87",
+            "p88"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "要开始这个重新条件化的过程，得从你的环境入手。",
+              "pids": [
+                "p89"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你必须对所有刺激都变得极其警觉——因为它们全都在喂养“你将成为谁”。",
+              "pids": [
+                "p90"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要做的是这个：",
+              "pids": [
+                "p91"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "一夜之间，把开关拨过去。",
+              "pids": [
+                "p92"
+              ]
+            }
+          ],
+          "pids": [
+            "p89",
+            "p90",
+            "p91",
+            "p92",
+            "p89",
+            "p90",
+            "p91",
+            "p92"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5264,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "明天醒来，什么都不按老样子来——至少这一天做到。",
+              "pids": [
+                "p93"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "把闹钟调到不同的时间。准确计划好醒来后要做的事。吃不一样的食物。跟不一样的人聊天。消费不一样的内容。全部都换。",
+              "pids": [
+                "p94"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "随着我们往下走，你会开始明白，该朝什么方向去策展你的环境。",
+              "pids": [
+                "p95"
+              ]
+            }
+          ],
+          "pids": [
+            "p93",
+            "p94",
+            "p95",
+            "p93",
+            "p94",
+            "p95"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "2）选择一个反馈尽可能贴近现实的载体",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "2）选择一个反馈尽可能贴近现实的载体",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "2）选择一个反馈尽可能贴近现实的载体",
+          "note": "本节标题取自已发布正文。",
+          "en": "2) Choose a vessel where feedback is as close to reality as possible"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6146,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "最危险的生活方式，就是那种远离持续试错的生活。",
+              "pids": [
+                "p97"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "远离纠错的过程，就是远离挑战、发现和来之不易的智慧——是这些带来成长，成长又带来充实。",
+              "pids": [
+                "p98"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这不只是说那些工作——等你熟悉了任务，挑战程度就变得稀松平常。它也适用于商业和创业，还适用于那些揣着员工心态的人：总要有人告诉他们该干什么，总要有一本手册，他们才对自己的步骤有信心。",
+              "pids": [
+                "p99"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我问你：",
+              "pids": [
+                "p100"
+              ]
+            }
+          ],
+          "pids": [
+            "p97",
+            "p98",
+            "p99",
+            "p100",
+            "p97",
+            "p98",
+            "p99",
+            "p100"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6614,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "互联网出现之前，人们是怎么把事情搞明白的？在“教程”和分步流程满地都是之前呢？第一枚火箭，是怎么造出来的？",
+              "pids": [
+                "p101"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们尝试。他们失败。他们没让失败说服自己“这不可能”，也没让失败把自己搞得晕头转向、转而沉溺于及时的快感。他们根据现实给的反馈，重新定方向。最终，他们从草垛里找到了那根针。",
+              "pids": [
+                "p102"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们很聪明。",
+              "pids": [
+                "p103"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为一个智能系统的标志，就是会根据反馈修正航向。它们心里有一座灯塔，被吹离航线时也不会放弃。",
+              "pids": [
+                "p104"
+              ]
+            }
+          ],
+          "pids": [
+            "p101",
+            "p102",
+            "p103",
+            "p104",
+            "p101",
+            "p102",
+            "p103",
+            "p104"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/12_5.jpg",
+            "alt": "船朝灯塔航行：向右打舵、向左打舵的修正路径"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5264,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我说创业的时候，指的就是这个。",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我指的是进入你的自然状态。投入创造。去追求那些必须经历失败才能达成的未知目标。",
+              "pids": [
+                "p106"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这是大多数成功人士身上唯一的共同特质。",
+              "pids": [
+                "p107"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "失败对他们来说，不是什么负面概念——它是美好人生少不了的一个常量。",
+              "pids": [
+                "p108"
+              ]
+            }
+          ],
+          "pids": [
+            "p105",
+            "p106",
+            "p107",
+            "p108",
+            "p105",
+            "p106",
+            "p107",
+            "p108"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些听着都挺好，但在今天这个世界里，你要怎么真正用上它？",
+              "pids": [
+                "p109"
+              ]
+            }
+          ],
+          "pids": [
+            "p109",
+            "p109"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "3）如果你想在未来茁壮成长，就学会这 2 项技能中的 1 项",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 6 节",
+        "title": "3）如果你想在未来茁壮成长，\n就学会这 2 项技能中的 1 项",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "3）如果你想在未来茁壮成长，\n就学会这 2 项技能中的 1 项",
+          "note": "本节标题取自已发布正文。",
+          "en": "3) Learn 1 of these 2 skills if you want to thrive in the future"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "代码和媒体是无需许可的杠杆。它们是新富阶层背后的杠杆。你可以创造在你睡觉时为你工作的软件和媒体。",
+              "attr": "——纳瓦尔"
+            }
+          ],
+          "pids": [
+            "p111"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9386,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你，作为一个新手、孤身一人，并没意识到自己手里握着多少杠杆——尤其是在有了 AI 之后。",
+              "pids": [
+                "p112"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说的不是低层次的 AI 用法——不是那些随手问 ChatGPT 几句的人，也不是那些因为 AI 偷了他们作品而发火的艺术家。",
+              "pids": [
+                "p113"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说的是这样一个层次：你明白自己几乎能造出任何东西——因为 AI 把你扔进了试错的洪流。当然，第一批输出大多不是你想要的，但如果你有能动性、会迭代、能坚持、又攒起了品味，那你几乎什么都能造出来，而且这一点以后只会越来越真。再然后，如果你能说服别人，你造的东西就能在你睡觉时给你付钱。",
+              "pids": [
+                "p114"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当然，在 AI 之前，这也是可能的。核心问题在于：大多数人不明白，只要时间线拉得够长、又具备成功的 5 种要素，什么都有可能。AI 只是让你做得更多、更快，还让你接触到了以前接触不到的东西——比如造软件的能力，还有超级加料版的学习和研究。",
+              "pids": [
+                "p115"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "话虽如此，我觉得媒体比代码更重要。",
+              "pids": [
+                "p116"
+              ]
+            }
+          ],
+          "pids": [
+            "p112",
+            "p113",
+            "p114",
+            "p115",
+            "p116",
+            "p112",
+            "p113",
+            "p114",
+            "p115",
+            "p116"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5768,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们说的媒体，就是内容。",
+              "pids": [
+                "p117"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "帖子、视频、播客，或者文章——你发一次，就能被成千上万、甚至几百万人看到。在我看来，这会是值得拥有的技能，尤其是在越来越多人想全靠 AI 搞定一切的时候。",
+              "pids": [
+                "p118"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为做内容，你得知道“好”长什么样。",
+              "pids": [
+                "p119"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你仍然需要一种 AI 给不了你的教育——因为你还没开始试错。你根本不知道该问什么。",
+              "pids": [
+                "p120"
+              ]
+            }
+          ],
+          "pids": [
+            "p117",
+            "p118",
+            "p119",
+            "p120",
+            "p117",
+            "p118",
+            "p119",
+            "p120"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6434,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "内容的价值是主观的。每个人读同一句话，都会有不同的解读。换句话说，不存在某一种“唯一正确”的做法能带来结果。",
+              "pids": [
+                "p121"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "另一方面，代码的价值相对客观。只要它能得到你要的结果，你怎么写其实无所谓。就像我们上面看到的：手机应用比以往任何时候都多，可下载量和使用量反倒下降了。",
+              "pids": [
+                "p122"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "为什么？",
+              "pids": [
+                "p123"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为它们没有分发渠道。它们不懂媒体和内容。它们没法让人们去用，更没法让人们在乎到愿意掏钱。",
+              "pids": [
+                "p124"
+              ]
+            }
+          ],
+          "pids": [
+            "p121",
+            "p122",
+            "p123",
+            "p124",
+            "p121",
+            "p122",
+            "p123",
+            "p124"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5318,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "顺便说一句，我说的不是 Instagram 上那种\"我把社交媒体账号交给 Claude，它一夜之间给我涨了 10 万粉丝\"的内容。除非你在通过叙事和权威建立信任与忠诚，否则那几乎一文不值。你可以在 Eden 里做到这一点，但如果你知道自己在做什么会更有帮助。"
+            }
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5498,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "正如 JK·莫利纳（JK Molina）所说：点赞不是钱。",
+              "pids": [
+                "p126"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "聪明的内容创作，远不只是发点激怒人的帖子，换几个点赞和关注。",
+              "pids": [
+                "p127"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "顺便说一句，如果你还没猜到：你为了改变身份而让自己置身其中的环境，应该由那些跟你想要的生活相一致的人、地方和习惯触发因素组成。这只是其中一部分。",
+              "pids": [
+                "p128"
+              ]
+            }
+          ],
+          "pids": [
+            "p126",
+            "p127",
+            "p128",
+            "p126",
+            "p127",
+            "p128"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "四、如何开始——留出 15 分钟改变你的轨迹",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 7 节",
+        "title": "四、如何开始——\n留出 15 分钟改变你的轨迹",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "四、如何开始——\n留出 15 分钟改变你的轨迹",
+          "note": "本节标题取自已发布正文。",
+          "en": "IV – How to start - set aside 15 minutes to change your trajectory"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5732,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你已经改变了环境。",
+              "pids": [
+                "p130"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你已经选好了载体。",
+              "pids": [
+                "p131"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你知道媒体胜过代码：因为内容的价值，在观者眼里——这让 AI 生成的内容迅速被商品化，因为它变得稀松平常，反倒给真正的创意人腾出了空间——不管他们用不用 AI，因为再说一次，AI 不是问题。",
+              "pids": [
+                "p132"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在，你需要回答那个唯一重要的问题：",
+              "pids": [
+                "p133"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你的毕生事业（life's work）是什么？",
+              "pids": [
+                "p134"
+              ]
+            }
+          ],
+          "pids": [
+            "p130",
+            "p131",
+            "p132",
+            "p133",
+            "p134",
+            "p130",
+            "p131",
+            "p132",
+            "p133",
+            "p134"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7046,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这就是我们要造的东西——一项毕生事业，不是一个个人品牌。",
+              "pids": [
+                "p135"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "彼得森、胡伯曼、瓦茨——他们都有“个人品牌”，但他们与自己的使命深度契合。他们清楚自己要什么，把社交媒体当成实现它的工具——因为社交媒体加上 AI，就是眼下一个人能用来做更多事的技术；而如果你从零起步，上电视、上电台、或者找图书出版商，大概都不会有多少成功。",
+              "pids": [
+                "p136"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "（当然，艾伦·瓦茨本来并没打算拥有“个人品牌”，但他确实有一个——这个观点依然成立。）",
+              "pids": [
+                "p137"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们的个人品牌，就是他们本人。",
+              "pids": [
+                "p138"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "它就是他们的身份认同。",
+              "pids": [
+                "p139"
+              ]
+            }
+          ],
+          "pids": [
+            "p135",
+            "p136",
+            "p137",
+            "p138",
+            "p139",
+            "p135",
+            "p136",
+            "p137",
+            "p138",
+            "p139"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7892,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想亲眼看着自己的身份认同实时呈现，只要走一遍 Eden 的欢迎流程。它会把你的身份，搭成一张你能探索的图谱。",
+              "pids": [
+                "p140"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人都喜欢这个想法，但很快就卡住了。他们追求那一口快速的多巴胺，搜的是“做内容创作赚六位数的最佳细分领域是什么”，而不是去深挖自己已经拥有的价值——多年积累的经验和故事。他们觉得那些东西毫无价值，因为对他们来说太稀松平常了。",
+              "pids": [
+                "p141"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你毕生事业的原材料，已经在你身体里了——埋在多年来“要专精、要务实、别问那么多问题”的告诫之下。这个过程，不是为了给你一个多新奇的点子。恰恰相反，它是为了让你看见自己已经拥有的东西。",
+              "pids": [
+                "p142"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "认真对待这件事。",
+              "pids": [
+                "p143"
+              ]
+            }
+          ],
+          "pids": [
+            "p140",
+            "p141",
+            "p142",
+            "p143",
+            "p140",
+            "p141",
+            "p142",
+            "p143"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "关掉你的标签页。打开一个空白文档。设一个 15 分钟的计时器。把下面每个问题的答案，都写下来。别跳过那些让你不舒服的问题。",
+              "pids": [
+                "p144"
+              ]
+            }
+          ],
+          "pids": [
+            "p144",
+            "p144"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "第 1 步：挖掘你的原材料",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 8 节",
+        "title": "第 1 步：挖掘你的原材料",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第 1 步：挖掘你的原材料",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Step 1: Excavate your raw material"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5516,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "让你变得有趣的大部分东西，早被训练没了。你的好奇心，被当成了分心；你广泛的兴趣，被贴上了“不够专注”的标签。这套系统想要的，是一个听话的工人。",
+              "pids": [
+                "p146"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的内容，只有取材于真正属于你的东西，才会奏效。",
+              "pids": [
+                "p147"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "回答这些问题；如果你没有答案，就往下走，把问题留在潜意识里：",
+              "pids": [
+                "p148"
+              ]
+            }
+          ],
+          "pids": [
+            "p146",
+            "p147",
+            "p148",
+            "p146",
+            "p147",
+            "p148"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "你对什么了解得多到不可能是偶然？有什么话题，你在没人付钱的情况下，跨越几十个来源研究了好几年？"
+            },
+            {
+              "n": "2.",
+              "text": "你为自己解决了什么问题，却以为其他人早就搞定了？什么事对你来说是自然而然的，却似乎能难倒其他所有人？"
+            },
+            {
+              "n": "3.",
+              "text": "你小时候因为什么惹上麻烦，而那其实只是早期的品味？在有人告诉你它不切实际之前，你痴迷于什么？"
+            }
+          ],
+          "pids": [
+            "p149",
+            "p150",
+            "p151"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "现在，圈出一个答案——那个让你心里有触动的。那就是原材料。",
+              "pids": [
+                "p152"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "别操心你的细分领域、内容支柱，或者那一套东西。操心你想法的质量——因为最终赢的，就是它。",
+              "pids": [
+                "p153"
+              ]
+            }
+          ],
+          "pids": [
+            "p152",
+            "p153",
+            "p152",
+            "p153"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "第 2 步：说出你的反主流脊梁",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 9 节",
+        "title": "第 2 步：说出你的反主流脊梁",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第 2 步：说出你的反主流脊梁",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Step 2: Name your contrarian spine"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5210,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "没人需要再多一个把常识重新包装一遍的人。你的内容，需要一个只有你看得见的视角。这个视角，来自那一件你相信主流搞错了的事。",
+              "pids": [
+                "p155"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "品味，不在于知道什么是好的。而在于知道什么东西坏掉了，并且没法移开眼睛。",
+              "pids": [
+                "p156"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "回答这些问题：",
+              "pids": [
+                "p157"
+              ]
+            }
+          ],
+          "pids": [
+            "p155",
+            "p156",
+            "p157",
+            "p155",
+            "p156",
+            "p157"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "哪一条主流建议实实在在地让你的生活变得更糟？你必须忘掉什么，才能正常运转？"
+            },
+            {
+              "n": "2.",
+              "text": "关于你的领域，你相信什么会被专家称为幼稚、你却摆脱不掉的东西？"
+            },
+            {
+              "n": "3.",
+              "text": "你所在行业里的每个人都在假装看不见什么？"
+            }
+          ],
+          "pids": [
+            "p158",
+            "p159",
+            "p160"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "把第 1 步和第 2 步的答案放一起看。它们重叠的地方，就是你的方向。",
+              "pids": [
+                "p161"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你对这些问题的回答，就是你的第一批帖子。",
+              "pids": [
+                "p162"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "最好的品牌，就是一个人把自己的世界公开发布出来，供人探索。",
+              "pids": [
+                "p163"
+              ]
+            }
+          ],
+          "pids": [
+            "p161",
+            "p162",
+            "p163",
+            "p161",
+            "p162",
+            "p163"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "第 3 步：明天就发布你的第一个想法",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 10 节",
+        "title": "第 3 步：明天就发布你的第一个想法",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第 3 步：明天就发布你的第一个想法",
+          "note": "本节标题取自已发布正文。",
+          "en": "Step 3: Post your first idea tomorrow"
+        },
+        {
+          "layout": "claim",
+          "reveal": "write",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "claim",
+              "text": "这是一封信，不是一门课。",
+              "pids": [
+                "p165"
+              ]
+            }
+          ],
+          "pids": [
+            "p165",
+            "p165"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我多想在这里塞进 20 个模块，可做不到。那是训练营干的事。https://eden.so/",
+              "pids": [
+                "p166"
+              ]
+            }
+          ],
+          "pids": [
+            "p166",
+            "p166"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5102,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "最后一种要素——它标志着“财务稳定上依赖别人”这件事，开始走向终结——就是真正动手去做。而真正动手，从一条帖子开始。",
+              "pids": [
+                "p167"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "上一步，你已经实实在在写下了帖子选题。",
+              "pids": [
+                "p168"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "挑一个出来。",
+              "pids": [
+                "p169"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "想想怎么把开头的钩子写得抓人眼球。",
+              "pids": [
+                "p170"
+              ]
+            }
+          ],
+          "pids": [
+            "p167",
+            "p168",
+            "p169",
+            "p170",
+            "p167",
+            "p168",
+            "p169",
+            "p170"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "想想正文该怎么措辞，才有冲击力。（译注：原文“Think of how the word the body”有笔误，按语义译出。）",
+              "pids": [
+                "p171"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "接受一个事实：第一版会很烂；而且你没法改进一个还不存在的东西。",
+              "pids": [
+                "p172"
+              ]
+            }
+          ],
+          "pids": [
+            "p171",
+            "p172",
+            "p171",
+            "p172"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5318,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想要点帮助，这里有个提示词／技能，帮你头脑风暴各种角度、起草不同版本，好让你感受一下“好”是什么样。这些都建立在经过验证、确实有效的做法之上。我们之前在《在社交媒体上增长其实很容易》那封信里聊过。https://eden.so/ https://eden.so/bootcamp",
+              "pids": [
+                "p173"
+              ]
+            }
+          ],
+          "pids": [
+            "p173",
+            "p173"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6848,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的任务很简单。",
+              "pids": [
+                "p174"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "从第 1 步里挑一个答案，从第 2 步里挑一个答案。把它们合成一句话——一句只有你才写得出来的话。然后明天，把它当成你的第一条内容发出去。一条帖子、一个视频、一封通讯。形式（暂时）不重要。",
+              "pids": [
+                "p175"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在，你真正拿到了来自现实的反馈。",
+              "pids": [
+                "p176"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果它没起作用，很好——那你就有东西要学了。你得研究，找一个能用在下一条帖子里的说服技巧，再下一条，再下一条，直到你掌握这项技能。因为所谓掌握技能，不过就是遇到问题时，不断往上堆叠技巧。",
+              "pids": [
+                "p177"
+              ]
+            }
+          ],
+          "pids": [
+            "p174",
+            "p175",
+            "p176",
+            "p177",
+            "p174",
+            "p175",
+            "p176",
+            "p177"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5120,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你属于那种现在还在说“我希望这能更实用一点”的人，那你就是眼瞎。我刚刚，已经给了你做成任何事的公式。",
+              "pids": [
+                "p178"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而你刚刚从自己的心智那里收到一条反馈，却没把它登记成一个需要纠正的错误。",
+              "pids": [
+                "p179"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "就这些。",
+              "pids": [
+                "p180"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "下一篇再聊。",
+              "pids": [
+                "p181"
+              ]
+            }
+          ],
+          "pids": [
+            "p178",
+            "p179",
+            "p180",
+            "p181",
+            "p178",
+            "p179",
+            "p180",
+            "p181"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p182"
+              ]
+            }
+          ],
+          "pids": [
+            "p182",
+            "p182"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 4500,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】检索到的公开回复中没有达到\"高质量\"标准的评论，故不收录。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "如何熬过 AI 大规模替代（并逃离工资奴役）",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "21 世纪最赚钱的技能（不是 AI）",
+              "href": "13.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/12.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1688 @@
+{
+  "meta": {
+    "id": "10",
+    "kind": "dankoe",
+    "title": "我求你多写点随笔",
+    "en": "I'm begging you to write more essays",
+    "kicker": "第 10 篇 · 2026-04-02 · 约 16 分钟",
+    "citation": "原题：I'm begging you to write more essays<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-04-02 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2039738438602403899\">https://x.com/thedankoe/status/2039738438602403899</a><br>译注：essay 译为\"随笔\"（指以思考和论证为核心的个人文章，区别于学校作文与资讯类文章 article）。原文中\"centropic\"、\"*\"、\"******\"等疑为笔误或残留符号，照录并注明。文中有作者付费挑战营的推广，照译。",
+    "classic": "../classic/10.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "09",
+      "title": "如何变得有创造力到\"感觉像在犯规\"",
+      "href": "09.html"
+    },
+    "next": {
+      "id": "11",
+      "title": "人生是一场心智游戏，这样你才能赢",
+      "href": "11.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "我求你多写点随笔",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 10 篇",
+        "title": "我求你多写点随笔",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 10 篇 · 2026-04-02 · 约 16 分钟",
+          "title": "我求你多写点随笔",
+          "en": "I'm begging you to write more essays",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-04-02  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：I'm begging you to write more essays<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-04-02 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2039738438602403899\">https://x.com/thedankoe/status/2039738438602403899</a><br>译注：essay 译为\"随笔\"（指以思考和论证为核心的个人文章，区别于学校作文与资讯类文章 article）。原文中\"centropic\"、\"*\"、\"******\"等疑为笔误或残留符号，照录并注明。文中有作者付费挑战营的推广，照译。"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我求你多写点随笔。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "要是你还没开始写，那就开始写。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "不，不是你在学校被布置的那种作文。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说的是最伟大的工具之一：它能让你学得更快、想得更深、更好地表达观点和信念，还能避免被 AI 取代。",
+              "pids": [
+                "p4"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "不过这些，只是写作带给你的“自私”的个人好处。",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "还有更深层的东西。",
+              "pids": [
+                "p6"
+              ]
+            }
+          ],
+          "pids": [
+            "p5",
+            "p6",
+            "p5",
+            "p6"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "现代信息环境正在摧毁我们的思考能力，而大多数人甚至没有察觉。随笔也许是最后几种真正能发展你理解现实之能力的内容形式之一。"
+            }
+          ],
+          "pids": [
+            "p7"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5696,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们正身处人类历史上规模最大的“伪思考”生产之中。",
+              "pids": [
+                "p8"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "后果相当严重，可在乎的只有极少数人。",
+              "pids": [
+                "p9"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在这封信里，我想准确向你展示：这场伪思考的流行病（如果继续这样下去），不仅会让你自己的生活变糟，还可能引发社会崩溃。",
+              "pids": [
+                "p10"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，我想帮你写出第一篇随笔，好修复你最宝贵的资源之一——你的心智。",
+              "pids": [
+                "p11"
+              ]
+            }
+          ],
+          "pids": [
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p8",
+            "p9",
+            "p10",
+            "p11"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "（把它变成一份职业或副业收入，也没什么坏处。）",
+              "pids": [
+                "p12"
+              ]
+            }
+          ],
+          "pids": [
+            "p12",
+            "p12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "一、互联网没有死，但它正在杀死我们",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "一、互联网没有死，\n但它正在杀死我们",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "一、互联网没有死，\n但它正在杀死我们",
+          "note": "本节标题取自已发布正文。",
+          "en": "I – The internet isn’t dead, but it’s killing us"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "书面文字作为主要的媒介形式，可能是民主得以运作的必要条件，因为它要求人们有能力把注意力放在一个观点上足够长的时间，以理解它。——丹尼尔·施马滕伯格（Daniel Schmachtenberger）"
+            }
+          ],
+          "pids": [
+            "p14"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5408,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "社交媒体和 AI，说真的就是对文明的威胁。",
+              "pids": [
+                "p15"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我知道这听起来很疯狂。",
+              "pids": [
+                "p16"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "刷 Instagram 怎么可能导致社会崩溃？看一小段 TikTok 舞蹈能有什么害处，对吧？在 X 上读某人关于特朗普的 5 秒钟观点，不过是午休的一部分，是吧？",
+              "pids": [
+                "p17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "是的——但只在你只盯着自己看的时候才是这样。",
+              "pids": [
+                "p18"
+              ]
+            }
+          ],
+          "pids": [
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p15",
+            "p16",
+            "p17",
+            "p18"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当你拉远，看清真正在起作用的到底是什么，就很难再视而不见了。",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这有 3 个层面。",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "跟紧我，因为这要挖得很深。",
+              "pids": [
+                "p21"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第一个层面：认知公地（epistemic commons）正在被下毒。",
+              "pids": [
+                "p22"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "什么是认知公地？",
+              "pids": [
+                "p23"
+              ]
+            }
+          ],
+          "pids": [
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7478,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "把它想象成我们的水源——只不过是信息的水源，而这极其重要。",
+              "pids": [
+                "p24"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人看新闻，是为了保持“知情”，或者教育自己；但仔细看，他们只是变得自满。他们的生活并没有变好。事实上，大多数人正变得更加厌世、更加两极分化、更加暴力。",
+              "pids": [
+                "p25"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "每当你在社交媒体上发帖，每当有人拍一部电视剧或电影，每当有人在 Spotify 上发布音乐，认知公地（或者说公共信息环境）就增长一分。",
+              "pids": [
+                "p26"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这显然会变复杂，要完全判定，需要一定程度的系统思维。但如果你公开发布的内容弊大于利，又没有真正有益的内容来抵消，我们的智识水源就会被污染。",
+              "pids": [
+                "p27"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "为什么这很糟？",
+              "pids": [
+                "p28"
+              ]
+            }
+          ],
+          "pids": [
+            "p24",
+            "p25",
+            "p26",
+            "p27",
+            "p28",
+            "p24",
+            "p25",
+            "p26",
+            "p27",
+            "p28"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5786,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "因为你、或任何人消费的信息，会影响他的身份认同。身份认同又影响他的人生轨迹和行为。你消费的内容形式，训练着你的注意力时长、对复杂性的容忍度、容纳矛盾的能力，以及把握细微差别的能力。",
+              "pids": [
+                "p29"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就是你学习的原因，对吧？",
+              "pids": [
+                "p30"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "为了让自己具备实现想要的生活所需的知识和认知能力？",
+              "pids": [
+                "p31"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "可问题就出在这里……",
+              "pids": [
+                "p32"
+              ]
+            }
+          ],
+          "pids": [
+            "p29",
+            "p30",
+            "p31",
+            "p32",
+            "p29",
+            "p30",
+            "p31",
+            "p32"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7280,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在你能解决任何构成文明威胁的问题之前——气候、治理、AI 对齐、公共卫生，诸如此类——你需要一群能连贯理解这些问题的人。可 99% 的人甚至不知道这些问题涉及什么，因为他们正开心地对着手机上的猫咪视频流口水。",
+              "pids": [
+                "p33"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们稍后会再谈的要点是：你消费或创造的东西，会不会让你自己和他人产生有益的行为改变？还是说，你在无意识地泡在那些悄悄让生活变糟的信息里，还通过自己贡献的东西，毒害着信息环境？",
+              "pids": [
+                "p34"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这是第一个层面。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "提醒一下：“14 天打造一套 2 小时内容系统”，将于 4 月 7 日开始（就是再过几天）。",
+              "pids": [
+                "p36"
+              ]
+            }
+          ],
+          "pids": [
+            "p33",
+            "p34",
+            "p35",
+            "p36",
+            "p33",
+            "p34",
+            "p35",
+            "p36"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你有兴趣把有思想的写作变成一份现代职业，或者只是想意识到：你确实有值得公开的想法，那不妨在开始日期前加入。",
+              "pids": [
+                "p37"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在这里查看。https://stan.store/thedankoe/p/build-a-2hour-content-ecosystem-in-30-days",
+              "pids": [
+                "p38"
+              ]
+            }
+          ],
+          "pids": [
+            "p37",
+            "p38",
+            "p37",
+            "p38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "二、摧毁文明思考能力的三股力量",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "二、摧毁文明思考能力的三股力量",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "二、摧毁文明思考能力的三股力量",
+          "note": "本节标题取自已发布正文。",
+          "en": "II – The three forces breaking civilization’s ability to think"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "随着技术赋予我们的选择以力量，我们正在获得某种类似神明的力量，你必须拥有某种类似神明的爱与智慧来驾驭它，否则你就会自我毁灭。"
+            }
+          ],
+          "pids": [
+            "p40"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5696,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我想向你介绍我们这个时代最重要的思想家之一。",
+              "pids": [
+                "p41"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他叫丹尼尔·施马滕伯格。",
+              "pids": [
+                "p42"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他不怎么发帖，但偶尔上播客。你一听就能立刻听出，他是个冷静、细致、不制造对立的系统思考者。",
+              "pids": [
+                "p43"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他毕生致力于他所说的“元危机”（Metacrisis）。虽然这远比“互联网上该发什么内容”深刻得多，但我们要聚焦的，恰恰就是这个。",
+              "pids": [
+                "p44"
+              ]
+            }
+          ],
+          "pids": [
+            "p41",
+            "p42",
+            "p43",
+            "p44",
+            "p41",
+            "p42",
+            "p43",
+            "p44"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "简而言之，施马滕伯格认为，有 3 个巨大威胁，可能导致 3 种结果，其中两种是灾难性的。",
+              "pids": [
+                "p45"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这 3 个威胁（他称之为“生成函数”，generator functions）是：",
+              "pids": [
+                "p46"
+              ]
+            }
+          ],
+          "pids": [
+            "p45",
+            "p46",
+            "p45",
+            "p46"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8126,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "竞争性动态（Rivalrous dynamics）——输赢游戏，一方的收益以另一方的损失为前提。想想军备竞赛、企业竞争、社交媒体内容和学术发表（为了抢先发表而囤积数据）。",
+                "en": "Rivalrous dynamics – Win-lose games where one party’s gain requires another’s loss. Think arms races, corporate competition, social media content, and academic publishing (hoarding data to publish first).",
+                "pids": [
+                  "p47"
+                ]
+              },
+              {
+                "zh": "基质消耗（Substrate consumption）——\"基质\"是某样东西存在所需要的东西，比如植物需要土壤、媒体需要注意力、市场需要信任。当系统消耗其根基的速度快于根基再生的速度时，那就糟了。想想耗时上千年才形成的表层土壤正在枯竭，以及注意力经济消耗人类认知能力的速度快于其恢复的速度。",
+                "en": "Substrate consumption – “Substrate” is what something needs to exist, like soil for plants, attention for media, trust for markets. When systems consume their foundation faster than they can regenerate, that’s bad. Think depleting top soil that took millennia to form and the attention economy consuming human cognitive capacity faster than it recovers.",
+                "pids": [
+                  "p48"
+                ]
+              },
+              {
+                "zh": "指数级技术（Exponential technology）——以加速的速度自我改进、超越人类智慧的工具和系统。想想能力不断翻倍的 AI、自动化武器，以及演化速度快于我们研究其心理影响速度的社交媒体算法。",
+                "en": "Exponential technology – Tools and systems that improve themselves at accelerating rates, outpacing human wisdom. Think AI doubling in capacity, automated weapons, and social media algorithms evolving faster than we can study their psychological impacts.",
+                "pids": [
+                  "p49"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p47",
+            "p48",
+            "p49",
+            "p47",
+            "p48",
+            "p49"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6308,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当这 3 样东西汇合，可能导致文明崩溃（核战争、未对齐的 AI、生态破坏、人造流行病），也可能导向反乌托邦式的控制（全面监控、数字威权主义、个人能动性的消除）。",
+              "pids": [
+                "p50"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他把这些称为“吸引子”（attractors），也就是复杂社会往往落入的盆地。",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "“第三吸引子”，也就是这里的好结果，是一个意义建构、共同理解和激励一致的世界。",
+              "pids": [
+                "p52"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们看看互联网、AI 和社交媒体，就很容易看出这一切是怎么展开的。",
+              "pids": [
+                "p53"
+              ]
+            }
+          ],
+          "pids": [
+            "p50",
+            "p51",
+            "p52",
+            "p53",
+            "p50",
+            "p51",
+            "p52",
+            "p53"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8630,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "创作者争夺注意力时，优化的是互动，而不是改变（竞争性动态）。算法只衡量你点击、观看、点赞了多少，所以创作者更可能为任何能让人产生反应的东西，放弃真相和影响。这显然是个问题。",
+              "pids": [
+                "p54"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一旦优化互动，个人消费的内容就不需要思考或理解，那块肌肉于是萎缩。被消耗的“基质”，是认知能力——而认知能力，是注意力的下游。",
+              "pids": [
+                "p55"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "AI 确实加速了内容生产，但它也加速了模仿；当能模仿的只有破坏性内容，你就看得出这会走向哪儿。AI 本身不是问题。问题在于：它能模仿出看起来像真正思考的东西，而创作者和消费者都不用付出任何认知努力。",
+              "pids": [
+                "p56"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这里的默认结果是：认知公地（或者说心智供水）以惊人的速度被毒化——因为它被优化成一种看起来该改变你思考、但从结构上根本做不到这一点的内容。",
+              "pids": [
+                "p57"
+              ]
+            }
+          ],
+          "pids": [
+            "p54",
+            "p55",
+            "p56",
+            "p57",
+            "p54",
+            "p55",
+            "p56",
+            "p57"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这就引出了第三个层面——你能对此做点什么，又如何以有意义的方式从中获益。",
+              "pids": [
+                "p58"
+              ]
+            }
+          ],
+          "pids": [
+            "p58",
+            "p58"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "三、为什么随笔可能是真正思考的最后堡垒",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "三、为什么随笔可能是真正思考的最后堡垒",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "三、为什么随笔可能是真正思考的最后堡垒",
+          "note": "本节标题取自已发布正文。",
+          "en": "III – Why essays may be the last bastion of real thinking"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "智慧不是算法性的，也无法被算法化。"
+            }
+          ],
+          "pids": [
+            "p60"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6308,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "过去几十年，某一类内容主导了互联网。",
+              "pids": [
+                "p61"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "具体说，就是那种不要求你思考、直接把结论塞给你的内容。",
+              "pids": [
+                "p62"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它是心智的快餐。",
+              "pids": [
+                "p63"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，我们把这类媒体叫作“快内容”（fast content）——因为社交媒体公司用来让你上瘾的心理触发器，跟快餐公司用的是同一套：快餐公司早就发现，脂肪、糖和盐在过去是稀缺品，我们的大脑天生不适应它们过剩。找到这些资源，会让多巴胺飙升，因为它们有助于生存。",
+              "pids": [
+                "p64"
+              ]
+            }
+          ],
+          "pids": [
+            "p61",
+            "p62",
+            "p63",
+            "p64",
+            "p61",
+            "p62",
+            "p63",
+            "p64"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7244,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在快内容这一端，有 BuzzFeed 式的清单体文章、愤怒推文、AI 生成的摘要、热点快评、为互动优化过的长推串，还有能在 30 秒内给你一种“我懂了”感觉的 TikTok 讲解视频。难怪现在人人都觉得自己是专家。",
+              "pids": [
+                "p65"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "互联网早期的那批用户，发一篇“30 岁前致富的 10 个习惯”，就能引来成千上万的读者围观；可现在，格局变了。",
+              "pids": [
+                "p66"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在慢内容这一端，也就是需要你动脑的内容，有随笔、长篇且未经优化的对话、某些书、某些讲座，甚至还有一些精心打磨过的推文——你得自己思考，才能得到其中的洞见。",
+              "pids": [
+                "p67"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我个人想聚焦在随笔上。",
+              "pids": [
+                "p68"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "为什么？",
+              "pids": [
+                "p69"
+              ]
+            }
+          ],
+          "pids": [
+            "p65",
+            "p66",
+            "p67",
+            "p68",
+            "p69",
+            "p65",
+            "p66",
+            "p67",
+            "p68",
+            "p69"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8360,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "因为随笔是这样一种东西：你可以独自写出来，还能借它抓住我们正在步入的意义经济。而且，随笔是最具扩展性、最持久的形式。一场有意义的对话，可以改变一个人，但它只活——也只死——在参与者的记忆里。一篇随笔，则能同时发展读者和作者的思考能力，而且能跨越数十年，为成千上万的人做到这一点。这个稍后再细说。",
+              "pids": [
+                "p70"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "除此之外，大多数人揣着一堆从没想透的观点到处走。他们觉得自己相信某个东西，却从没试过把它写下来，写到能经得起聪明读者审视的程度。",
+              "pids": [
+                "p71"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "还有一点也挺有意思：世界上一些最受尊敬的头脑，正是靠写随笔锻造出来的——保罗·格雷厄姆、艾萨克·牛顿、巅峰时期的彼得森、尼采、爱默生，等等。",
+              "pids": [
+                "p72"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "随笔的决定性特征，就是 AI 写不出来。",
+              "pids": [
+                "p73"
+              ]
+            }
+          ],
+          "pids": [
+            "p70",
+            "p71",
+            "p72",
+            "p73",
+            "p70",
+            "p71",
+            "p72",
+            "p73"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "要理解这一点，不妨先区分一下文章（article）和随笔（essay）：",
+              "pids": [
+                "p74"
+              ]
+            }
+          ],
+          "pids": [
+            "p74",
+            "p74"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "文章是答案，随笔是论证。",
+                "en": "Articles are answers, essays are arguments.",
+                "pids": [
+                  "p75"
+                ]
+              },
+              {
+                "zh": "文章打包已有的知识，随笔改变作者的信念。",
+                "en": "Articles package existing knowledge, essays change the author’s beliefs.",
+                "pids": [
+                  "p76"
+                ]
+              },
+              {
+                "zh": "文章从结论开始，随笔去把结论想出来。",
+                "en": "Articles start with the conclusion, essays figure it out.",
+                "pids": [
+                  "p77"
+                ]
+              },
+              {
+                "zh": "文章告知或教育，随笔是一种思考行为。",
+                "en": "Articles inform or educate, essays are an act of thinking.",
+                "pids": [
+                  "p78"
+                ]
+              },
+              {
+                "zh": "文章传达已经存在的东西，随笔发现尚不存在的东西。",
+                "en": "Articles communicate what’s already there, essays discover what isn’t.",
+                "pids": [
+                  "p79"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p75",
+            "p76",
+            "p77",
+            "p78",
+            "p79",
+            "p75",
+            "p76",
+            "p77",
+            "p78",
+            "p79"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9602,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "仔细想想，只有人能写随笔，因为机器人没有“有处境的”（situated）观点。它没有直接经验。它能模拟你让它采纳的视角，但缺少那些引导你朝某个特定方向思考、提问的信念、偏见和情绪。老实说，要把所有这些语境都交给 AI，几乎不可能——因为每一刻都在影响你的观点；而要想拥有一个有意义的观点，你不可能一天 24 小时坐在桌前跟 Claude 聊天。你必须去投入新鲜的经验。",
+              "pids": [
+                "p80"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "更重要的是，AI 毁掉了惊喜与发现的魔力。这是关键的一点。你可以让 AI 跟你分享点新奇的东西，可这样一来，你就是在预期它——它也就不再是惊喜。你亲手毁掉了偶然撞见一个发现的可能。它也许能给你很好的写作素材，但那不是来自你自己的创造力和思考。",
+              "pids": [
+                "p81"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我越用 AI，越觉得它有用；但在这把剑的另一侧刃上，我发现它消耗创造力的速度极快。我忍不住相信（哪怕我自己就是个挺 AI 的人）：互联网上最有价值的内容，大多会以随笔的形式出现。慢内容。",
+              "pids": [
+                "p82"
+              ]
+            }
+          ],
+          "pids": [
+            "p80",
+            "p81",
+            "p82",
+            "p80",
+            "p81",
+            "p82"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "四、意义经济，以及如何在其中茁壮成长",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "四、意义经济，\n以及如何在其中茁壮成长",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "四、意义经济，\n以及如何在其中茁壮成长",
+          "note": "本节标题取自已发布正文。",
+          "en": "IV – The meaning economy and how to thrive in it"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "意义经济，已经兴起好几年了。",
+              "pids": [
+                "p84"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "AI 只是加速了这个过程。",
+              "pids": [
+                "p85"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "为什么？",
+              "pids": [
+                "p86"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "因为意义，是当今文明里最稀缺的商品。",
+              "pids": [
+                "p87"
+              ]
+            }
+          ],
+          "pids": [
+            "p84",
+            "p85",
+            "p86",
+            "p87",
+            "p84",
+            "p85",
+            "p86",
+            "p87"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6416,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "工业化之前，我们赞美天上的神明。工业化期间，我们把生产力奉为神明。今天，“更多”成了我们的神：更多的钱、更多的信息、更多的内容。我们拥有的东西比以往任何时候都多，目标感却比以往任何时候都少。",
+              "pids": [
+                "p88"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在我看来，意义会以溢价出售。",
+              "pids": [
+                "p89"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "人们对它的渴望，会远超现在。",
+              "pids": [
+                "p90"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "还有谁比塑造认知公地的人，更适合提供意义呢？就是那些对抗水源被毒化的价值创造者。",
+              "pids": [
+                "p91"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "那意义是怎么被创造、被体验的呢？",
+              "pids": [
+                "p92"
+              ]
+            }
+          ],
+          "pids": [
+            "p88",
+            "p89",
+            "p90",
+            "p91",
+            "p92",
+            "p88",
+            "p89",
+            "p90",
+            "p91",
+            "p92"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7136,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "意义，就是有序意识的体验。",
+              "pids": [
+                "p93"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当注意力支离破碎、四处分散、被拉向相互冲突的方向，那就是心理熵。它感觉起来像焦虑、无聊和躁动。混乱。",
+              "pids": [
+                "p94"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当注意力被投进一项复杂、有挑战、又有清晰反馈的活动中，那就是心理负熵。它感觉起来像心流、使命和意义。秩序。",
+              "pids": [
+                "p95"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，意义不是你在外部世界找到的东西；它是一种意识状态——当你的注意力有序地投向某个复杂到足以让你全身心投入的事物，它就涌现了。如果你是 10 级，1 级的挑战太无聊，20 级的挑战令人生畏。可 11 级的挑战，刚好能把你牢牢锁住。",
+              "pids": [
+                "p96"
+              ]
+            }
+          ],
+          "pids": [
+            "p93",
+            "p94",
+            "p95",
+            "p96",
+            "p93",
+            "p94",
+            "p95",
+            "p96"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6092,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "意义，是通过“使意识有序”这个过程创造出来的。*（译注：原文此处有一个星号，未见对应脚注。）",
+              "pids": [
+                "p97"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "使意识有序的行为——把混乱变成结构，跟复杂性一路搏斗，直到它变得连贯——会产生意义。",
+              "pids": [
+                "p98"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你曾陷在车辙里，为人生该往哪儿走挣扎过，最后迎来一阵清晰，把你送进一段模糊却有意义的生活——那你就直接体验过这一点了。",
+              "pids": [
+                "p99"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这跟内容、跟随笔有什么关系？",
+              "pids": [
+                "p100"
+              ]
+            }
+          ],
+          "pids": [
+            "p97",
+            "p98",
+            "p99",
+            "p100",
+            "p97",
+            "p98",
+            "p99",
+            "p100"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6848,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "快内容（熵增的、预先消化好的、算法驱动的、AI 生成的）跳过了使意识有序的过程，交付预先打包好的结论。读者的意识停留原地，并变得更加无序。他们接收了信息，却没有生成意义。这就是为什么他们感觉知道了很多，内心却很空虚。",
+                "en": "Fast content (entropic, pre-digested, algorithmic, AI-generated) skips the ordering process and delivers pre-packaged conclusions. The reader’s consciousness stays and becomes more disordered. They received information but didn’t generate meaning. That’s why they feel informed but empty.",
+                "pids": [
+                  "p101"
+                ]
+              },
+              {
+                "zh": "慢内容（随笔、在公开场合的真正思考、需要付出努力才能获得的洞见）要求作者和读者都参与到这个使意识有序的过程中。作者通过写作的行为使自己的意识有序。读者通过好好消化这份思考，重新整理自己的想法。",
+                "en": "Slow content (essays, genuine thinking in public, insight that requires effort) requires both the writer and the reader to engage in the ordering process. The writer orders their own consciousness through the act of writing. The reader re-orders their thoughts by properly digesting the thinking.",
+                "pids": [
+                  "p102"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p101",
+            "p102",
+            "p101",
+            "p102"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5732,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这里的机会是什么？",
+              "pids": [
+                "p103"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "世界不需要更多人去抢着发最能激怒人的帖子。也不需要更多人争当全世界最高效的人，好打造下一家十亿美元的 AI 公司。",
+              "pids": [
+                "p104"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "相反，它需要的是普通人：去理解自己的心智，并把它记录在公开场合。",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "之前，我把这类人叫作“价值创造者”（value creators）——因为这有别于典型的网红或个人品牌。",
+              "pids": [
+                "p106"
+              ]
+            }
+          ],
+          "pids": [
+            "p103",
+            "p104",
+            "p105",
+            "p106",
+            "p103",
+            "p104",
+            "p105",
+            "p106"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6992,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这种人，为自己的人生选择一条积极的轨迹，深切在乎那些能推动自己朝那个方向走的兴趣和技能，并从自己的视角出发，把自己的旅程传递给那些能产生共鸣、能从中受益的人。",
+              "pids": [
+                "p107"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "无论从哪个角度衡量，我都相信，这是一种经得起未来考验、意义深远的生活方式。当然，你没有在创造有形的实体产品，但你在引发一场更大的连锁反应。也就是说，你提供的是根源：信息影响身份认同，身份认同影响行为，而行为影响文明的繁荣或毁灭。就算造火箭，也没有这么大的力量。",
+              "pids": [
+                "p108"
+              ]
+            }
+          ],
+          "pids": [
+            "p107",
+            "p108",
+            "p107",
+            "p108"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "五、如何在公开场合思考（以及为什么这是你能培养的最有价值的技能）",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "五、如何在公开场合思考（以及为什么这是你能培养的最有价值的技能）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "五、如何在公开场合思考（以及为什么这是你能培养的最有价值的技能）",
+          "note": "本节标题取自已发布正文。",
+          "en": "V – How to think in public (and why it’s the most valuable skill you can develop)"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6326,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "说来好笑。",
+              "pids": [
+                "p110"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你们看不到，但这封信写起来难得要命。",
+              "pids": [
+                "p111"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我废掉了三份关于“为什么你应该写随笔”的草稿，因为它们都感觉不对。然而，通过坚持这个挑战、把观点综合出来，我对自己想说的东西，有了更深的理解。（译注：原文此句语法不完整，按语义译出。）",
+              "pids": [
+                "p112"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果这封信以积极的方式，改变了你的想法和行为，那会给你的生活、也给我的生活，带来更多意义。",
+              "pids": [
+                "p113"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我希望你也能体验到同样的感觉。",
+              "pids": [
+                "p114"
+              ]
+            }
+          ],
+          "pids": [
+            "p110",
+            "p111",
+            "p112",
+            "p113",
+            "p114",
+            "p110",
+            "p111",
+            "p112",
+            "p113",
+            "p114"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "那么，我们来点实际的。",
+              "pids": [
+                "p115"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "下面是我能整理出来的东西，帮你走上正轨；然后我们再谈，你可以把随笔发在哪里。",
+              "pids": [
+                "p116"
+              ]
+            }
+          ],
+          "pids": [
+            "p115",
+            "p116",
+            "p115",
+            "p116"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9116,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "为发现而写，而不是为表演而写。反正社交媒体上大多数互动都来自包装，那个你以后再学。从一个概念、观点、问题、经历、念头、一件困扰你的事、或一个话题开始。一篇随笔始于不确定和开放的心态。",
+                "en": "Write to discover, not to perform. Most social media engagement comes from packaging anyway, and you can learn about that later. Start with a concept, viewpoint, question, experience, thought, something that bothers you, or topic. An essay begins with uncertainty and an open mind.",
+                "pids": [
+                  "p117"
+                ]
+              },
+              {
+                "zh": "写真正让你感兴趣的东西。聚焦于一个主要观点。把这当作研究和学习的时间。钻进兔子洞。挑战每个人的观点。不要把任何一个来源奉为法律。",
+                "en": "Write about what genuinely interests you. Focus on a single main idea. Use this as a time to research and learn. Go down rabbit holes. Challenge everyone’s point of view. Do not accept one source as law.",
+                "pids": [
+                  "p118"
+                ]
+              },
+              {
+                "zh": "抵制模板。随着你写得越来越好，你会找到自己喜欢的结构方式。记住，这是一项技能。目前，只管写。和自己辩论。提出问题，让写作持续下去。然后再操心结构，如果你愿意，可以请 AI 帮忙。先完成思考。",
+                "en": "Resist the template. You’ll find how you like to structure your writing as you get better at it. It’s a skill, remember that. For now, just write. Have a debate with yourself. Ask questions to keep the writing going. Then worry about structure and ask AI for help if you want. Do the thinking first.",
+                "pids": [
+                  "p119"
+                ]
+              },
+              {
+                "zh": "问自己：\"我真的相信这个吗？\"写你已经相信的东西很容易，但这件事的意义在于改变你所相信的东西。这是最难的部分。抵制那种表现得好像自己绝对正确的冲动。（译注：原文此句后有一串星号\"******\"，疑为残留符号。）",
+                "en": "Ask, “Do I actually believe this?” It’s easy to write what you already believe, but the point of this is to change what you believe. This is the most difficult part. Resist the urge to act like you are absolutely right.******",
+                "pids": [
+                  "p120"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p117",
+            "p118",
+            "p119",
+            "p120",
+            "p117",
+            "p118",
+            "p119",
+            "p120"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6848,
+          "list": {
+            "ordered": false,
+            "start": 5,
+            "items": [
+              {
+                "zh": "读随笔，消费\"centropic\"的内容。（译注：centropic 似为作者自创或笔误，从上下文看意为\"趋向秩序的、负熵的\"。）你的意义建构能力是由你的输入塑造的。你不能指望\"为你推荐\"页面喂给你这种内容。你必须主动去搜索、策展和培育你的数字信息流。",
+                "en": "Read essays, consume centropic content. Your sense-making capacity is shaped by your inputs. You can’t expect the For You page to feed you this content. You must actively search, curate, and nurture your digital feed.",
+                "pids": [
+                  "p121"
+                ]
+              },
+              {
+                "zh": "建立一个作品体系，而不是一份内容日历。人们不会因为一条内容而关注一个创作者。他们关注的是其连贯的作品体系。每一篇随笔都建立在上一篇之上。AI 无法复制一套通过多年真正思考建立起来的连贯哲学。",
+                "en": "Build a body of work, not a content calendar. People don’t follow creators for one piece of content. They follow for their body of coherent work. Each essay builds on the last. AI can’t replicate a coherent philosophy built through years of genuine thinking.",
+                "pids": [
+                  "p122"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p121",
+            "p122",
+            "p121",
+            "p122"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "有道理，可从哪里开始呢？",
+              "pids": [
+                "p123"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "X 或 Substack。",
+              "pids": [
+                "p124"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "只有这两个平台，把长篇写作和思考放在优先位置。",
+              "pids": [
+                "p125"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这个话题我之前写过好几次了，就说到这儿。",
+              "pids": [
+                "p126"
+              ]
+            }
+          ],
+          "pids": [
+            "p123",
+            "p124",
+            "p125",
+            "p126",
+            "p123",
+            "p124",
+            "p125",
+            "p126"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想要一个有引导的挑战来做这件事，学学有影响力的写作的门道，可以考虑在 4 月 7 日前加入。https://stan.store/thedankoe/p/build-a-2hour-content-ecosystem-in-30-days",
+              "pids": [
+                "p127"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p128"
+              ]
+            }
+          ],
+          "pids": [
+            "p127",
+            "p128",
+            "p127",
+            "p128"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 4500,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】检索到的公开回复中没有达到\"高质量\"标准的评论，故不收录。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "我求你多写点随笔",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "人生是一场心智游戏，这样你才能赢",
+              "href": "11.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/10.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

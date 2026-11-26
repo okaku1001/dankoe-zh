@@ -1,0 +1,1988 @@
+{
+  "meta": {
+    "id": "07",
+    "kind": "dankoe",
+    "title": "如何像战略天才一样思考（5D 思维）",
+    "en": "How to think like a strategic genius (5d thinking)",
+    "kicker": "第 7 篇 · 2026-01-27 · 约 17 分钟",
+    "citation": "原题：How to think like a strategic genius (5d thinking)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-27 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2016200242690195509\">https://x.com/thedankoe/status/2016200242690195509</a>",
+    "classic": "../classic/07.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "06",
+      "title": "当工作失去意义时，工作的未来",
+      "href": "06.html"
+    },
+    "next": {
+      "id": "08",
+      "title": "人类 3.0：一张通往前 1% 的地图",
+      "href": "08.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "如何像战略天才一样思考（5D 思维）",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 7 篇",
+        "title": "如何像战略天才一样思考（5D 思维）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 7 篇 · 2026-01-27 · 约 17 分钟",
+          "title": "如何像战略天才一样思考（5D 思维）",
+          "en": "How to think like a strategic genius (5d thinking)",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-01-27  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：How to think like a strategic genius (5d thinking)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-27 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2016200242690195509\">https://x.com/thedankoe/status/2016200242690195509</a>"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5318,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的思考能力，决定你人生的结果。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这不是夸张。学会思考，从未像现在这样重要。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "尤其是自认为聪明的人，因为你最有可能像傻瓜一样思考。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "社交媒体上到处都是这样的例子。没有哪一天，你不会看到某个智商确实很高的人掉进显而易见的陷阱。",
+              "pids": [
+                "p4"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6020,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "有很多聪明人住在妈妈家的地下室里，再多吃一根薯条就要心脏病发作；也有很多笨人，却异乎寻常地快乐、健康、富有。",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我不打算谈第一性原理思维、系统思维、元认知，或者任何你能让 ChatGPT 教你的东西。我想给你一些不一样的东西。",
+              "pids": [
+                "p6"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们会从一维思维开始，慢慢推进到 5D 思维。",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你仔细读，就会体验到在一个新层次上思考是什么感觉。",
+              "pids": [
+                "p8"
+              ]
+            }
+          ],
+          "pids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p5",
+            "p6",
+            "p7",
+            "p8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "你这么聪明，为什么还这么穷？",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "你这么聪明，为什么还这么穷？",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "你这么聪明，为什么还这么穷？",
+          "note": "本节标题取自已发布正文。",
+          "en": "If you're so smart, why are you broke?"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "信念（faith）远胜于信条（belief）。信条是别人替你做了思考。",
+              "attr": "——巴克敏斯特·富勒（Buckminster Fuller）"
+            }
+          ],
+          "pids": [
+            "p10"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "思考技巧第一条：",
+              "pids": [
+                "p11"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你想理解某样东西是什么——比如天才级的思考——先弄清它不是什么，会很有帮助。",
+              "pids": [
+                "p12"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这样，我们就能识别并避开愚蠢的思考。",
+              "pids": [
+                "p13"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当我们观察愚蠢的思考是什么样子时，会得出几点洞见：",
+              "pids": [
+                "p14"
+              ]
+            }
+          ],
+          "pids": [
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p11",
+            "p12",
+            "p13",
+            "p14"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "愚蠢的思考是一维的。人们试图把一切都塞进自己的视角，很难看到视角之外的东西。",
+                "en": "Stupid thinking is one-dimensional. People try to jam everything into their own perspective and have difficulty seeing outside of it.",
+                "pids": [
+                  "p15"
+                ]
+              },
+              {
+                "zh": "愚蠢的思考是还原论的。比如，某个领域（例如商业）的专家，试图把一切都归结为一个\"策略\"问题。",
+                "en": "Stupid thinking is reductionistic. Experts in one domain, like business, try to reduce everything to a \"strategy\" problem, as an example.",
+                "pids": [
+                  "p16"
+                ]
+              },
+              {
+                "zh": "愚蠢的思考是部落式的。你只信任你的群体、党派或部落，认为其他所有人都是错的，因为他们不顺从。",
+                "en": "Stupid thinking is tribal. You only trust your group, party, or tribe and consider everyone else wrong because they don't conform.",
+                "pids": [
+                  "p17"
+                ]
+              },
+              {
+                "zh": "愚蠢的思考不提问。你的理由是\"事情就是这么做的\"。",
+                "en": "Stupid thinking does not question. Your justification is \"that's just how it's done.\"",
+                "pids": [
+                  "p18"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p15",
+            "p16",
+            "p17",
+            "p18"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8432,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "总体而言，愚蠢的思考就是：一旦触及自己所知的边界，就把心智关上。",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "愚蠢的思考，就是过早停止思考。到了某个点，你就用预先编好的念头做出反应，再也得不到任何新颖的洞见。",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "据此，我们可以试着给天才思考下一个像样的定义。它可能是：",
+              "pids": [
+                "p21"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它是一种能力：把带有威胁性的观念，也放进“可能性”的领域里容纳下来；再配上一种意图——你想要“理解”，而不只是“知道”。天才思考的标志，体现在你思考的宽度、深度和高度上。在这些维度上，你能不断向外探索，不会中途被截断——这种截断，往往是因为你把某个观念当成了绝对真理。它是你遍历那张完整、普遍的观念之网（现实、所有潜在的知识），并把它们整合成某种连贯或有用的东西的能力——哪怕那不是全新的东西。",
+              "pids": [
+                "p22"
+              ]
+            }
+          ],
+          "pids": [
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p19",
+            "p20",
+            "p21",
+            "p22"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9152,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "那么问题来了：“知道”和“理解”有什么区别？怎么培养思考的宽度、深度和高度？如果你还能走得更远呢？",
+              "pids": [
+                "p23"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "“知道”是横向的。你在某个特定领域学大量知识、记住大量事实，直到变得胜任。知道很多的人被称为“专家”，可当今世界并不需要更多专家。",
+              "pids": [
+                "p24"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "“理解”是纵向的。它关乎你整套认知操作系统有多精密。一个人可以知道得很少，却理解得很多，还能用这种洞见去行动，带来更有价值的结果。",
+              "pids": [
+                "p25"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "“聪明的笨人”现象，源于横向很先进、纵向却卡住了。一个坐拥全世界的钱、却发现自己不快乐的商人。一个作品很美、却没法靠它谋生的创意人。一个连一段稳定关系都维持不了的肌肉男。他们在各自的领域里知道很多，却看不到自己知识泡泡之外的东西。那个知识泡泡，没有提供足够的表面积，让他们识别并解决那些导致痛苦的问题。",
+              "pids": [
+                "p26"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这就是为什么学会如何思考如此重要。",
+              "pids": [
+                "p27"
+              ]
+            }
+          ],
+          "pids": [
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p27",
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p27"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5678,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "因为你的心智，就是你与现实互动的方式。",
+              "pids": [
+                "p28"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你处理信息 → 理解它（思考）→ 做出选择 → 接收作为反馈的信息 → 回应反馈，并重复这个循环。",
+              "pids": [
+                "p29"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "那么，思考决定了你人生的结果。",
+              "pids": [
+                "p30"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你每一刻的愚蠢思考，都会累积成一种复利效应，把你挖进一道深深的车辙里——深到你甚至够不着那个能把你带出来的念头。",
+              "pids": [
+                "p31"
+              ]
+            }
+          ],
+          "pids": [
+            "p28",
+            "p29",
+            "p30",
+            "p31",
+            "p28",
+            "p29",
+            "p30",
+            "p31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "思考的高度、层级和线",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "思考的高度、层级和线",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "思考的高度、层级和线",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "Altitudes, levels, and lines of thinking"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "你无法在制造问题的同一意识层次上解决问题。",
+              "attr": "——阿尔伯特·爱因斯坦"
+            }
+          ],
+          "pids": [
+            "p33"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5372,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我们从地基开始。",
+              "pids": [
+                "p34"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "思考的“线”（lines），是你可以知道很多的领域。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "线代表横向发展（宽度）。",
+              "pids": [
+                "p36"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它们可以是任何东西：营销、天体物理、政治、社会动力学、宗教，等等。当你试图学习某个特定领域的知识，你就是在增加那条思考线的宽度。就像在电子游戏里攒经验值。",
+              "pids": [
+                "p37"
+              ]
+            }
+          ],
+          "pids": [
+            "p34",
+            "p35",
+            "p36",
+            "p37",
+            "p34",
+            "p35",
+            "p36",
+            "p37"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "（顺便说一句，如果你研究过肯·威尔伯（Ken Wilber），就能看出我在说什么——只是把它用在了思考上。）",
+              "pids": [
+                "p38"
+              ]
+            }
+          ],
+          "pids": [
+            "p38",
+            "p38"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/07_1.jpg",
+            "alt": "四层能力成长图：从新手到高手"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "思考的“层级”（levels），是你如何思考每一条线。",
+              "pids": [
+                "p39"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "层级代表纵向发展（深度）。",
+              "pids": [
+                "p40"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "观察认知发展在集体和个体身上、随时间如何演化，我们会注意到 5 种核心模式：",
+              "pids": [
+                "p41"
+              ]
+            }
+          ],
+          "pids": [
+            "p39",
+            "p40",
+            "p41",
+            "p39",
+            "p40",
+            "p41"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7028,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "本能型（第 0 级）——你生来出于纯粹的生存需要而行动。你对刺激做出反应，中间几乎没有思考。",
+                "en": "Instinctual (Level 0) – You are born act out of the need for pure survival. You react to stimuli with little thinking in between.",
+                "pids": [
+                  "p42"
+                ]
+              },
+              {
+                "zh": "从众型（第 1 级）——非黑即白的思维。你遵守规则，服从权威，不加质疑。你采纳别人的视角。",
+                "en": "Conformist (Level 1) – Black and white thinking. You follow rules and obey authority without questioning. You adopt others perspective.",
+                "pids": [
+                  "p43"
+                ]
+              },
+              {
+                "zh": "个人主义型（第 2 级）——批判性思维出现，你构建自己的模型。你建立自己的视角。",
+                "en": "Individualist (Level 2) – Critical thinking emerges and you construct your own model. You build your own perspective.",
+                "pids": [
+                  "p44"
+                ]
+              },
+              {
+                "zh": "综合型（第 3 级）——你把自己的模型看作众多模型之一。你能容纳矛盾，把视角当作工具，而不是法律或某种不容置疑的真理。",
+                "en": "Synthesist (Level 3) – You see your model as one among many. You hold contradictions and use perspectives as tools rather than law or some unquestionable truth.",
+                "pids": [
+                  "p45"
+                ]
+              },
+              {
+                "zh": "生成型（第 4 级）——你创造出以前不存在的原创视角，或者在没有外部影响的情况下得出观念。",
+                "en": "Generative (Level 4) – You create original perspectives that didn't exist before, or you come to ideas without outside influence.",
+                "pids": [
+                  "p46"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p42",
+            "p43",
+            "p44",
+            "p45",
+            "p46",
+            "p42",
+            "p43",
+            "p44",
+            "p45",
+            "p46"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7100,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "第 1 级和第 2 级可以看作“第一层”（first tier）思维，过于教条。我对，你错。",
+              "pids": [
+                "p47"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第 3 级和第 4 级可以看作“第二层”（second tier）思维，它们拒绝教条，寻求那处在中间的终极真理。",
+              "pids": [
+                "p48"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在意义的领域里，你往往先被灌输一套信仰体系，然后质疑它、得出自己的结论（常常把先前那套推翻），接着开始在所有信仰体系里都看到真理，最后，你有能力创造一套更宽广的体系。",
+              "pids": [
+                "p49"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在政治上，我们看到的许多争斗和暴力，都是因为大众还运作在第 1 级和第 2 级。我的群体对你的群体。双方都无法跳出自己的泡泡去思考。",
+              "pids": [
+                "p50"
+              ]
+            }
+          ],
+          "pids": [
+            "p47",
+            "p48",
+            "p49",
+            "p50",
+            "p47",
+            "p48",
+            "p49",
+            "p50"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8414,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "再说一遍，我要把这点说得极其清楚，因为这陷阱太容易掉进去了：",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "天才思考，就是持续思考的能力。",
+              "pids": [
+                "p52"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在每一个思考层级上，你在已知和未知观念的空间里驾驭的能力，都在持续扩展。你刚出生时，并不真正思考。当你是从众型时，你会一直思考，直到拿到“那个”答案，然后就开始捍卫它。当你是个人主义型时，你做同样的事，只不过捍卫的是你自己的答案。当你达到综合型时，你能想得又远又广，不过你创造新思考线的能力还没完全发展起来。",
+              "pids": [
+                "p53"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "要达到你最高的思考能力，从而为你此生最高的潜力铺好跑道，归根结底就是一个简单的练习：留意你的心智什么时候感到受威胁，对自己诚实，并且至少对新视角保持开放。",
+              "pids": [
+                "p54"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "思考的“高度”（altitude），是你所有层级的平均值。",
+              "pids": [
+                "p55"
+              ]
+            }
+          ],
+          "pids": [
+            "p51",
+            "p52",
+            "p53",
+            "p54",
+            "p55",
+            "p51",
+            "p52",
+            "p53",
+            "p54",
+            "p55"
+          ]
+        },
+        {
+          "layout": "claim",
+          "reveal": "write",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "claim",
+              "text": "高度代表跨维度的发展（高度）。",
+              "pids": [
+                "p56"
+              ]
+            }
+          ],
+          "pids": [
+            "p56",
+            "p56"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/07_2.jpg",
+            "alt": "五个领域、四个层级的思考高度示意图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8360,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "要最好地理解这一点，也为了差不多把思考这块拼图拼完，不妨把思考想象成一棵技能树。",
+              "pids": [
+                "p57"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在电子游戏里，你可以把“点数”加到某些属性上，让你在游戏里能做更多事。你可以接更高的挑战，玩得更开心，一直玩下去。心智也是如此。",
+              "pids": [
+                "p58"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "问题在于，更高级的属性，只有当你满足了较低级属性的特定要求后才会解锁。比如，不把力量练到“第 4 级”，你就解锁不了“第 3 级”的敏捷。",
+              "pids": [
+                "p59"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在现实世界里，想象你开了一家公司。你学会了关于营销、销售和产品的一切。你确实很聪明。你赚了不少钱。可当你想更进一步时，撞上了一道看不见的路障。你找不出问题所在，于是把它归咎于你所知道的东西：“市场就是不够大”，或者诸如此类的说法。你的心智关上了，没有前进的路。",
+              "pids": [
+                "p60"
+              ]
+            }
+          ],
+          "pids": [
+            "p57",
+            "p58",
+            "p59",
+            "p60",
+            "p57",
+            "p58",
+            "p59",
+            "p60"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "此外，人生显然不只有生意。如果你人生的其他部分正在分崩离析，你这个生意人，就会试图把圆形塞进方孔里。你也许能暂时缓解问题，却永远搞不懂根本原因。",
+              "pids": [
+                "p61"
+              ]
+            }
+          ],
+          "pids": [
+            "p61",
+            "p61"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "这在很大程度上就是为什么政治、宗教以及营养学这类领域如此充满敌意、如此两极分化。一群聪明的笨人互相骂对方是白痴，因为他们已经停止思考，只捍卫自己认为唯一正确的方式。"
+            }
+          ],
+          "pids": [
+            "p62"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6056,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "回到生意上，问题在于你看不到真正的问题。可能是你不知道怎么带团队。可能是时间管理的问题。甚至可能是个灵性问题——可你太生意头脑了，连想都不愿往那边想。至少，那个视角可能催生出带来进一步进展的洞见。这就是通才和博学者会赢的原因。",
+              "pids": [
+                "p63"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "换句话说，你达不到生意的第 3 级，是因为你没往其他那些能解锁该层级的必要领域“加点”。",
+              "pids": [
+                "p64"
+              ]
+            }
+          ],
+          "pids": [
+            "p63",
+            "p64",
+            "p63",
+            "p64"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "如何解锁四维思维",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "如何解锁四维思维",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "如何解锁四维思维",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "How to unlock 4-dimensional thinking"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5156,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "思考有第四个维度。",
+              "pids": [
+                "p66"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "嗯，它并不是像时间那样真正的第四维度，但确实能把你的思考能力提升到四次方。",
+              "pids": [
+                "p67"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你看，现实有 4 个“维度”。",
+              "pids": [
+                "p68"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些维度，就是视角。你可以用 4 种主要方式，改变自己看待一个信念、观念、情境或问题的角度。",
+              "pids": [
+                "p69"
+              ]
+            }
+          ],
+          "pids": [
+            "p66",
+            "p67",
+            "p68",
+            "p69",
+            "p66",
+            "p67",
+            "p68",
+            "p69"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/07_3.jpg",
+            "alt": "四象限：内在/外在 × 个体/集体"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7838,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "有内在世界和外在世界，两者又都各有集体的部分和个体的部分。",
+              "pids": [
+                "p70"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "内在世界是心智层面的。我的意思是，心理和文化层面。你个体的内在心理，包含你的想法、情绪、信念和意识。集体的内在世界，也就是文化，包含群体信念、价值体系和意识形态。",
+              "pids": [
+                "p71"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "外在世界是物理层面的，这听起来没那么玄乎，但你没法否认，你能思考心智层面的东西——而这正是我们要谈的。你个体的外在世界，是你可见的外表、行为，以及物理层面的大脑状态或测量数据。集体的外在世界，由系统、结构和社会机构组成。（译注：此即肯·威尔伯的“四象限”模型。）",
+              "pids": [
+                "p72"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "为了说明理解这一点的力量，我们来走一遍思考的进阶过程。",
+              "pids": [
+                "p73"
+              ]
+            }
+          ],
+          "pids": [
+            "p70",
+            "p71",
+            "p72",
+            "p73",
+            "p70",
+            "p71",
+            "p72",
+            "p73"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "我学了很多营销知识并运用它（思考线）",
+                "en": "I learn a lot about marketing and use that knowledge (line of thinking)",
+                "pids": [
+                  "p74"
+                ]
+              },
+              {
+                "zh": "我练习、失败、积累了足够的经验，明白并不存在\"一套经过验证的框架\"，但我理解得足够深，能自己创造出表现更优的营销活动（思考层级）",
+                "en": "I practice, fail, and experience enough to understand that there isn't \"one proven framework,\" but I have such an understanding that I can create outperforming marketing campaigns of my own (levels of thinking)",
+                "pids": [
+                  "p75"
+                ]
+              },
+              {
+                "zh": "我追求心理学、健身和个人成长等兴趣，这给了我更深的模式识别能力，让我进一步摆脱教条式的框架（思考高度）",
+                "en": "I pursue interests like psychology, fitness, and personal development which gives me deeper pattern recognition that further removes me from dogmatic frameworks (altitude of thinking)",
+                "pids": [
+                  "p76"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p74",
+            "p75",
+            "p76",
+            "p74",
+            "p75",
+            "p76"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6560,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "从那里开始，事情就变得有趣了，可以朝很多不同的方向发展。",
+              "pids": [
+                "p77"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们忘了提一点：思考，通常是为了解决问题。这是人类在做的事。这是我们成长的方式。也是我们找到充实感的地方。一旦你停止成长（从而停止思考），问题就会成倍增加，生活只会越来越混乱。",
+              "pids": [
+                "p78"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果我们识别出一个问题，比如“世界正变得腐败而无意义”，就可以朝那个方向接着想下去。",
+              "pids": [
+                "p79"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "社会如何控制注意力，并把它的观念推销给大众？（集体内在世界）",
+              "pids": [
+                "p80"
+              ]
+            }
+          ],
+          "pids": [
+            "p77",
+            "p78",
+            "p79",
+            "p80",
+            "p77",
+            "p78",
+            "p79",
+            "p80"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6812,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的行为可以如何改变——比在这个过程中已经发生的改变更多——从而对社会产生积极影响？要达到能够留下印记的那种影响力，需要哪些步骤？（个体外在世界）",
+              "pids": [
+                "p81"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当前的就业市场是什么样子？一份工作真的是实现这种目标的路径吗？AI 呢？我能利用手头的技术产生那种影响吗？（集体外在世界）",
+              "pids": [
+                "p82"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我的思考方式对吗？还是还有更多？我漏掉了什么，这让我有什么感受？有动力？受到启发？充满憎恨？（个体内在世界）",
+              "pids": [
+                "p83"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我们可以一直说下去，不过我想你懂了。",
+              "pids": [
+                "p84"
+              ]
+            }
+          ],
+          "pids": [
+            "p81",
+            "p82",
+            "p83",
+            "p84",
+            "p81",
+            "p82",
+            "p83",
+            "p84"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "天才思考，是把注意力引向有用方向的能力。你一步步鼓励自己的心智越拉越远；从那里，你获得一个更通透的视角，再拉回来看你最初想解决的那个问题。",
+              "pids": [
+                "p85"
+              ]
+            }
+          ],
+          "pids": [
+            "p85",
+            "p85"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "如何触及第五维度",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "如何触及第五维度",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "如何触及第五维度",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "How to tap into the 5th dimension"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "能很好地适应一个病入膏肓的社会，并不是健康的标志。",
+              "attr": "——克里希那穆提（Krishnamurti）"
+            }
+          ],
+          "pids": [
+            "p87"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7262,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "是的，我知道，这其实并不是第五维度。",
+              "pids": [
+                "p88"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它是第四维度（时间）。我在这里，只是想靠“编造东西”来练练思考。等你把时间应用到我们刚讨论的现实的四个维度上，你的思考能力就会继续飙升。",
+              "pids": [
+                "p89"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在之前所有的例子里，我们都没用上历史的力量。如果你理解历史——尤其是演化的模式，而不是死记事件——就能把思考瞄准更准确的方向。",
+              "pids": [
+                "p90"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这说明了“知道”和“理解”的区别。你可以知道历史上某个特定时刻的很多事实，这很好；但如果你不能拉远，看到那个时刻所代表的本质，你可能就无法在不同领域里发现同一个模式。",
+              "pids": [
+                "p91"
+              ]
+            }
+          ],
+          "pids": [
+            "p88",
+            "p89",
+            "p90",
+            "p91",
+            "p88",
+            "p89",
+            "p90",
+            "p91"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5318,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "要开始有效地思考历史，你需要知道 5 件事。这些并不穷尽，还有多得多的内容，但作为起点已经足够了。",
+              "pids": [
+                "p92"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "1）总模式是“超越并包含”（Transcend and Include）",
+              "pids": [
+                "p93"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "唯物主义者会说，现实由原子构成。他们是对的。",
+              "pids": [
+                "p94"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "唯心主义者会说，现实由感受质（qualia）构成。他们是对的。",
+              "pids": [
+                "p95"
+              ]
+            }
+          ],
+          "pids": [
+            "p92",
+            "p93",
+            "p94",
+            "p95",
+            "p92",
+            "p93",
+            "p94",
+            "p95"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5174,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "但如果我们为了理解而拉远，模式就很清楚了：现实由“整体/部分”（whole parts，即本身是整体、同时又是更大整体之一部分的东西）构成。（译注：即威尔伯所说的“全子”holon。）",
+              "pids": [
+                "p96"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "物质 → 生命 → 心智",
+              "pids": [
+                "p97"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "单词 → 句子 → 段落",
+              "pids": [
+                "p98"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "机器 → 计算机 → 人工智能",
+              "pids": [
+                "p99"
+              ]
+            }
+          ],
+          "pids": [
+            "p96",
+            "p97",
+            "p98",
+            "p99",
+            "p96",
+            "p97",
+            "p98",
+            "p99"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5786,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "人 → 房屋 → 城市 → 州 → 国家 → 大陆 → 行星 → 太阳系 → 星系",
+              "pids": [
+                "p100"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "每一个整体，都超越并包含了前一个。也就是说，你一旦移除那样让另一样东西得以存在的东西，整条链就会自我毁灭（这就是为什么环保主义者那么担心气候变化：生物圈一旦崩溃，人类也会跟着覆灭）。",
+              "pids": [
+                "p101"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "举几个例子就清楚了。",
+              "pids": [
+                "p102"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "2）个体如何在物理上演化",
+              "pids": [
+                "p103"
+              ]
+            }
+          ],
+          "pids": [
+            "p100",
+            "p101",
+            "p102",
+            "p103",
+            "p100",
+            "p101",
+            "p102",
+            "p103"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5048,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这一点很简单，因为大多数人都能看见它、摸到它、闻到它。",
+              "pids": [
+                "p104"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "原子 → 细胞 → 分子 → 器官 → 有机体（译注：原文顺序如此。）",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你可以通过个体事物——不只是人类——是如何发展的，来思考物理世界。",
+              "pids": [
+                "p106"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "3）个体如何在心智上演化",
+              "pids": [
+                "p107"
+              ]
+            }
+          ],
+          "pids": [
+            "p104",
+            "p105",
+            "p106",
+            "p107",
+            "p104",
+            "p105",
+            "p106",
+            "p107"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7352,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "人类是通过一个不断扩大的关怀圈来发展的。",
+              "pids": [
+                "p108"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "首先，我们关心自己和自己的生存（自我中心）。",
+              "pids": [
+                "p109"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，我们关心我们的部落、群体或文化（族群中心）。",
+              "pids": [
+                "p110"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "接下来，我们关心所有群体，不论差异（世界中心）。但由于总模式是超越并包含，我们仍然关心自己和自己的部落——这一点，必须纳入我们的思考。我们不会仅仅因为关心他人听起来很高尚，就牺牲自己、牺牲自己的价值观。大多数群体之间的争论，通常就发生在这里：有些人把“关心所有人的平等”当成道德高地，而这种高地往往是自毁性的，结果反而和关心所有人背道而驰。",
+              "pids": [
+                "p111"
+              ]
+            }
+          ],
+          "pids": [
+            "p108",
+            "p109",
+            "p110",
+            "p111",
+            "p108",
+            "p109",
+            "p110",
+            "p111"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5300,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在最发达的层级上，我们把现实当作终极整体来关心。这显然要求一个人能想透海量的复杂性，才能从中得出任何实用的东西。",
+              "pids": [
+                "p112"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "4）社会如何在物理上演化",
+              "pids": [
+                "p113"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "社会结构追随技术。",
+              "pids": [
+                "p114"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "随着锄头的发明——它让小规模耕作成为可能——我们从部落走向村庄。",
+              "pids": [
+                "p115"
+              ]
+            }
+          ],
+          "pids": [
+            "p112",
+            "p113",
+            "p114",
+            "p115",
+            "p112",
+            "p113",
+            "p114",
+            "p115"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5498,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "随着马拉犁的发明，我们从村庄走向帝国（因为粮食剩余让人们可以少花精力在耕作上，更多地去探索、发现和征服）。",
+              "pids": [
+                "p116"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "随着机械化农业的发明，我们从帝国走向民族国家。",
+              "pids": [
+                "p117"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在，口袋里装着电脑，AI 就在家门口，我让你自己去想事情可能走向何方。",
+              "pids": [
+                "p118"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "5）社会如何在心智上演化",
+              "pids": [
+                "p119"
+              ]
+            }
+          ],
+          "pids": [
+            "p116",
+            "p117",
+            "p118",
+            "p119",
+            "p116",
+            "p117",
+            "p118",
+            "p119"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6452,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "由于个体组成了集体，社会也循着类似的模式演化：自我中心、族群中心、世界中心。",
+              "pids": [
+                "p120"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "集体也有身份认同。",
+              "pids": [
+                "p121"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "部落只能关心自己和自己的生存。然后，它可能扩展成一个更大的帝国或民族国家，在内部容纳多个子群体。",
+              "pids": [
+                "p122"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在这种情况下，我们把这些世界观称为前理性、理性和后理性。首先，我们顺从权威；然后，我们通过科学寻求进步（启蒙运动）；再然后，我们开始意识到两者的盲点，同时整合其中好的部分。",
+              "pids": [
+                "p123"
+              ]
+            }
+          ],
+          "pids": [
+            "p120",
+            "p121",
+            "p122",
+            "p123",
+            "p120",
+            "p121",
+            "p122",
+            "p123"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "可你实际上，要怎么运用这些知识去“思考”？",
+              "pids": [
+                "p124"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "以下只是众多方法中的几种：",
+              "pids": [
+                "p125"
+              ]
+            }
+          ],
+          "pids": [
+            "p124",
+            "p125",
+            "p124",
+            "p125"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "当你遇到一个观念、运动或冲突时，识别个体处于什么位置。进入 AI 时代，你希望谁当政治家？",
+                "en": "Identify where individuals are when you encounter an idea, movement, or conflict. Who do you want as a politician when entering the age of AI?",
+                "pids": [
+                  "p126"
+                ]
+              },
+              {
+                "zh": "参与辩论时（政治、商业、个人），留意人们在哪个层级运作。处于更高发展层级的个体，往往需要在对方所在的位置与之相遇。",
+                "en": "When engaging in debate (political, business, personal) notice the level people are operating from. Individuals at higher levels of development often need to meet people where they are.",
+                "pids": [
+                  "p127"
+                ]
+              },
+              {
+                "zh": "看看社会和组织的技术。一家仍然用工业时代的方法运营（且过于教条、无法适应）的企业，很可能会失败。",
+                "en": "Look at the technology of societies and organizations. A business still operating on industrial era methods (and are too dogmatic to adapt) will probably fail.",
+                "pids": [
+                  "p128"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p126",
+            "p127",
+            "p128",
+            "p126",
+            "p127",
+            "p128"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "最有用的应用，是找到你自己的重心在哪里。我鼓励你改天再重读这封信，同时想想你自己的发展。",
+              "pids": [
+                "p129"
+              ]
+            }
+          ],
+          "pids": [
+            "p129",
+            "p129"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "我们漏掉了一件重要的事",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "我们漏掉了一件重要的事",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "我们漏掉了一件重要的事",
+          "titleSize": "quiet",
+          "note": "本节标题取自已发布正文。",
+          "en": "We missed something important"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "愚蠢的思考，就是停止思考。",
+              "pids": [
+                "p131"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这我们都知道。",
+              "pids": [
+                "p132"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "可到底是什么让一个人停止思考？是什么让他们从开放转为防御，对进一步的学习和成长关上大门？",
+              "pids": [
+                "p133"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "答案是身份认同。",
+              "pids": [
+                "p134"
+              ]
+            }
+          ],
+          "pids": [
+            "p131",
+            "p132",
+            "p133",
+            "p134",
+            "p131",
+            "p132",
+            "p133",
+            "p134"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6578,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "具体来说，就是死死抓住某些观念、信念或建构，把它们变成“你是谁”的一部分。",
+              "pids": [
+                "p135"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为如果你是死忠的共和党人或民主党人，就永远无法跳出那个泡泡思考。因此，你也永远找不到事情的真相。这并不意味着你不能采纳任何一方的某些价值观——它只是说，当别人不同意你时，你不必感到受威胁。",
+              "pids": [
+                "p136"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "认同某个特定的宗教、群体、职业，或者我们前面讨论过的任何东西，也是一样。",
+              "pids": [
+                "p137"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你还必须想想，自己是怎么形成这些信念的。",
+              "pids": [
+                "p138"
+              ]
+            }
+          ],
+          "pids": [
+            "p135",
+            "p136",
+            "p137",
+            "p138",
+            "p135",
+            "p136",
+            "p137",
+            "p138"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5102,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在当今世界，大多数人这辈子，从来没有哪怕一天是为自己思考的。",
+              "pids": [
+                "p139"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们出生在世界上的某个特定地方。",
+              "pids": [
+                "p140"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "那个地方，又处在某个特定的发展层级上。",
+              "pids": [
+                "p141"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "父母告诉他们该信什么——而那些父母，很可能从没质疑过自己的信念。",
+              "pids": [
+                "p142"
+              ]
+            }
+          ],
+          "pids": [
+            "p139",
+            "p140",
+            "p141",
+            "p142",
+            "p139",
+            "p140",
+            "p141",
+            "p142"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5210,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "那些信念，决定了你能想多远——而那多半远不到哪儿去。",
+              "pids": [
+                "p143"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "记住，你的心智，就是你与现实互动的方式。",
+              "pids": [
+                "p144"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你处理信息 → 理解它（思考）→ 做出选择 → 接收作为反馈的信息 → 回应反馈，并重复这个循环。",
+              "pids": [
+                "p145"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你能思考的空间，决定了你人生的结果。",
+              "pids": [
+                "p146"
+              ]
+            }
+          ],
+          "pids": [
+            "p143",
+            "p144",
+            "p145",
+            "p146",
+            "p143",
+            "p144",
+            "p145",
+            "p146"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6506,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你只在父母、老师、雇主和社交媒体上的同辈给你划定的范围内思考，你人生的结果可能就不太好看。只要看看普通人最后都落到哪儿，就不难明白。",
+              "pids": [
+                "p147"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "下次你感到受威胁时，别向内塌缩。",
+              "pids": [
+                "p148"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "和它待在一起。质疑它。要意识到，你的心智想感到安全，因为它天生就是这么设定的。",
+              "pids": [
+                "p149"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们的大脑，仍然像狩猎采集的祖先那样运作，但我们早已不在那个世界里了，可这个世界只会变得更快。",
+              "pids": [
+                "p150"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "练习思考的人将会胜出。",
+              "pids": [
+                "p151"
+              ]
+            }
+          ],
+          "pids": [
+            "p147",
+            "p148",
+            "p149",
+            "p150",
+            "p151",
+            "p147",
+            "p148",
+            "p149",
+            "p150",
+            "p151"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p152"
+              ]
+            }
+          ],
+          "pids": [
+            "p152",
+            "p152"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 4500,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】检索到的公开回复中没有达到\"高质量\"标准的评论，故不收录。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "如何像战略天才一样思考（5D 思维）",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "人类 3.0：一张通往前 1% 的地图",
+              "href": "08.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/07.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

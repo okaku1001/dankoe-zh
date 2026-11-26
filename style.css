@@ -842,3 +842,24 @@ body.essay-mode #content blockquote:not(.meta) p{margin:.15em 0;text-indent:0}
   body.essay-mode #content h2{margin-top:2.7em;padding-top:1.15em}
   body.essay-mode #content blockquote:not(.meta){margin:1.6em .6em;font-size:1.01em}
 }
+
+
+/* Slide-reading launch: hint on the library, banner on classic article pages. */
+.reading-hint{
+  margin:.85rem 0 0;
+  font-size:15px;
+  color:var(--mu, #6f6860);
+  max-width:36rem;
+  line-height:1.65;
+}
+.classic-banner{
+  margin:0;
+  padding:.7rem 1.2rem;
+  font-size:14px;
+  line-height:1.55;
+  color:var(--mu, #6f6860);
+  background:color-mix(in srgb, var(--bg, #f6f1e8) 88%, #a84b2a 12%);
+  border-bottom:1px solid var(--line, #e4dcd0);
+}
+.classic-banner a{color:var(--acc, #a84b2a);font-weight:600;text-decoration:none;border-bottom:1px solid color-mix(in srgb, var(--acc, #a84b2a) 40%, transparent);margin-left:.4em}
+html[data-theme="dark"] .classic-banner{background:#2a241f;color:#e2d3bf}

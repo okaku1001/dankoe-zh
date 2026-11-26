@@ -1,11 +1,12 @@
-const V='dk-book-20261121-v11';
+const V='dk-book-20261126-v12';
 /* 预缓存只放「骨架」：脚本、样式、字体清单、音频清单、首页，合计约 170KB。
  * 旧版这里列了 143 项（含 89 张图，约 20MB）并且用 cache.addAll 原子安装：
  * 任何一项超时或失败，整个 install 就作废，浏览器随后不断重试、持续抢占连接，
  * 手机上表现就是页面迟迟打不开。文章页与图片改成「看过才缓存」。 */
 const CORE=[
   'notes-core.js','notes-ui.js','notes.css','fonts/fonts.css',
-  'style.css','app.js','reading-layout.js','audio-manifest.json','audio.js','index.html'
+  'style.css','app.js','reading-layout.js','audio-manifest.json','audio.js','index.html',
+  'css/reader.css','js/reader.js'
 ];
 
 self.addEventListener('install',e=>{
