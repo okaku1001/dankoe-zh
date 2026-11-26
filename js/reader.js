@@ -292,7 +292,7 @@
   function parseHash() {
     const raw = (location.hash || "").replace(/^#/, "");
     if (!raw) return { scene: 0, beat: 0 };
-    const m = raw.match(/^([A-Za-z][A-Za-z0-9_-]*)(?:-(\d+))?$/);
+    const m = raw.match(/^([A-Za-z][A-Za-z0-9]*)(?:-(\d+))?$/);
     if (!m) return { scene: 0, beat: 0 };
     const id = m[1];
     if (classicOnlyId(id) && cfg().classicUrl) {
@@ -624,6 +624,31 @@
     }, ms);
   }
 
+  function relaxOverflowingLocks(root) {
+    if (!root) return;
+    const beat = root.querySelector(".beat") || root;
+    const limit = beat.clientWidth;
+    if (!limit) return;
+    const beatRight = beat.getBoundingClientRect().right;
+    beat.querySelectorAll(".line-lock").forEach((el) => {
+      el.classList.remove("relax");
+      const r = el.getBoundingClientRect();
+      // inline spans often report scrollWidth 0; use the painted box instead
+      if (r.width > limit + 0.5 || r.right > beatRight + 0.5) el.classList.add("relax");
+    });
+    if (beat.scrollWidth > beat.clientWidth + 1) {
+      beat.querySelectorAll(".nw").forEach((el) => {
+        const r = el.getBoundingClientRect();
+        if (r.width > limit + 0.5 || r.right > beatRight + 0.5) el.classList.add("relax");
+      });
+    }
+  }
+
+  function afterLayout() {
+    const layer = document.querySelector("#scene-root .scene-layer:not(.leaving)");
+    if (layer) relaxOverflowingLocks(layer);
+  }
+
   function finishMount(si, bi) {
     state.scene = si;
     state.beat = bi;
@@ -634,9 +659,16 @@
     updateDocTitle();
     paintOverview();
     scheduleAutoplay();
+    requestAnimationFrame(() => {
+      afterLayout();
+      requestAnimationFrame(afterLayout);
+    });
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(afterLayout).catch(() => {});
+    }
   }
 
-  function go(delta) {
+  function go(delta, opts) {
     if (state.busy) return;
     if ($("#overview").classList.contains("open") || $("#help").classList.contains("open") || $("#notes").classList.contains("open")) return;
     let si = state.scene;
@@ -645,7 +677,7 @@
     if (bi >= scenes[si].beats.length) {
       if (si >= scenes.length - 1) {
         const nxt = state.deck.meta && state.deck.meta.next;
-        if (nxt && nxt.href) location.href = nxt.href;
+        if ((!opts || !opts.fromTap) && nxt && nxt.href) location.href = nxt.href;
         return;
       }
       si += 1;
@@ -767,13 +799,90 @@
     }
   }
 
+  const gesture = { start: null };
+
+  function isInteractive(el) {
+    return !!(el && el.closest && el.closest("a, button, #chrome, .overlay, .card, .panel, .end-links, #tap-hint"));
+  }
+
+  function overlaysOpen() {
+    return $("#help").classList.contains("open") || $("#overview").classList.contains("open") || $("#notes").classList.contains("open");
+  }
+
+  function onPointerDown(e) {
+    if (e.isPrimary === false) return;
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    if (isInteractive(e.target) || overlaysOpen()) {
+      gesture.start = null;
+      return;
+    }
+    const beat = e.target.closest(".beat");
+    gesture.start = {
+      id: e.pointerId,
+      x: e.clientX,
+      y: e.clientY,
+      t: performance.now(),
+      scroll: beat ? beat.scrollTop : 0,
+      beat,
+      moved: false,
+    };
+  }
+
+  function onPointerMove(e) {
+    const g = gesture.start;
+    if (!g || g.id !== e.pointerId) return;
+    if (Math.hypot(e.clientX - g.x, e.clientY - g.y) > 12) g.moved = true;
+    if (g.beat && Math.abs(g.beat.scrollTop - g.scroll) > 2) g.moved = true;
+  }
+
   function onClick(e) {
-    if (e.target.closest("a, button, .overlay, .card, .panel")) return;
-    if ($("#help").classList.contains("open") || $("#overview").classList.contains("open") || $("#notes").classList.contains("open")) {
+    if (isInteractive(e.target)) return;
+    if (overlaysOpen()) {
       closeOverlays();
       return;
     }
-    go(1);
+    const g = gesture.start;
+    gesture.start = null;
+    if (g && (g.moved || (g.beat && Math.abs(g.beat.scrollTop - g.scroll) > 2))) return;
+    if (g && performance.now() - g.t > 800) return;
+    const stage = $("#stage");
+    const rect = stage.getBoundingClientRect();
+    const y = e.clientY;
+    const delta = y < rect.top + rect.height / 2 ? -1 : 1;
+    hideTapHint();
+    go(delta, { fromTap: true });
+  }
+
+  function hideTapHint() {
+    const el = state.tapHint || $("#tap-hint");
+    if (!el) return;
+    el.classList.remove("show");
+    try {
+      localStorage.setItem("dk:tap-hint", "1");
+    } catch (err) {
+      /* storage may be blocked */
+    }
+    window.setTimeout(() => el.remove(), 500);
+    state.tapHint = null;
+  }
+
+  function setupTapHint() {
+    const coarse = window.matchMedia("(pointer: coarse)").matches || "ontouchstart" in window;
+    if (!coarse) return;
+    try {
+      if (localStorage.getItem("dk:tap-hint") === "1") return;
+    } catch (err) {
+      /* continue and show */
+    }
+    if ($("#tap-hint")) return;
+    const el = document.createElement("div");
+    el.id = "tap-hint";
+    el.setAttribute("role", "status");
+    el.textContent = "上半屏上一拍 · 下半屏下一拍";
+    document.body.appendChild(el);
+    state.tapHint = el;
+    requestAnimationFrame(() => el.classList.add("show"));
+    window.setTimeout(() => hideTapHint(), 5200);
   }
 
   function onBackdrop(e) {
@@ -828,11 +937,20 @@
       if (p.scene !== state.scene || p.beat !== state.beat) jump(p.scene, p.beat);
     });
     window.addEventListener("keydown", onKey);
-    $("#stage").addEventListener("click", onClick);
+    const stage = $("#stage");
+    stage.addEventListener("pointerdown", onPointerDown);
+    stage.addEventListener("pointermove", onPointerMove);
+    stage.addEventListener("pointercancel", () => { gesture.start = null; });
+    stage.addEventListener("click", onClick);
     ["help", "overview", "notes"].forEach((id) => $(`#${id}`).addEventListener("click", onBackdrop));
     document.addEventListener("mousemove", pokeIdle);
     document.addEventListener("keydown", pokeIdle);
+    window.addEventListener("resize", () => {
+      window.clearTimeout(state.resizeTimer);
+      state.resizeTimer = window.setTimeout(afterLayout, 80);
+    });
     bindChrome();
+    setupTapHint();
     pokeIdle();
   }
 
