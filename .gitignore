@@ -3,3 +3,6 @@ node_modules/
 
 # Local mobile QA shots, not part of the site
 screenshots-mobile/
+
+# Local TOC preview QA shots, not part of the site
+screenshots-toc/
