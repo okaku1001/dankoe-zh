@@ -1,0 +1,2688 @@
+{
+  "meta": {
+    "id": "03",
+    "kind": "dankoe",
+    "title": "如何用一天时间，彻底修正你的整个人生",
+    "en": "How to fix your entire life in 1 day",
+    "kicker": "第 3 篇 · 2026-01-12 · 约 29 分钟",
+    "citation": "原题：How to fix your entire life in 1 day<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-12 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2010751592346030461\">https://x.com/thedankoe/status/2010751592346030461</a><br>译注：原文链接已在相应位置以括注保留。",
+    "classic": "../classic/03.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "02",
+      "title": "如果你兴趣广泛，别浪费接下来的 2–3 年",
+      "href": "02.html"
+    },
+    "next": {
+      "id": "04",
+      "title": "如何聪明地表达自己",
+      "href": "04.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "如何用一天时间，彻底修正你的整个人生",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 篇",
+        "title": "如何用一天时间，\n彻底修正你的整个人生",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 3 篇 · 2026-01-12 · 约 29 分钟",
+          "title": "如何用一天时间，\n彻底修正你的整个人生",
+          "en": "How to fix your entire life in 1 day",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-01-12  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：How to fix your entire life in 1 day<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-01-12 · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2010751592346030461\">https://x.com/thedankoe/status/2010751592346030461</a><br>译注：原文链接已在相应位置以括注保留。"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8414,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你跟我有点像，你大概也觉得新年决心（New Year's resolutions）挺蠢的。",
+              "pids": [
+                "p1"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为大多数人改变人生的方式完全错了。他们立新年决心，只因为别人都在立——我们从身份地位的游戏（status games）里制造出一种肤浅的意义——可这些决心根本达不到真正改变的条件。真正的改变深得多，远不是说服自己\"今年我要更自律、更高效\"就那么简单。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你正是这样的人，我可不是要居高临下地说教你（我写东西往往有点狠）。我放弃的目标是实现的十倍。我觉得大多数人也该这样。但有个事实始终成立：人们想改变人生，到头来几乎每次都彻底失败。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "不过，尽管我觉得新年决心很蠢，反思一下自己讨厌的生活总是明智的——这样你才能把自己弹向好得多的生活，这点我们待会儿会讲。",
+              "pids": [
+                "p4"
+              ]
+            }
+          ],
+          "pids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5516,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "无论你是想创业、改造身材，还是想冒险奔向一种更有意义的生活，又不想两周就放弃——我都想跟你分享 7 个你多半没听过的观点，关于行为改变、心理学和生产力，帮你在 2026 年真正做成。",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这篇会很全面。",
+              "pids": [
+                "p6"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它不是那种读完就忘的文章。",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "值得你收藏、做笔记，专门留点时间去想。",
+              "pids": [
+                "p8"
+              ]
+            }
+          ],
+          "pids": [
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p5",
+            "p6",
+            "p7",
+            "p8"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "文末那套流程（用来深挖你的内心，找出你真正想要的人生），大概要花一整天做完，但效果会比那一天持久得多。",
+              "pids": [
+                "p9"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我们开始吧。",
+              "pids": [
+                "p10"
+              ]
+            }
+          ],
+          "pids": [
+            "p9",
+            "p10",
+            "p9",
+            "p10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "一、你没有到达想去的地方，是因为你还不是那个会在那里的人",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "一、你没有到达想去的地方，\n是因为你还不是那个会在那里的人",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "一、你没有到达想去的地方，\n是因为你还不是那个会在那里的人",
+          "note": "本节标题取自已发布正文。",
+          "en": "I – You aren’t where you want to be because you aren’t the person who would be there"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "设定宏大目标时，人们往往只盯着成功的两个条件中的一个：",
+              "pids": [
+                "p12"
+              ]
+            }
+          ],
+          "pids": [
+            "p12",
+            "p12"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "改变你的行动，朝目标推进（最不重要，属于第二层/次级）",
+                "en": "Changing your actions to make progress toward the goal (least important, second order)",
+                "pids": [
+                  "p13"
+                ]
+              },
+              {
+                "zh": "改变你是谁，让行为自然随之而来（最重要，属于第一层/根本）",
+                "en": "Changing who you are so that your behavior naturally follows (most important, first order)",
+                "pids": [
+                  "p14"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p13",
+            "p14",
+            "p13",
+            "p14"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8216,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "大多数人定个流于表面的目标，给自己打打鸡血，头几周保持自律，然后毫不费力地回到老样子——因为他们想在正在腐烂的地基上，盖起美好的人生。",
+              "pids": [
+                "p15"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "要是这听起来不太好懂，我们举个例子。",
+              "pids": [
+                "p16"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "想一个成功的人。可以是身材极好的健美运动员，身价数亿的创始人/CEO，或者一个很有魅力的家伙，跟一群人侃侃而谈，脑子里没有一丝焦虑。",
+              "pids": [
+                "p17"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你觉得健美运动员得\"咬牙硬撑\"才能吃得健康吗？CEO 得逼自己才能到场带队吗？在你看来，表面上也许如此，但真相是，他们根本想象不出自己还能怎么活。反过来，健美运动员得\"硬撑\"才能吃垃圾食品，CEO 得逼自己闹钟响了还赖在床上，而且每一秒他们都恨得不行（这里当然有细微差别，先听我说一下）。",
+              "pids": [
+                "p18"
+              ]
+            }
+          ],
+          "pids": [
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p15",
+            "p16",
+            "p17",
+            "p18"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9152,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在一些人眼里，我的生活方式似乎有点极端、太自律了。但对我来说这很自然，我说这话也不是要跟别的生活方式比。我就是喜欢这么过。每当我妈让我歇一歇、出去玩、找点乐子……我都忍住没回她：\"要是我不觉得好玩，我干嘛还做现在这些事？\"",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "接下来这句话听着也许简单，可就是有那么多人不懂，真让人费解。",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你想在人生中得到某个具体结果，就得在达到它之前很久，早就过着能创造出那个结果的生活。",
+              "pids": [
+                "p21"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果有人说想减掉 30 磅（约 13.6 公斤），我往往不信。不是觉得他做不到，而是太多次，同一个人会说：\"真想赶紧减完，好重新开始享受生活。\"很抱歉戳破你：你要是不把让你瘦下来的那种生活方式坚持一辈子，不找一个比拴住你旧习惯的那股力更强的\"引力\"理由，就会径直回到原点，然后只能闷闷不乐地承认——你浪费了那个再也拿不回来的资源：时间。",
+              "pids": [
+                "p22"
+              ]
+            }
+          ],
+          "pids": [
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p19",
+            "p20",
+            "p21",
+            "p22"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6344,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当你真正改变了自己，所有不能推动你靠近目标的习惯，都会变得让人恶心——因为你深深明白，这些行为日积月累会变成什么样的人生。你现在能接受这些标准，是因为你没完全意识到它们是什么、会把你带向哪儿。我们会讲怎么揭开这一点，但得先一步步铺垫。",
+              "pids": [
+                "p23"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你说你想改变，说想\"实现财务自由\"\"变得健康\"，但你的行动显示的却是另一回事——这背后有原因，而且比你想的深得多。",
+              "pids": [
+                "p24"
+              ]
+            }
+          ],
+          "pids": [
+            "p23",
+            "p24",
+            "p23",
+            "p24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "二、你没有到达想去的地方，是因为你其实并不想去那里",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "二、你没有到达想去的地方，\n是因为你其实并不想去那里",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "二、你没有到达想去的地方，\n是因为你其实并不想去那里",
+          "note": "本节标题取自已发布正文。",
+          "en": "II – You aren’t where you want to be because you don’t want to be there"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "只相信行动。生活发生在事件层面，而不是言语层面。相信行动。",
+              "attr": "——阿尔弗雷德·阿德勒（Alfred Adler）"
+            }
+          ],
+          "pids": [
+            "p26"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5606,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你想改变自己是谁，就得先弄明白心智怎么运作，这样才能开始给它重新编程。",
+              "pids": [
+                "p27"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "理解心智的第一步，是明白所有行为都指向目标。它是目的论的（teleological）。仔细想想，这挺显而易见，可真往深挖，大多数人不想听。",
+              "pids": [
+                "p28"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你往前迈一步，是因为想到某个地方去。",
+              "pids": [
+                "p29"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你挠鼻子，是因为想让痒消失。",
+              "pids": [
+                "p30"
+              ]
+            }
+          ],
+          "pids": [
+            "p27",
+            "p28",
+            "p29",
+            "p30",
+            "p27",
+            "p28",
+            "p29",
+            "p30"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9170,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些都很明显，但大多数时候，你的目标是无意识的。举个简单的例子：你大白天坐在沙发上，可能没意识到自己是在消磨时间，等着下一件事找上门来。",
+              "pids": [
+                "p31"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "在更无意识、更复杂的层面上，你会追求一些可能伤害自己的目标，却用一种社会认可、不会让自己显得像失败者的说法，给行为找理由。",
+              "pids": [
+                "p32"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "比如，你总是忍不住拖延工作，可能会归咎于自己\"缺乏自律\"，但实际上，你跟往常一样，正在实现某个目标。在这个例子里，那个目标可能是：保护自己，别去承受完成并分享作品后随之而来的评判。",
+              "pids": [
+                "p33"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你说想辞掉那份没前途的工作，却一直待着，又没真正的理由，你可能会开始觉得自己不够勇敢，或者从来就不是个\"敢冒险的人\"。但真相是，你追求的是安全感、可预测性，还有一个借口——好让你在生活里那些把\"干一份没前途的工作\"当成成功标志的人眼中，不至于像个失败者。",
+              "pids": [
+                "p34"
+              ]
+            }
+          ],
+          "pids": [
+            "p31",
+            "p32",
+            "p33",
+            "p34",
+            "p31",
+            "p32",
+            "p33",
+            "p34"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6668,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这里的教训是：真正的改变，需要换掉你的目标。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我不是说去设个表面目标——因为设目标这个动作本身，可能恰恰在服务于一个正在伤害你的无意识目标。这点在生产力圈子里早被讲烂了。我说的是换掉你的视角（point of view）。因为目标本来就是这东西：它是对未来的一种投射，充当一副感知的透镜（lens of perception），让你注意到那些有助于实现目标的信息、想法和资源。",
+              "pids": [
+                "p36"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们再往深挖一点，因为你要是不懂这个，想走出来只会更难。",
+              "pids": [
+                "p37"
+              ]
+            }
+          ],
+          "pids": [
+            "p35",
+            "p36",
+            "p37",
+            "p35",
+            "p36",
+            "p37"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "三、你没有到达想去的地方，是因为你害怕到达那里",
+      "enter": "wash",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 3 节",
+        "title": "三、你没有到达想去的地方，\n是因为你害怕到达那里",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "三、你没有到达想去的地方，\n是因为你害怕到达那里",
+          "note": "本节标题取自已发布正文。",
+          "en": "III – You aren’t where you want to be because you’re afraid to be there"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "你需要记住的重要一点是：你是怎么得到这个想法的、它来自哪里，一点都不重要。你也许从未见过职业催眠师，也许从未被正式催眠过。但只要你接受了一个想法——无论来自你自己、你的老师、父母、朋友、广告，还是其他任何来源——并且进一步坚信这个想法是真的，它对你的支配力，就和催眠师的话对被催眠者的支配力一样大。",
+              "attr": "——麦克斯威尔·马尔茨（Maxwell Maltz）"
+            }
+          ],
+          "pids": [
+            "p40"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你是怎么变成今天的你的，又将怎么变成明天的你——这就是身份认同的解剖结构（the anatomy of identity）：",
+              "pids": [
+                "p41"
+              ]
+            }
+          ],
+          "pids": [
+            "p41",
+            "p41"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "你想实现一个目标",
+                "en": "You want to achieve a goal",
+                "pids": [
+                  "p42"
+                ]
+              },
+              {
+                "zh": "你透过这个目标的透镜来感知现实",
+                "en": "You perceive reality through the lens of that goal",
+                "pids": [
+                  "p43"
+                ]
+              },
+              {
+                "zh": "你只会注意到那些有助于实现这个目标的\"重要\"信息和想法（学习）",
+                "en": "You only notice “important” information and ideas that allows you to achieve that goal (learning)",
+                "pids": [
+                  "p44"
+                ]
+              },
+              {
+                "zh": "你朝目标采取行动，并得到\"自己正在进步\"的反馈",
+                "en": "You act toward that goal and receive feedback that you are progressing toward it",
+                "pids": [
+                  "p45"
+                ]
+              },
+              {
+                "zh": "你不断重复这个行为，直到它变得自动化、无意识（条件化/conditioning）",
+                "en": "You repeat that behavior until it becomes automatic and unconscious (conditioning)",
+                "pids": [
+                  "p46"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p42",
+            "p43",
+            "p44",
+            "p45",
+            "p46",
+            "p42",
+            "p43",
+            "p44",
+            "p45",
+            "p46"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 6,
+            "items": [
+              {
+                "zh": "这个行为成为你认为的\"我是谁\"的一部分（\"我是那种……的人\"）",
+                "en": "That behavior becomes a part of who you think you are (”I am the type of person who...”)",
+                "pids": [
+                  "p47"
+                ]
+              },
+              {
+                "zh": "你会捍卫自己的身份认同，以保持心理上的一致性",
+                "en": "You defend your identity to maintain psychological consistency",
+                "pids": [
+                  "p48"
+                ]
+              },
+              {
+                "zh": "你的身份认同又塑造出新的目标，循环重新开始——而如果这个身份认同不利于过上好的人生，情况会很快变得很糟",
+                "en": "Your identity shapes new goals, restarting the cycle, and if that identity is disadvantageous toward a good life, this gets bad very quick",
+                "pids": [
+                  "p49"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p47",
+            "p48",
+            "p49",
+            "p47",
+            "p48",
+            "p49"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7442,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "不幸的是，你必须在第 6 步和第 7 步之间打破这个循环，但这套过程从你还是个孩子时就开始了。",
+              "pids": [
+                "p50"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的目标是生存。",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你靠父母教你如何生存，不得不顺从。而大多数人教育孩子靠的是奖励和惩罚，除非你接受他们的信念和价值观，否则就会挨罚。在看穿这一点之前，你其实并没有独立思考。",
+              "pids": [
+                "p52"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但你父母一辈子也经历了同样的过程。这就是它可能变危险的地方。除非你父母自己打破了这个模式，否则他们早被工业时代那套文化上公认的成功观念条件化了。他们身上也带着父母、甚至祖父母那一辈留下来的、最好和最坏的条件化。",
+              "pids": [
+                "p53"
+              ]
+            }
+          ],
+          "pids": [
+            "p50",
+            "p51",
+            "p52",
+            "p53",
+            "p50",
+            "p51",
+            "p52",
+            "p53"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 8684,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "再往深一层：一旦满足了身体上的生存需求（在今天这个世界这相当容易，你几乎一出生就安全了），你就开始在观念或意识形态层面\"求生存\"。你也许不会费劲保护和繁衍自己的身体，但你绝对会保护和繁衍自己的心智。网络上的观念之战不难看到，参战的就是各种个人身份和群体身份。",
+              "pids": [
+                "p54"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当身体感到威胁，你会进入战斗或逃跑（fight or flight）状态。",
+              "pids": [
+                "p55"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当身份认同感到威胁，同样的事也会发生。",
+              "pids": [
+                "p56"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你高度认同某种政治意识形态（通过我们刚讲的那个过程），有人挑战你的信念时，你会觉得受到了威胁。那种压力你是真能感觉到的。情绪上，你会觉得像刚被人扇了一耳光。由于大多数人不会去审视自己的情绪里有几分真实，你就容易陷进信息茧房（echo chambers），在那些伤害自己和别人的主张上越陷越深。",
+              "pids": [
+                "p57"
+              ]
+            }
+          ],
+          "pids": [
+            "p54",
+            "p55",
+            "p56",
+            "p57",
+            "p54",
+            "p55",
+            "p56",
+            "p57"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5156,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你在宗教家庭长大，又从没独立思考过，那么谁威胁到你在那个小泡泡里的心理安全感，你就会反击、攻击谁。",
+              "pids": [
+                "p58"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当你无意识地把自己当成律师、游戏玩家，或者别的什么不会为更好人生采取行动的人，同样的事也会发生。",
+              "pids": [
+                "p59"
+              ]
+            }
+          ],
+          "pids": [
+            "p58",
+            "p59",
+            "p58",
+            "p59"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "四、你想要的人生，存在于某个特定的心智层级之中",
+      "enter": "portal-in",
+      "tone": "ink",
+      "thumb": {
+        "kicker": "第 4 节",
+        "title": "四、你想要的人生，\n存在于某个特定的心智层级之中",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "四、你想要的人生，\n存在于某个特定的心智层级之中",
+          "note": "本节标题取自已发布正文。",
+          "en": "IV – The life you want lies within a specific level of mind"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7226,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "心智会随着时间，经历一系列可预测的阶段演化。",
+              "pids": [
+                "p61"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你刚出生时，像一块小小的\"生存海绵\"，拼命吸收各种信念（这些信念很大程度上由你的文化决定），好让自己觉得安全、有保障。你要是不留心，心智就可能固化（crystallize），让你很难过上有意义的人生。",
+              "pids": [
+                "p62"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这一点在很多模型里都有充分记录，比如马斯洛需求层次（Maslow's Hierarchy）、Greuter 的自我发展阶段（stages of ego development，译注：通常指 Susanne Cook-Greuter 的理论）、螺旋动力学（Spiral Dynamics）和整合理论（Integral Theory），它们一个叠着一个；可就算不看这些模型，在社会里也不难观察到。",
+              "pids": [
+                "p63"
+              ]
+            }
+          ],
+          "pids": [
+            "p61",
+            "p62",
+            "p63",
+            "p61",
+            "p62",
+            "p63"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6254,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些我讲过很多次，还把它们综合成我自己的\"人类 3.0\"（Human 3.0）模型，配了一堆 AI 提示词（prompts），帮你找出自己在哪个发展层级、以及往前怎么走（想看的话，可以开个新标签页，读完这篇再看：https://letters.thedankoe.com/p/human-30-a-map-to-reach-the-top-1?lli=1）。不过这里先用二八法则（80/20）带你回顾一下自我发展的 9 个阶段（因为重复能帮你发现之前没注意到的东西，而且也有新读者在读这些信）：",
+              "pids": [
+                "p64"
+              ]
+            }
+          ],
+          "pids": [
+            "p64",
+            "p64"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/03_3.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7874,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "冲动型（Impulsive）——冲动和行动之间没有间隔。非黑即白的思维。例如：一个蹒跚学步的孩子生气时就打人，因为感受和行为是同一回事。",
+                "en": "Impulsive — No separation between impulse and action. Black and white thinking. I.e. A toddler hits when angry because the feeling and the behavior are the same thing.",
+                "pids": [
+                  "p65"
+                ]
+              },
+              {
+                "zh": "自我保护型（Self-Protective）——世界是危险的，你学会照顾好自己。例如：一个孩子学会藏起成绩单、在家务上撒谎、揣摩大人想听什么。",
+                "en": "Self-Protective — The world is dangerous and you learn to look out for yourself. I.e. A kid learns to hide report cards, lie about chores, and figure out what adults want to hear.",
+                "pids": [
+                  "p66"
+                ]
+              },
+              {
+                "zh": "从众型（Conformist）——你就是你的群体，群体的规则让你觉得就是现实本身。例如：一个人真心无法理解，为什么会有人投票和自己的家人或群体不一样。",
+                "en": "Conformist — You are your group and its rules feel like reality itself. I.e. Someone who genuinely cannot fathom why anyone would vote differently than their family or group.",
+                "pids": [
+                  "p67"
+                ]
+              },
+              {
+                "zh": "自我觉察型（Self-Aware）——你注意到自己有一个与外在不相符的内心世界。例如：坐在教堂里，意识到自己不确定是否相信周围所有人似乎都相信的东西，但还不知道该拿这种感觉怎么办。",
+                "en": "Self-Aware — You notice you have an inner life that doesn’t match the exterior. I.e. Sitting in church and realizing you’re not sure you believe what everyone around you seems to believe, but not knowing what to do with that feeling yet.",
+                "pids": [
+                  "p68"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p65",
+            "p66",
+            "p67",
+            "p68",
+            "p65",
+            "p66",
+            "p67",
+            "p68"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 10286,
+          "list": {
+            "ordered": true,
+            "start": 5,
+            "items": [
+              {
+                "zh": "尽责型（Conscientious）——你建立起自己的一套原则体系，并以此要求自己、对自己负责。例如：经过认真研究后离开家族信仰，采纳一套自己能为之辩护的个人哲学；或者因为相信\"正确的努力会带来正确的结果\"，而制定一份有明确里程碑的职业规划。",
+                "en": "Conscientious — You build your own system of principles and hold yourself accountable to them. I.e. Leaving your family’s religion after careful study and adopting a personal philosophy you can defend, or building a career plan with clear milestones because you believe the right effort yields the right results.",
+                "pids": [
+                  "p69"
+                ]
+              },
+              {
+                "zh": "个人主义型（Individualist）——你看到自己的原则是被环境塑造的，并开始不那么执着地持有它们。例如：意识到你的政治观点更多与你在哪儿长大有关，而非客观真理；或者发现你那些雄心勃勃的职业目标，其实是为了赢得父亲的认可。",
+                "en": "Individualist — You see that your principles were shaped by context and start holding them more loosely. I.e. Realizing your political views have more to do with where you grew up than objective truth, or noticing that your ambitious career goals were really about earning your father’s approval.",
+                "pids": [
+                  "p70"
+                ]
+              },
+              {
+                "zh": "战略家型（Strategist）——你在系统中工作，同时清楚自己也身处其中、参与其中。例如：领导一个组织，同时主动质疑自己的盲点；或者参与政治，同时明白自己的视角是片面的，被自己无法完全看清的偏见所塑造。",
+                "en": "Strategist — You work with systems while aware of your own involvement in them. I.e. Leading an organization while actively questioning your own blind spots, or engaging in politics knowing your perspective is partial and shaped by bias you can’t fully see.",
+                "pids": [
+                  "p71"
+                ]
+              },
+              {
+                "zh": "建构觉察型（Construct-Aware）——你把所有框架，包括你的身份认同，都看作有用的虚构。例如：以隐喻而非字面的方式持有你的灵性信仰，明白\"地图不等于疆域\"；或者带着一种温和的觉得好笑的心态，看着自己扮演\"创始人\"或\"思想领袖\"的角色。",
+                "en": "Construct-Aware — You see all frameworks, including your identity, as useful fictions. I.e. Holding your spiritual beliefs with metaphorically not literally, knowing the map is not the territory, or watching yourself play the role of “founder” or “thought leader” with a kind of gentle amusement.",
+                "pids": [
+                  "p72"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p69",
+            "p70",
+            "p71",
+            "p72",
+            "p69",
+            "p70",
+            "p71",
+            "p72"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 9,
+            "items": [
+              {
+                "zh": "合一型（Unitive）——自我与生活之间的分隔消融了。例如：工作、休息和玩乐感觉是同一回事。不再有一个\"需要成为什么\"的人，只有临在（presence）对当下升起之事的回应。",
+                "en": "Unitive — Separation between self and life dissolves. I.e. Work, rest, and play feel like the same thing. There’s no one left who needs to become something, just presence responding to what arises.",
+                "pids": [
+                  "p73"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p73",
+            "p73"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6128,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "读到这里的大多数人，我猜都徘徊在第 4 到第 8 阶段之间——这个跨度可够大的。接近第 8 阶段的读者读这篇，要么想学点东西，要么就是无害地打发时间。接近第 4 阶段的读者，才是真想改变。你觉得自己注定不止于此，可还没法把一切理顺，因为显然有一堆因素在起作用。",
+              "pids": [
+                "p74"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "好消息是，你在哪个阶段其实不重要，因为穿过任何一个阶段，都遵循同一种模式。",
+              "pids": [
+                "p75"
+              ]
+            }
+          ],
+          "pids": [
+            "p74",
+            "p75",
+            "p74",
+            "p75"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "五、智力，就是从人生中得到你想要之物的能力",
+      "enter": "fade",
+      "tone": "dawn",
+      "thumb": {
+        "kicker": "第 5 节",
+        "title": "五、智力，就是从人生中得到你想要之物的能力",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "五、智力，就是从人生中得到你想要之物的能力",
+          "note": "本节标题取自已发布正文。",
+          "en": "V – Intelligence is the ability to get what you want out of life"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "智力唯一真正的检验标准，是你能否从人生中得到你想要的东西。",
+              "attr": "——纳瓦尔·拉维坎特（Naval Ravikant）"
+            }
+          ],
+          "pids": [
+            "p77"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "成功有公式。",
+              "pids": [
+                "p78"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一个要素是能动性（agency）。",
+              "pids": [
+                "p79"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一个要素是机会（opportunity）（很多人爱把它误当成\"特权\"——因为他们[原文此处疑似漏了一个词，大意应为\"缺乏\"]其他要素）。",
+              "pids": [
+                "p80"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "最后一个要素是智力（intelligence）。",
+              "pids": [
+                "p81"
+              ]
+            }
+          ],
+          "pids": [
+            "p78",
+            "p79",
+            "p80",
+            "p81",
+            "p78",
+            "p79",
+            "p80",
+            "p81"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6668,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你能动性很高、机会却很少，那你怎么倾向于朝目标行动都不重要，因为那个目标结不出什么果。",
+              "pids": [
+                "p82"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你有机会、有能动性，但智力低，那你永远没法把那个机会用足。",
+              "pids": [
+                "p83"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "首先，能动性我们之前聊过了。至于机会，我没法叫你换个地理位置，但要是你连眼前这么多数字化机会都看不见，那我也不知道该说什么了。",
+              "pids": [
+                "p84"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "话虽如此，我想聚焦的是：结合另外两个要素、以及这封信的语境，智力到底是什么。为此，我们得借助控制论（cybernetics）。",
+              "pids": [
+                "p85"
+              ]
+            }
+          ],
+          "pids": [
+            "p82",
+            "p83",
+            "p84",
+            "p85",
+            "p82",
+            "p83",
+            "p84",
+            "p85"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "控制论（cybernetics）一词来源于希腊语 kybernetikos，意思是\"掌舵\"或\"善于掌舵\"。"
+            }
+          ],
+          "pids": [
+            "p86"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "它也被称为\"得到你想要之物的艺术\"。",
+              "pids": [
+                "p87"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果纳瓦尔把智力定义为\"从人生中得到你想要的东西\"，那理解控制论能帮你更快做到这一点。",
+              "pids": [
+                "p88"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "控制论讲清了智能系统的特性。",
+              "pids": [
+                "p89"
+              ]
+            }
+          ],
+          "pids": [
+            "p87",
+            "p88",
+            "p89",
+            "p87",
+            "p88",
+            "p89"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "有一个目标。",
+                "en": "To have a goal.",
+                "pids": [
+                  "p90"
+                ]
+              },
+              {
+                "zh": "朝这个目标行动。",
+                "en": "Act toward that goal.",
+                "pids": [
+                  "p91"
+                ]
+              },
+              {
+                "zh": "感知自己所处的位置。",
+                "en": "Sense where you are.",
+                "pids": [
+                  "p92"
+                ]
+              },
+              {
+                "zh": "将其与目标进行比较。",
+                "en": "Compare it to the goal.",
+                "pids": [
+                  "p93"
+                ]
+              },
+              {
+                "zh": "根据这个反馈，再次行动。",
+                "en": "And act again based on that feedback.",
+                "pids": [
+                  "p94"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p90",
+            "p91",
+            "p92",
+            "p93",
+            "p94",
+            "p90",
+            "p91",
+            "p92",
+            "p93",
+            "p94"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/03_4.jpg",
+            "alt": "船朝灯塔航行：向右打舵、向左打舵的修正路径"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5246,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "判断一个系统有多聪明，看它能不能反复迭代、在试错中坚持。",
+              "pids": [
+                "p95"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一艘被风吹偏航线的船，会朝目的地修正航向。恒温器感知到温度变化，就自动开启。胰腺在血糖飙升后分泌胰岛素。",
+              "pids": [
+                "p96"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这跟从人生里得到你想要的东西有什么关系？",
+              "pids": [
+                "p97"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "关系大了。",
+              "pids": [
+                "p98"
+              ]
+            }
+          ],
+          "pids": [
+            "p95",
+            "p96",
+            "p97",
+            "p98",
+            "p95",
+            "p96",
+            "p97",
+            "p98"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7784,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "行动、感知、比较，再从元视角（meta-perspective）理解整个系统，是高智力的根本（按我们这里用的定义）。",
+              "pids": [
+                "p99"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "高智力，就是能迭代、能坚持、能看清全局。低智力的标志，是没法从错误里学。",
+              "pids": [
+                "p100"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "低智力的人会卡在问题上，而不是解决问题。碰到障碍就放弃。就像一个作者，没能攒起读者群就不干了，因为他缺少尝试新东西、做实验、摸索出一套适合自己的流程的能力（觉得根本不存在一套你能搭起来的有效流程，这种想法是可以证伪的——不管你有什么限制性信念——所以这才叫低智力。）",
+              "pids": [
+                "p101"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "高智力，是意识到只要时间尺度够长，任何问题都能解决。现实情况是，任何你铁了心要实现的目标，都能实现。",
+              "pids": [
+                "p102"
+              ]
+            }
+          ],
+          "pids": [
+            "p99",
+            "p100",
+            "p101",
+            "p102",
+            "p99",
+            "p100",
+            "p101",
+            "p102"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7676,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "智力，是意识到有一连串选择摆在你面前，它们能通向你想实现的目标。你明白想法是有层级的，不可能从莎草纸一步跳到谷歌文档。就算那个目标眼下实现不了，也只是因为你暂时还没有实现它的资源——而这些资源没准未来几年就会被发明出来。",
+              "pids": [
+                "p103"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说\"目标\"的时候（这点我还会反复强调），不是在自我提升（self-help）的典型视角下说的——尽管那有时也是个值得采用的视角。",
+              "pids": [
+                "p104"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我是从目的论（teleology），或者说希腊人的\"宇宙秩序\"（kosmos）视角出发的——万物各有目的，万物都是一个更大整体的一部分。",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "目标决定了你如何看待世界。",
+              "pids": [
+                "p106"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "目标决定了你把什么当成\"成功\"或\"失败\"。",
+              "pids": [
+                "p107"
+              ]
+            }
+          ],
+          "pids": [
+            "p103",
+            "p104",
+            "p105",
+            "p106",
+            "p107",
+            "p103",
+            "p104",
+            "p105",
+            "p106",
+            "p107"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你可以试着\"享受过程\"，但要是你追错了目标，根本享受不了。",
+              "pids": [
+                "p108"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的心智，就是现实的操作系统。",
+              "pids": [
+                "p109"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这个系统由目标组成。",
+              "pids": [
+                "p110"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对大多数人来说，这些目标是被指派给他们的，像一行行代码写进了他们的心里。",
+              "pids": [
+                "p111"
+              ]
+            }
+          ],
+          "pids": [
+            "p108",
+            "p109",
+            "p110",
+            "p111",
+            "p108",
+            "p109",
+            "p110",
+            "p111"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "上学。找工作。被冒犯。扮演受害者。65 岁退休。",
+              "pids": [
+                "p112"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一条已知的、却行不通的路。",
+              "pids": [
+                "p113"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "想变得更聪明，你必须：",
+              "pids": [
+                "p114"
+              ]
+            }
+          ],
+          "pids": [
+            "p112",
+            "p113",
+            "p114",
+            "p112",
+            "p113",
+            "p114"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "拒绝那条已知的路",
+                "en": "Reject the known path",
+                "pids": [
+                  "p115"
+                ]
+              },
+              {
+                "zh": "潜入未知",
+                "en": "Dive into the unknown",
+                "pids": [
+                  "p116"
+                ]
+              },
+              {
+                "zh": "设定新的、更高的目标来拓展你的心智",
+                "en": "Set new, higher goals to expand your mind",
+                "pids": [
+                  "p117"
+                ]
+              },
+              {
+                "zh": "拥抱混乱，允许成长发生",
+                "en": "Embrace the chaos and allow for growth",
+                "pids": [
+                  "p118"
+                ]
+              },
+              {
+                "zh": "研究自然界的普遍原理",
+                "en": "Study the generalized principles of nature",
+                "pids": [
+                  "p119"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p115",
+            "p116",
+            "p117",
+            "p118",
+            "p119",
+            "p115",
+            "p116",
+            "p117",
+            "p118",
+            "p119"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 6,
+            "items": [
+              {
+                "zh": "成为一个有深度的通才（deep generalist）",
+                "en": "Become a deep generalist",
+                "pids": [
+                  "p120"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p120",
+            "p120"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我知道这可能不是智力的传统定义，但这一连串步骤会让你的大脑形成数量惊人的连接，变成我们眼里那种聪明人。再加上能动性，你就赢定了。",
+              "pids": [
+                "p121"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这正好把我们带进下一节。",
+              "pids": [
+                "p122"
+              ]
+            }
+          ],
+          "pids": [
+            "p121",
+            "p122",
+            "p121",
+            "p122"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "六、如何（用一天）开启一段全新的人生",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 6 节",
+        "title": "六、如何（用一天）开启一段全新的人生",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "六、如何（用一天）开启一段全新的人生",
+          "note": "本节标题取自已发布正文。",
+          "en": "VI – How to launch into a completely new life (in 1 day)"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "我人生中最好的时期，总是出现在我对自己毫无进展彻底受够了之后。"
+            }
+          ],
+          "pids": [
+            "p124"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "怎么深挖自己的内心？",
+              "pids": [
+                "p125"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你怎么觉察到自己身上的条件化？",
+              "pids": [
+                "p126"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你怎么获得那些能改变人生轨迹的深刻洞见和真相？",
+              "pids": [
+                "p127"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "通过\"提问\"这个简单、却往往很痛苦的动作。",
+              "pids": [
+                "p128"
+              ]
+            }
+          ],
+          "pids": [
+            "p125",
+            "p126",
+            "p127",
+            "p128",
+            "p125",
+            "p126",
+            "p127",
+            "p128"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6776,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "很少有人这么做，你从他们说话的方式、或者对某个话题发表看法的方式就能看出来。提问就是思考，而真正思考的人少之又少。",
+              "pids": [
+                "p129"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我想给你一套完整的流程（protocol），每年都能用它重置人生，进入一段高强度进步的时期。它能帮你问出对的问题。",
+              "pids": [
+                "p130"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些问题从宏观覆盖到微观：你想去哪儿、要到那儿得做什么、以及现在立刻能做什么，开始朝那个现实推进。",
+              "pids": [
+                "p131"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "做完整套要花一整天，所以我建议你严格照着走。你需要一支笔、一张纸，和一颗开放的心。",
+              "pids": [
+                "p132"
+              ]
+            }
+          ],
+          "pids": [
+            "p129",
+            "p130",
+            "p131",
+            "p132",
+            "p129",
+            "p130",
+            "p131",
+            "p132"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我观察那些成功翻转身份认同的人，发现这种翻转往往在张力积到一定程度后，迅速发生。具体说，我注意到人们一般会经历 3 个阶段：",
+              "pids": [
+                "p133"
+              ]
+            }
+          ],
+          "pids": [
+            "p133",
+            "p133"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "失调（Dissonance）——他们觉得自己不属于当前的生活，并且对自己毫无进展已经受够了。",
+                "en": "Dissonance – They feel like they don’t belong in their current life, and become sufficiently fed up with their lack of progress.",
+                "pids": [
+                  "p134"
+                ]
+              },
+              {
+                "zh": "不确定（Uncertainty）——他们不知道接下来该干什么，于是要么去尝试，要么迷失方向、感觉更糟。",
+                "en": "Uncertainty – They don’t know what comes next, so they either experiment or get lost and feel worse.",
+                "pids": [
+                  "p135"
+                ]
+              },
+              {
+                "zh": "发现（Discovery）——他们发现了自己想追求的东西，用 6 个月取得了 6 年的进展。",
+                "en": "Discovery – They discover what they want to pursue and make 6 years of progress in 6 months.",
+                "pids": [
+                  "p136"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p134",
+            "p135",
+            "p136",
+            "p134",
+            "p135",
+            "p136"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7748,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这套流程的目标，是帮你抵达\"失调\"的临界点，穿过\"不确定\"，发现你真正想实现的是什么——清晰到压倒一切，让各种干扰再也无足轻重。",
+              "pids": [
+                "p137"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这套流程设计成一天就能做完。早上，做一次心理挖掘，挖出自己隐藏的动机。白天，用一些\"打断\"提醒自己，从自动驾驶（autopilot）状态里跳出来，想想自己的人生。晚上，把这些洞见综合成一个方向，明天就朝它动起来。",
+              "pids": [
+                "p138"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我不能保证这对人人都有效，因为我没法保证每个读者都正处在自己人生故事里、能让这些观点产生冲击力的那一章。你不能把高潮放在书的开头，还指望它扣人心弦。",
+              "pids": [
+                "p139"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "第一部分）早上——心理挖掘——愿景与反愿景（Vision & Anti-Vision）",
+              "pids": [
+                "p140"
+              ]
+            }
+          ],
+          "pids": [
+            "p137",
+            "p138",
+            "p139",
+            "p140",
+            "p137",
+            "p138",
+            "p139",
+            "p140"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6254,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "首先，我们得给你的心智造一个新的框架，或者说一副新的感知透镜，让它在里面运作。",
+              "pids": [
+                "p141"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这就像造一个新壳，离开旧壳，再随着时间慢慢长进新壳。一开始你会觉得不合身。这是好事。",
+              "pids": [
+                "p142"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "留出 15–30 分钟（也就一个 YouTube 视频的长度……你能做到的），思考并回答下面这些问题。别想把这种深思外包给 AI。我要你突破套在自己心智上的那个限制器。要是没法立刻回答，就过后再回来答。",
+              "pids": [
+                "p143"
+              ]
+            }
+          ],
+          "pids": [
+            "p141",
+            "p142",
+            "p143",
+            "p141",
+            "p142",
+            "p143"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6596,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "你已经学会与之共处的、那种隐隐的、挥之不去的不满是什么？不是深重的痛苦，而是你已经学会忍受的东西。（如果你不恨它，你就会一直忍受它）"
+            },
+            {
+              "n": "2.",
+              "text": "你反复抱怨、却从未真正改变的事情是什么？写下过去一年里你最常说的三条抱怨。"
+            },
+            {
+              "n": "3.",
+              "text": "针对每一条抱怨：如果有人观察你的行为（而不是听你的话），他会得出结论说你真正想要的是什么？"
+            },
+            {
+              "n": "4.",
+              "text": "关于你现在的生活，有什么真相是让你对一个深深敬重的人承认时，会感到无法承受的？"
+            }
+          ],
+          "pids": [
+            "p144",
+            "p145",
+            "p146",
+            "p147"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5300,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些问题，是为了让你意识到当前生活里的痛苦。现在，我们要把它们变成我说的\"反愿景\"（anti-vision）——也就是残酷而清醒地看清你不想过的那种生活。这样，你就能把这股负面能量拿来，把努力导向积极的方向，出于内在动机（intrinsic motivation）去行动。",
+              "pids": [
+                "p148"
+              ]
+            }
+          ],
+          "pids": [
+            "p148",
+            "p148"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6920,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "如果接下来五年什么都不改变，描述一个普通的星期二。你在哪里醒来？你的身体感觉如何？你脑子里想的第一件事是什么？你身边有谁？上午 9 点到下午 6 点你在干什么？晚上 10 点你感觉如何？"
+            },
+            {
+              "n": "2.",
+              "text": "现在把时间换成十年，再做一遍。你错过了什么？哪些机会关上了门？谁对你放弃了希望？你不在场时，别人怎么议论你？"
+            },
+            {
+              "n": "3.",
+              "text": "你走到了生命的尽头。你过的是那个\"安全版本\"的人生。你从未打破模式。代价是什么？有哪些感受、尝试或可能成为的样子，是你从未允许自己拥有的？"
+            }
+          ],
+          "pids": [
+            "p149",
+            "p150",
+            "p151"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "4.",
+              "text": "你生活中有谁已经在过你刚才描述的那种未来？某个在同一条轨迹上领先你五年、十年、二十年的人？想到自己会变成他们，你有什么感受？"
+            },
+            {
+              "n": "5.",
+              "text": "要真正改变，你必须放弃什么样的身份认同？（\"我是那种……的人\"）不再做那样的人，会让你付出什么社交代价？"
+            },
+            {
+              "n": "6.",
+              "text": "你一直没有改变，最让你难以启齿的原因是什么？那个让你听起来软弱、害怕或懒惰，而不是\"有道理\"的原因？"
+            }
+          ],
+          "pids": [
+            "p152",
+            "p153",
+            "p154"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "7.",
+              "text": "如果你当前的行为是一种自我保护，那你到底在保护什么？这种保护又让你付出了什么代价？"
+            }
+          ],
+          "pids": [
+            "p155"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5876,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你如实回答了这些问题，而且正处在人生中合适的那一章，你会对自己现在的生活方式感到深深的不安（dis-ease），甚至可能是厌恶。现在，我们要把这股能量导向积极的方向。我们要造一个\"最小可行愿景\"（minimum viable vision），因为你的愿景就像一个产品：一开始不清晰，但随着时间和经验积累，它会越来越强、越来越有力量。",
+              "pids": [
+                "p156"
+              ]
+            }
+          ],
+          "pids": [
+            "p156",
+            "p156"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6560,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "先暂时忘掉现实可行性。如果你打个响指，三年后就能过上一种不同的生活——不是\"现实的\"那种，而是你真正想要的——一个普通的星期二是什么样子？细节程度和第 5 题一样。（译注：原文如此；按整套问题连续编号，第 5 题即上文\"五年后的普通星期二\"那一题。）",
+                "en": "Forget practicality for a minute. If you could snap your fingers and be living a different life in three years, not what’s realistic, what you actually want? What does an average Tuesday look like? Same level of detail as question 5.",
+                "pids": [
+                  "p157"
+                ]
+              },
+              {
+                "zh": "你必须相信关于自己的什么，才能让那种生活感觉自然而非勉强？写下你的身份宣言：\"我是那种……的人\"",
+                "en": "What would you have to believe about yourself for that life to feel natural rather than forced? Write the identity statement: “I am the type of person who...”",
+                "pids": [
+                  "p158"
+                ]
+              },
+              {
+                "zh": "如果你已经是那个人，这周你会做的一件事是什么？",
+                "en": "What is one thing you would do this week if you were already that person?",
+                "pids": [
+                  "p159"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p157",
+            "p158",
+            "p159",
+            "p157",
+            "p158",
+            "p159"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5210,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "明天一早，第一件事就是把这些问题全答完。",
+              "pids": [
+                "p160"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第二部分）白天——打断自动驾驶——打破无意识模式",
+              "pids": [
+                "p161"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这些写日记的练习挺可爱，但我们要的是真正的改变。",
+              "pids": [
+                "p162"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "坦白说，你要是不打破那些让你原地踏步的无意识模式，真正的改变就不会发生。",
+              "pids": [
+                "p163"
+              ]
+            }
+          ],
+          "pids": [
+            "p160",
+            "p161",
+            "p162",
+            "p163",
+            "p160",
+            "p161",
+            "p162",
+            "p163"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5876,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "一整天里，我希望你反复想你在第一部分写下的所有东西。不光如此，我还希望你别忘了想。请认真对待这件事。一辈子做同样的事，你不会变。你得有意识地强行打破模式。",
+              "pids": [
+                "p164"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在就花点时间，在手机里设好提醒或日历事件。把问题写进提醒或事件里，这样你立刻就能开始想。",
+              "pids": [
+                "p165"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "时间点越随机、越不跟你的日程冲突，效果越好。",
+              "pids": [
+                "p166"
+              ]
+            }
+          ],
+          "pids": [
+            "p164",
+            "p165",
+            "p166",
+            "p164",
+            "p165",
+            "p166"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "上午 11:00：我现在做的事，是在逃避什么？"
+            },
+            {
+              "n": "2.",
+              "text": "下午 1:30：如果有人把我过去两个小时拍了下来，他们会得出结论说我想从人生中得到什么？"
+            },
+            {
+              "n": "3.",
+              "text": "下午 3:15：我是在走向我厌恶的生活，还是我想要的生活？"
+            },
+            {
+              "n": "4.",
+              "text": "下午 5:00：我在假装不重要的那件最重要的事是什么？"
+            }
+          ],
+          "pids": [
+            "p167",
+            "p168",
+            "p169",
+            "p170"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "5.",
+              "text": "晚上 7:30：今天我做的哪些事，是出于保护身份认同，而不是出于真正的渴望？（提示：你做的大多数事都是）"
+            },
+            {
+              "n": "6.",
+              "text": "晚上 9:00：今天什么时候我感觉最有活力？什么时候感觉最像行尸走肉？"
+            }
+          ],
+          "pids": [
+            "p171",
+            "p172"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "想再添把火，就把下面这些问题安排在通勤、散步或者躺着发呆的时候：",
+              "pids": [
+                "p173"
+              ]
+            }
+          ],
+          "pids": [
+            "p173",
+            "p173"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "如果我不再需要别人把我看作[你在第 10 题写下的那个身份]，会有什么改变？（译注：原文如此，指上文\"必须放弃的身份认同\"那一题。）"
+            },
+            {
+              "n": "2.",
+              "text": "在生活的哪些方面，我在用\"活力\"换\"安全\"？"
+            },
+            {
+              "n": "3.",
+              "text": "我明天就能成为的、那个\"我想成为的人\"的最小版本是什么样？"
+            }
+          ],
+          "pids": [
+            "p174",
+            "p175",
+            "p176"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5246,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "第三部分）晚上——综合洞见——进入一段进步期",
+              "pids": [
+                "p177"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你照着这个过程做了，却连一个可能改变人生走向的深刻洞见都没有，我会很惊讶。现在，我们要把这些洞见明确下来，融进我们是谁，并据此行动，开始巩固我们迈向新心智层级的旅程。",
+              "pids": [
+                "p178"
+              ]
+            }
+          ],
+          "pids": [
+            "p177",
+            "p178",
+            "p177",
+            "p178"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "经过今天，关于你为什么一直停滞不前，哪个答案感觉最真实？",
+                "en": "After today, what feels most true about why you’ve been stuck?",
+                "pids": [
+                  "p179"
+                ]
+              },
+              {
+                "zh": "真正的敌人是什么？清清楚楚地说出它的名字。不是环境，不是别人，而是一直在主导一切的那个内在模式或信念。",
+                "en": "What is the actual enemy? Name it clearly. Not circumstances. Not other people. The internal pattern or belief that has been running the show.",
+                "pids": [
+                  "p180"
+                ]
+              },
+              {
+                "zh": "写一句话，概括你绝不允许自己的人生变成什么样。这是你压缩后的反愿景。读到它时，它应该让你有所触动。",
+                "en": "Write a single sentence that captures what you refuse to let your life become. This is your anti-vision compressed. It should make you feel something when you read it.",
+                "pids": [
+                  "p181"
+                ]
+              },
+              {
+                "zh": "写一句话，概括你正在朝什么而建设——同时明白它会不断演化。这是你的愿景 MVP（最小可行版本）。",
+                "en": "Write a single sentence that captures what you’re building toward, knowing it will evolve. This is your vision MVP.",
+                "pids": [
+                  "p182"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p179",
+            "p180",
+            "p181",
+            "p182",
+            "p179",
+            "p180",
+            "p181",
+            "p182"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5984,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "最后，我们要定目标。",
+              "pids": [
+                "p183"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "再说一遍，这些目标不是为了\"达成\"才设的，因为目标只是投射。它们并不可靠，还会让你觉得被某种注定要变的东西绑住。反过来，把目标当成一种视角——一块能换的透镜，让你进入正确的心态，去做那些能带你远离不想要生活的行动。别操心什么终点线，因为我们后面会发现，终点线根本不存在。乐趣就在进步里。",
+              "pids": [
+                "p184"
+              ]
+            }
+          ],
+          "pids": [
+            "p183",
+            "p184",
+            "p183",
+            "p184"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "一年透镜：一年后，必须有什么成为现实，你才能知道自己已经打破了旧模式？一件具体的事。"
+            },
+            {
+              "n": "2.",
+              "text": "一个月透镜：一个月后，必须有什么成为现实，才能让\"一年透镜\"依然有可能实现？"
+            },
+            {
+              "n": "3.",
+              "text": "每日透镜：明天你可以用时间块（timeblock）安排的 2–3 个行动是什么——那些\"正在成为的你\"自然而然就会做的事？"
+            }
+          ],
+          "pids": [
+            "p185",
+            "p186",
+            "p187"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "内容很多。",
+              "pids": [
+                "p188"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "希望对你有帮助。",
+              "pids": [
+                "p189"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但我们还剩最后一块拼图，用来把一切锁死。",
+              "pids": [
+                "p190"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "跟着我。",
+              "pids": [
+                "p191"
+              ]
+            }
+          ],
+          "pids": [
+            "p188",
+            "p189",
+            "p190",
+            "p191",
+            "p188",
+            "p189",
+            "p190",
+            "p191"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "七、把你的人生变成一场电子游戏",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 7 节",
+        "title": "七、把你的人生变成一场电子游戏",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "七、把你的人生变成一场电子游戏",
+          "note": "本节标题取自已发布正文。",
+          "en": "VII – Turn Your Life Into A Video Game"
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "内在体验的最佳状态，是意识中存在秩序的状态。当心理能量——或者说注意力——被投入到现实的目标中，并且技能与行动机会相匹配时，这种状态就会出现。追求目标会给意识带来秩序，因为一个人必须把注意力集中在手头的任务上，暂时忘掉其他一切。",
+              "attr": "——米哈里·契克森米哈赖（Mihaly Csikszentmihalyi）"
+            }
+          ],
+          "pids": [
+            "p193"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "现在，通向美好人生的所有组成部分，你都已经有了。",
+              "pids": [
+                "p194"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "接下来，把所有洞见整理成一个连贯的计划，可能对你有帮助。拿出一张新纸，写下这 6 个组成部分：",
+              "pids": [
+                "p195"
+              ]
+            }
+          ],
+          "pids": [
+            "p194",
+            "p195",
+            "p194",
+            "p195"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "1.",
+              "text": "反愿景（Anti-vision）——我生命中的祸根是什么，或者说，我再也不想经历的生活是什么？"
+            },
+            {
+              "n": "2.",
+              "text": "愿景（Vision）——我认为自己想要、并且可以在努力的过程中不断完善的理想生活是什么？"
+            },
+            {
+              "n": "3.",
+              "text": "1 年目标（1 year goal）——一年后我的生活会是什么样？那是否更接近我想要的生活？"
+            },
+            {
+              "n": "4.",
+              "text": "1 个月项目（1 month project）——我需要学什么？需要掌握哪些技能？我能做出什么东西，让我更接近一年目标？"
+            }
+          ],
+          "pids": [
+            "p196",
+            "p197",
+            "p198",
+            "p199"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "questions": [
+            {
+              "n": "5.",
+              "text": "每日杠杆（Daily levers）——哪些是优先的、真正能推动进展的任务，能让我的项目更接近完成？"
+            },
+            {
+              "n": "6.",
+              "text": "约束（Constraints）——为了从零开始实现我的愿景，有什么是我不愿意牺牲的？"
+            }
+          ],
+          "pids": [
+            "p200",
+            "p201"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7118,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "为什么这招这么管用？",
+              "pids": [
+                "p202"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为这些组成部分，实实在在给你造出了一个属于你自己的小世界。如果在人生这个阶段，你注定要追求这一层层的目标体系，那你就别无选择，只能变得痴迷。你会感觉到一股被更宏大之物牵引的力量。你不会再把别的任何东西当成选项。",
+              "pids": [
+                "p203"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你把自己的人生变成了一场电子游戏。",
+              "pids": [
+                "p204"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为游戏是痴迷、乐趣和心流状态（flow states）的典型代表。它们具备通向专注与清晰的所有要素，所以只要我们逆向拆解出这些要素是什么，就能活在更深的乐趣里，更少分心，也更成功。",
+              "pids": [
+                "p205"
+              ]
+            }
+          ],
+          "pids": [
+            "p202",
+            "p203",
+            "p204",
+            "p205",
+            "p202",
+            "p203",
+            "p204",
+            "p205"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5264,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的愿景，就是你赢的方法。至少在游戏进化之前是这样。",
+              "pids": [
+                "p206"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的反愿景，是赌注。是你输了或者放弃时会发生的事。",
+              "pids": [
+                "p207"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的 1 年目标，是主线任务（mission）。这是你人生里唯一的优先事项。",
+              "pids": [
+                "p208"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的 1 个月项目，是 Boss 战。是你涨经验值（XP）、捡战利品的方式。",
+              "pids": [
+                "p209"
+              ]
+            }
+          ],
+          "pids": [
+            "p206",
+            "p207",
+            "p208",
+            "p209",
+            "p206",
+            "p207",
+            "p208",
+            "p209"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5696,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的每日杠杆，是日常任务（quests）。是那个能解锁新机会的日常流程。",
+              "pids": [
+                "p210"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你的约束，就是规则。是那些能激发创造力的限制。",
+              "pids": [
+                "p211"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所有这些就像一组同心圆，像一层力场，护着你的心智，不被干扰和各种\"闪亮的新玩意儿\"勾走。",
+              "pids": [
+                "p212"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这游戏玩得越久，这股力量就越强，很快它就成了你本身，而你也再不想换个活法。",
+              "pids": [
+                "p213"
+              ]
+            }
+          ],
+          "pids": [
+            "p210",
+            "p211",
+            "p212",
+            "p213",
+            "p210",
+            "p211",
+            "p212",
+            "p213"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p214"
+              ]
+            }
+          ],
+          "pids": [
+            "p214",
+            "p214"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "如何用一天时间，\n彻底修正你的整个人生",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "如何聪明地表达自己",
+              "href": "04.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/03.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}

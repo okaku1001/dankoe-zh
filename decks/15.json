@@ -1,0 +1,2167 @@
+{
+  "meta": {
+    "id": "15",
+    "kind": "dankoe",
+    "title": "如何记住你读过的一切（别再努力去记了）",
+    "en": "How to remember everything you read (stop trying)",
+    "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+    "citation": "原题：How to remember everything you read (stop trying)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-07-27（北京时间；原始时间戳为 2026-07-26 16:25 UTC） · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2081415714636996844\">https://x.com/thedankoe/status/2081415714636996844</a><br>译注：文中有大段 Eden 产品推广，照译保留。原文\"Greuter's 9 stages of ego development\"应指苏珊·库克-格罗伊特（Susanne Cook-Greuter）的自我发展九阶段，原文只写了\"Greuter\"。",
+    "classic": "../classic/15.html",
+    "home": "../index.html",
+    "notes": "../notes.html",
+    "glossary": "../glossary.html",
+    "attribution": "正文取自已发布中文译本，未改写。中文译本仅供个人学习。",
+    "prev": {
+      "id": "14",
+      "title": "拯救了我的大脑（和我的未来）的写作习惯",
+      "href": "14.html"
+    },
+    "next": {
+      "id": "16",
+      "title": "战略思维的艺术（如何取得惊人的成功）",
+      "href": "16.html"
+    }
+  },
+  "scenes": [
+    {
+      "id": "title",
+      "title": "如何记住你读过的一切（别再努力去记了）",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 15 篇",
+        "title": "如何记住你读过的一切（别再努力去记了）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5500,
+          "kicker": "第 15 篇 · 2026-07-27 · 约 21 分钟",
+          "title": "如何记住你读过的一切（别再努力去记了）",
+          "en": "How to remember everything you read (stop trying)",
+          "blocks": [
+            {
+              "type": "credit",
+              "text": "Dan Koe  ·  2026-07-27  ·  出处见 N"
+            }
+          ],
+          "note": "标题、信息条与出处取自已发布文首。"
+        }
+      ],
+      "citation": "原题：How to remember everything you read (stop trying)<br>作者：Dan Koe（<span class=\"citation\" data-cites=\"thedankoe\">@thedankoe</span>） · 发布：2026-07-27（北京时间；原始时间戳为 2026-07-26 16:25 UTC） · 原文：<a class=\"uri\" href=\"https://x.com/thedankoe/status/2081415714636996844\">https://x.com/thedankoe/status/2081415714636996844</a><br>译注：文中有大段 Eden 产品推广，照译保留。原文\"Greuter's 9 stages of ego development\"应指苏珊·库克-格罗伊特（Susanne Cook-Greuter）的自我发展九阶段，原文只写了\"Greuter\"。"
+    },
+    {
+      "id": "intro",
+      "title": "开篇",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "开篇",
+        "title": "开篇",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "如果你需要去记住它，它就不重要。如果它重要，你自然会记住它。"
+            }
+          ],
+          "pids": [
+            "p1"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5552,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "不知怎么，“记住你读过的一切”成了一件让人着魔的事。讲这个的视频有几百个，播放量数以百万计。",
+              "pids": [
+                "p2"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "人们觉得，只要没记住读过的知识，自己就是失败者，或者时间就白花了——可这压根不是阅读的意义所在。",
+              "pids": [
+                "p3"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你到底为什么要背下一本书的每一个字？",
+              "pids": [
+                "p4"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我知道为什么。",
+              "pids": [
+                "p5"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你想显得聪明。",
+              "pids": [
+                "p6"
+              ]
+            }
+          ],
+          "pids": [
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6740,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这对你来说是个无意识的地位象征。",
+              "pids": [
+                "p7"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你想凭表达能力和智力打动别人，却没意识到，显得聪明来自理解，不是记忆，而理解需要一套截然不同的学习方式。更糟的是，学校考你的正是记忆能力。你学几个小时，就为了用铅笔涂出正确答案。生活可不是这么运转的。",
+              "pids": [
+                "p8"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我懂。",
+              "pids": [
+                "p9"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你想获取知识，好做出更好的决定，把自己推到一个更有利的生活处境：更多钱、更多权力，不用再为日常生存发愁。谁都想要这个，可记住事实是抵达那里最低效的办法。",
+              "pids": [
+                "p10"
+              ]
+            }
+          ],
+          "pids": [
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p7",
+            "p8",
+            "p9",
+            "p10"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这就是我们先要谈的——如何以一种真正记得住的方式获取知识，好为自己创造更好的未来。",
+              "pids": [
+                "p11"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，我们会谈为什么你的笔记系统、书签，甚至你宝贝的“第二大脑”（精神自慰者的充气娃娃）基本上都没用。",
+              "pids": [
+                "p12"
+              ]
+            }
+          ],
+          "pids": [
+            "p11",
+            "p12",
+            "p11",
+            "p12"
+          ]
+        },
+        {
+          "layout": "claim",
+          "reveal": "write",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "claim",
+              "text": "如果你对自我推广过敏，请跳到正文：",
+              "pids": [
+                "p13"
+              ]
+            }
+          ],
+          "pids": [
+            "p13",
+            "p13"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5660,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "说到第二大脑，我们刚给 Eden 加上了“资料库”（Library）、“阅读器”（Reader）和“高亮”（Highlights）功能。现在你不光能研究创作者的头部内容、找到你下一个爆款话题（还能定时发帖），还能建起一个由帖子、链接和想法组成的、相互关联的资料库，由 Eden 替你整理——而且允许你按含义、而不只是按关键词去搜索。",
+              "pids": [
+                "p14"
+              ]
+            }
+          ],
+          "pids": [
+            "p14",
+            "p14"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "而且，你可以存下任何 Substack 文章、X 文章或 YouTube 视频，读文字稿、划重点，这样一个想法都不会丢。",
+              "pids": [
+                "p15"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们还没正式开始公开大力推 Eden，但用户一直在大声说，它对创意人和创作者来说有多颠覆。",
+              "pids": [
+                "p16"
+              ]
+            }
+          ],
+          "pids": [
+            "p15",
+            "p16",
+            "p15",
+            "p16"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "在这里免费拿 4 个月使用权和创作者训练营（原价 499 美元）。https://eden.so/?utm_source=thedankoe&utm_medium=social&utm_campaign=social_evergreen&utm_content=x_article",
+              "pids": [
+                "p17"
+              ]
+            }
+          ],
+          "pids": [
+            "p17",
+            "p17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "如何真正快速地学会任何东西",
+      "enter": "fade",
+      "tone": "paper",
+      "thumb": {
+        "kicker": "第 1 节",
+        "title": "如何真正快速地学会任何东西",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "如何真正快速地学会任何东西",
+          "note": "本节标题取自已发布正文。",
+          "en": "How to actually learn anything fast"
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/15_2.jpg",
+            "alt": "控制论反馈回路：参照信号、比较器、执行器、环境、传感器"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "大多数人根本不知道怎么学习。",
+              "pids": [
+                "p19"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为大多数人根本不知道学习过程是什么。",
+              "pids": [
+                "p20"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数学习之所以失败，是因为没有负反馈回路。",
+              "pids": [
+                "p21"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这样想。",
+              "pids": [
+                "p22"
+              ]
+            }
+          ],
+          "pids": [
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p19",
+            "p20",
+            "p21",
+            "p22"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 9008,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你没有健身的目标（我说的是一个深层的、从内在生发的目标，不是你为了合群才追的肤浅目标，比如新年决心），那么一晚上狂喝滥饮、彻夜派对就不会被记作一个问题（负反馈），因为它影响不到你那个根本不存在的目标——第二天晨跑或健身的表现。你可以带着宿醉照常上班，因为你压根不在乎自己工作干得好不好。",
+              "pids": [
+                "p23"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "学习是一个控制论过程。",
+              "pids": [
+                "p24"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "“控制论”（cybernetics）听着像跟半机械人有关的东西，其实它来自希腊语 kybernētēs，意思是舵手。掌舵的那个人。",
+              "pids": [
+                "p25"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "之所以用“控制论”这个词，是因为舵手是反馈系统的完美意象。舵手不是把船朝一个方向指一次就完事，他不断读取当前状态（风、浪、航向），拿它跟预定航线比较，然后调整。换句话说，就是试错的过程；而极少有人拥有那种能让自己注意到生活里错误的方向。",
+              "pids": [
+                "p26"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "控制论阐明了智能系统的属性。",
+              "pids": [
+                "p27"
+              ]
+            }
+          ],
+          "pids": [
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p27",
+            "p23",
+            "p24",
+            "p25",
+            "p26",
+            "p27"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/15_3.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "参考信号（目标）——系统持有一个目标状态。",
+                "en": "Reference signal (the goal) – The system holds a target state.",
+                "pids": [
+                  "p28"
+                ]
+              },
+              {
+                "zh": "传感器（感知）——系统读取自己的当前状态。",
+                "en": "Sensor (perception) – The system reads its current state.",
+                "pids": [
+                  "p29"
+                ]
+              },
+              {
+                "zh": "比较器（差距）——系统计算目标状态与当前状态的差异。这个差异就是误差信号。",
+                "en": "Comparator (the gap) – The system computes the difference between target and current state. The difference is the error signal.",
+                "pids": [
+                  "p30"
+                ]
+              },
+              {
+                "zh": "执行器（行为）——系统采取行动以减少误差。",
+                "en": "Actuator (behavior) – The system acts to reduce the error.",
+                "pids": [
+                  "p31"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p28",
+            "p29",
+            "p30",
+            "p31",
+            "p28",
+            "p29",
+            "p30",
+            "p31"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5786,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "就像恒温器太冷时打开暖气，或者你的胰腺在血糖升高时释放胰岛素。",
+              "pids": [
+                "p32"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这下把问题照得清清楚楚。",
+              "pids": [
+                "p33"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数人尝试学新东西时，重心放在内容上。他们囤积材料，想靠间隔重复、记忆卡、课程和打基础把它吸收掉。他们以为学习是个输入过程。",
+              "pids": [
+                "p34"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "实际上，学习是个输出过程，因为输出会倒逼输入。",
+              "pids": [
+                "p35"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "目标制造误差信号。",
+              "pids": [
+                "p36"
+              ]
+            }
+          ],
+          "pids": [
+            "p32",
+            "p33",
+            "p34",
+            "p35",
+            "p36",
+            "p32",
+            "p33",
+            "p34",
+            "p35",
+            "p36"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5390,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "误差信号制造过滤器。",
+              "pids": [
+                "p37"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "过滤器制造相关性（大多数人用噪音和永远用不上的东西填满自己的心智）。",
+              "pids": [
+                "p38"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "相关性制造记忆。",
+              "pids": [
+                "p39"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "一个人一辈子都被条件化，抱着“上学然后找工作”这个近乎无意识的目标，他自然会朝那个方向去学、去做。被指派给他的命运，必然成真。",
+              "pids": [
+                "p40"
+              ]
+            }
+          ],
+          "pids": [
+            "p37",
+            "p38",
+            "p39",
+            "p40",
+            "p37",
+            "p38",
+            "p39",
+            "p40"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7280,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "一个被深度条件化、要走默认路径的人，甚至注意不到工作之外的赚钱机会，因为他的大脑把它们过滤掉了。他们出生时被指派的人生大目标，决定了他们的行为和所学。他们是别人理想的木偶，掌控不了自己的人生。",
+              "pids": [
+                "p41"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但如果你有意识地建起自己的框架——确切地知道自己不想要人生里的什么，再拿它和一个不断演化的、你想要什么的愿景作比较——只有这样，你才能察觉自己什么时候偏离了轨道、注意到错误、修正前进的方向，并顺带完成学习。",
+              "pids": [
+                "p42"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "有道理，可你到底要做什么？",
+              "pids": [
+                "p43"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "第 1 步）痴迷于一个有意义的目标。",
+              "pids": [
+                "p44"
+              ]
+            }
+          ],
+          "pids": [
+            "p41",
+            "p42",
+            "p43",
+            "p44",
+            "p41",
+            "p42",
+            "p43",
+            "p44"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6488,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "变得痴迷的办法，是审视眼下的行动，看清如果不改变，你的人生最终会落到哪一步。",
+              "pids": [
+                "p45"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对大多数人来说，那个结局并不好看。",
+              "pids": [
+                "p46"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "和那个画面待一会儿，让它用浓烈的情绪填满你，再把这股情绪能量重新导向人生里一个更好的方向。",
+              "pids": [
+                "p47"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "只有这样，你才能真正让追求的目标与未来的方向对齐。只有这样，一个有用的学习过程才会启动——它跟上学正好相反：在学校里，你学什么由社会替你设定的方向和目标决定。",
+              "pids": [
+                "p48"
+              ]
+            }
+          ],
+          "pids": [
+            "p45",
+            "p46",
+            "p47",
+            "p48",
+            "p45",
+            "p46",
+            "p47",
+            "p48"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "走极端会改变你的大脑、增强神经可塑性。在我看来，做一次极端的改变，比做很多次小改变更划算。",
+              "pids": [
+                "p49"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "破釜沉舟。改变你的人生。",
+              "pids": [
+                "p50"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "2）别急着开始学习。",
+              "pids": [
+                "p51"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你想要的人生，在一系列有意义的项目尽头。",
+              "pids": [
+                "p52"
+              ]
+            }
+          ],
+          "pids": [
+            "p49",
+            "p50",
+            "p51",
+            "p52",
+            "p49",
+            "p50",
+            "p51",
+            "p52"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6074,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你的心智该被当成一个项目来对待。你的身体、人际关系、财务状况也一样。所谓项目，就是一组结构化的目标和里程碑。项目为你的学习搭起一个框架（把不重要的噪音过滤掉）。任何不能直接推动项目前进的东西，都（暂时）不值得学，因为你反正也记不住。",
+              "pids": [
+                "p53"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "换句话说，当你想学某样新东西时，别急着去学，而是先朝目标迈出第一步。",
+              "pids": [
+                "p54"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "3）寻求专属知识。",
+              "pids": [
+                "p55"
+              ]
+            }
+          ],
+          "pids": [
+            "p53",
+            "p54",
+            "p55",
+            "p53",
+            "p54",
+            "p55"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "我终究认为，每个人都应该搞清楚自己独一无二最擅长的是什么——那与他们根本上是谁相一致，给他们真实性，给他们专属知识，给他们竞争优势，让他们不可替代。然后他们就应该全力投入其中。而有时候，你在做之前并不知道那是什么。",
+              "attr": "——纳瓦尔"
+            }
+          ],
+          "pids": [
+            "p56"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6146,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "学校教的是通用知识，或者做一份工作所需的知识。",
+              "pids": [
+                "p57"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "它们不教你如何走自己的路。它们把你收窄到一个学习领域，这从根上就没法让你准备好靠创业——或者干脆做你想做的事——来主导自己的工作。",
+              "pids": [
+                "p58"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "自我教育，就是学习实现自我生发的目标所必需之物的过程。再说一遍，别为了觉得自己在学习就囤积通用知识。",
+              "pids": [
+                "p59"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "举个例子，假设我想学 After Effects——那款动画软件。",
+              "pids": [
+                "p60"
+              ]
+            }
+          ],
+          "pids": [
+            "p57",
+            "p58",
+            "p59",
+            "p60",
+            "p57",
+            "p58",
+            "p59",
+            "p60"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6074,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "跑去看一堆通用的 After Effects 教程、把这个软件的每个小细节都学一遍，是愚蠢的。",
+              "pids": [
+                "p61"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "相反，你得先对自己想做的项目有个愿景。",
+              "pids": [
+                "p62"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你用现有的知识启动这个项目；如果知识不够，那就找一个跟你想要创作的项目尽可能相似的具体教程。",
+              "pids": [
+                "p63"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "现在，因为你有了一个过滤器（你想创作的东西），教程大半都没用，但你会找到一个能让项目至少启动起来的小技巧。",
+              "pids": [
+                "p64"
+              ]
+            }
+          ],
+          "pids": [
+            "p61",
+            "p62",
+            "p63",
+            "p64",
+            "p61",
+            "p62",
+            "p63",
+            "p64"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你用上它，然后重复，直到叠了足够多的技巧——等你去做下一个项目、再下一个，事情会越来越容易。",
+              "pids": [
+                "p65"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "学吉他或任何乐器都一样。",
+              "pids": [
+                "p66"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你不会先跑去研究乐理。",
+              "pids": [
+                "p67"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "你挑一首想弹的歌。",
+              "pids": [
+                "p68"
+              ]
+            }
+          ],
+          "pids": [
+            "p65",
+            "p66",
+            "p67",
+            "p68",
+            "p65",
+            "p66",
+            "p67",
+            "p68"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "然后学这首歌的第一个和弦，第二个，第三个。到最后，你学会用某种特定方式调音，还攒下一些让你弹得更好的小窍门。",
+              "pids": [
+                "p69"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "学会几首歌之后，你会觉得自己也能写首简单的歌了。",
+              "pids": [
+                "p70"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这才是学习的方式。",
+              "pids": [
+                "p71"
+              ]
+            }
+          ],
+          "pids": [
+            "p69",
+            "p70",
+            "p71",
+            "p69",
+            "p70",
+            "p71"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "第二潜意识（删掉你的笔记系统）",
+      "enter": "fold",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "第 2 节",
+        "title": "第二潜意识（删掉你的笔记系统）",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "write",
+          "hold": 5000,
+          "title": "第二潜意识（删掉你的笔记系统）",
+          "note": "本节标题取自已发布正文。",
+          "en": "The Second Subconscious (Delete Your Note-Taking System)"
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7190,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我以前把所有系统都试过，而且很喜欢。我从 Roam Research 开始，它彻底改变了我的写作方式。我建了一个装满有力想法的知识库，每次坐下来往屏幕上敲字，就从里面取材。",
+              "pids": [
+                "p73"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "几年前，我甚至做了 Kortex，它起初并不是冲着第二大脑软件去的，但在不可避免地被淘汰之前，最终还是变成了那样。嗯，它其实没真的失败，而是痛苦地演化成了 Eden——后者如今成了市面上为创作者找出社交媒体热门内容、为创意人从任何地方捕捉想法的最佳工具。",
+              "pids": [
+                "p74"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "所以，我不是来说第二大脑没用的。",
+              "pids": [
+                "p75"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我只是觉得它们被用错了。",
+              "pids": [
+                "p76"
+              ]
+            }
+          ],
+          "pids": [
+            "p73",
+            "p74",
+            "p75",
+            "p76",
+            "p73",
+            "p74",
+            "p75",
+            "p76"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6794,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你收藏书签、做笔记，结果它们再也不会被看第二眼。你确确实实浪费了时间，还以为自己在学习——而那些时间，你本可以真的拿来学习，就像我们刚才讨论的那样。",
+              "pids": [
+                "p77"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "过去，人们没有一个被营销得很响、流行起来的“第二大脑”。他们有的是摘录簿（commonplace book）。",
+              "pids": [
+                "p78"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "马可·奥勒留的《沉思录》本质上就是一本私人摘录簿，里面是写给自己的笔记和消化过的哲学，它本来也没打算出版。",
+              "pids": [
+                "p79"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "列奥纳多·达·芬奇在数千页笔记本上画满草图、观察、问题和借来的想法。",
+              "pids": [
+                "p80"
+              ]
+            }
+          ],
+          "pids": [
+            "p77",
+            "p78",
+            "p79",
+            "p80",
+            "p77",
+            "p78",
+            "p79",
+            "p80"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5876,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "马克·吐温、H.P. 洛夫克拉夫特、托马斯·杰斐逊、罗纳德·里根、蒙田、里克·鲁宾，还有更多人，都有某种形式的摘录簿。",
+              "pids": [
+                "p81"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "但普通的第二大脑死忠，跟他们之间有个重大区别。",
+              "pids": [
+                "p82"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们收集的想法，是创作的燃料。",
+              "pids": [
+                "p83"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们的发明、写作和音乐不会是今天的样子；我甚至敢说，如果这些名人没有某种形式的摘录簿，你根本不会知道他们是谁。",
+              "pids": [
+                "p84"
+              ]
+            }
+          ],
+          "pids": [
+            "p81",
+            "p82",
+            "p83",
+            "p84",
+            "p81",
+            "p82",
+            "p83",
+            "p84"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6812,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "当你创作某样东西时，潜意识会吐出相关的想法，帮你把作品做得更好；但它的处理能力终究有限，有时候它干脆决定完全不帮你，把你丢进创作低谷。",
+              "pids": [
+                "p85"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "塞涅卡用过一个比喻：从许多花上采集花粉，再把它酿成你自己的蜜。",
+              "pids": [
+                "p86"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "用现在的话说，就是像艺术家一样偷。",
+              "pids": [
+                "p87"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这是写作瓶颈的解药。你想不出写作、内容或视频的点子，是因为你没有一个可以取材的想法库。这封信里我写的每一样东西，都来自我以前存过的文章、视频、社交帖子、零散念头和划线。",
+              "pids": [
+                "p88"
+              ]
+            }
+          ],
+          "pids": [
+            "p85",
+            "p86",
+            "p87",
+            "p88",
+            "p85",
+            "p86",
+            "p87",
+            "p88"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5156,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "我想你明白了，可我们到底要怎么把它建起来？",
+              "pids": [
+                "p89"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "怎么才能做出一本数字摘录簿，或者说第二潜意识，让我们用一辈子去建设它，又不让它变成一个想法进去等死的杂乱笔记应用？",
+              "pids": [
+                "p90"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第 1 步）选对软件，或者搭一套你自己的 AI 系统",
+              "pids": [
+                "p91"
+              ]
+            }
+          ],
+          "pids": [
+            "p89",
+            "p90",
+            "p91",
+            "p89",
+            "p90",
+            "p91"
+          ]
+        },
+        {
+          "layout": "quote",
+          "reveal": "lines",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "quote",
+              "text": "别对 AI 有多\"聪明\"大呼小叫。它比一袋湿锤子还蠢。\n相反，要利用它在大数据集上对简单任务进行快速输入和输出的能力。",
+              "attr": "——德文·埃里克森（Devon Eriksen）"
+            }
+          ],
+          "pids": [
+            "p92"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5876,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "大多数笔记和“第二大脑”软件仍然要手动维护。",
+              "pids": [
+                "p93"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "其中一些附加了一个 AI 对话功能，这确实有用，但它们少了最有用的那个应用：让你的想法不会消失在虚空里——因为你的创作取决于你能不能把它们重新调出来。",
+              "pids": [
+                "p94"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这里你有 2 个选择。",
+              "pids": [
+                "p95"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们的目标，是有一个地方可以随手丢进想法，还能轻松地为手上的项目调出对的那些。",
+              "pids": [
+                "p96"
+              ]
+            }
+          ],
+          "pids": [
+            "p93",
+            "p94",
+            "p95",
+            "p96",
+            "p93",
+            "p94",
+            "p95",
+            "p96"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6500,
+          "list": {
+            "ordered": false,
+            "start": 1,
+            "items": [
+              {
+                "zh": "选择 1——用 Claude Code + Obsidian 这样的组合，把你的知识存在一个地方，并用 AI 检索想法",
+                "en": "Option 1 - Use a combination like Claude Code + Obsidian to store your knowledge in one place and retrieve ideas with AI",
+                "pids": [
+                  "p97"
+                ]
+              },
+              {
+                "zh": "选择 2——用 MyMind 或 Eden 这样的软件，它们会自动打标签、分类，并把你的知识嵌入\"语义空间\"，从而能连接看似无关的想法，催生新颖的洞见",
+                "en": "Option 2 - Use a software like MyMind or Eden, which auto-tags, categorizes, and embeds your knowledge in “meaning space” so it can connect seemingly unrelated ideas to birth novel insights",
+                "pids": [
+                  "p98"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p97",
+            "p98",
+            "p97",
+            "p98"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "关于选择 1，网上有大量教程。它现在特别火，因为人们把宝贝的 Notion 模板收藏换成了 Claude 技能收藏（这股风潮会像所有风潮一样过去），不过下面是自己动手的 80/20 做法：",
+              "pids": [
+                "p99"
+              ]
+            }
+          ],
+          "pids": [
+            "p99",
+            "p99"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6560,
+          "list": {
+            "ordered": true,
+            "start": 1,
+            "items": [
+              {
+                "zh": "下载 Obsidian 和 Claude",
+                "en": "Download Obsidian and Claude",
+                "pids": [
+                  "p100"
+                ]
+              },
+              {
+                "zh": "打开 Claude Code 或 Claude Cowork，选择你电脑上的 Obsidian 仓库文件夹作为工作文件夹",
+                "en": "Open Claude Code or Claude Cowork and select your Obsidian vault folder on your computer as the folder you’re working in",
+                "pids": [
+                  "p101"
+                ]
+              },
+              {
+                "zh": "创建一个\"保存想法\"技能——让 Claude 创建一个技能，在收件箱文件夹里创建一条带清晰标题的笔记",
+                "en": "Create a “save an idea” skill - ask claude to create a skill that creates a note in an inbox folder with a clear title",
+                "pids": [
+                  "p102"
+                ]
+              },
+              {
+                "zh": "创建一个\"处理我的收件箱\"技能——让 Claude 创建一个技能，遍历你的收件箱文件夹，添加标签，移动到正确的文件夹，并添加指向仓库内其他相关笔记的反向链接",
+                "en": "Create a “process my inbox” skill - ask claude to create a skill that goes through your inbox folder, add tags, move it to the right folder, and add backlinks to other related notes within the vault",
+                "pids": [
+                  "p103"
+                ]
+              },
+              {
+                "zh": "让 Claude 帮你定义分类体系，这样它就知道该用哪些标签/类别",
+                "en": "Ask Claude to help you define your taxonomy so it knows what tags/categories to use",
+                "pids": [
+                  "p104"
+                ]
+              }
+            ]
+          },
+          "pids": [
+            "p100",
+            "p101",
+            "p102",
+            "p103",
+            "p104",
+            "p100",
+            "p101",
+            "p102",
+            "p103",
+            "p104"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6452,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这让你能把想法、笔记和知识捕捉进一个经过时间检验的笔记工具里。",
+              "pids": [
+                "p105"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，你随时可以让 Claude“在我的仓库里搜索所有跟[我正在写的想法]相关的内容”。",
+              "pids": [
+                "p106"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这对找到大多数想法都管用，但好的写作和创作来自新颖的连接，不是关键词搜索，也不是让 AI 头脑风暴一堆同义词去找相关匹配。",
+              "pids": [
+                "p107"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你不想手动做这一切，可以用 MyMind 这样的软件，它让你把任何链接或想法存进一个庞大、可搜索的资料库。",
+              "pids": [
+                "p108"
+              ]
+            }
+          ],
+          "pids": [
+            "p105",
+            "p106",
+            "p107",
+            "p108",
+            "p105",
+            "p106",
+            "p107",
+            "p108"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 10268,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Eden 也做同样的事（你能把任何东西飞快捕捉进资料库），但更进一步。你存下一个链接，比如一篇 Substack 文章或一个 YouTube 视频，它会转写内容，并让你划重点。此外，你能接入 Kindle，导入以前所有的划线——那可是强力的创作燃料。",
+              "pids": [
+                "p109"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "MyMind 和 Eden 跟 Obsidian 加 Claude 的不同在于：你加进资料库的一切都会自动打标签、分类和嵌入。所以你能做 Claude 那种搜索，又不浪费宝贵的 AI 用量（如果你确实想用 Claude 建和访问知识库，Eden 也有一个 MCP）。另外，如果你是写作者或创作者，Eden 有一个异常值搜索信息流，你可以在里面找到自己领域里表现好的社交帖子，直接存进资料库。",
+              "pids": [
+                "p110"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我不完全确定 MyMind 能不能做到这点，但 Eden 还有一处不同：它可以按含义搜索。",
+              "pids": [
+                "p111"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Obsidian 给你看的是“什么是相关的”，Eden 给你看的是“什么是邻近的”——因为每个想法都被嵌入了大约 1500 个数字，它们就像想法的 GPS 坐标。哪怕两个想法一个相同的词都没有，也能被找到。正因如此，你才能把一个想法随手丢进去就忘了它，因为你笃定，恰好需要它的时候一定会找到。",
+              "pids": [
+                "p112"
+              ]
+            }
+          ],
+          "pids": [
+            "p109",
+            "p110",
+            "p111",
+            "p112",
+            "p109",
+            "p110",
+            "p111",
+            "p112"
+          ]
+        },
+        {
+          "layout": "figure",
+          "reveal": "lines",
+          "hold": 4500,
+          "figure": {
+            "src": "../img/15_4.jpg",
+            "alt": "原文配图"
+          }
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5318,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "它能调出新颖的连接，不必每次都把整个知识库重搜一遍、烧掉几十万个 AI token。",
+              "pids": [
+                "p113"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你大概也不想去维护一个向量数据库、一个嵌入 API、一堆索引脚本，笔记一变就重新嵌入，文件改名或删除时保持索引同步，还要做缓存，免得为没变的内容重复掏钱。",
+              "pids": [
+                "p114"
+              ]
+            }
+          ],
+          "pids": [
+            "p113",
+            "p114",
+            "p113",
+            "p114"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "这些工具都免费替你做完了这些（译注：原文如此；结合上下文，大意应为这些软件替你处理了上述维护工作），但如果你想要一个真正的、写作创作做项目时供你检索的“第二潜意识”——Eden 也许值得一试。",
+              "pids": [
+                "p115"
+              ]
+            }
+          ],
+          "pids": [
+            "p115",
+            "p115"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6308,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "第 2 步）捕捉最能代表你理想心智的想法",
+              "pids": [
+                "p116"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "既然你有了一个丢想法的地方，不用再操心整理（因为你整理东西只是为了方便以后找到，而这一点我们刚解决了），你也不能什么都往里头扔。",
+              "pids": [
+                "p117"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "当 AI 什么都能创造时，策展比以往任何时候都重要。",
+              "pids": [
+                "p118"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你需要一个经过策展的空间，存放那些能点燃灵感的想法。它要和那个被我们叫作社交媒体信息流的、没完没了的噪音消防水龙正好相反。",
+              "pids": [
+                "p119"
+              ]
+            }
+          ],
+          "pids": [
+            "p116",
+            "p117",
+            "p118",
+            "p119",
+            "p116",
+            "p117",
+            "p118",
+            "p119"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7928,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "作为一个写作者、创作者，或者想做独立工作的人（这意味着你得靠用自己发出的想法吸引人来建立受众），人们不再因为你的内容而关注你。",
+              "pids": [
+                "p120"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "有 Google，有 AI，还有一点就能找到的海量信息。",
+              "pids": [
+                "p121"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "他们关注你，是为了你的视角、你的观点、你的诠释、你的个性、你的故事。而所有这些，都是构成你世界观的那些想法的下游产物——那些你用来理解世界的想法。",
+              "pids": [
+                "p122"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "举个例子，当我进入一场关于现实本质的对话，我的心智会跳到关于历史、整合理论、螺旋动力学之类的想法上——因为我认定，这些是看待那场对话最有用的透镜。比起我听过的其他那些往往站不住脚的想法，它们更说得通。",
+              "pids": [
+                "p123"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "这些就是你要捕捉的想法。",
+              "pids": [
+                "p124"
+              ]
+            }
+          ],
+          "pids": [
+            "p120",
+            "p121",
+            "p122",
+            "p123",
+            "p124",
+            "p120",
+            "p121",
+            "p122",
+            "p123",
+            "p124"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5462,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你要策展一大套最能代表你理想心智的知识。",
+              "pids": [
+                "p125"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "因为那本来就是你那套花哨的笔记系统该有的样子，对吧？",
+              "pids": [
+                "p126"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "只不过你从来没有着手把这些想法固化成自己的一部分——这通常要靠思考、写作、公开分享来完成，好让你接收到市场的反馈，让最好的想法胜出。",
+              "pids": [
+                "p127"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "具体怎么做？",
+              "pids": [
+                "p128"
+              ]
+            }
+          ],
+          "pids": [
+            "p125",
+            "p126",
+            "p127",
+            "p128",
+            "p125",
+            "p126",
+            "p127",
+            "p128"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5966,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你多读书，让好奇心领着你，拒绝末日刷屏，转而拥抱一份精选的作者和思想家名单——他们专心产出好想法。你为“研究”腾出时间，因为对写作者或创作者来说，那是你 80% 的工作。",
+              "pids": [
+                "p129"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "工作剩下的部分，只是把那些“研究”综合成对人有用的东西。",
+              "pids": [
+                "p130"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "第 3 步）通过创作构建你的理想心智",
+              "pids": [
+                "p131"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们来把这个回路闭上。",
+              "pids": [
+                "p132"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我们有了捕捉和检索知识的系统。",
+              "pids": [
+                "p133"
+              ]
+            }
+          ],
+          "pids": [
+            "p129",
+            "p130",
+            "p131",
+            "p132",
+            "p133",
+            "p129",
+            "p130",
+            "p131",
+            "p132",
+            "p133"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7136,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "但现在还需要一个项目来应用它，不然它就白费了。",
+              "pids": [
+                "p134"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "而且，我们仍然没在捕捉专属知识，因为我们没有学习的理由。我们没给心智一个框架，让它能有效地发出信号、标明某些想法重要到值得捕捉——就像我们前面讨论的那样。",
+              "pids": [
+                "p135"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "这正是我们追求的全部目标，对吧？",
+              "pids": [
+                "p136"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我们想变得更聪明，想留住、记住学过的东西，想表达得清晰有力。也许是出于肤浅的理由，但也是因为人生的结果取决于我们做的决定，而我们的聪明程度、表达自身价值的能力，绝对会对此有积极影响。",
+              "pids": [
+                "p137"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "我没法告诉你该创作什么。",
+              "pids": [
+                "p138"
+              ]
+            }
+          ],
+          "pids": [
+            "p134",
+            "p135",
+            "p136",
+            "p137",
+            "p138",
+            "p134",
+            "p135",
+            "p136",
+            "p137",
+            "p138"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "但如果你对写作感兴趣，我可以给你我的流程里最近帮到过另一个人的一小块。",
+              "pids": [
+                "p139"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "对于写 Substack 文章、YouTube 脚本或 X 文章这类事，我会这么做：",
+              "pids": [
+                "p140"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "1）选一个话题。",
+              "pids": [
+                "p141"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "显然。",
+              "pids": [
+                "p142"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "最好的话题，落在表现与兴奋的交汇处。",
+              "pids": [
+                "p143"
+              ]
+            }
+          ],
+          "pids": [
+            "p139",
+            "p140",
+            "p141",
+            "p142",
+            "p143",
+            "p139",
+            "p140",
+            "p141",
+            "p142",
+            "p143"
+          ]
+        },
+        {
+          "layout": "claim",
+          "reveal": "write",
+          "hold": 6000,
+          "blocks": [
+            {
+              "type": "claim",
+              "text": "表现 = 已经被证明表现不错的话题。",
+              "pids": [
+                "p144"
+              ]
+            }
+          ],
+          "pids": [
+            "p144",
+            "p144"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "kicker": "作者产品推广（Eden）· 已折叠，点击展开",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "你可以存下爆火的社交帖子来找到它们，或者用一个研究工具，让你找出异常爆款内容、研究创作者的头部帖子。https://eden.so/bootcamp/?utm_source=thedankoe&utm_medium=social&utm_campaign=bootcamp_evergreen&utm_content=x_article",
+              "pids": [
+                "p145"
+              ]
+            }
+          ],
+          "pids": [
+            "p145",
+            "p145"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6398,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "（我现在写的这篇，就基于“如何记住你读过的一切”这个话题——它爆火的次数多到我数不清，但我在上面套用了自己的反主流视角。）",
+              "pids": [
+                "p146"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "兴奋 = 你出于好奇想要进一步探索的话题和想法。",
+              "pids": [
+                "p147"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "你要做的，是把你想写的话题（它在社交媒体上大概不会表现好）和一个已被证明表现好的话题配对，这样你既能写想写的，又能提高它真正获得关注的几率。",
+              "pids": [
+                "p148"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "大多数新手就栽在这里。",
+              "pids": [
+                "p149"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "2）头脑倾倒 → 提纲 → 草稿",
+              "pids": [
+                "p150"
+              ]
+            }
+          ],
+          "pids": [
+            "p146",
+            "p147",
+            "p148",
+            "p149",
+            "p150",
+            "p146",
+            "p147",
+            "p148",
+            "p149",
+            "p150"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6038,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "先别动笔。",
+              "pids": [
+                "p151"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "写作者不会只打开一页纸，就指望所有想法自动线性地各就各位。",
+              "pids": [
+                "p152"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "先从头脑倾倒（braindump）开始。把所有可能归入你所写话题的想法都写下来。翻翻你的笔记、想法和链接，也加进去。",
+              "pids": [
+                "p153"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "然后，用一份提纲加点结构。把头脑倾倒里的想法都拿出来，试着塞进一个通用的叙事框架：问题 → 洞见 → 解决方案。",
+              "pids": [
+                "p154"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "在提纲的每个部分下面把想法组织好。",
+              "pids": [
+                "p155"
+              ]
+            }
+          ],
+          "pids": [
+            "p151",
+            "p152",
+            "p153",
+            "p154",
+            "p155",
+            "p151",
+            "p152",
+            "p153",
+            "p154",
+            "p155"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 6200,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "接着，在你把这些想法串成真正草稿的时候，把提纲、想法和知识库都打开、随时能取用。",
+              "pids": [
+                "p156"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "3）用 AI 消除摩擦，而不是替你写。",
+              "pids": [
+                "p157"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我以后会写信谈我对 AI 写作的看法，但当我说“别用 AI 写作”，我其实是在说“别用 AI 来表达你自己的信念和观点”。",
+              "pids": [
+                "p158"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "既然 Substack 有了 AI 写作检测，人们就会开始指出某些账号在写作里用了 AI。已经有几个人指出，我有些文章里有 AI 写的内容。",
+              "pids": [
+                "p159"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "别犯傻。",
+              "pids": [
+                "p160"
+              ]
+            }
+          ],
+          "pids": [
+            "p156",
+            "p157",
+            "p158",
+            "p159",
+            "p160",
+            "p156",
+            "p157",
+            "p158",
+            "p159",
+            "p160"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 7460,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "没错，在提供纯信息时，我会直接从 AI 复制粘贴——比如解释格罗伊特的自我发展九阶段，这跟你用 Google 搜到的信息一模一样。我不会白费力气用自己的话重写它，因为没必要。那对我自己、对读者都是一种亏待。",
+              "pids": [
+                "p161"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我认为，在努力表达自己的想法和信念的那份挣扎里是有价值的；而反 AI 的人似乎恰恰做不到这一点，因为他们被自己的新宗教困在了狭隘里。",
+              "pids": [
+                "p162"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "我说“用 AI 消除摩擦”，指的是在你学这门技能时，像用一门课程、一位导师或一位编辑那样去用它。",
+              "pids": [
+                "p163"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你不知道怎么给文章搭结构，就让它列出一些你的想法可以套进去的结构。",
+              "pids": [
+                "p164"
+              ]
+            }
+          ],
+          "pids": [
+            "p161",
+            "p162",
+            "p163",
+            "p164",
+            "p161",
+            "p162",
+            "p163",
+            "p164"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5480,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果你不知道接下来写什么，就让它给出文章可以走的几个方向。",
+              "pids": [
+                "p165"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "如果你不理解某样东西，就去研究它，就像过去任何一位写作者都会做的——只不过他们用的是在互联网里翻找正确信息这种效率低得多的办法。",
+              "pids": [
+                "p166"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "总而言之，我相信你有脑子。",
+              "pids": [
+                "p167"
+              ]
+            },
+            {
+              "type": "claim",
+              "text": "最终决定发布什么的，是你。",
+              "pids": [
+                "p168"
+              ]
+            }
+          ],
+          "pids": [
+            "p165",
+            "p166",
+            "p167",
+            "p168",
+            "p165",
+            "p166",
+            "p167",
+            "p168"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 5000,
+          "blocks": [
+            {
+              "type": "p",
+              "text": "如果它没体现出你希望它体现的价值观、想法和信念，那就打磨它，直到体现为止。",
+              "pids": [
+                "p169"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "就说到这里，因为我还有太多话要说，留到另一封信里吧。",
+              "pids": [
+                "p170"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "——Dan",
+              "pids": [
+                "p171"
+              ]
+            }
+          ],
+          "pids": [
+            "p169",
+            "p170",
+            "p171",
+            "p169",
+            "p170",
+            "p171"
+          ]
+        },
+        {
+          "layout": "read",
+          "reveal": "lines",
+          "hold": 4500,
+          "kicker": "读者评论 / 译注",
+          "blocks": [
+            {
+              "type": "comment",
+              "text": "【读者评论】检索到的公开回复中没有达到\"高质量\"标准的评论，故不收录。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "title": "本篇完",
+      "enter": "fade",
+      "tone": "dusk",
+      "thumb": {
+        "kicker": "本篇完",
+        "title": "本篇完",
+        "line": ""
+      },
+      "beats": [
+        {
+          "layout": "title",
+          "reveal": "lines",
+          "hold": 6000,
+          "kicker": "本篇完",
+          "title": "如何记住你读过的一切（别再努力去记了）",
+          "titleSize": "quiet",
+          "hint": "按 → 进入下一篇，或打开原版排印。",
+          "links": [
+            {
+              "kicker": "下一篇",
+              "title": "战略思维的艺术（如何取得惊人的成功）",
+              "href": "16.html"
+            },
+            {
+              "kicker": "原版排印",
+              "title": "划线、听读与行动卡",
+              "href": "../classic/15.html"
+            },
+            {
+              "kicker": "回图书馆",
+              "title": "纳瓦尔与 Dan Koe",
+              "href": "../index.html"
+            }
+          ],
+          "note": "本篇正文到此结束。行动卡、英文全文与听读仍在原版排印页。"
+        }
+      ]
+    }
+  ]
+}
