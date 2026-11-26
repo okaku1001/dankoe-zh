@@ -16,11 +16,19 @@
   };
 
   const TRANS_MS = {
-    fade: 1800,
-    fold: 2200,
-    wash: 2500,
-    "portal-in": 2600,
-    "portal-out": 2600,
+    fade: 1300,
+    fold: 1500,
+    wash: 2000,
+    "portal-in": 1600,
+    "portal-out": 1600,
+  };
+  /* Apply the incoming scene tone only after the outgoing page is covered or faded. */
+  const TONE_MS = {
+    fade: 550,
+    fold: 650,
+    wash: 500,
+    "portal-in": 650,
+    "portal-out": 700,
   };
 
   const segmenter =
@@ -748,13 +756,14 @@
     const root = $("#scene-root");
     const incoming = document.createElement("div");
     incoming.className = "scene-layer entering";
+    incoming.dataset.tone = scene.tone || "paper";
     incoming.appendChild(renderBeat(scene, beat));
     if (beat.drift !== false && beat.layout === "claim") incoming.classList.add("hold-drift");
 
     const outgoing = root.querySelector(".scene-layer");
-    applyTone(scene);
 
     if (!outgoing || trans === "none" || state.reduced) {
+      applyTone(scene);
       root.replaceChildren(incoming);
       incoming.classList.remove("entering");
       finishMount(si, bi);
@@ -769,11 +778,17 @@
     outgoing.classList.remove("entering");
     root.appendChild(incoming);
 
-    const ms = TRANS_MS[name] || 1800;
-    window.setTimeout(() => {
+    const toneAt = TONE_MS[name] || 550;
+    window.clearTimeout(state.toneTimer);
+    state.toneTimer = window.setTimeout(() => applyTone(scene), toneAt);
+
+    const ms = TRANS_MS[name] || 1300;
+    window.clearTimeout(state.transTimer);
+    state.transTimer = window.setTimeout(() => {
       outgoing.remove();
       incoming.classList.remove("entering");
       $("#stage").classList.remove(`trans-${name}`);
+      applyTone(scene);
       finishMount(si, bi);
     }, ms);
   }

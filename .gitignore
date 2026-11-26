@@ -6,3 +6,6 @@ screenshots-mobile/
 
 # Local TOC preview QA shots, not part of the site
 screenshots-toc/
+
+# Local chapter-transition QA shots, not part of the site
+screenshots-transition/

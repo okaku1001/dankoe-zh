@@ -18,10 +18,10 @@
   --kai:"Kaiti SC","KaiTi","STKaiti","Songti SC","Noto Serif SC",serif;
   --hud:13px/1.4 ui-monospace,"SF Mono",Menlo,Consolas,monospace;
   --ease:cubic-bezier(.22,.8,.28,1);
-  --t-fade:1.8s;
-  --t-fold:2.2s;
-  --t-wash:2.5s;
-  --t-portal:2.6s;
+  --t-fade:1.3s;
+  --t-fold:1.5s;
+  --t-wash:2s;
+  --t-portal:1.6s;
 }
 
 *{box-sizing:border-box}
@@ -78,7 +78,7 @@ html,body,#stage,.beat,h1.title,.block,.lead,.kicker,.list,.questions,.card,.toc
 #stage[data-tone="dusk"]{--bg:#201c18;--fg:#f6eee2;--mu:#e2d3bf;background:var(--bg);color:var(--fg)}
 #stage[data-tone="dawn"]{--bg:#f3e6d4;--fg:#2a2218;--mu:#6e5f50;background:var(--bg);color:var(--fg)}
 
-#scene-root{position:absolute;inset:0}
+#scene-root{position:absolute;inset:0;z-index:1}
 .scene-layer{
   position:absolute;inset:0;
   display:flex;align-items:center;justify-content:center;
@@ -93,6 +93,7 @@ html,body,#stage,.beat,h1.title,.block,.lead,.kicker,.list,.questions,.card,.toc
   backface-visibility:hidden;
 }
 .scene-layer.leaving{pointer-events:none}
+.scene-layer.entering{opacity:0}
 
 .beat{
   width:min(34rem,100%);
@@ -251,61 +252,69 @@ ul.list li::before{
 }
 @keyframes drift{to{transform:scale(1.035) translateY(-1.2%)}}
 
-/* scene transitions */
+/* scene transitions
+   Opacity is the only reliable cover. Old text leaves (or is fully veiled)
+   before new text becomes readable. Do not rely on clip-path or 3D. */
 #wash{
-  position:absolute;inset:0;pointer-events:none;z-index:5;
+  position:absolute;inset:0;pointer-events:none;z-index:8;
   background:var(--bg);opacity:0;
 }
 #stage.trans-wash #wash{
-  animation:washSweep var(--t-wash) cubic-bezier(.45,.0,.2,1) forwards;
+  animation:washVeil var(--t-wash) cubic-bezier(.45,.0,.2,1) forwards;
 }
-@keyframes washSweep{
-  0%{opacity:1;clip-path:inset(100% 0 0 0)}
-  42%{opacity:1;clip-path:inset(0 0 0 0)}
-  100%{opacity:0;clip-path:inset(0 0 0 0)}
+@keyframes washVeil{
+  0%{opacity:0}
+  22%{opacity:1}
+  48%{opacity:1}
+  100%{opacity:0}
+}
+#stage.trans-wash .leaving{animation:washLeave var(--t-wash) linear forwards}
+@keyframes washLeave{
+  0%,22%{opacity:1}
+  24%,100%{opacity:0}
+}
+#stage.trans-wash .entering{animation:washEnter var(--t-wash) var(--ease) forwards}
+@keyframes washEnter{
+  0%,48%{opacity:0}
+  52%,100%{opacity:1}
 }
 
-#stage.trans-fade .leaving{animation:fadeOut var(--t-fade) var(--ease) forwards}
-#stage.trans-fade .entering{animation:fadeIn var(--t-fade) var(--ease) forwards}
+#stage.trans-fade .leaving{animation:fadeOut .55s var(--ease) forwards}
+#stage.trans-fade .entering{animation:fadeIn .75s var(--ease) .55s forwards}
 @keyframes fadeOut{to{opacity:0;filter:blur(2px)}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 
-#stage.trans-fold{perspective:1400px}
 #stage.trans-fold .leaving{
-  animation:foldOut var(--t-fold) cubic-bezier(.55,.0,.3,1) forwards;
-  transform-origin:left center;
+  animation:foldOut .65s cubic-bezier(.55,.0,.3,1) forwards;
 }
 #stage.trans-fold .entering{
-  animation:foldIn var(--t-fold) cubic-bezier(.22,.8,.28,1) forwards;
-  transform-origin:right center;
+  animation:foldIn .85s cubic-bezier(.22,.8,.28,1) .65s forwards;
 }
 @keyframes foldOut{
-  to{opacity:0;transform:rotateY(-58deg) translateX(-8%) scale(.96)}
+  to{opacity:0;transform:translateX(-6%) scale(.985)}
 }
 @keyframes foldIn{
-  from{opacity:0;transform:rotateY(58deg) translateX(8%) scale(.96)}
+  from{opacity:0;transform:translateX(6%) scale(.985)}
   to{opacity:1;transform:none}
 }
 
-#stage.trans-portal-in .leaving{animation:fadeOut 1.4s var(--ease) forwards}
+#stage.trans-portal-in .leaving{animation:fadeOut .65s var(--ease) forwards}
 #stage.trans-portal-in .entering{
-  animation:portalIn var(--t-portal) cubic-bezier(.16,1,.3,1) forwards;
+  animation:portalIn .95s cubic-bezier(.16,1,.3,1) .65s forwards;
 }
 @keyframes portalIn{
-  0%{opacity:0;clip-path:inset(38% 40% 38% 40%);transform:scale(.86)}
-  45%{opacity:1;clip-path:inset(8% 10% 8% 10%);transform:scale(.96)}
-  100%{opacity:1;clip-path:inset(0 0 0 0);transform:none}
+  from{opacity:0;transform:scale(.96)}
+  to{opacity:1;transform:none}
 }
 
 #stage.trans-portal-out .leaving{
-  animation:portalOut var(--t-portal) cubic-bezier(.55,0,.2,1) forwards;
+  animation:portalOut .7s cubic-bezier(.55,0,.2,1) forwards;
 }
 #stage.trans-portal-out .entering{
-  animation:fadeIn var(--t-portal) var(--ease) forwards;
+  animation:fadeIn .9s var(--ease) .7s forwards;
 }
 @keyframes portalOut{
-  0%{opacity:1;clip-path:inset(0 0 0 0);transform:none}
-  100%{opacity:0;clip-path:inset(38% 40% 38% 40%);transform:scale(.86)}
+  to{opacity:0;transform:scale(.96)}
 }
 
 /* HUD */
@@ -519,6 +528,7 @@ html[data-theme="dark"] .toc-beats button:hover{color:#e2b49a}
     transition:none!important;
   }
   .reveal-fade .appear,.reveal-lines .appear,.ch{opacity:1;transform:none}
+  .scene-layer.entering{opacity:1}
   #load .bar>i{width:100%}
   .hold-drift .beat{animation:none}
   #wash{display:none}
