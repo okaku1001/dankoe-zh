@@ -1,2 +1,5 @@
 node_modules/
 *.log
+
+# Local mobile QA shots, not part of the site
+screenshots-mobile/
