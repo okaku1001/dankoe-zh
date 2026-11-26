@@ -1,0 +1,574 @@
+[
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#s1",
+    "hud": "03 / 10  ·  1 / 6",
+    "title": "一、你没有到达想去的地方，\n是因为你还不是那个会在那里的人",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "一、你没有到达想去的地方，",
+        "sw": 0,
+        "relax": false,
+        "right": 320.890625
+      },
+      {
+        "text": "是因为你还不是那个会在那里的人",
+        "sw": 0,
+        "relax": false,
+        "right": 367.796875
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-03-s1-title"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#title",
+    "hud": "01 / 10  ·  1 / 1",
+    "title": "如何用一天时间，\n彻底修正你的整个人生",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "如何用一天时间，",
+        "sw": 0,
+        "relax": false,
+        "right": 203.625
+      },
+      {
+        "text": "彻底修正你的整个人生",
+        "sw": 0,
+        "relax": false,
+        "right": 250.53125
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-03-title"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#title",
+    "hud": "01 / 07  ·  1 / 1",
+    "title": "改变我一生的深度工作法：\n每天早上 1 小时",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "改变我一生的深度工作法：",
+        "sw": 0,
+        "relax": false,
+        "right": 297.4375
+      },
+      {
+        "text": "每天早上 1 小时",
+        "sw": 0,
+        "relax": false,
+        "right": 177.921875
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-24-title"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#intro",
+    "hud": "02 / 10  ·  1 / 3",
+    "title": "",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [],
+    "issues": [],
+    "label": "iphone14-03-intro"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#s2-2",
+    "hud": "04 / 10  ·  2 / 5",
+    "title": "",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [],
+    "issues": [],
+    "label": "iphone14-03-quote"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#s2-2",
+    "hud": "04 / 10  ·  2 / 5",
+    "title": "",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [],
+    "issues": [],
+    "label": "iphone14-03-help"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#s2-2",
+    "hud": "04 / 10  ·  2 / 5",
+    "title": "",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [],
+    "issues": [],
+    "label": "iphone14-03-overview"
+  },
+  {
+    "label": "iphone14-tap",
+    "before": "#s1-2",
+    "after_down": {
+      "hash": "#s1-3",
+      "hud": "03 / 10  ·  3 / 6"
+    },
+    "after_up": {
+      "hash": "#s1-2",
+      "hud": "03 / 10  ·  2 / 6"
+    },
+    "issues": []
+  },
+  {
+    "label": "iphone14-tap-first",
+    "hash": "#title",
+    "issues": []
+  },
+  {
+    "label": "iphone14-tap-last",
+    "left_essay": false,
+    "url": "http://127.0.0.1:18092/a/03.html#end",
+    "issues": []
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#end",
+    "hud": "10 / 10  ·  1 / 1",
+    "title": "如何用一天时间，\n彻底修正你的整个人生",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "如何用一天时间，",
+        "sw": 0,
+        "relax": false,
+        "right": 179.34375
+      },
+      {
+        "text": "彻底修正你的整个人生",
+        "sw": 0,
+        "relax": false,
+        "right": 220.1875
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-03-end"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#s5",
+    "hud": "07 / 10  ·  1 / 16",
+    "title": "五、智力，就是从人生中得到你想要之物的能力",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "五、智力，就是从人生中得到你想要之物的能力",
+        "sw": 0,
+        "relax": true,
+        "right": 320.890625
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-03-s5"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#s6",
+    "hud": "08 / 10  ·  1 / 26",
+    "title": "六、如何（用一天）开启一段全新的人生",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "六、如何（用一天）开启一段全新的人生",
+        "sw": 0,
+        "relax": true,
+        "right": 320.890625
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-03-s6"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#title",
+    "hud": "01 / 18  ·  1 / 1",
+    "title": "心智的摩托车",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "心智的摩托车",
+        "sw": 0,
+        "relax": false,
+        "right": 156.71875
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-n01-title"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#title",
+    "hud": "01 / 28  ·  1 / 1",
+    "title": "44 条关于人性的残酷真相",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "44 条关于人性的残酷真相",
+        "sw": 0,
+        "relax": false,
+        "right": 283.078125
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-n02-title"
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "hash": "#title",
+    "hud": "01 / 17  ·  1 / 1",
+    "title": "完整课程：\n如何把你的兴趣变成一门赚钱的生活方式生意",
+    "beatSW": 358,
+    "beatCW": 358,
+    "htmlSW": 390,
+    "locks": [
+      {
+        "text": "完整课程：",
+        "sw": 0,
+        "relax": false,
+        "right": 133.265625
+      },
+      {
+        "text": "如何把你的兴趣变成一门赚钱的生活方式生意",
+        "sw": 0,
+        "relax": true,
+        "right": 344.34375
+      }
+    ],
+    "issues": [],
+    "label": "iphone14-21-title"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#s1",
+    "hud": "03 / 10  ·  1 / 6",
+    "title": "一、你没有到达想去的地方，\n是因为你还不是那个会在那里的人",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "一、你没有到达想去的地方，",
+        "sw": 0,
+        "relax": false,
+        "right": 352.171875
+      },
+      {
+        "text": "是因为你还不是那个会在那里的人",
+        "sw": 0,
+        "relax": false,
+        "right": 403.890625
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-03-s1-title"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#title",
+    "hud": "01 / 10  ·  1 / 1",
+    "title": "如何用一天时间，\n彻底修正你的整个人生",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "如何用一天时间，",
+        "sw": 0,
+        "relax": false,
+        "right": 222.875
+      },
+      {
+        "text": "彻底修正你的整个人生",
+        "sw": 0,
+        "relax": false,
+        "right": 274.59375
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-03-title"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#title",
+    "hud": "01 / 07  ·  1 / 1",
+    "title": "改变我一生的深度工作法：\n每天早上 1 小时",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "改变我一生的深度工作法：",
+        "sw": 0,
+        "relax": false,
+        "right": 326.3125
+      },
+      {
+        "text": "每天早上 1 小时",
+        "sw": 0,
+        "relax": false,
+        "right": 194.53125
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-24-title"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#intro",
+    "hud": "02 / 10  ·  1 / 3",
+    "title": "",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [],
+    "issues": [],
+    "label": "iphone15plus-03-intro"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#s2-2",
+    "hud": "04 / 10  ·  2 / 5",
+    "title": "",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [],
+    "issues": [],
+    "label": "iphone15plus-03-quote"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#s2-2",
+    "hud": "04 / 10  ·  2 / 5",
+    "title": "",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [],
+    "issues": [],
+    "label": "iphone15plus-03-help"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#s2-2",
+    "hud": "04 / 10  ·  2 / 5",
+    "title": "",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [],
+    "issues": [],
+    "label": "iphone15plus-03-overview"
+  },
+  {
+    "label": "iphone15plus-tap",
+    "before": "#s1-2",
+    "after_down": {
+      "hash": "#s1-3",
+      "hud": "03 / 10  ·  3 / 6"
+    },
+    "after_up": {
+      "hash": "#s1-2",
+      "hud": "03 / 10  ·  2 / 6"
+    },
+    "issues": []
+  },
+  {
+    "label": "iphone15plus-tap-first",
+    "hash": "#title",
+    "issues": []
+  },
+  {
+    "label": "iphone15plus-tap-last",
+    "left_essay": false,
+    "url": "http://127.0.0.1:18092/a/03.html#end",
+    "issues": []
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#end",
+    "hud": "10 / 10  ·  1 / 1",
+    "title": "如何用一天时间，\n彻底修正你的整个人生",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "如何用一天时间，",
+        "sw": 0,
+        "relax": false,
+        "right": 192.328125
+      },
+      {
+        "text": "彻底修正你的整个人生",
+        "sw": 0,
+        "relax": false,
+        "right": 236.390625
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-03-end"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#s5",
+    "hud": "07 / 10  ·  1 / 16",
+    "title": "五、智力，就是从人生中得到你想要之物的能力",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "五、智力，就是从人生中得到你想要之物的能力",
+        "sw": 0,
+        "relax": true,
+        "right": 352.171875
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-03-s5"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#s6",
+    "hud": "08 / 10  ·  1 / 26",
+    "title": "六、如何（用一天）开启一段全新的人生",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "六、如何（用一天）开启一段全新的人生",
+        "sw": 0,
+        "relax": true,
+        "right": 352.171875
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-03-s6"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#title",
+    "hud": "01 / 18  ·  1 / 1",
+    "title": "心智的摩托车",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "心智的摩托车",
+        "sw": 0,
+        "relax": false,
+        "right": 171.15625
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-n01-title"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#title",
+    "hud": "01 / 28  ·  1 / 1",
+    "title": "44 条关于人性的残酷真相",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "44 条关于人性的残酷真相",
+        "sw": 0,
+        "relax": false,
+        "right": 310.5
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-n02-title"
+  },
+  {
+    "vw": 430,
+    "vh": 932,
+    "hash": "#title",
+    "hud": "01 / 17  ·  1 / 1",
+    "title": "完整课程：\n如何把你的兴趣变成一门赚钱的生活方式生意",
+    "beatSW": 398,
+    "beatCW": 398,
+    "htmlSW": 430,
+    "locks": [
+      {
+        "text": "完整课程：",
+        "sw": 0,
+        "relax": false,
+        "right": 145.296875
+      },
+      {
+        "text": "如何把你的兴趣变成一门赚钱的生活方式生意",
+        "sw": 0,
+        "relax": true,
+        "right": 378.03125
+      }
+    ],
+    "issues": [],
+    "label": "iphone15plus-21-title"
+  }
+]
