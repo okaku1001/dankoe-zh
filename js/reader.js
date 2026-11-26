@@ -560,28 +560,182 @@
     if (meta.attribution) body.appendChild(el("p", "dim", meta.attribution));
   }
 
-  function paintOverview() {
-    const grid = $("#overview-grid");
-    grid.replaceChildren();
+  function flattenLabel(s) {
+    return String(s || "")
+      .replace(/\s+/g, " ")
+      .replace(/\s*([，。！？；：、])\s*/g, "$1")
+      .trim();
+  }
+
+  function clipLabel(s, max) {
+    const t = flattenLabel(s);
+    if (!t) return "";
+    const chars = Array.from(t);
+    const limit = max || 28;
+    if (chars.length <= limit) return t;
+    const grace = Math.min(chars.length, limit + 8);
+    for (let i = 8; i < grace; i++) {
+      if (/[。！？]/.test(chars[i])) return chars.slice(0, i + 1).join("");
+    }
+    const slice = chars.slice(0, limit);
+    const punct = /[。！？；：，、]/;
+    for (let i = slice.length - 1; i >= Math.max(8, slice.length - 10); i--) {
+      if (punct.test(slice[i])) return slice.slice(0, i + 1).join("");
+    }
+    return slice.join("").replace(/[，、；：\s]+$/, "") + "…";
+  }
+
+  function scrollOverviewToCurrent() {
+    const list = $("#overview-grid");
+    const ov = $("#overview");
+    if (!list || !ov || !ov.classList.contains("open")) return;
+    const scene = list.querySelector(".toc-scene.current");
+    if (!scene) return;
+    const beat = list.querySelector(".toc-beats button.current");
+    const listRect = list.getBoundingClientRect();
+    const visible = (el) => {
+      const r = el.getBoundingClientRect();
+      return r.top >= listRect.top - 2 && r.bottom <= listRect.bottom + 2;
+    };
+    const header = scene.querySelector(".toc-row") || scene;
+    if (visible(header) && (!beat || visible(beat))) return;
+    const span = (beat ? beat.getBoundingClientRect().bottom : header.getBoundingClientRect().bottom) - scene.getBoundingClientRect().top;
+    if (span <= listRect.height - 4) {
+      scene.scrollIntoView({ block: "start" });
+      return;
+    }
+    (beat || scene).scrollIntoView({ block: "nearest" });
+  }
+
+  function beatLabel(beat, index) {
+    if (beat.title) return clipLabel(beat.title, 32) || `第 ${index + 1} 拍`;
+    const claim = (beat.blocks || []).find((b) => b.type === "claim" && b.text);
+    if (claim) return clipLabel(claim.text);
+    if (beat.kicker) return clipLabel(beat.kicker);
+    if (beat.lead) return clipLabel(beat.lead);
+    const firstBlock = (beat.blocks || []).find((b) => b.text);
+    if (firstBlock) return clipLabel(firstBlock.text);
+    if (beat.list && beat.list.items && beat.list.items.length) {
+      const item = beat.list.items[0];
+      const zh = typeof item === "string" ? item : item.zh;
+      if (zh) return clipLabel(zh);
+    }
+    if (beat.questions && beat.questions.length) {
+      const q = beat.questions[0];
+      const n = q.n ? `${q.n} ` : "";
+      if (q.text) return clipLabel(n + q.text);
+    }
+    if (beat.figure) {
+      const fig = clipLabel(beat.figure.caption || beat.figure.alt);
+      if (fig) return fig;
+    }
+    if (beat.map && beat.map.length) {
+      const row = beat.map[0];
+      const t = clipLabel([row.k, row.v].filter(Boolean).join(" "));
+      if (t) return t;
+    }
+    if (beat.cards && beat.cards.length && beat.cards[0].title) return clipLabel(beat.cards[0].title);
+    if (beat.links && beat.links[0] && beat.links[0].title) return clipLabel(beat.links[0].title);
+    if (beat.hint) return clipLabel(beat.hint);
+    return `第 ${index + 1} 拍`;
+  }
+
+  function paintOverview(opts) {
+    const list = $("#overview-grid");
+    if (!list || !state.deck) return;
+    const keepScroll = opts && opts.keepScroll ? list.scrollTop : null;
+    list.replaceChildren();
+    if (!state.tocExpanded) state.tocExpanded = new Set([state.scene]);
     state.deck.scenes.forEach((sc, i) => {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "thumb" + (i === state.scene ? " current" : "");
-      btn.dataset.tone = sc.tone || "paper";
-      const frame = document.createElement("div");
-      frame.className = "frame";
-      if (sc.thumb && sc.thumb.kicker) frame.appendChild(el("p", "tk", sc.thumb.kicker));
-      const tt = el("p", "tt", (sc.thumb && sc.thumb.title) || sc.title);
-      frame.appendChild(tt);
-      btn.appendChild(frame);
-      btn.appendChild(el("p", "cap", ((sc.thumb && sc.thumb.title) || sc.title).replace(/\n/g, "")));
-      btn.addEventListener("click", (e) => {
+      const n = sc.beats.length;
+      const expanded = n > 1 && state.tocExpanded.has(i);
+      const sceneEl = document.createElement("div");
+      sceneEl.className = "toc-scene" + (i === state.scene ? " current" : "") + (expanded ? " open" : "");
+
+      const row = document.createElement("div");
+      row.className = "toc-row";
+
+      const go = document.createElement("button");
+      go.type = "button";
+      go.className = "toc-go";
+      go.textContent = flattenLabel(sc.title);
+      if (i === state.scene) go.setAttribute("aria-current", "page");
+      go.addEventListener("click", (e) => {
         e.stopPropagation();
         closeOverlays();
         jump(i, 0);
       });
-      grid.appendChild(btn);
+      row.appendChild(go);
+
+      if (n > 1) {
+        const tog = document.createElement("button");
+        tog.type = "button";
+        tog.className = "toc-toggle";
+        tog.setAttribute("aria-expanded", expanded ? "true" : "false");
+        tog.setAttribute("aria-label", `${expanded ? "收起" : "展开"}${n}拍`);
+        const count = document.createElement("span");
+        count.className = "toc-n";
+        count.textContent = `${n} 拍`;
+        const chev = document.createElement("span");
+        chev.className = "toc-chev";
+        chev.setAttribute("aria-hidden", "true");
+        chev.textContent = expanded ? "▴" : "▾";
+        tog.appendChild(count);
+        tog.appendChild(chev);
+        tog.addEventListener("click", (e) => {
+          e.stopPropagation();
+          if (state.tocExpanded.has(i)) state.tocExpanded.delete(i);
+          else state.tocExpanded.add(i);
+          paintOverview({ keepScroll: true });
+        });
+        row.appendChild(tog);
+      } else {
+        const meta = document.createElement("span");
+        meta.className = "toc-count";
+        meta.textContent = "1 拍";
+        row.appendChild(meta);
+      }
+
+      sceneEl.appendChild(row);
+
+      if (expanded) {
+        const beats = document.createElement("div");
+        beats.className = "toc-beats";
+        beats.setAttribute("role", "list");
+        sc.beats.forEach((beat, bi) => {
+          const bbtn = document.createElement("button");
+          bbtn.type = "button";
+          bbtn.setAttribute("role", "listitem");
+          if (i === state.scene && bi === state.beat) {
+            bbtn.classList.add("current");
+            bbtn.setAttribute("aria-current", "true");
+          }
+          const num = document.createElement("span");
+          num.className = "n";
+          num.textContent = String(bi + 1);
+          const lab = document.createElement("span");
+          lab.className = "lab";
+          lab.textContent = beatLabel(beat, bi);
+          bbtn.appendChild(num);
+          bbtn.appendChild(lab);
+          bbtn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            closeOverlays();
+            jump(i, bi);
+          });
+          beats.appendChild(bbtn);
+        });
+        sceneEl.appendChild(beats);
+      }
+
+      list.appendChild(sceneEl);
     });
+
+    if (keepScroll != null) {
+      list.scrollTop = keepScroll;
+      return;
+    }
+    scrollOverviewToCurrent();
   }
 
   function applyTone(scene) {
@@ -718,9 +872,15 @@
     const open = eln.classList.contains("open");
     closeOverlays();
     if (!open) {
-      if (id === "overview") paintOverview();
+      if (id === "overview") {
+        state.tocExpanded = new Set([state.scene]);
+        paintOverview();
+      }
       if (id === "notes") updateNotes();
       eln.classList.add("open");
+      if (id === "overview") {
+        requestAnimationFrame(() => requestAnimationFrame(scrollOverviewToCurrent));
+      }
     }
   }
 
@@ -802,7 +962,7 @@
   const gesture = { start: null };
 
   function isInteractive(el) {
-    return !!(el && el.closest && el.closest("a, button, #chrome, .overlay, .card, .panel, .end-links, #tap-hint"));
+    return !!(el && el.closest && el.closest("a, button, #chrome, #hud, #toc-btn, .overlay, .card, .panel, .end-links, #tap-hint"));
   }
 
   function overlaysOpen() {
@@ -900,6 +1060,117 @@
     }
   }
 
+  function enhanceOverviewShell() {
+    const ov = $("#overview");
+    if (!ov) return;
+    ov.setAttribute("aria-label", "目录");
+    const wrap = ov.querySelector(".wrap") || ov;
+    const h2 = ov.querySelector("h2");
+    const hint = ov.querySelector(".close-hint");
+    const sub = ov.querySelector(".sub");
+    if (h2) h2.textContent = "目录";
+    if (hint) hint.textContent = "点空白处关闭";
+    if (sub) sub.textContent = "点章节到开头 · 点右侧拍数可展开再选某一拍";
+    if (h2 && hint && !ov.querySelector(".toc-head")) {
+      const head = document.createElement("div");
+      head.className = "toc-head";
+      head.appendChild(h2);
+      head.appendChild(hint);
+      wrap.insertBefore(head, wrap.firstChild);
+    }
+    const grid = $("#overview-grid");
+    if (grid) {
+      grid.classList.remove("grid");
+      grid.classList.add("toc-list");
+    }
+    ov.addEventListener("click", (e) => {
+      if (e.target.closest(".toc-row, .toc-beats, .toc-go, .toc-toggle")) return;
+      closeOverlays();
+    });
+  }
+
+  function enhanceHelp() {
+    const dl = $("#help dl");
+    if (!dl || dl.dataset.tocHelp === "1") return;
+    dl.dataset.tocHelp = "1";
+    const dts = Array.from(dl.querySelectorAll("dt"));
+    const o = dts.find((dt) => dt.textContent.trim() === "O");
+    if (o) {
+      o.textContent = "目录 · O";
+      const dd = o.nextElementSibling;
+      if (dd && dd.tagName === "DD") {
+        dd.textContent = "打开目录，可跳到某一节或某一拍。顶栏的目录、右下角页码也可打开；点空白处关闭";
+      }
+    } else {
+      const dt = document.createElement("dt");
+      dt.textContent = "目录 · O";
+      const dd = document.createElement("dd");
+      dd.textContent = "打开目录，可跳到某一节或某一拍。顶栏的目录、右下角页码也可打开；点空白处关闭";
+      const first = dl.querySelector("dt");
+      if (first) {
+        dl.insertBefore(dt, first);
+        dl.insertBefore(dd, first);
+      } else {
+        dl.appendChild(dt);
+        dl.appendChild(dd);
+      }
+    }
+  }
+
+  function enhanceHud() {
+    const old = $("#hud");
+    if (!old) return;
+    const btn = old.tagName === "BUTTON" ? old : document.createElement("button");
+    if (btn !== old) {
+      btn.id = "hud";
+      btn.textContent = old.textContent;
+      old.replaceWith(btn);
+    }
+    btn.type = "button";
+    btn.setAttribute("aria-label", "打开目录");
+    btn.setAttribute("aria-haspopup", "dialog");
+    btn.removeAttribute("aria-hidden");
+    if (btn.dataset.tocBound === "1") return;
+    btn.dataset.tocBound = "1";
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggle("overview");
+    });
+  }
+
+  function injectTocChrome() {
+    const chrome = $("#chrome");
+    if (!chrome || $("#toc-btn")) return;
+    const classic = Array.from(chrome.querySelectorAll("a")).find((a) => a.textContent.trim() === "原版");
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.id = "toc-btn";
+    btn.textContent = "目录";
+    btn.setAttribute("aria-label", "打开目录");
+    btn.setAttribute("aria-haspopup", "dialog");
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggle("overview");
+    });
+    const sep = document.createElement("span");
+    sep.className = "sep";
+    sep.textContent = "·";
+    if (classic) {
+      chrome.insertBefore(btn, classic);
+      chrome.insertBefore(sep, classic);
+    } else {
+      const themeBtn = $("#theme");
+      if (themeBtn) {
+        chrome.insertBefore(btn, themeBtn);
+        chrome.insertBefore(sep, themeBtn);
+      } else {
+        chrome.appendChild(btn);
+      }
+    }
+  }
+
   function bindChrome() {
     const themeBtn = $("#theme");
     if (themeBtn) themeBtn.addEventListener("click", (e) => {
@@ -907,6 +1178,10 @@
       e.stopPropagation();
       toggleTheme();
     });
+    injectTocChrome();
+    enhanceHud();
+    enhanceOverviewShell();
+    enhanceHelp();
   }
 
   async function start() {
