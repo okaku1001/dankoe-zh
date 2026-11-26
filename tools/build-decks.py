@@ -702,7 +702,7 @@ READER_SHELL = """<!doctype html>
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>{title} · 纳瓦尔与 Dan Koe</title>
   <link rel="stylesheet" href="../fonts/fonts.css">
-  <link rel="stylesheet" href="../css/reader.css?v=slide3">
+  <link rel="stylesheet" href="../css/reader.css?v=slide4">
   <link rel="manifest" href="../manifest.json">
   <meta name="theme-color" content="#a84b2a">
   <script>try{{document.documentElement.dataset.theme=localStorage.getItem('dk:theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}}catch(e){{}}</script>
@@ -780,7 +780,7 @@ READER_SHELL = """<!doctype html>
       glossaryUrl: "../glossary.html"
     }};
   </script>
-  <script src="../js/reader.js?v=slide3"></script>
+  <script src="../js/reader.js?v=slide4"></script>
 </body>
 </html>
 """
