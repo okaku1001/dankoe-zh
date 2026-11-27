@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "对照",
+    "eyebrow": "纳瓦尔与 Dan Koe",
+    "lead": "纳瓦尔负责把你打醒。接着会遇上一个 Dan Koe：他比你早醒了几年，现在他看到的世界是怎么样的、你可以怎么走这条路。",
+    "note": "原文仍各自完整收藏，一句不改。这一层只把已经在站上的两段话放在一起，加上标明为编者的按语，和两三个问题。化学反应发生在你脑子里，结论也留给你。不编造他们的对话，也不把编者的话写成作者原话。",
+    "path_title": "被打醒，然后上路",
+    "path_dek": "四组对照按这个顺序读。先看清自己身在哪一场游戏，再决定往何处倾斜，判断力从哪练，以及工作被掏空之后，自己站在哪。"
+  },
+  "pairs": [
+    {
+      "id": "xingqier",
+      "title": "看清游戏，再写下那个星期二",
+      "dek": "先看见地位游戏的形状，再把拒绝的生活，和你想要的那个星期二，写到纸上。",
+      "kind": "共鸣，带着一次转向",
+      "naval": {
+        "author": "纳瓦尔",
+        "work": "44 条关于人性的残酷真相",
+        "slug": "n02",
+        "pids": [
+          "p48"
+        ],
+        "hash": "p48",
+        "href": "../a/n02.html#p48",
+        "zh": "所以只要意识到，地位游戏天生就是有限的。它们总是对抗性的。总是需要直接交锋；而创造财富的游戏，可以只是你在创造产品。你不必和任何别人打架。是的，在市场上你的产品必须成功，但那和辱骂别人、生别人的气、觉得被往下压或往上抬、或和某人结怨，并不完全一样。我愿意说，创造财富的游戏既更愉快——它们是正和的——也确实有具体的物质回报。你钱更多，就能买更多。",
+        "en": "So just realize that status games are inherently limited. They're always combative. They always require direct combat, whereas wealth-creation games can be just you're creating products. You don't have to fight anybody else. Yes, in the marketplace your product has to succeed, but that's not quite the same as invective against other people, or being angry with other people, or feeling pushed down or pushed up, or having a beef with somebody. So I would argue that wealth-creation games are both more pleasant—they're positive-sum—and they actually have concrete material returns. If you have more money, you can buy more."
+      },
+      "dankoe": {
+        "author": "Dan Koe",
+        "work": "如何用一天时间，彻底修正你的整个人生",
+        "slug": "03",
+        "pids": [
+          "p149"
+        ],
+        "hash": "p149",
+        "href": "../a/03.html#p149",
+        "zh": "如果接下来五年什么都不改变，描述一个普通的星期二。你在哪里醒来？你的身体感觉如何？你脑子里想的第一件事是什么？你身边有谁？上午 9 点到下午 6 点你在干什么？晚上 10 点你感觉如何？",
+        "en": "If absolutely nothing changes for the next five years, describe an average Tuesday. Where do you wake up? What does your body feel like? What’s the first thing you think about? Who’s around you? What do you do between 9am and 6pm? How do you feel at 10pm?"
+      },
+      "editor": "纳瓦尔先把地位游戏的形状画出来：有限，对抗，总要跟人交锋。下一拍按 Dan 的问法，把那场游戏写进一个普通的星期二里，不必再追一句更响的警句。同节稍前后愿景的完整做法是：先写五年不变的星期二，再写你真正想要的那个。结论请你自己下。",
+      "questions": [
+        "你此刻最用力投入的，更像地位游戏，还是在造一样不必跟人打架的东西？",
+        "如果五年里什么都不改，那个普通星期二里，有多少时间花在你其实已经看不上的比较上？",
+        "你想要的那个星期二，要求你先退出哪一场交锋？"
+      ],
+      "further": [
+        {
+          "label": "纳瓦尔接着说，你最好把注意力放在财富游戏上，而不是地位游戏上",
+          "href": "../a/n02.html#p51",
+          "work": "44 条关于人性的残酷真相",
+          "hash": "p51"
+        },
+        {
+          "label": "同篇稍后：生命真正的通货是注意力",
+          "href": "../a/n02.html#p540",
+          "work": "44 条关于人性的残酷真相",
+          "hash": "p540"
+        },
+        {
+          "label": "Dan 把痛苦写成「反愿景」：残酷而清醒地看清你不想过的那种生活",
+          "href": "../a/03.html#p148",
+          "work": "如何用一天时间，彻底修正你的整个人生",
+          "hash": "p148"
+        },
+        {
+          "label": "然后写下你真正想要的那个星期二",
+          "href": "../a/03.html#p157",
+          "work": "如何用一天时间，彻底修正你的整个人生",
+          "hash": "p157"
+        }
+      ]
+    },
+    {
+      "id": "qingxie",
+      "title": "往自己倾斜，还是先不要收窄",
+      "dek": "一个要你找到具体知识、往那里倾斜。一个说兴趣广泛在这个时代是优势，不必过早垂直细分。",
+      "kind": "一组真正的张力",
+      "naval": {
+        "author": "纳瓦尔",
+        "work": "在竞技场里",
+        "slug": "n04",
+        "pids": [
+          "p51"
+        ],
+        "hash": "p51",
+        "href": "../a/n04.html#p51",
+        "zh": "纳瓦尔：说到底，我觉得每个人都应该弄清楚，自己最擅长的是什么——那件事跟他们本质上是谁相对齐，给他们真实性，带来具体知识，给他们竞争优势，让他们不可替代。然后就该往那里倾斜。而有时候，你要做了才知道那是什么。",
+        "en": "Naval: I ultimately think that everyone should be figuring out what it is that they uniquely do best—that aligns with who they are fundamentally, and that gives them authenticity, that brings them specific knowledge, that gives them competitive advantage, that makes them irreplaceable. And they should just lean into that. And sometimes you don’t know what that is until you do it."
+      },
+      "dankoe": {
+        "author": "Dan Koe",
+        "work": "如果你兴趣广泛，别浪费接下来的 2–3 年",
+        "slug": "02",
+        "pids": [
+          "p7"
+        ],
+        "hash": "p7",
+        "href": "../a/02.html#p7",
+        "zh": "我们已经不生活在工业时代了。专精于一项技能，几乎等于死路一条。我想到现在我们都该明白了：机械式的生活、彼此割裂的学习，对你的心理和灵魂有多危险。人们也能感觉到，我们正在经历第二次文艺复兴。你的好奇心和对学习的热爱，是你在当今世界的优势——但还缺了一样东西。",
+        "en": "We don’t live in the Industrial Age anymore. Specializing in one skill is almost certain death. I feel like we all know by this point how dangerous mechanical living and siloed learning is for your psyche and soul. And people can feel that we’re going through a second renaissance. Your curiosity and love for learning are your advantages in today’s world, but there is something missing."
+      },
+      "editor": "站上《在竞技场里》写得很清楚：具体知识要在行动里才找得到，找到了就往那里倾斜，而且往往要做了才知道那是什么。本站已收的纳瓦尔稿里，没有出现那句流传更广的「具体知识学不会、往往像玩耍」——不在稿里，这里就不补写。Dan 则说，专精一项技能在这个时代几乎是死路，好奇心和对学习的热爱才是优势。张力就在这里。一个要你倾斜，一个要你先别把心智收进盒子里。两者不必互相取消，但也不要假装它们说的是同一件事。",
+      "questions": [
+        "你所谓的「兴趣广泛」，是还在竞技场里试，还是在推迟「往一处倾斜」？",
+        "若按纳瓦尔的说法，那件「最擅长、做了才知道」的事，眼下有没有已经隐约出现的线索？",
+        "若有人劝你现在就垂直细分，你拒绝的是一条死路，还是一次成为自己的机会？"
+      ],
+      "further": [
+        {
+          "label": "纳瓦尔：在行动之前，在各种困难情境里行动之前，你不会知道自己的具体知识是什么",
+          "href": "../a/n04.html#p52",
+          "work": "在竞技场里",
+          "hash": "p52"
+        },
+        {
+          "label": "要做到顶尖，你对这件事的享受得几乎到病态的程度",
+          "href": "../a/n04.html#p62",
+          "work": "在竞技场里",
+          "hash": "p62"
+        },
+        {
+          "label": "Dan：如果因为没法只选一件事而内疚，如果被告知要「垂直细分」——现在就是活着的最好时代",
+          "href": "../a/02.html#p11",
+          "work": "如果你兴趣广泛，别浪费接下来的 2–3 年",
+          "hash": "p11"
+        },
+        {
+          "label": "垂直细分若只为更赚钱，往往会把自己打造进第二份朝九晚五",
+          "href": "../a/02.html#p105",
+          "work": "如果你兴趣广泛，别浪费接下来的 2–3 年",
+          "hash": "p105"
+        }
+      ]
+    },
+    {
+      "id": "panduan",
+      "title": "无限杠杆里，判断力从哪练",
+      "dek": "纳瓦尔把判断力放在无限杠杆之后。Dan 已经在写作这条路上走了几年，说随笔也许还能训练你理解现实。",
+      "kind": "共鸣，带着一条已有人走过的路",
+      "naval": {
+        "author": "纳瓦尔",
+        "work": "与纳瓦尔的长谈（宝典五周年）",
+        "slug": "n03",
+        "pids": [
+          "p84"
+        ],
+        "hash": "p84",
+        "href": "../a/n03.html#p84",
+        "zh": "从经验开始，从具体知识开始；具体知识变成更一般化的知识，再把它变成价值观——织进你已有的价值体系，判断力就提升了。我认为说到底，在这个无限杠杆的时代，判断力是最重要的东西。如果你知道该往哪儿走，人们会为此付钱给你。一艘船的船长被选中，靠的是他能聚拢团队、告诉大家去向、激励大家往那儿去的能力——但「去哪里」才是最要紧的部分。假设苹果——当今世界上最有价值的公司，也许是英伟达，无所谓——要选 CEO，两个候选人，一个 80% 的时候判断对，一个 85% 的时候对，公司值几万亿美元，你选谁？你会给那个 85% 对的人多付很多，每年多付几十亿，因为他在掌舵一艘万亿级的船。方向比其他任何单一因素都重要。",
+        "en": "You start with experience. You start with specific knowledge. Then the specific knowledge turns into more generalized knowledge. Then you can take that and turn it into values, which are, you know, to tie it into your existing values. It improves your judgment. And I think ultimately in this age of infinite leverage, judgment is the most important thing. Like if you knew where to navigate, you know, people will pay you for that. The captain of a ship is chosen based on his ability to get the team together and tell them where we're going, inspire them to go there. So, but where to go is the most important part. If you have two candidates for CEO of Apple, right, the most valuable company in the world currently—maybe it's Nvidia, but whatever. You have two candidates for the CEO of the company and one is right 80% of the time and one is right 85% of the time and the company's worth trillions of dollars. Who are you going to put in charge? You'll pay that guy who is right 85% of the time a lot more. Like you'll pay him billions of dollars more per year because he's steering a multi-trillion-dollar ship. And the direction matters more than any other single thing."
+      },
+      "dankoe": {
+        "author": "Dan Koe",
+        "work": "我求你多写点随笔",
+        "slug": "10",
+        "pids": [
+          "p7"
+        ],
+        "hash": "p7",
+        "href": "../a/10.html#p7",
+        "zh": "现代信息环境正在摧毁我们的思考能力，而大多数人甚至没有察觉。随笔也许是最后几种真正能发展你理解现实之能力的内容形式之一。",
+        "en": "The modern information environment is breaking our ability to think, and most people don’t even notice. Essays might be one of the last forms of content that actually develops your capacity to make sense of reality."
+      },
+      "editor": "纳瓦尔在宝典五周年长谈里把判断力放在「无限杠杆」之后：方向比更卖力更要紧。本站已收的纳瓦尔稿里，没有那句常被转述的「代码和媒体是无需许可的杠杆」，所以这里不拿书里的句子来充数。Dan 已经在写作这条路上走了几年。他说随笔也许是还能训练「理解现实」的少数形式之一。同篇稍后也写到，把它做成职业或副业并没什么坏处。杠杆会放大你的判断，也会放大你还没想清楚的东西。",
+      "questions": [
+        "你现在用杠杆放大的，是判断，还是还没想清楚的动作？",
+        "上一篇真正把你的判断写清楚的文字，是什么时候？",
+        "如果开始写，是为了练判断，还是为了先把自己产品化？这两件事在你这里是同一条路，还是会互相干扰？"
+      ],
+      "further": [
+        {
+          "label": "同一次长谈里，埃里克读到「建造，出售，写作……」，纳瓦尔答：把自己产品化",
+          "href": "../a/n03.html#p379",
+          "work": "与纳瓦尔的长谈（宝典五周年）",
+          "hash": "p379"
+        },
+        {
+          "label": "Dan：随笔能让你学得更快、想得更深、更好地表达观点和信念",
+          "href": "../a/10.html#p4",
+          "work": "我求你多写点随笔",
+          "hash": "p4"
+        },
+        {
+          "label": "把它变成一份职业或副业收入，也没什么坏处",
+          "href": "../a/10.html#p12",
+          "work": "我求你多写点随笔",
+          "hash": "p12"
+        }
+      ]
+    },
+    {
+      "id": "gongzuo",
+      "title": "目标不是拥有一份工作",
+      "dek": "一个把姿态说干净：目标不是拥有一份工作。一个在工作被抽空之后，把能动性写成可练的第一步。",
+      "kind": "共鸣，一个给站位，一个给下一步",
+      "naval": {
+        "author": "纳瓦尔",
+        "work": "心智的摩托车",
+        "slug": "n01",
+        "pids": [
+          "p137",
+          "p138",
+          "p139"
+        ],
+        "hash": "p137",
+        "href": "../a/n01.html#p137",
+        "zh": "这里的目标，不是拥有一份工作。\n目标不是早上九点必须起床，晚上七点筋疲力尽地回来，替别人做没有灵魂的工作。\n目标是让机器人解决你的物质需求，让计算机给你的智识能力加上杠杆，让任何人都能去创造。",
+        "en": "The goal here is not to have a job.\nThe goal is not to have to get up at nine in the morning and come back at 7 PM exhausted, doing soulless work for somebody else.\nThe goal is to have your material needs solvable by robots, to have your intellectual capabilities leveraged through computers, and for anybody to be able to create."
+      },
+      "dankoe": {
+        "author": "Dan Koe",
+        "work": "当工作失去意义时，工作的未来",
+        "slug": "06",
+        "pids": [
+          "p216"
+        ],
+        "hash": "p216",
+        "href": "../a/06.html#p216",
+        "zh": "能动性，是在没有许可或外部提示的情况下行动的能力。",
+        "en": "Agency is the ability to act without permission or outside prompting."
+      },
+      "editor": "纳瓦尔把姿态说得很干净：目标不是拥有一份工作。目标是让工具分担物质和智识上的重负，好让人去创造。Dan 没有停在这句唤醒上。工作变成一个被抽空意义的词之后，他把能动性写成后劳动技能组合的第一层：没有许可，也没有人提醒，仍然行动。一个人讲站位，一个人给出可练的下一步。",
+      "questions": [
+        "你害怕的是工作被拿走，还是自己从未练习过「没有许可也行动」？",
+        "若目标真的不是拥有一份工作，你明天会停止做的一件没有灵魂的事是什么？",
+        "在 Dan 后文的技能层级里，你最缺的是能动性、品味，还是把挣扎当作意义的生成器？"
+      ],
+      "further": [
+        {
+          "label": "纳瓦尔：把创业者和其他人区分开的关键，是极端的能动性；它和「一份工作」截然相反",
+          "href": "../a/n01.html#p121",
+          "work": "心智的摩托车",
+          "hash": "p121"
+        },
+        {
+          "label": "解决 AI 焦虑的办法是行动。焦虑的解决办法永远是行动",
+          "href": "../a/n01.html#p250",
+          "work": "心智的摩托车",
+          "hash": "p250"
+        },
+        {
+          "label": "Dan：工作变成了一个被抽空意义、让人反感的词，但人依然会想创造点什么",
+          "href": "../a/06.html#p3",
+          "work": "当工作失去意义时，工作的未来",
+          "hash": "p3"
+        },
+        {
+          "label": "后劳动时代的技能组合，从能动性这一层开始",
+          "href": "../a/06.html#p215",
+          "work": "当工作失去意义时，工作的未来",
+          "hash": "p215"
+        }
+      ]
+    }
+  ]
+}
