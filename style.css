@@ -408,9 +408,9 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .tnav{gap:6px;font-size:11px}
   .brand{font-size:14px}
 }
-/* 极窄屏：导航里「Dan Koe」与左侧品牌重复（品牌本身可点回首页），让小屏留出呼吸 */
+/* 极窄屏：顶栏品牌此时只剩下 Huberman，导航里不再重复这一项 */
 @media(max-width:340px){
-  .tnav a[href*="dankoe"]{display:none}
+  .tnav a[href*="huberman"]{display:none}
 }
 
 /* ===== AI 朗读播放器 v2（audio.js 注入） ===== */
@@ -570,7 +570,8 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
 .waitlist{margin:0 0 1em;padding-left:1.2em;line-height:1.8}
 .waitlist a{color:var(--acc)}
 .card.pending{opacity:.92;outline:1px dashed color-mix(in srgb,var(--acc) 45%,transparent)}
-@media (max-width:800px){
+@media (max-width:960px){
+  .top{flex-wrap:wrap;gap:8px 16px}
   .tnav{flex-wrap:wrap;justify-content:flex-end}
 }
 
