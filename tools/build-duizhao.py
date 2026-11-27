@@ -205,6 +205,7 @@ def index_page(data: dict, hub: dict | None = None) -> str:
 <section class="dz-path" id="huberman" aria-labelledby="hub-h">
 <h2 id="hub-h">{esc(hmeta["section_title"])}</h2>
 <p>{esc(hmeta["section_dek"])}</p>
+<p class="dz-hub-copy">Huberman Lab 相关内容版权归 Scicomm Media LLC 所有。本站未获授权，只提供官网目录和链接。</p>
 <ol class="dz-list">
 {index_list(hub["pairs"], 1)}
 </ol>
