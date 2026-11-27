@@ -1,5 +1,6 @@
 /* Full-viewport slide/beat reader for the published site.
-   Navigation language: hash beats, overview, slow transitions.
+   Navigation language: hash beats, overview, fast in-chapter turns,
+   ritual transitions only when stepping across a chapter, search and scrub.
    Implementation and typography are original. No artifact source or 3D worlds. */
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
@@ -9,13 +10,21 @@
     scene: 0,
     beat: 0,
     busy: false,
+    pending: null,
+    queued: null,
     autoplay: false,
     autoTimer: 0,
     idleTimer: 0,
+    toneTimer: 0,
+    transTimer: 0,
     reduced: matchMedia("(prefers-reduced-motion: reduce)").matches,
+    scrubbing: false,
+    flat: [],
   };
 
   const TRANS_MS = {
+    none: 0,
+    "fade-quick": 260,
     fade: 1300,
     fold: 1500,
     wash: 2000,
@@ -24,12 +33,31 @@
   };
   /* Apply the incoming scene tone only after the outgoing page is covered or faded. */
   const TONE_MS = {
+    none: 0,
+    "fade-quick": 100,
     fade: 550,
     fold: 650,
     wash: 500,
     "portal-in": 650,
     "portal-out": 700,
   };
+  const TRANS_CLASSES = [
+    "trans-fade",
+    "trans-fade-quick",
+    "trans-fold",
+    "trans-wash",
+    "trans-portal-in",
+    "trans-portal-out",
+  ];
+  function isRitual(name) {
+    return !!(name && name !== "none" && name !== "fade-quick");
+  }
+
+  const TAP_SLOP = 32;
+  const SCROLL_CANCEL = 12;
+  const SWIPE_MIN = 56;
+  const TAP_MAX_MS = 900;
+  const EDGE_PX = 12;
 
   const segmenter =
     typeof Intl !== "undefined" && Intl.Segmenter
@@ -267,6 +295,72 @@
   function totals() {
     const scenes = state.deck.scenes;
     return { scenes: scenes.length, beats: scenes[state.scene].beats.length };
+  }
+
+  function pushText(parts, s) {
+    if (s) parts.push(String(s));
+  }
+
+  function beatPlainText(beat) {
+    const parts = [];
+    if (!beat) return "";
+    pushText(parts, beat.title);
+    pushText(parts, beat.kicker);
+    pushText(parts, beat.lead);
+    pushText(parts, beat.en);
+    pushText(parts, beat.hint);
+    (beat.blocks || []).forEach((b) => pushText(parts, b && b.text));
+    const items = beat.list && beat.list.items;
+    (items || []).forEach((item) => pushText(parts, typeof item === "string" ? item : item && item.zh));
+    (beat.questions || []).forEach((q) => {
+      if (!q) return;
+      pushText(parts, (q.n ? q.n + " " : "") + (q.text || ""));
+    });
+    if (beat.figure) {
+      pushText(parts, beat.figure.caption);
+      pushText(parts, beat.figure.alt);
+    }
+    (beat.map || []).forEach((row) => {
+      if (!row) return;
+      pushText(parts, row.k);
+      pushText(parts, row.v);
+    });
+    (beat.cards || []).forEach((c) => {
+      if (!c) return;
+      pushText(parts, c.title);
+      pushText(parts, c.blurb);
+      pushText(parts, c.text);
+    });
+    (beat.links || []).forEach((l) => {
+      if (!l) return;
+      pushText(parts, l.title);
+      pushText(parts, l.kicker);
+    });
+    return parts.join(" ").replace(/\s+/g, " ").trim();
+  }
+
+  function buildIndex() {
+    const flat = [];
+    (state.deck.scenes || []).forEach((sc, si) => {
+      (sc.beats || []).forEach((beat, bi) => {
+        flat.push({
+          si,
+          bi,
+          sceneTitle: flattenLabel(sc.title),
+          label: beatLabel(beat, bi),
+          text: beatPlainText(beat),
+        });
+      });
+    });
+    state.flat = flat;
+  }
+
+  function flatIndexOf(si, bi) {
+    const flat = state.flat || [];
+    for (let i = 0; i < flat.length; i++) {
+      if (flat[i].si === si && flat[i].bi === bi) return i;
+    }
+    return 0;
   }
 
   function hashFor(si, bi) {
@@ -750,6 +844,39 @@
     $("#stage").dataset.tone = scene.tone || "paper";
   }
 
+  function clearTransClasses() {
+    const stage = $("#stage");
+    if (stage) stage.classList.remove(...TRANS_CLASSES);
+  }
+
+  function settleTransition() {
+    window.clearTimeout(state.toneTimer);
+    window.clearTimeout(state.transTimer);
+    const root = $("#scene-root");
+    if (root) {
+      const leaving = root.querySelector(".leaving");
+      const entering = root.querySelector(".entering") || root.querySelector(".scene-layer:not(.leaving)");
+      if (leaving) leaving.remove();
+      if (entering) entering.classList.remove("entering");
+    }
+    clearTransClasses();
+    const pending = state.pending;
+    state.pending = null;
+    state.busy = false;
+    if (pending) {
+      applyTone(sceneOf(pending.si));
+      finishMount(pending.si, pending.bi, { skipQueue: true, light: true });
+    }
+  }
+
+  function flushQueue() {
+    const q = state.queued;
+    state.queued = null;
+    if (!q) return;
+    if (q.type === "go") go(q.delta, q.opts);
+    else if (q.type === "jump") jump(q.si, q.bi, q.opts);
+  }
+
   function mount(si, bi, trans) {
     const scene = sceneOf(si);
     const beat = beatOf(si, bi);
@@ -760,35 +887,42 @@
     incoming.appendChild(renderBeat(scene, beat));
     if (beat.drift !== false && beat.layout === "claim") incoming.classList.add("hold-drift");
 
-    const outgoing = root.querySelector(".scene-layer");
+    const outgoing = root.querySelector(".scene-layer:not(.leaving)") || root.querySelector(".scene-layer");
+    const name = trans || "fade-quick";
 
-    if (!outgoing || trans === "none" || state.reduced) {
+    if (!outgoing || name === "none" || state.reduced) {
+      window.clearTimeout(state.toneTimer);
+      window.clearTimeout(state.transTimer);
       applyTone(scene);
       root.replaceChildren(incoming);
       incoming.classList.remove("entering");
+      clearTransClasses();
+      state.pending = null;
+      state.busy = false;
       finishMount(si, bi);
       return;
     }
 
-    state.busy = true;
-    $("#stage").classList.remove("trans-fade", "trans-fold", "trans-wash", "trans-portal-in", "trans-portal-out");
-    const name = trans || "fade";
+    state.busy = isRitual(name) ? "ritual" : "quick";
+    state.pending = { si, bi };
+    clearTransClasses();
     $("#stage").classList.add(`trans-${name}`);
     outgoing.classList.add("leaving");
     outgoing.classList.remove("entering");
     root.appendChild(incoming);
 
-    const toneAt = TONE_MS[name] || 550;
+    const toneAt = TONE_MS[name] || 0;
     window.clearTimeout(state.toneTimer);
     state.toneTimer = window.setTimeout(() => applyTone(scene), toneAt);
 
-    const ms = TRANS_MS[name] || 1300;
+    const ms = TRANS_MS[name] || 260;
     window.clearTimeout(state.transTimer);
     state.transTimer = window.setTimeout(() => {
       outgoing.remove();
       incoming.classList.remove("entering");
-      $("#stage").classList.remove(`trans-${name}`);
+      clearTransClasses();
       applyTone(scene);
+      state.pending = null;
       finishMount(si, bi);
     }, ms);
   }
@@ -818,16 +952,20 @@
     if (layer) relaxOverflowingLocks(layer);
   }
 
-  function finishMount(si, bi) {
+  function finishMount(si, bi, opts) {
     state.scene = si;
     state.beat = bi;
     state.busy = false;
     setHash(si, bi);
     updateHud();
-    updateNotes();
-    updateDocTitle();
-    paintOverview();
-    scheduleAutoplay();
+    updateScrub();
+    const light = (opts && opts.light) || state.scrubbing;
+    if (!light) {
+      updateNotes();
+      updateDocTitle();
+      paintOverview();
+      scheduleAutoplay();
+    }
     requestAnimationFrame(() => {
       afterLayout();
       requestAnimationFrame(afterLayout);
@@ -835,18 +973,27 @@
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then(afterLayout).catch(() => {});
     }
+    if (!(opts && opts.skipQueue)) flushQueue();
+  }
+
+  function overlaysBlockNav() {
+    return $("#overview").classList.contains("open") || $("#help").classList.contains("open") || $("#notes").classList.contains("open");
   }
 
   function go(delta, opts) {
-    if (state.busy) return;
-    if ($("#overview").classList.contains("open") || $("#help").classList.contains("open") || $("#notes").classList.contains("open")) return;
+    if (overlaysBlockNav()) return;
+    if (state.busy === "ritual") {
+      state.queued = { type: "go", delta, opts };
+      return;
+    }
+    if (state.busy === "quick") settleTransition();
     let si = state.scene;
     let bi = state.beat + delta;
     const scenes = state.deck.scenes;
     if (bi >= scenes[si].beats.length) {
       if (si >= scenes.length - 1) {
         const nxt = state.deck.meta && state.deck.meta.next;
-        if ((!opts || !opts.fromTap) && nxt && nxt.href) location.href = nxt.href;
+        if ((!opts || (!opts.fromTap && !opts.fromGesture)) && nxt && nxt.href) location.href = nxt.href;
         return;
       }
       si += 1;
@@ -858,18 +1005,22 @@
       if (si <= 0) return;
       si -= 1;
       bi = scenes[si].beats.length - 1;
-      mount(si, bi, "fade");
+      mount(si, bi, scenes[si].enter || "fade");
       return;
     }
-    mount(si, bi, "fade");
+    mount(si, bi, "fade-quick");
   }
 
-  function jump(si, bi) {
-    if (state.busy) return;
+  function jump(si, bi, opts) {
+    if (state.busy === "ritual") {
+      state.queued = { type: "jump", si, bi, opts };
+      return;
+    }
+    if (state.busy === "quick") settleTransition();
     si = Math.max(0, Math.min(si, state.deck.scenes.length - 1));
     bi = Math.max(0, Math.min(bi, state.deck.scenes[si].beats.length - 1));
-    if (si === state.scene && bi === state.beat) return;
-    const trans = si === state.scene ? "fade" : state.deck.scenes[si].enter || "fade";
+    if (si === state.scene && bi === state.beat && !state.busy) return;
+    const trans = (opts && opts.trans) || "fade-quick";
     mount(si, bi, trans);
   }
 
@@ -927,6 +1078,11 @@
 
   function onKey(e) {
     if (e.metaKey || e.ctrlKey || e.altKey) return;
+    const tag = (e.target && e.target.tagName) || "";
+    if (tag === "INPUT" || tag === "TEXTAREA" || (e.target && e.target.isContentEditable)) {
+      if (e.key === "Escape") closeOverlays();
+      return;
+    }
     const k = e.key;
     if (k === "Escape") {
       closeOverlays();
@@ -974,14 +1130,37 @@
     }
   }
 
-  const gesture = { start: null };
+  const gesture = { start: null, ignoreClick: false };
 
   function isInteractive(el) {
-    return !!(el && el.closest && el.closest("a, button, #chrome, #hud, #toc-btn, .overlay, .card, .panel, .end-links, #tap-hint"));
+    return !!(el && el.closest && el.closest("a, button, #chrome, #hud, #toc-btn, #scrub, #toc-q, #toc-hits, .toc-search, .overlay, .card, .panel, .end-links, #tap-hint"));
   }
 
   function overlaysOpen() {
     return $("#help").classList.contains("open") || $("#overview").classList.contains("open") || $("#notes").classList.contains("open");
+  }
+
+  function atTop(beat) {
+    if (!beat) return true;
+    return beat.scrollTop <= EDGE_PX;
+  }
+
+  function atBottom(beat) {
+    if (!beat) return true;
+    return beat.scrollTop + beat.clientHeight >= beat.scrollHeight - EDGE_PX;
+  }
+
+  function armEdgeTouch(g) {
+    const beat = g && g.beat;
+    if (!beat) return;
+    g.touchPrev = beat.style.touchAction;
+    if (g.atTop && g.atBottom) beat.style.touchAction = "none";
+    else if (g.atBottom) beat.style.touchAction = "pan-down";
+    else if (g.atTop) beat.style.touchAction = "pan-up";
+  }
+
+  function disarmEdgeTouch(g) {
+    if (g && g.beat && g.touchPrev != null) g.beat.style.touchAction = g.touchPrev;
   }
 
   function onPointerDown(e) {
@@ -991,7 +1170,7 @@
       gesture.start = null;
       return;
     }
-    const beat = e.target.closest(".beat");
+    const beat = e.target.closest(".beat") || document.querySelector("#scene-root .scene-layer:not(.leaving) .beat");
     gesture.start = {
       id: e.pointerId,
       x: e.clientX,
@@ -999,15 +1178,57 @@
       t: performance.now(),
       scroll: beat ? beat.scrollTop : 0,
       beat,
-      moved: false,
+      atTop: atTop(beat),
+      atBottom: atBottom(beat),
+      scrolled: false,
+      handled: false,
     };
+    armEdgeTouch(gesture.start);
   }
 
   function onPointerMove(e) {
     const g = gesture.start;
     if (!g || g.id !== e.pointerId) return;
-    if (Math.hypot(e.clientX - g.x, e.clientY - g.y) > 12) g.moved = true;
-    if (g.beat && Math.abs(g.beat.scrollTop - g.scroll) > 2) g.moved = true;
+    const dx = e.clientX - g.x;
+    const dy = e.clientY - g.y;
+    if (g.beat && Math.abs(g.beat.scrollTop - g.scroll) > SCROLL_CANCEL) g.scrolled = true;
+    const mostlyV = Math.abs(dy) > Math.abs(dx) * 1.15;
+    if (mostlyV && Math.abs(dy) > 8) {
+      if ((dy < 0 && g.atBottom) || (dy > 0 && g.atTop)) {
+        if (e.cancelable) e.preventDefault();
+        g.edgeSwipe = true;
+      }
+    }
+  }
+
+  function onPointerUp(e) {
+    const g = gesture.start;
+    if (!g || (e.pointerId != null && g.id !== e.pointerId)) return;
+    disarmEdgeTouch(g);
+    if (g.handled) return;
+    const dx = e.clientX - g.x;
+    const dy = e.clientY - g.y;
+    if (g.beat && Math.abs(g.beat.scrollTop - g.scroll) > SCROLL_CANCEL) g.scrolled = true;
+    const mostlyV = Math.abs(dy) > Math.abs(dx) * 1.25;
+    if (mostlyV && Math.abs(dy) >= SWIPE_MIN) {
+      let delta = 0;
+      if (dy < 0 && g.atBottom) delta = 1;
+      else if (dy > 0 && g.atTop) delta = -1;
+      if (delta) {
+        g.handled = true;
+        gesture.ignoreClick = true;
+        hideTapHint();
+        go(delta, { fromGesture: true, fromTap: true });
+        return;
+      }
+    }
+  }
+
+  function onPointerCancel() {
+    const g = gesture.start;
+    disarmEdgeTouch(g);
+    if (g) g.handled = true;
+    gesture.start = null;
   }
 
   function onClick(e) {
@@ -1017,9 +1238,15 @@
       return;
     }
     const g = gesture.start;
+    const ignore = gesture.ignoreClick || (g && g.handled);
+    gesture.ignoreClick = false;
     gesture.start = null;
-    if (g && (g.moved || (g.beat && Math.abs(g.beat.scrollTop - g.scroll) > 2))) return;
-    if (g && performance.now() - g.t > 800) return;
+    if (ignore) return;
+    if (g && g.scrolled) return;
+    if (g && g.beat && Math.abs(g.beat.scrollTop - g.scroll) > SCROLL_CANCEL) return;
+    if (g && performance.now() - g.t > TAP_MAX_MS) return;
+    // Slight wobble must not cancel a tap; only a clear scroll does.
+    if (g && Math.hypot(e.clientX - g.x, e.clientY - g.y) > TAP_SLOP * 2) return;
     const stage = $("#stage");
     const rect = stage.getBoundingClientRect();
     const y = e.clientY;
@@ -1053,7 +1280,7 @@
     const el = document.createElement("div");
     el.id = "tap-hint";
     el.setAttribute("role", "status");
-    el.textContent = "上半屏上一拍 · 下半屏下一拍";
+    el.textContent = "上滑下一拍 · 点按也可翻页";
     document.body.appendChild(el);
     state.tapHint = el;
     requestAnimationFrame(() => el.classList.add("show"));
@@ -1085,7 +1312,7 @@
     const sub = ov.querySelector(".sub");
     if (h2) h2.textContent = "目录";
     if (hint) hint.textContent = "点空白处关闭";
-    if (sub) sub.textContent = "点章节到开头 · 点右侧拍数可展开再选某一拍";
+    if (sub) sub.textContent = "点章节到开头 · 也可搜索文中的几个字";
     if (h2 && hint && !ov.querySelector(".toc-head")) {
       const head = document.createElement("div");
       head.className = "toc-head";
@@ -1098,38 +1325,153 @@
       grid.classList.remove("grid");
       grid.classList.add("toc-list");
     }
+    injectTocSearch(wrap, grid);
     ov.addEventListener("click", (e) => {
-      if (e.target.closest(".toc-row, .toc-beats, .toc-go, .toc-toggle")) return;
+      if (e.target.closest(".toc-row, .toc-beats, .toc-go, .toc-toggle, .toc-search, #toc-hits, .toc-hit, .toc-head, .sub")) return;
       closeOverlays();
+    });
+  }
+
+  function injectTocSearch(wrap, grid) {
+    if ($("#toc-q")) return;
+    const box = document.createElement("div");
+    box.className = "toc-search";
+    const input = document.createElement("input");
+    input.type = "search";
+    input.id = "toc-q";
+    input.setAttribute("aria-label", "搜索正文");
+    input.placeholder = "搜索文中的一句或几个字";
+    input.autocomplete = "off";
+    input.setAttribute("enterkeyhint", "search");
+    input.addEventListener("click", (e) => e.stopPropagation());
+    input.addEventListener("pointerdown", (e) => e.stopPropagation());
+    input.addEventListener("input", syncTocSearch);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const first = $("#toc-hits .toc-hit");
+        if (first) first.click();
+      }
+    });
+    box.appendChild(input);
+    const hits = document.createElement("div");
+    hits.id = "toc-hits";
+    hits.hidden = true;
+    hits.setAttribute("role", "list");
+    if (grid && grid.parentNode) {
+      grid.parentNode.insertBefore(box, grid);
+      grid.parentNode.insertBefore(hits, grid);
+    } else {
+      wrap.appendChild(box);
+      wrap.appendChild(hits);
+    }
+  }
+
+  function excerptNodes(text, at, len) {
+    const frag = document.createDocumentFragment();
+    const radius = 22;
+    const start = Math.max(0, at - radius);
+    const end = Math.min(text.length, at + len + radius);
+    if (start > 0) frag.appendChild(document.createTextNode("…"));
+    frag.appendChild(document.createTextNode(text.slice(start, at)));
+    const mark = document.createElement("mark");
+    mark.textContent = text.slice(at, at + len);
+    frag.appendChild(mark);
+    frag.appendChild(document.createTextNode(text.slice(at + len, end)));
+    if (end < text.length) frag.appendChild(document.createTextNode("…"));
+    return frag;
+  }
+
+  function syncTocSearch() {
+    const input = $("#toc-q");
+    const hitsEl = $("#toc-hits");
+    const list = $("#overview-grid");
+    if (!input || !hitsEl || !list) return;
+    const needle = String(input.value || "").replace(/\s+/g, " ").trim();
+    if (!needle) {
+      hitsEl.hidden = true;
+      hitsEl.replaceChildren();
+      list.hidden = false;
+      return;
+    }
+    list.hidden = true;
+    hitsEl.hidden = false;
+    hitsEl.replaceChildren();
+    const lower = needle.toLowerCase();
+    const found = [];
+    for (const item of state.flat || []) {
+      const at = item.text.toLowerCase().indexOf(lower);
+      if (at < 0) continue;
+      found.push({ item, at, len: lower.length });
+      if (found.length >= 40) break;
+    }
+    if (!found.length) {
+      const empty = document.createElement("div");
+      empty.className = "toc-empty";
+      empty.textContent = `没有找到含有「${needle}」的段落`;
+      hitsEl.appendChild(empty);
+      return;
+    }
+    found.forEach(({ item, at, len }) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "toc-hit";
+      btn.setAttribute("role", "listitem");
+      const where = document.createElement("div");
+      where.className = "where";
+      where.textContent = `${item.sceneTitle} · 第 ${item.bi + 1} 拍`;
+      const ex = document.createElement("p");
+      ex.className = "ex";
+      ex.appendChild(excerptNodes(item.text, at, len));
+      btn.appendChild(where);
+      btn.appendChild(ex);
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        closeOverlays();
+        jump(item.si, item.bi);
+      });
+      hitsEl.appendChild(btn);
     });
   }
 
   function enhanceHelp() {
     const dl = $("#help dl");
-    if (!dl || dl.dataset.tocHelp === "1") return;
+    if (!dl || dl.dataset.fluencyHelp === "1") return;
+    dl.dataset.fluencyHelp = "1";
     dl.dataset.tocHelp = "1";
     const dts = Array.from(dl.querySelectorAll("dt"));
-    const o = dts.find((dt) => dt.textContent.trim() === "O");
-    if (o) {
-      o.textContent = "目录 · O";
-      const dd = o.nextElementSibling;
-      if (dd && dd.tagName === "DD") {
-        dd.textContent = "打开目录，可跳到某一节或某一拍。顶栏的目录、右下角页码也可打开；点空白处关闭";
+    const setOrAdd = (keys, dtText, ddText, afterKey) => {
+      const hit = dts.find((dt) => keys.includes(dt.textContent.trim()));
+      if (hit) {
+        hit.textContent = dtText;
+        const dd = hit.nextElementSibling;
+        if (dd && dd.tagName === "DD") dd.textContent = ddText;
+        return;
       }
-    } else {
       const dt = document.createElement("dt");
-      dt.textContent = "目录 · O";
+      dt.textContent = dtText;
       const dd = document.createElement("dd");
-      dd.textContent = "打开目录，可跳到某一节或某一拍。顶栏的目录、右下角页码也可打开；点空白处关闭";
-      const first = dl.querySelector("dt");
-      if (first) {
-        dl.insertBefore(dt, first);
-        dl.insertBefore(dd, first);
+      dd.textContent = ddText;
+      const after = afterKey && dts.find((d) => d.textContent.trim() === afterKey);
+      const afterDd = after && after.nextElementSibling;
+      if (afterDd) {
+        if (afterDd.nextSibling) {
+          dl.insertBefore(dt, afterDd.nextSibling);
+          dl.insertBefore(dd, dt.nextSibling);
+        } else {
+          dl.appendChild(dt);
+          dl.appendChild(dd);
+        }
       } else {
         dl.appendChild(dt);
         dl.appendChild(dd);
       }
-    }
+      dts.push(dt);
+    };
+    setOrAdd(["O", "目录 · O"], "目录 · O", "打开目录，可搜索文中几个字，或跳到某一节、某一拍。顶栏的目录、右下角页码也可打开；点空白处关闭");
+    setOrAdd(["上半屏 / 下半屏", "点按", "点击", "点按或滑动"], "点按或滑动", "上半屏上一拍，下半屏下一拍；上滑下一拍，下滑上一拍。这一拍还没看完时，先滑到头再翻页。轻点即可，不必等动画结束");
+    setOrAdd(["进度", "进度条"], "进度条", "拖动底部细条可快速掠过全篇，松手停在那一拍");
   }
 
   function enhanceHud() {
@@ -1186,6 +1528,146 @@
     }
   }
 
+  function scrubLabelText(item) {
+    if (!item) return "";
+    return `${clipLabel(item.sceneTitle, 16)} · ${clipLabel(item.label, 20)}`;
+  }
+
+  function updateScrubVisual(index, showLabel) {
+    const bar = $("#scrub");
+    if (!bar) return;
+    const n = (state.flat || []).length;
+    const i = Math.max(0, Math.min(index, Math.max(0, n - 1)));
+    const pct = n <= 1 ? 0 : (i / (n - 1)) * 100;
+    const fill = bar.querySelector(".fill");
+    const knob = bar.querySelector(".knob");
+    const label = $("#scrub-label");
+    if (fill) fill.style.width = pct + "%";
+    if (knob) knob.style.left = pct + "%";
+    if (label) {
+      label.textContent = scrubLabelText((state.flat || [])[i]);
+      if (showLabel) {
+        const barW = bar.getBoundingClientRect().width;
+        const labW = label.offsetWidth;
+        const x = (pct / 100) * barW;
+        const left = Math.min(Math.max(0, x - labW / 2), Math.max(0, barW - labW));
+        label.style.left = left + "px";
+      }
+    }
+    bar.setAttribute("aria-valuemax", String(Math.max(0, n - 1)));
+    bar.setAttribute("aria-valuenow", String(i));
+    bar.setAttribute("aria-valuetext", scrubLabelText((state.flat || [])[i]));
+  }
+
+  function updateScrub() {
+    if (!$("#scrub")) return;
+    updateScrubVisual(flatIndexOf(state.scene, state.beat), state.scrubbing);
+  }
+
+  function applyScrubIndex(index, dragging) {
+    const item = (state.flat || [])[index];
+    if (!item) return;
+    updateScrubVisual(index, true);
+    if (item.si === state.scene && item.bi === state.beat && !state.busy) return;
+    if (dragging) {
+      state.scrubbing = true;
+      if (state.busy === "quick") settleTransition();
+      if (state.busy === "ritual") {
+        state.queued = { type: "jump", si: item.si, bi: item.bi, opts: { trans: "none" } };
+        return;
+      }
+      mount(item.si, item.bi, "none");
+    } else {
+      jump(item.si, item.bi);
+    }
+  }
+
+  function injectScrub() {
+    if ($("#scrub")) return;
+    const bar = document.createElement("div");
+    bar.id = "scrub";
+    bar.setAttribute("role", "slider");
+    bar.setAttribute("aria-label", "阅读进度");
+    bar.setAttribute("aria-valuemin", "0");
+    bar.tabIndex = 0;
+    const hit = document.createElement("div");
+    hit.className = "scrub-hit";
+    const track = document.createElement("div");
+    track.className = "track";
+    const fill = document.createElement("i");
+    fill.className = "fill";
+    track.appendChild(fill);
+    const knob = document.createElement("span");
+    knob.className = "knob";
+    hit.appendChild(track);
+    hit.appendChild(knob);
+    const label = document.createElement("div");
+    label.id = "scrub-label";
+    bar.appendChild(hit);
+    bar.appendChild(label);
+    document.body.appendChild(bar);
+
+    const indexFromEvent = (e) => {
+      const r = hit.getBoundingClientRect();
+      const n = (state.flat || []).length;
+      if (n <= 1) return 0;
+      const x = Math.min(Math.max(e.clientX - r.left, 0), r.width || 1);
+      return Math.round((x / (r.width || 1)) * (n - 1));
+    };
+
+    let dragging = false;
+    const onDown = (e) => {
+      if (e.isPrimary === false) return;
+      if (e.pointerType === "mouse" && e.button !== 0) return;
+      e.preventDefault();
+      e.stopPropagation();
+      gesture.start = null;
+      gesture.ignoreClick = true;
+      dragging = true;
+      state.scrubbing = true;
+      bar.classList.add("scrubbing");
+      try { bar.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+      applyScrubIndex(indexFromEvent(e), true);
+    };
+    const onMove = (e) => {
+      if (!dragging) return;
+      e.preventDefault();
+      applyScrubIndex(indexFromEvent(e), true);
+    };
+    const onEnd = () => {
+      if (!dragging) return;
+      dragging = false;
+      bar.classList.remove("scrubbing");
+      state.scrubbing = false;
+      updateNotes();
+      updateDocTitle();
+      paintOverview();
+      updateScrub();
+      pokeIdle();
+    };
+    bar.addEventListener("pointerdown", onDown);
+    bar.addEventListener("pointermove", onMove);
+    bar.addEventListener("pointerup", onEnd);
+    bar.addEventListener("pointercancel", onEnd);
+    bar.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight" || e.key === "ArrowUp") {
+        e.preventDefault();
+        go(1);
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowDown") {
+        e.preventDefault();
+        go(-1);
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        jump(0, 0);
+      } else if (e.key === "End") {
+        e.preventDefault();
+        const last = (state.flat || [])[(state.flat || []).length - 1];
+        if (last) jump(last.si, last.bi);
+      }
+    });
+    updateScrub();
+  }
+
   function bindChrome() {
     const themeBtn = $("#theme");
     if (themeBtn) themeBtn.addEventListener("click", (e) => {
@@ -1197,6 +1679,7 @@
     enhanceHud();
     enhanceOverviewShell();
     enhanceHelp();
+    injectScrub();
   }
 
   async function start() {
@@ -1211,6 +1694,7 @@
     const res = await fetch(url);
     if (!res.ok) throw new Error("deck " + res.status);
     state.deck = await res.json();
+    buildIndex();
     const pos = parseHash();
     if (pos.redirect) {
       location.replace(pos.redirect);
@@ -1229,8 +1713,9 @@
     window.addEventListener("keydown", onKey);
     const stage = $("#stage");
     stage.addEventListener("pointerdown", onPointerDown);
-    stage.addEventListener("pointermove", onPointerMove);
-    stage.addEventListener("pointercancel", () => { gesture.start = null; });
+    stage.addEventListener("pointermove", onPointerMove, { passive: false });
+    window.addEventListener("pointerup", onPointerUp);
+    window.addEventListener("pointercancel", onPointerCancel);
     stage.addEventListener("click", onClick);
     ["help", "overview", "notes"].forEach((id) => $(`#${id}`).addEventListener("click", onBackdrop));
     document.addEventListener("mousemove", pokeIdle);
