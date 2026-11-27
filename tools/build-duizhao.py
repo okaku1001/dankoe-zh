@@ -93,7 +93,7 @@ def nav(root: str) -> str:
 
 def head(title: str, root: str) -> str:
     return f"""<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · {esc(SITE)}</title>
-<link rel="stylesheet" href="{root}fonts/fonts.css"><link rel="stylesheet" href="{root}style.css?v=huberman-20261127"><link rel="stylesheet" href="{root}duizhao/duizhao.css?v={CSS_V}"><link rel="stylesheet" href="{root}notes.css?v={NOTES_V}"><link rel="manifest" href="{root}manifest.json"><meta name="theme-color" content="#a84b2a">
+<link rel="stylesheet" href="{root}fonts/fonts.css"><link rel="stylesheet" href="{root}style.css?v=huberman-20261127-nav"><link rel="stylesheet" href="{root}duizhao/duizhao.css?v={CSS_V}"><link rel="stylesheet" href="{root}notes.css?v={NOTES_V}"><link rel="manifest" href="{root}manifest.json"><meta name="theme-color" content="#a84b2a">
 <script>try{{document.documentElement.dataset.theme=localStorage.getItem('dk:theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.style.setProperty('--fs',(localStorage.getItem('dk:fs')||18.5)+'px')}}catch(e){{}}</script></head>"""
 
 

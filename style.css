@@ -398,19 +398,15 @@ mark.hl[data-note]{border-bottom:2px solid var(--acc)}
   .cover{border-radius:6px;margin:14px 0 6px}
   .comment{padding:12px 14px}
 }
-/* 窄屏顶栏：完整站名 + 四个导航 + 主题键放不下一行，收掉「纳瓦尔与」，导航同步压紧 */
+/* 窄屏顶栏：站名单独一行、完整显示，导航可折行。三人站名不再收掉前半截。 */
 @media(max-width:430px){
-  .bn{display:none}
+  .brand{white-space:normal}
   .tnav{gap:7px;font-size:11.5px}
   #theme{padding:3px 9px;font-size:14px}
 }
 @media(max-width:360px){
   .tnav{gap:6px;font-size:11px}
   .brand{font-size:14px}
-}
-/* 极窄屏：顶栏品牌此时只剩下 Huberman，导航里不再重复这一项 */
-@media(max-width:340px){
-  .tnav a[href*="huberman"]{display:none}
 }
 
 /* ===== AI 朗读播放器 v2（audio.js 注入） ===== */

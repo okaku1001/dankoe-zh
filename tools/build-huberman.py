@@ -7,17 +7,29 @@ import html as htmlmod
 import json
 import sys
 from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "huberman" / "catalog.json"
 OUT = ROOT / "huberman"
-STYLE_V = "huberman-20261127"
+STYLE_V = "huberman-20261127-nav"
 DZ_V = "duizhao-20261127-h"
-HB_V = "huberman-20261127"
+HB_V = "huberman-20261127-nav"
 APP_V = "zoom-20261123"
 NOTES_V = "2"
 SITE = "纳瓦尔、Dan Koe 与 Huberman"
+
+
+def format_census(raw: str) -> str:
+    s = (raw or "").strip()
+    if not s:
+        return ""
+    try:
+        dt = datetime.fromisoformat(s)
+    except ValueError:
+        return s
+    return f"{dt.year} 年 {dt.month} 月 {dt.day} 日"
 
 
 def die(msg: str) -> None:
@@ -166,7 +178,7 @@ def index_page(data: dict) -> str:
     recent_list = "".join(episode_li(ep) for ep in recent)
     types = coverage.get("episode_types") or {}
     type_bits = "、".join(f"{k} {v} 集" for k, v in types.items())
-    census = meta.get("censused_at", "")
+    census = format_census(meta.get("censused_at", ""))
     untagged = coverage.get("episodes_without_topic_chips", 0)
     zero = coverage.get("official_topics_with_no_listed_episodes") or []
     zero_note = ""
