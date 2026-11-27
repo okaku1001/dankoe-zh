@@ -9,3 +9,6 @@ screenshots-toc/
 
 # Local chapter-transition QA shots, not part of the site
 screenshots-transition/
+
+# Local reading-fluency QA shots, not part of the site
+screenshots-fluency/
