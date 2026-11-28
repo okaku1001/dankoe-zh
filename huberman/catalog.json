@@ -20,6 +20,32 @@
       "节目类型以列表卡片上的官方 chip 为准。标题含 Toolkit 的几集在官网上标注为 Solo Episode，本目录不加自拟类型。"
     ]
   },
+  "featured_reading": {
+    "heading": "值得先读",
+    "dek": "这五篇是官网 Neural Network Newsletter 里，编者建议先看的书面长文。这里只有官方标题、日期和链接，点标题去官网读。不是本站译文，也不是摘要。顺序按观点，不是按时间倒排。",
+    "items": [
+      {
+        "slug": "teach-and-learn-better-with-a-neuroplasticity-super-protocol",
+        "tag": "学习"
+      },
+      {
+        "slug": "tools-to-manage-dopamine-and-improve-motivation-and-drive",
+        "tag": "动机"
+      },
+      {
+        "slug": "improve-working-memory-attention",
+        "tag": "专注力"
+      },
+      {
+        "slug": "build-or-break-habits-using-science-based-tools",
+        "tag": "习惯"
+      },
+      {
+        "slug": "toolkit-for-sleep",
+        "tag": "睡眠"
+      }
+    ]
+  },
   "coverage": {
     "episodes": 451,
     "newsletters": 23,

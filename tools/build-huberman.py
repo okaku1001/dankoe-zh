@@ -15,7 +15,7 @@ DATA = ROOT / "huberman" / "catalog.json"
 OUT = ROOT / "huberman"
 STYLE_V = "huberman-20261127-nav"
 DZ_V = "duizhao-20261127-h"
-HB_V = "huberman-20261127-nav"
+HB_V = "huberman-20261128-featured"
 APP_V = "zoom-20261123"
 NOTES_V = "2"
 SITE = "纳瓦尔、Dan Koe 与 Huberman"
@@ -27,6 +27,17 @@ def format_census(raw: str) -> str:
         return ""
     try:
         dt = datetime.fromisoformat(s)
+    except ValueError:
+        return s
+    return f"{dt.year} 年 {dt.month} 月 {dt.day} 日"
+
+
+def format_date_zh(raw: str) -> str:
+    s = (raw or "").strip()
+    if not s:
+        return ""
+    try:
+        dt = datetime.strptime(s[:10], "%Y-%m-%d")
     except ValueError:
         return s
     return f"{dt.year} 年 {dt.month} 月 {dt.day} 日"
@@ -157,6 +168,97 @@ def filter_script() -> str:
 </script>"""
 
 
+
+FEATURED_EXPECTED = {
+    "teach-and-learn-better-with-a-neuroplasticity-super-protocol": {
+        "title": 'Teach & Learn Better With A "Neuroplasticity Super Protocol"',
+        "date": "2021-10-29",
+        "url": "https://www.hubermanlab.com/newsletter/teach-and-learn-better-with-a-neuroplasticity-super-protocol",
+    },
+    "tools-to-manage-dopamine-and-improve-motivation-and-drive": {
+        "title": "Tools to Manage Dopamine and Improve Motivation & Drive",
+        "date": "2022-10-06",
+        "url": "https://www.hubermanlab.com/newsletter/tools-to-manage-dopamine-and-improve-motivation-and-drive",
+    },
+    "improve-working-memory-attention": {
+        "title": "Improve Working Memory & Attention",
+        "date": "2025-06-04",
+        "url": "https://www.hubermanlab.com/newsletter/improve-working-memory-attention",
+    },
+    "build-or-break-habits-using-science-based-tools": {
+        "title": "Build or Break Habits Using Science-Based Tools",
+        "date": "2022-01-30",
+        "url": "https://www.hubermanlab.com/newsletter/build-or-break-habits-using-science-based-tools",
+    },
+    "toolkit-for-sleep": {
+        "title": "Toolkit for Sleep",
+        "date": "2021-09-20",
+        "url": "https://www.hubermanlab.com/newsletter/toolkit-for-sleep",
+    },
+}
+
+
+def resolve_featured(data: dict) -> list[dict]:
+    featured = data.get("featured_reading") or {}
+    items = featured.get("items") or []
+    if not items:
+        die("catalog.json missing featured_reading.items")
+    by = {n["slug"]: n for n in data["newsletters"]}
+    resolved = []
+    for item in items:
+        slug = item.get("slug")
+        tag = (item.get("tag") or "").strip()
+        src = by.get(slug)
+        if not src:
+            die(f"featured slug not in newsletters: {slug}")
+        expect = FEATURED_EXPECTED.get(slug)
+        if not expect:
+            die(f"featured slug not in the approved reading list: {slug}")
+        if src["title"] != expect["title"] or src["date"] != expect["date"] or src["url"] != expect["url"]:
+            die(f"featured metadata drifted from official listing: {slug}")
+        if not tag:
+            die(f"featured item missing editor tag: {slug}")
+        resolved.append({
+            "slug": slug,
+            "title": src["title"],
+            "date": src["date"],
+            "url": src["url"],
+            "tag": tag,
+        })
+    return resolved
+
+
+def featured_li(item: dict) -> str:
+    date = format_date_zh(item["date"])
+    return (
+        f'<li><a class="hb-item hb-ext" href="{esc(item["url"])}" target="_blank" rel="noopener">'
+        f'<span class="hb-when">{esc(date)}</span>'
+        f'<span><strong class="hb-title" lang="en">{esc(item["title"])}</strong>'
+        f'<span class="hb-sub"><span class="hb-tag">编者 · {esc(item["tag"])}</span>'
+        f' · Neural Network Newsletter</span></span></a></li>'
+    )
+
+
+def featured_section(data: dict, *, index_href: str | None = None) -> str:
+    featured = data.get("featured_reading") or {}
+    items = resolve_featured(data)
+    lis = "".join(featured_li(it) for it in items)
+    heading = featured.get("heading") or "值得先读"
+    dek = featured.get("dek") or ""
+    pointer = ""
+    if index_href:
+        pointer = (
+            f'<p class="hb-note">完整归档在下面。若要从目录入口看这一组，也可以回 '
+            f'<a href="{esc(index_href)}">Huberman 目录的「值得先读」</a>。</p>'
+        )
+    return f"""<section class="hb-first" id="first-read" aria-labelledby="first-h">
+<h2 id="first-h">{esc(heading)}</h2>
+<p class="hb-note">{esc(dek)}</p>
+{pointer}
+<ul class="hb-list">{lis}</ul>
+</section>"""
+
+
 def index_page(data: dict) -> str:
     meta = data["meta"]
     coverage = data["coverage"]
@@ -206,6 +308,7 @@ def index_page(data: dict) -> str:
 {copyrights("index")}
 <p class="hb-meta">本轮清点到 {esc(census)}（亚洲/上海）。节目 {coverage['episodes']} 集，通讯 {coverage['newsletters']} 封，官方主题 {coverage['topics']} 个。节目类型：{esc(type_bits)}。其中 {untagged} 集在全部节目列表上尚未挂主题标签，它们仍出现在完整目录里。</p>
 {zero_note}{extra_note}
+{featured_section(data)}
 <section aria-labelledby="feat-h">
 <h2 id="feat-h">先看这些主题</h2>
 <p class="hb-note">顺序是编者排的，名字是官网主题页上的正式名称。</p>
@@ -314,6 +417,9 @@ def newsletter_page(data: dict) -> str:
 <p class="hb-lead">官网通讯归档里的 {len(data["newsletters"])} 封。这里只有标题、日期和链接，没有正文。</p>
 <p class="hb-note">日期取自 <a href="https://www.hubermanlab.com/newsletter" target="_blank" rel="noopener">官网归档卡片</a>。较新的通讯有时会晚几周才出现在归档里。</p>
 {copyrights("newsletter")}
+{featured_section(data, index_href="index.html#first-read")}
+<h2 id="archive-h">全部归档</h2>
+<p class="hb-note">下面按官网归档日期排列全部通讯，同样只有标题、日期和链接。</p>
 <ul class="hb-list">{items}</ul>
 <p class="hb-note"><a href="index.html">回到目录</a></p>
 </main>

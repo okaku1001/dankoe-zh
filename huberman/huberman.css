@@ -144,3 +144,11 @@
   .hb-item{grid-template-columns:1fr;gap:2px 0;padding:14px 0}
   .hb-when{padding-top:0}
 }
+#first-read{scroll-margin-top:72px}
+.hb-first{margin:0 0 2.4em}
+.hb-first h2{margin-top:0.4em}
+.hb-tag{
+  color:var(--acc);
+  font-weight:600;
+  letter-spacing:.02em;
+}
