@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "对照",
+    "section_title": "把 Huberman 放进来",
+    "section_dek": "下面四组仍是编者整理。纳瓦尔和 Dan 的段落来自本站已收录篇目。Huberman 一侧只有官网标题和链接，不引正文，也不把标题写成这里有全文。"
+  },
+  "pairs": [
+    {
+      "id": "zhuyi",
+      "title": "注意力会改写脑子",
+      "dek": "一个把注意力说成生命真正的通货。一个把同一件事落到神经连接上：脑子能改。",
+      "kind": "共鸣，各走一层",
+      "sides": [
+        {
+          "author": "纳瓦尔",
+          "role": "先把你打醒",
+          "work": "44 条关于人性的残酷真相",
+          "slug": "n02",
+          "pids": [
+            "p540"
+          ],
+          "hash": "p540",
+          "href": "../a/n02.html#p540",
+          "zh": "所以生命真正的通货是注意力：你选择注意什么，以及拿它做什么。回到新闻那一点：你可以把注意力放在新闻上，但那就是你在花生命真正的通货。所以只要意识到这一点。你想这么花也没关系，这里没有对错。也许你的命运就是从新闻里挑一件事，了解它、认领它、解决它。但要小心，注意力是你唯一拥有的东西，它也会被你自己的过去俘获。",
+          "en": "So the real currency of life is attention. It's what you choose to pay attention to and what you do about it. And so back to the point about the news media, you can put your attention on the news, but that's how you're spending the real currency of life. So just be aware of that. If you want to, that's fine. There's no right or wrong here. Like maybe it is your destiny to pick something in the news, learn about that problem, adopt that problem, and solve it. But just be careful, because your attention is the only thing that you have, and that can also be captured by your own past."
+        },
+        {
+          "author": "Dan Koe",
+          "role": "已经走在前面",
+          "work": "完全指南：如何随时开启极致专注",
+          "slug": "05",
+          "pids": [
+            "p104"
+          ],
+          "hash": "p104",
+          "href": "../a/05.html#p104",
+          "zh": "你可能知道，神经可塑性是指你的大脑在一生中通过形成新的神经连接来重新布线的能力。你的大脑不是固定不变、僵硬死板的。它能根据你的经历、想法和行动去适应、学习、改变。",
+          "en": "Neuroplasticity, as you may know, is your brain's ability to rewire itself by forming new neural connections throughout life. Your brain isn't fixed and rigid. It can adapt, learn, and change based on your experiences, thoughts, and actions."
+        }
+      ],
+      "huberman": {
+        "title": "How to Focus to Change Your Brain",
+        "type": "Solo Episode",
+        "date": "2021-02-08",
+        "url": "https://www.hubermanlab.com/episode/how-to-focus-to-change-your-brain",
+        "note": "官方标题把专注和改写脑子放在一起。本站不收录这一集的正文。"
+      },
+      "editor": "纳瓦尔把注意力说成生命真正的通货：你选了注意什么，就是在花这笔只能花一次的钱。Dan 把同一件事落到脑子上，说连接会改，人不是固定的。Huberman 有一集官方标题就叫 How to Focus to Change Your Brain。本站不引这一集的句子，正文只在官网。注意力是不是真能改写脑子，结论留给你。",
+      "questions": [
+        "你最近一周里，最多的注意力花在什么上面？",
+        "若脑子真能按你反复做的事重新布线，你现在最不该再重复的是哪一件？",
+        "听完官网那一集，你还同不同意「通货是注意力」这句话？"
+      ],
+      "further": [
+        {
+          "label": "纳瓦尔前面还说，时间本身甚至没那么要紧，因为你可能并不在场",
+          "href": "../a/n02.html#p540",
+          "work": "44 条关于人性的残酷真相",
+          "hash": "p540",
+          "external": false
+        },
+        {
+          "label": "Dan 同篇稍后：新奇和挑战会更强烈地刺激神经可塑性",
+          "href": "../a/05.html#p107",
+          "work": "完全指南：如何随时开启极致专注",
+          "hash": "p107",
+          "external": false
+        },
+        {
+          "label": "官网主题 The Brain and Neuroplasticity",
+          "href": "https://www.hubermanlab.com/topics/brain-and-neuroplasticity",
+          "work": "Huberman Lab",
+          "hash": "官方主题",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "dongji",
+      "title": "欲望转完一圈，动机还在不在",
+      "dek": "一个写出欲望、多巴胺、满足、又不满足的循环。一个把力气放在能动性上，不把成功押在某一项技能。",
+      "kind": "共鸣，带着不同的落点",
+      "sides": [
+        {
+          "author": "纳瓦尔",
+          "role": "先把你打醒",
+          "work": "44 条关于人性的残酷真相",
+          "slug": "n02",
+          "pids": [
+            "p21"
+          ],
+          "hash": "p21",
+          "href": "../a/n02.html#p21",
+          "zh": "但一般说来，我们跑的这个欲望、多巴胺、满足、不满足的循环——你必须享受旅程。旅程就是全部，对吧？你99%的时间都花在旅途上。如果你不打算享受它，那还算怎样的一段旅程？",
+          "en": "But I would say in general, this loop that we run through of desire, dopamine, fulfillment, unfulfillment—like, you have to enjoy the journey. The journey is all there is, right? 99% of your time is spent on the journey. So what kind of a journey is it if you're not going to enjoy it?"
+        },
+        {
+          "author": "Dan Koe",
+          "role": "已经走在前面",
+          "work": "未来十年最重要的一项技能",
+          "slug": "01",
+          "pids": [
+            "p3"
+          ],
+          "hash": "p3",
+          "href": "../a/01.html#p3",
+          "zh": "但如果你是高能动性（high agency）的人，那都无所谓。为什么？因为你的成功不靠某一项特定技能。你不是专才。你没把心思全押在一份高薪工作或一个学位带来的地位上——那样你就学不了聚焦范围之外的东西。你有愿景，也明白在今天这个世界上，你想学什么技能、什么知识都能学到，去过自己想要的生活。",
+          "en": "But if you are a high agency individual, that doesn’t matter. Why? Because you aren’t dependent on a specific skill for your success. You aren’t a specialist. You didn’t focus your mind - preventing you from learning outside of that focus - on the status of a high paying job or degree. You have a vision, and you understand that in today’s world, you can acquire any skill or any knowledge to achieve the life you want."
+        }
+      ],
+      "huberman": {
+        "title": "Controlling Your Dopamine For Motivation, Focus & Satisfaction",
+        "type": "Solo Episode",
+        "date": "2021-09-27",
+        "url": "https://www.hubermanlab.com/episode/controlling-your-dopamine-for-motivation-focus-and-satisfaction",
+        "note": "官方标题把多巴胺和动机、专注、满足放在一起。本站不收录这一集的正文。"
+      },
+      "editor": "纳瓦尔把日常动机写成一个会转完的循环：欲望、多巴胺、满足，然后又不满足。他给的办法不是把循环停住，而是看你还愿不愿意享受那趟路。Dan 另说一种力气：能动性，成功不押在某一项技能上。Huberman 这一集的标题正好把多巴胺和动机放在一起。循环怎么转、力气从哪来，请到官网听完再自己判断。",
+      "questions": [
+        "你最近一次「得到了，很快又不满足」，中间隔了多久？",
+        "那股让你动手的力气，更像循环里的下一轮欲望，还是你说得清的愿景？",
+        "如果循环停不下来，你还愿不愿意走现在这条路？"
+      ],
+      "further": [
+        {
+          "label": "纳瓦尔稍前还把这个循环写成：想要、受苦、习惯、再无聊",
+          "href": "../a/n02.html#p18",
+          "work": "44 条关于人性的残酷真相",
+          "hash": "p18",
+          "external": false
+        },
+        {
+          "label": "Dan 同篇接着说，能动性往往要自己重新学一遍",
+          "href": "../a/01.html#p4",
+          "work": "未来十年最重要的一项技能",
+          "hash": "p4",
+          "external": false
+        },
+        {
+          "label": "官网主题 Motivation and Willpower",
+          "href": "https://www.hubermanlab.com/topics/motivation-and-willpower",
+          "work": "Huberman Lab",
+          "hash": "官方主题",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "xiguan",
+      "title": "先把路铺成最好走的",
+      "dek": "Dan 把习惯写成提示、反应、奖励，然后让想做的事变成阻力最小的那条路。Huberman 有一集专门讲养成和打破习惯。",
+      "kind": "一篇做法，对上一集官方标题",
+      "sides": [
+        {
+          "author": "Dan Koe",
+          "role": "已经走在前面",
+          "work": "如何变得自律到令人发指",
+          "slug": "20",
+          "pids": [
+            "p80",
+            "p81",
+            "p82"
+          ],
+          "hash": "p80–p82",
+          "href": "../a/20.html#p80",
+          "zh": "这本质上就是 B.F. 斯金纳操作性条件反射里的习惯回路，后来被查尔斯·杜希格（《习惯的力量》）和詹姆斯·克利尔（《掌控习惯》）带火了。\n提示 → 反应 → 奖励，这是教科书式的行为心理学，它管用。\n第一步，让想要的输出成为阻力最小的那条路，让不想要的输出变得极其麻烦。",
+          "en": "This is essentially the habit loop from B.F. Skinners operant conditioning, which went on to be popularized by Charles Duhigg (The Power of Habit) and James Clear (Atomic Habits).\nCue → response → reward is textbook behavioral psychology. It works.\nThe first step is making the desired output the path of least resistance, and the undesired output incredibly inconvenient."
+        }
+      ],
+      "huberman": {
+        "title": "The Science of Making & Breaking Habits",
+        "type": "Solo Episode",
+        "date": "2022-01-03",
+        "url": "https://www.hubermanlab.com/episode/the-science-of-making-and-breaking-habits",
+        "note": "官方标题直接写养成和打破习惯。本站不收录这一集的正文。"
+      },
+      "editor": "Dan 把习惯写成一条要你动手改的路：提示、反应、奖励，然后让想做的事变得最好走，不想做的变得麻烦。Huberman 有一集官方标题是 The Science of Making & Breaking Habits。本站不引那一集的句子，也不把两边说成同一套方法。路要怎么铺，请到官网听完再决定。",
+      "questions": [
+        "你想养成的那件事，现在是最好走的路，还是最费劲的路？",
+        "不想再做的那件事，你有没有先把它变得麻烦，还是只靠意志？",
+        "听完官网那一集，哪一步是你今天就能改的？"
+      ],
+      "further": [
+        {
+          "label": "同篇下一步：造一个最好每天出现一次的触发器",
+          "href": "../a/20.html#p83",
+          "work": "如何变得自律到令人发指",
+          "hash": "p83",
+          "external": false
+        },
+        {
+          "label": "Dan 另篇：写作作为一个简单的晨间习惯，改写了他的心智轨迹",
+          "href": "../a/14.html#p7",
+          "work": "拯救了我的大脑（和我的未来）的写作习惯",
+          "hash": "p7",
+          "external": false
+        },
+        {
+          "label": "官网主题 Achieving Goals and Building Habits",
+          "href": "https://www.hubermanlab.com/topics/goals-and-habits",
+          "work": "Huberman Lab",
+          "hash": "官方主题",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "shenfen",
+      "title": "旧的你先得挨饿",
+      "dek": "Dan 把身份写得很硬：浸在与想成为的人相匹配的刺激里，让过去那个人挨饿。Huberman 这一集是 Essentials，嘉宾是 Jocko Willink，官方标题里有 Forge Your Identity。",
+      "kind": "一篇说法，对上一个官方标题",
+      "sides": [
+        {
+          "author": "Dan Koe",
+          "role": "已经走在前面",
+          "work": "如何变得自律到令人发指",
+          "slug": "20",
+          "pids": [
+            "p63"
+          ],
+          "hash": "p63",
+          "href": "../a/20.html#p63",
+          "zh": "策展并守住你的心智每天接触的一切。你必须让自己浸在与你想成为的人相匹配的刺激里，让过去那个人挨饿。旧的你必须死。",
+          "en": "Curate and protect everything your mind is exposed to on a daily basis. You must immerse yourself in stimuli that match the person you want to become and starve the person you used to be. The old you must die."
+        }
+      ],
+      "huberman": {
+        "title": "Essentials: How to Become Resilient, Forge Your Identity & Lead Others | Jocko Willink",
+        "type": "Essentials",
+        "date": "2026-07-30",
+        "url": "https://www.hubermanlab.com/episode/essentials-how-to-become-resilient-forge-your-identity-and-lead-others-jocko-willink",
+        "note": "这是一期 Essentials，嘉宾是 Jocko Willink。这里只放官方标题，不转述内容。"
+      },
+      "editor": "Dan 把身份说得很硬：让自己浸在与想成为的人相匹配的刺激里，让过去那个人挨饿。Huberman 这一集是精华剪辑，嘉宾是 Jocko Willink，官方标题里有 Forge Your Identity。这不是本站对那一集的摘要，只是把标题放在这儿。人是先改每天接触的东西，还是先改那个要成为的人，问题留给你。",
+      "questions": [
+        "你每天接触的东西，更像你想成为的人，还是更像你想离开的那个人？",
+        "「让过去那个人挨饿」，在你的生活里，具体会少掉哪一样刺激？",
+        "听完官网那一集，你还同不同意「旧的你必须死」这句话？"
+      ],
+      "further": [
+        {
+          "label": "同篇稍前：追逐潜力，就是缩小你是谁和你想成为谁之间的差距",
+          "href": "../a/20.html#p47",
+          "work": "如何变得自律到令人发指",
+          "hash": "p47",
+          "external": false
+        },
+        {
+          "label": "官网主题 Achieving Goals and Building Habits",
+          "href": "https://www.hubermanlab.com/topics/goals-and-habits",
+          "work": "Huberman Lab",
+          "hash": "官方主题",
+          "external": true
+        }
+      ]
+    }
+  ]
+}

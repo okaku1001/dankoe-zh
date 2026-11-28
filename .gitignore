@@ -15,3 +15,9 @@ screenshots-fluency/
 
 # Local contrast-section QA shots, not part of the site
 screenshots-duizhao/
+
+# Local Huberman catalog QA shots, not part of the site
+screenshots-huberman/
+
+__pycache__/
+tools/__pycache__/

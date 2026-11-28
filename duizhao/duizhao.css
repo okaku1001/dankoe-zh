@@ -201,3 +201,33 @@
 .path-mix ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 40px}
 @media (max-width:640px){.path-mix ol{grid-template-columns:1fr}}
 .nw{white-space:nowrap}
+#huberman{scroll-margin-top:72px}
+.dz-hub{
+  margin:0;
+  padding:18px 18px 16px 20px;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-left:3px solid var(--acc);
+  border-radius:0 10px 10px 0;
+}
+.dz-hub-title{
+  font-family:var(--serif);
+  font-size:18.5px;
+  line-height:1.5;
+  margin:0 0 8px;
+  text-wrap:pretty;
+}
+.dz-hub-meta{
+  color:var(--mu);
+  font-size:13px;
+  margin:0 0 10px;
+}
+.dz-hub-note,.dz-hub-copy{
+  color:var(--mu);
+  font-size:14.5px;
+  line-height:1.75;
+  margin:0 0 8px;
+}
+.dz-hub-copy{font-size:13px}
+.dz-hub a{color:var(--acc);text-decoration:none}
+.dz-hub a:hover{text-decoration:underline}
